@@ -30,9 +30,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Replace ACCESS_TOKEN in Gemfile
         run: sed -i "s/ACCESS_TOKEN/${{ secrets.MY_GITHUB_KEY }}/g" Gemfile
-      - name: Debugging
-        run: bundle env && bundle config
-
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
