@@ -1,7 +1,17 @@
-# starwars-guide
+# starwars-guide using Jekyll
 
-Home page for [starwars.guide](https://starwars.guide)
+update GemFile and install
 
-[SWordle - Wordle for Star Wars](https://wordle.starwars.guide)
+`bundle install`
 
-[Ultimate Star Wars Timeline](https://timeline.starwars.guide)
+Update lock file for GitHub actions
+
+`bundle lock --add-platform x86_64-linux`
+
+Run locally
+
+`bundle exec jekyll serve`
+
+Mimic GitHub Actions build
+
+`bundle exec jekyll build`
