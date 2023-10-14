@@ -1,0 +1,67 @@
+h1 {
+  font-size: 2rem !important;
+}
+
+hr.spacer {
+  margin-top: 100px;
+}
+
+$grid-columns: 12;
+$grid-gutter-width: 20px;
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $grid-gutter-width / 2;
+  padding-right: $grid-gutter-width / 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  position: relative;
+  min-height: 1px;
+  padding-left: $grid-gutter-width / 2;
+  padding-right: $grid-gutter-width / 2;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    flex: 0 0 #{100% / $grid-columns * $i};
+    max-width: #{100% / $grid-columns * $i};
+  }
+}
+
+.comicbook {
+  max-width: 30%;
+  padding: 1%;
+}
+
+.home_images {
+  display: flex;
+  margin: 20px 0;
+
+  img {
+    width: 100%;
+    padding: 5%;
+  }
+}
+
+.screenshot {
+  width: 100%;
+  display: flex;
+  margin: 5% 0;
+
+  .description {
+    width: 60%;
+    padding: 5%
+  }
+
+  img {
+    max-width: 20%;
+    margin: 0 5%;
+  }
+}

@@ -1,0 +1,79 @@
+{%- if site.footer_scripts -%}
+{%- for script in site.footer_scripts -%}
+{%- if script contains "://" -%}
+{%- capture script_path %}{{ script }}{% endcapture -%}
+{%- else -%}
+{%- capture script_path %}{{ script | absolute_url }}{% endcapture -%}
+{%- endif -%}
+<script src="{{ script_path }}"></script>
+{%- endfor -%}
+{%- else -%}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+<script src="https://kit.fontawesome.com/13cabfa89d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{{'/assets/main.css' | absolute_url}}">
+{%- endif -%}
+<meta charset="utf-8" />
+<link rel="icon" href="assets/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+<meta name="theme-color" content="#000000" />
+<meta name="description" content="Home of The Ultimate Star Wars Timeline and SWordle" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AurebeshFiles">
+<meta name="twitter:creator" content="@AurebeshFiles">
+<meta property="og:title" content="Home of SWordle and Ultimate Star Wars Timeline">
+<meta property="og:url" content="https://starwars.guide">
+<meta property="og:description" content="Home of SWordle and Ultimate Star Wars Timeline">
+<meta property="og:image" content="https://starwars.guide/assets/social.png">
+<meta name="msvalidate.01" content="C64BB17D4D1CA118CE50A6F9CFAFD602" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JYWS72F9R1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-JYWS72F9R1');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
+  crossorigin="anonymous"></script>
+
+{% if site.mathjax == true or site.mathjax.enable == true %}
+<!-- MathJax -->
+{% capture mathjaxjs %}https://cdn.jsdelivr.net/npm/mathjax@3/es5/{{ site.mathjax.combo | default: "tex-svg" }}.js{%
+endcapture %}
+<script>
+  // http://docs.mathjax.org/en/latest/upgrading/v2.html
+  MathJax = {
+    tex: {
+      tags: "{{ site.mathjax.tags | default: 'ams' }}"    // eq numbering options: none, ams, all
+    },
+    options: {
+      renderActions: {
+        // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+        find: [10, function (doc) {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/);
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+            const text = document.createTextNode('');
+            node.parentNode.replaceChild(text, node);
+            math.start = { node: text, delim: '', n: 0 };
+            math.end = { node: text, delim: '', n: 0 };
+            doc.math.push(math);
+          }
+        }, '']
+      }
+    }
+  }
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="{{ mathjaxjs }}"></script>
+{% endif %}
+
+{%- if page.layout == "search" -%}
+{% include lunr-search-scripts.html %}
+{%- endif -%}

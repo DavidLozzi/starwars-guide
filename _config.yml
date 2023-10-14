@@ -1,0 +1,26 @@
+title: Aurebesh Files
+email: aurebeshfiles@gmail.com
+description: Star Wars fan creations.
+baseurl: ''
+url: 'https://starwars.guide'
+twitter_username: AurebeshFiles
+theme: jekyll-theme-so-simple
+plugins:
+  - jekyll-feed
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/aurebeshfiles
+    icon: fab fa-x-twitter
+  - title: Instagram
+    url: https://www.instagram.com/aurebeshfiles/
+    icon: fab fa-instagram
+  - title: YouTube
+    url: https://www.youtube.com/@aurebeshfiles6312
+    icon: fab fa-youtube
+  - title: Email
+    url: mailto:aurebeshfiles@gmail.com
+    icon: fa-regular fa-envelope
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss
+copyright: '&copy; 2023 AurebeshFiles, anything not mine is theirs.'
