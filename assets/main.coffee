@@ -1,5 +1,4 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 @import "_custom";
