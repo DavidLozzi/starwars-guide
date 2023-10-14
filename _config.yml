@@ -1,7 +1,7 @@
 title: Aurebesh Files
 email: aurebeshfiles@gmail.com
 description: Star Wars fan creations.
-baseurl: ''
+# baseurl: ''
 url: 'https://starwars.guide'
 twitter_username: AurebeshFiles
 theme: jekyll-theme-so-simple
