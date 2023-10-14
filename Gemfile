@@ -34,5 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'jekyll-admin', group: :jekyll_plugins
 # gem "jekyll-theme-so-simple"
-gem "jekyll-theme-so-simple", git: "https://github.com/DavidLozzi/so-simple-theme.git"
+gem "jekyll-theme-so-simple", git: "https://{{secrets.MY_GITHUB_KEY}}@github.com/DavidLozzi/so-simple-theme.git"
 
