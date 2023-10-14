@@ -39,6 +39,7 @@ jobs:
         with:
           source: ./
           destination: ./_site
+          ACCESS_TOKEN: ${{ secrets.MY_GITHUB_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
