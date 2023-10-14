@@ -31,7 +31,7 @@ jobs:
       - name: Replace ACCESS_TOKEN in Gemfile
         run: sed -i "s/ACCESS_TOKEN/${{ secrets.MY_GITHUB_KEY }}/g" Gemfile
       - name: Install bundler
-        run: gem install bundler:2.3.26
+        run: gem install bundler:2.3.26 --user-install
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
