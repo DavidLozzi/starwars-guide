@@ -31,7 +31,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-# ACCESS_TOKEN
+
 gem 'jekyll-admin', group: :jekyll_plugins
-gem "jekyll-theme-so-simple", git: "https://ACCESS_TOKEN@github.com/DavidLozzi/so-simple-theme.git"
-# ACCESS_TOKEN
+gem "jekyll-theme-so-simple", git: "https://ACCESS_TOKEN@github.com/DavidLozzi/so-simple-theme.git@master"
+# ACCESS_TOKE
