@@ -5,6 +5,7 @@ baseurl: ''
 url: 'https://starwars.guide'
 twitter_username: AurebeshFiles
 theme: jekyll-theme-so-simple
+remote-theme: jekyll-theme-so-simple
 plugins:
   - jekyll-feed
 footer_links:
