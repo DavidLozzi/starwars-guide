@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/DavidLozzi/so-simple-theme.git
+  remote: https://ACCESS_TOKEN@github.com/DavidLozzi/so-simple-theme.git
   revision: 7c881becad9ced654320a46c464a2fe77b093622
   specs:
     jekyll-theme-so-simple (3.2.0)
