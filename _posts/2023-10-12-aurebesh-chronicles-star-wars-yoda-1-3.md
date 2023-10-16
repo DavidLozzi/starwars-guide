@@ -22,8 +22,8 @@ In this story arc spanning books 1-3, **Light and Life**, we start off seeing Yo
 <img src="{{ 'comics/star wars yoda/star_wars_yoda3.jpg' | relative_url }}" class="comicbook" alt="Star Wars Yoda book 3"/>
 
 Follow along, buy your copies on Amazon or visit your local comicbook store!
-* Star Wars: Yoda book 1 on: <a href="https://amzn.to/46OlHZB" target="_blank">Amazon</a> <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>
-* Star Wars: Yoda book 2 on: <a href="https://amzn.to/48SXIdG" target="_blank">Amazon</a> <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>
-* Star Wars: Yoda book 3 on: <a href="https://amzn.to/3PZptsv" target="_blank">Amazon</a> <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>
+* Star Wars: Yoda book 1 on: <a href="https://amzn.to/46OlHZB" target="_blank">Amazon</a>, <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>, <a href="https://ebay.us/f4B2hU" target="_blank">eBay</a>
+* Star Wars: Yoda book 2 on: <a href="https://amzn.to/48SXIdG" target="_blank">Amazon</a>, <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>, <a href="https://ebay.us/lV5NKo" target="_blank">eBay</a>
+* Star Wars: Yoda book 3 on: <a href="https://amzn.to/3PZptsv" target="_blank">Amazon</a>, <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>, <a href="https://ebay.us/X7DVV7" target="_blank">eBay</a>
 
 Check out Yoda on [The Ultimate Star Wars Timeline](https://timeline.starwars.guide/character/Yoda?year=0).
