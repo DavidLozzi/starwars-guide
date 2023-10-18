@@ -12,7 +12,7 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 <script src="https://kit.fontawesome.com/13cabfa89d.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="{{'/assets/css/lozzi.css' | absolute_url}}">
+<link rel="stylesheet" href="{{'/assets/css/lozzi.css' | relative_url}}">
 {%- endif -%}
 <meta charset="utf-8" />
 <link rel="icon" href="assets/favicon.ico" />
@@ -40,7 +40,7 @@
   gtag('config', 'G-JYWS72F9R1');
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
-     crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>
 {% if site.mathjax == true or site.mathjax.enable == true %}
 <!-- MathJax -->
 {% capture mathjaxjs %}https://cdn.jsdelivr.net/npm/mathjax@3/es5/{{ site.mathjax.combo | default: "tex-svg" }}.js{%
