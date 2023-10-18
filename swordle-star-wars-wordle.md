@@ -7,7 +7,7 @@ layout: page
 
 SWordle is for the true Star Wars fan. You can guess not only 5 letter words, but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!
 
-<a href="https://wordle.starwars.guide" target="_blank">Play SWordle</a>
+<a href="https://wordle.starwars.guide" target="_blank">Play SWordle</a> and check out the <a href="{{ 'swordle-word-list' | absolute_url}}">list of over 14,000 possible words</a>!
 
 ## How to play SWordle
 <div class="screenshot">
