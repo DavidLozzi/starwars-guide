@@ -14,6 +14,7 @@ Join the fun on our new [YouTube Channel](https://www.youtube.com/watch?v=6KbqUh
 
 <a href="https://www.youtube.com/watch?v=6KbqUh7fAgY&t=22s&ab_channel=AurebeshFiles" target="_blank">**Watch Aurebesh Chronicles: Star Wars: Yoda 1-3 on YouTube**</a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6KbqUh7fAgY?si=aGQTlNlyqQTDUFyx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In this story arc spanning books 1-3, **Light and Life**, we start off seeing Yoda exiled on Dagobah, being harrassed by a force voice, and remembering back to the days of The High Republic. This story takes us through a high adventure of two new species, the peaceful Scalvi and the warring Crulcon. Who survives? Why is Yoda remembering this, and how does it lead into A New Hope?! Watch and see! 
 
