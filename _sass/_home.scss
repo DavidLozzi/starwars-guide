@@ -1,0 +1,32 @@
+#nav-container {
+  position: fixed;
+  top: 10vh;
+  z-index: 100;
+  left: 5vw;
+
+  li {
+    padding: 10px;
+    border-radius: 5px 0px;
+
+    &:hover {
+      background-color: #feda4a;
+      color: black;
+      font-family: "News Cycle", sans-serif;
+      transition: all 400ms ease-in-out;
+
+      a {
+        color: black;
+      }
+    }
+  }
+
+  a {
+    font-size: 1.2rem;
+    color: #feda4a;
+    font-family: "News Cycle", sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 400ms ease-in-out;
+  }
+}

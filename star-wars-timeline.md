@@ -10,6 +10,7 @@ Explore the movies, TV shows, and characters of Star Wars in an interactive time
 <a href="https://timeline.starwars.guide" target="_blank"><img src="{{ 'assets/ultimate star wars timeline.png' | relative_url }}" alt="The Ultimate Star Wars Timeline" /></a>
 
 ## How to use the Ultimate Star Wars Timeline
+
 Simply click and drag around the page! As you drag up and down, you'll see the character's age, and sometimes their image, change throughout the years.
 
 Click on a character to learn more about the character.

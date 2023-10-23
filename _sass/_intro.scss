@@ -7,7 +7,7 @@
   transform: translate(-50%, -50%);
   font-size: 2.5em;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 2s ease-in-out;
   line-height: 1.4;
   color: #00FFFF;
   font-family: "News Cycle", sans-serif;
@@ -21,39 +21,11 @@
   }
 }
 
-// #crawl {
-//   display: none;
-//   position: absolute;
-//   top: 100%;
-//   left: 50%;
-//   transform: translateX(-50%);
-//   width: 40vw;
-//   max-width: 600px;
-//   color: #FFE81F;
-//   text-align: center;
-//   perspective: 800px;
-//   font-size: 2em;
-//   opacity: 0;
-//   transition: opacity 3s ease-in-out;
-
-//   h1 {
-//     font-size: 1.7em;
-//     margin-bottom: 2em;
-//     text-transform: uppercase;
-//   }
-// }
-
 #crawl {
-  display: none;
+  display: block;
   justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* This is a magic number based on the context in which this snippet is used and effects the perspective */
   height: 100vh;
-  /* This sets allows us to transform the text on a 3D plane, and is somewhat a magic number */
   perspective: 400px;
-  /* The rest is totally up to personal styling preferences */
   color: #feda4a;
   font-family: "News Cycle", sans-serif;
   font-size: 500%;
@@ -65,36 +37,26 @@
 
   h1 {
     text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
   }
 }
 
-// #crawl-content {
-//   transform-origin: 50% 100%;
-//   animation: crawl 120s linear 1s forwards;
-
-//   p {
-//     text-align: justify;
-//   }
-// }
 #crawl-content {
   position: relative;
-  top: 100vh;
+  top: 150vh;
   transform-origin: 50% 100%;
-  animation: crawl 60s linear 1s forwards;
+  animation: crawl 60s linear 6s forwards;
 }
 
-// @keyframes crawl {
-//   0% {
-//     transform: rotateX(15deg) translateY(0%);
-//   }
-
-//   100% {
-//     transform: rotateX(80deg) translateY(-6000px);
-//   }
-// }
 @keyframes crawl {
   0% {
-    top: 100vh;
+    top: 150vh;
     transform: rotateX(20deg) translateZ(0);
   }
 

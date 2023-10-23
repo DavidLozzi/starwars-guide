@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
+<div id="nav-container">
+  {% include nav.html %}
+</div>
 
-<!-- Fade-in Text -->
-<div id="intro-text">A long time ago, in a galaxy far<br /> far away...</div>
-
-<!-- Custom Audio -->
-<audio id="custom-audio" src="/assets/audio/your-audio-file.mp3"></audio>
+<div id="intro-text">A long time ago, in a galaxy far,<br /> far away...</div>
 
 <div id="crawl">
   <div id="crawl-content">
+    <h2>Episode X</h2>
     <h1>Aurebesh Files</h1>
     <p>
       A couple of Star Wars nerds, DAVID and LEWIS embark on a journey into the world of STAR WARS.
@@ -23,25 +23,3 @@ layout: default
     </p>
   </div>
 </div>
-
-<!-- Navigation -->
-<div id="nav-container">
-  {% include nav.html %}
-</div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
-      document.getElementById("intro-text").classList.add("fade-out");
-    }, 4000);
-
-    setTimeout(function () {
-      // document.getElementById("intro-text").style.display = "none";
-      let crawl = document.getElementById("crawl");
-      crawl.style.display = "block";
-      setTimeout(function () {
-        crawl.style.opacity = "1";
-      }, 100);
-    }, 2000);
-  });
-</script>
