@@ -1,4 +1,4 @@
-title: Aurebesh Files
+atitle: Aurebesh Files
 email: aurebeshfiles@gmail.com
 description: Star Wars fan creations.
 # baseurl: ''
@@ -24,4 +24,4 @@ footer_links:
   - title: Feed
     url: feed.xml
     icon: fas fa-rss
-copyright: '&copy; 2023 AurebeshFiles, anything not mine is theirs.'
+copyright: '&copy; 2023 AurebeshFiles, anything not mine is theirs.<br/><a href="/support-aurebesh-files.html">Support AurebeshFiles</a>'
