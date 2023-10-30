@@ -39,5 +39,14 @@ layout: page
   <div class="character_image col-2">
     
     <img src="https://timeline.starwars.guide//images/greedo.png" alt="Greedo" />
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6056590143595280"
+      data-ad-slot="1622037034"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
   </div>
 </div>

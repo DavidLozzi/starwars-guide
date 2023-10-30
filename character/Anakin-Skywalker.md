@@ -50,5 +50,14 @@ layout: page
     <img src="https://timeline.starwars.guide//images/anakin.png" alt="Anakin Skywalker" />
 <img src="https://timeline.starwars.guide//images/vadar.png" alt="Anakin Skywalker" />
     <img src="https://timeline.starwars.guide//images/vadar-kid.jpg" alt="Anakin Skywalker" />
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6056590143595280"
+      data-ad-slot="1622037034"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
   </div>
 </div>
