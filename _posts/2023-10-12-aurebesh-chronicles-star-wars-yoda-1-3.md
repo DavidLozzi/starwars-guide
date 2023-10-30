@@ -5,7 +5,6 @@ Comicbook Series: 'Star Wars: Yoda'
 layout: post
 tags:
 - YouTube
-- Star_Wars
 - Yoda
 - Comicbook
 ---

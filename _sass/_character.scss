@@ -1,0 +1,34 @@
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.metadata {
+  display: flex;
+  width: 100%;
+
+  &>div {
+    width: 33%;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+  }
+}
+
+.character_image {
+  float: right;
+  width: 200px;
+  padding: 20px;
+
+  &>img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.character_list {
+  list-style: none;
+}

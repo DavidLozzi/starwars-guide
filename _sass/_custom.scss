@@ -6,6 +6,10 @@ hr.spacer {
   margin-top: 100px;
 }
 
+a {
+  transition: none;
+}
+
 $grid-columns: 12;
 $grid-gutter-width: 20px;
 
@@ -64,4 +68,8 @@ $grid-gutter-width: 20px;
     max-width: 20%;
     margin: 0 5%;
   }
+}
+
+.smaller {
+  font-size: 14px;
 }

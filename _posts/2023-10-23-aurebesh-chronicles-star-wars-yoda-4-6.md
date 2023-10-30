@@ -1,6 +1,10 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 4-6'
 layout: post
+tags:
+- YouTube
+- Comicbook
+- Yoda
 ---
 
 Join the fun on our new [YouTube Channel](https://www.youtube.com/watch?v=6KbqUh7fAgY&t=22s&ab_channel=AurebeshFiles)! Our second episode is out, where we dive into the Star Wars: Yoda comic series. Join us as we explore these few books and their impact on an original... A New Hope!

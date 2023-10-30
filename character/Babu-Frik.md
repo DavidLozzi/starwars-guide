@@ -1,0 +1,42 @@
+---
+title: Babu Frik
+layout: page
+---
+<a href="/character" class="smaller">Back to All Characters</a>
+
+<div class="container">
+  <div class="col-10">
+    <p>
+    Babu Frik             was born in <a href="https://timeline.starwars.guide/character/Babu Frik?year=-50" target="_blank">50 BBY</a>.
+    </p>
+
+    <p>Babu Frik lived during the time of the New Republic Era and the war between the First Order and the Resistance. He maintained a workshop where he worked as a droidsmith among the Spice Runners of Kijimi. He could reprogram or modify almost any droid, regardless of its security measures. He spoke a fractured, heavily accented form of Basic known as Anzellan.</p>
+
+
+    <div class='metadata'>
+      <div>
+        <label>Homeworld:</label>
+        <span>Kijimi</span>
+      </div><div>
+        <label>Species:</label>
+        <span>Anzellan</span>
+      </div><div>
+        <label>Force Sensitive:</label>
+        <span>No</span>
+      </div>
+    </div>
+
+
+    <h2>You can see Babu Frik in:</h2>
+
+    <ul>
+      <li><a href="https://timeline.starwars.guide/character/Babu Frik?year=35" target="_blank">Episode IX: The Rise of Skywalker, 35 ABY (85 years old)</a></li>
+    </ul>
+
+    <a href="https://starwars.fandom.com/wiki/Babu_Frik" target="_blank">Learn more on Wookiepedia.com</a>
+  </div>
+  <div class="character_image col-2">
+    
+    <img src="https://timeline.starwars.guide//images/frik.png" alt="Babu Frik" />
+  </div>
+</div>
