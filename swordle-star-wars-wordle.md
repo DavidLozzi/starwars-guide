@@ -1,6 +1,10 @@
 ---
 title: SWordle - Wordle for Star Wars
 layout: page
+social-image: "/assets/cards/swordle.png"
+social-title: SWordle - Wordle for Star Wars
+social-desc: Play the best Wordle in the galaxy! 5 letters to guess names, planets,
+  sayings, etc.
 ---
 
 ### Play the best game in the galaxy!

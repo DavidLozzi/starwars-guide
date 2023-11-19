@@ -10,7 +10,13 @@ Update lock file for GitHub actions
 
 Run locally
 
-`bundle exec jekyll serve`
+`npm start`
+
+Will run
+
+  `bundle exec jekyll serve`
+
+  and open in a browser
 
 Mimic GitHub Actions build
 

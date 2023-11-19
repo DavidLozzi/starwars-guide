@@ -1,6 +1,9 @@
 ---
 title: The Ultimate Star Wars Timeline
 layout: page
+social-image: "/assets/cards/timeline.png"
+social-desc: Explore all Star Wars TV Shows, Movies, and characters!
+social-title: The Ultimate Star Wars Timeline
 ---
 
 Explore the movies, TV shows, and characters of Star Wars in an interactive timeline! There are over 75 characters spanning 25 movies and TV shows!
@@ -10,6 +13,7 @@ Explore the movies, TV shows, and characters of Star Wars in an interactive time
 <a href="https://timeline.starwars.guide" target="_blank"><img src="{{ 'assets/ultimate star wars timeline.png' | relative_url }}" alt="The Ultimate Star Wars Timeline" /></a>
 
 ## How to use the Ultimate Star Wars Timeline
+
 Simply click and drag around the page! As you drag up and down, you'll see the character's age, and sometimes their image, change throughout the years.
 
 Click on a character to learn more about the character.
