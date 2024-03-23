@@ -34,3 +34,9 @@ Follow along, buy your copies on Amazon or visit your local comicbook store!
 <a href="https://ebay.us/mpF1U3" target="_blank">eBay</a>
 
 Check out Yoda on [The Ultimate Star Wars Timeline](https://timeline.starwars.guide/character/Yoda?year=0).
+
+Check out the entire Yoda series:
+* <a href="/2023/10/12/aurebesh-chronicles-star-wars-yoda-1-3.html">Yoda 1-3</a>
+* <a href="/2023/10/23/aurebesh-chronicles-star-wars-yoda-4-6.html">Yoda 4-6</a>
+* <a href="/2023/12/16/aurebesh-chronicles-star-wars-yoda-7-9.html">Yoda 7-9</a>
+* <a href="/2024/03/23/aurebesh-chronicles-star-wars-yoda-10.html">Yoda 10</a>

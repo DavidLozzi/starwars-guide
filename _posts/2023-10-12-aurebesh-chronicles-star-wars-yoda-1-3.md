@@ -27,3 +27,9 @@ Follow along, buy your copies on Amazon or visit your local comicbook store!
 * Star Wars: Yoda book 3 on: <a href="https://amzn.to/3PZptsv" target="_blank">Amazon</a>, <a href="https://www.mycomicshop.com/search?TID=57126621&AffID=2026649P01" target="_blank">MyComicShop.com</a>, <a href="https://ebay.us/X7DVV7" target="_blank">eBay</a>
 
 Check out Yoda on [The Ultimate Star Wars Timeline](https://timeline.starwars.guide/character/Yoda?year=0).
+
+Check out the entire Yoda series:
+* <a href="/2023/10/12/aurebesh-chronicles-star-wars-yoda-1-3.html">Yoda 1-3</a>
+* <a href="/2023/10/23/aurebesh-chronicles-star-wars-yoda-4-6.html">Yoda 4-6</a>
+* <a href="/2023/12/16/aurebesh-chronicles-star-wars-yoda-7-9.html">Yoda 7-9</a>
+* <a href="/2024/03/23/aurebesh-chronicles-star-wars-yoda-10.html">Yoda 10</a>
