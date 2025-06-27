@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+<functionality>
+- This app is a fan creation website for Star Wars.
+</functionality>
+
+<tech>
+- Its built on Jekyll and hosted using GitHub Pages.
+</tech>
+
+<learn>
+See [AGENTS.md](mdc:starwars-guide/AGENTS.md) for additional learnings you must consider.
+As you interact with the user and the app, if you end up being wrong and are corrected, learn more about the context of the app and its purpose, or learn anything else that would help you in the future, please write it to @AGENT.md.
+</learn>
