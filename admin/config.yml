@@ -5,6 +5,11 @@ backend:
 media_folder: "assets"
 public_folder: "/assets"
 
+backend:
+  name: git-gateway
+  repo: DavidLozzi/starwars-guide
+  branch: main
+
 collections:
   - name: "posts"
     label: "Blog Posts"
