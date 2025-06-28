@@ -1,10 +1,12 @@
 ---
 title: Max Rebo
-layout: page
+layout: character
+social-desc: Max Rebo  | Star Wars
+social-image: /assets/characters/maxrebo.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Max Rebo             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Max Rebo in:</h2>
+    <h3>You can see Max Rebo in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Max Rebo?year=4" target="_blank">Episode VI: Return of the Jedi, 4 ABY (24 years old)</a></li>

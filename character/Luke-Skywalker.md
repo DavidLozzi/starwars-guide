@@ -1,10 +1,12 @@
 ---
 title: Luke Skywalker
-layout: page
+layout: character
+social-desc: Luke Skywalker  | Star Wars
+social-image: /assets/characters/skywalker-farmboy.jpg
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Luke Skywalker     was born in <a href="https://timeline.starwars.guide/character/Luke Skywalker?year=-19" target="_blank">19 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Luke Skywalker?year=34" target="_blank">34 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Luke Skywalker in:</h2>
+    <h3>You can see Luke Skywalker in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Luke Skywalker?year=-19" target="_blank">Episode III: Revenge of the Sith, 19 BBY (0 years old)</a></li>

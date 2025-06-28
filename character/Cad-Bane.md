@@ -1,10 +1,12 @@
 ---
 title: Cad Bane
-layout: page
+layout: character
+social-desc: Cad Bane  | Star Wars
+social-image: /assets/characters/bane.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Cad Bane     was born in <a href="https://timeline.starwars.guide/character/Cad Bane?year=-62" target="_blank">62 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Cad Bane?year=9" target="_blank">9 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Cad Bane in:</h2>
+    <h3>You can see Cad Bane in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Cad Bane?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (40 years old)</a></li>

@@ -1,10 +1,12 @@
 ---
 title: Bail Organa
-layout: page
+layout: character
+social-desc: Bail Organa  | Star Wars
+social-image: /assets/characters/bailorgana.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Bail Organa         died in <a href="https://timeline.starwars.guide/character/Bail Organa?year=0" target="_blank">0 BBY</a>.    
@@ -27,15 +29,15 @@ layout: page
     </div>
 
 
-    <h2>You can see Bail Organa in:</h2>
+    <h3>You can see Bail Organa in:</h3>
 
     <ul>
-      <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (38 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (38 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-19" target="_blank">Episode III: Revenge of the Sith, 19 BBY (41 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-9" target="_blank">Obi-Wan Kenobi, 9 BBY (51 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-5" target="_blank">Star Wars Rebels, 5 BBY (55 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=0" target="_blank">Rogue One: A Star Wars Story, 0 BBY (60 years old)</a></li>
+      <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (45 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (45 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-19" target="_blank">Episode III: Revenge of the Sith, 19 BBY (48 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-9" target="_blank">Obi-Wan Kenobi, 9 BBY (58 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=-5" target="_blank">Star Wars Rebels, 5 BBY (62 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bail Organa?year=0" target="_blank">Rogue One: A Star Wars Story, 0 BBY (67 years old)</a></li>
     </ul>
 
     <a href="https://starwars.fandom.com/wiki/Bail_Prestor_Organa" target="_blank">Learn more on Wookiepedia.com</a>

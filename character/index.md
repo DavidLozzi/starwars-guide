@@ -3,13 +3,14 @@ title: Star Wars Characters on the Timeline
 layout: page
 ---
 
-Have fun, explore all of the characters in the Star Wars universe, and learn more about them.
+Explore all of the characters from the <a href="https://timeline.starwars.guide" target="_blank">Ultimate Star Wars Timeline</a>.
 
 <ul class="character_list">
 <li><a href="/character/8D8">8D8</a></li>
 <li><a href="/character/Ahsoka-Tano">Ahsoka Tano</a></li>
 <li><a href="/character/Anakin-Skywalker">Anakin Skywalker</a></li>
 <li><a href="/character/Armitage-Hux">Armitage Hux</a></li>
+<li><a href="/character/Asajj-Ventress">Asajj Ventress</a></li>
 <li><a href="/character/BB-8">BB-8</a></li>
 <li><a href="/character/Babu-Frik">Babu Frik</a></li>
 <li><a href="/character/Bail-Organa">Bail Organa</a></li>
@@ -45,6 +46,7 @@ Have fun, explore all of the characters in the Star Wars universe, and learn mor
 <li><a href="/character/Jar-Jar-Binks">Jar Jar Binks</a></li>
 <li><a href="/character/Kanan-Jarrus">Kanan Jarrus</a></li>
 <li><a href="/character/Kaydel-Ko-Connix">Kaydel Ko Connix</a></li>
+<li><a href="/character/Ki-Adi-Mundi">Ki-Adi-Mundi</a></li>
 <li><a href="/character/Kit-Fisto">Kit Fisto</a></li>
 <li><a href="/character/Lando-Calrissian">Lando Calrissian</a></li>
 <li><a href="/character/Leia-Organa">Leia Organa</a></li>

@@ -1,10 +1,12 @@
 ---
 title: Padmé Amidala Naberrie
-layout: page
+layout: character
+social-desc: Padmé Amidala Naberrie  | Star Wars
+social-image: /assets/characters/padme.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Padmé Amidala Naberrie     was born in <a href="https://timeline.starwars.guide/character/Padmé Amidala Naberrie?year=-46" target="_blank">46 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Padmé Amidala Naberrie?year=-19" target="_blank">19 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Padmé Amidala Naberrie in:</h2>
+    <h3>You can see Padmé Amidala Naberrie in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Padmé Amidala Naberrie?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (14 years old)</a></li>

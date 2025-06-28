@@ -1,10 +1,12 @@
 ---
 title: Babu Frik
-layout: page
+layout: character
+social-desc: Babu Frik  | Star Wars
+social-image: /assets/characters/frik.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Babu Frik             was born in <a href="https://timeline.starwars.guide/character/Babu Frik?year=-50" target="_blank">50 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Babu Frik in:</h2>
+    <h3>You can see Babu Frik in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Babu Frik?year=35" target="_blank">Episode IX: The Rise of Skywalker, 35 ABY (85 years old)</a></li>

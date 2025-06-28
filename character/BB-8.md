@@ -1,10 +1,12 @@
 ---
 title: BB-8
-layout: page
+layout: character
+social-desc: BB-8  | Star Wars
+social-image: /assets/characters/bb8.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     BB-8             was born in <a href="https://timeline.starwars.guide/character/BB-8?year=29" target="_blank">29 ABY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see BB-8 in:</h2>
+    <h3>You can see BB-8 in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/BB-8?year=34" target="_blank">Star Wars Resistance, 34 ABY (5 years old)</a></li>

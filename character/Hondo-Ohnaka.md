@@ -1,10 +1,12 @@
 ---
 title: Hondo Ohnaka
-layout: page
+layout: character
+social-desc: Hondo Ohnaka  | Star Wars
+social-image: /assets/characters/hondo.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Hondo Ohnaka             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Hondo Ohnaka in:</h2>
+    <h3>You can see Hondo Ohnaka in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Hondo Ohnaka?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (30 years old)</a></li>

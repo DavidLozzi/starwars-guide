@@ -1,10 +1,12 @@
 ---
 title: Huyang
-layout: page
+layout: character
+social-desc: Huyang  | Star Wars
+social-image: /assets/characters/huyang.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Huyang             was born in <a href="https://timeline.starwars.guide/character/Huyang?year=-300" target="_blank">25020 BBY</a>.
@@ -24,7 +26,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Huyang in:</h2>
+    <h3>You can see Huyang in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Huyang?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (24998 years old)</a></li>

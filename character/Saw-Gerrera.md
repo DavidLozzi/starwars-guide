@@ -1,10 +1,12 @@
 ---
 title: Saw Gerrera
-layout: page
+layout: character
+social-desc: Saw Gerrera  | Star Wars
+social-image: /assets/characters/saw.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Saw Gerrera         died in <a href="https://timeline.starwars.guide/character/Saw Gerrera?year=0" target="_blank">0 BBY</a>.    
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Saw Gerrera in:</h2>
+    <h3>You can see Saw Gerrera in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Saw Gerrera?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (20 years old)</a></li>

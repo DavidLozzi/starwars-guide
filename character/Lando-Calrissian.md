@@ -1,10 +1,12 @@
 ---
 title: Lando Calrissian
-layout: page
+layout: character
+social-desc: Lando Calrissian  | Star Wars
+social-image: /assets/characters/lando-og.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Lando Calrissian             was born in <a href="https://timeline.starwars.guide/character/Lando Calrissian?year=-43" target="_blank">43 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Lando Calrissian in:</h2>
+    <h3>You can see Lando Calrissian in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Lando Calrissian?year=-10" target="_blank">Solo: A Star Wars Story, 10 BBY (33 years old)</a></li>

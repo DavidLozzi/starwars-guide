@@ -1,10 +1,12 @@
 ---
 title: Bib Fortuna
-layout: page
+layout: character
+social-desc: Bib Fortuna  | Star Wars
+social-image: /assets/characters/fortuna-old.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Bib Fortuna         died in <a href="https://timeline.starwars.guide/character/Bib Fortuna?year=9" target="_blank">9 ABY</a>.    
@@ -27,13 +29,14 @@ layout: page
     </div>
 
 
-    <h2>You can see Bib Fortuna in:</h2>
+    <h3>You can see Bib Fortuna in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Bib Fortuna?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (25 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Bib Fortuna?year=-19" target="_blank">The Bad Batch, 19 BBY (38 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Bib Fortuna?year=4" target="_blank">Episode VI: Return of the Jedi, 4 ABY (61 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Bib Fortuna?year=9" target="_blank">The Mandalorian, 9 ABY (66 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bib Fortuna?year=9" target="_blank">The Book of Boba Fett, 9 ABY (66 years old)</a></li>
     </ul>
 
     <a href="https://starwars.fandom.com/wiki/Bib_Fortuna" target="_blank">Learn more on Wookiepedia.com</a>

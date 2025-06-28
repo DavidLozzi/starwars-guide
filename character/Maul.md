@@ -1,10 +1,12 @@
 ---
 title: Maul
-layout: page
+layout: character
+social-desc: Maul (Darth)  | Star Wars
+social-image: /assets/characters/maul.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Maul (Darth)     was born in <a href="https://timeline.starwars.guide/character/Maul?year=-54" target="_blank">54 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Maul?year=-2" target="_blank">2 BBY</a>.        
@@ -27,11 +29,12 @@ layout: page
     </div>
 
 
-    <h2>You can see Maul in:</h2>
+    <h3>You can see Maul in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Maul?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (22 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Maul?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (32 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Maul?year=-10" target="_blank">Solo: A Star Wars Story, 10 BBY (44 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Maul?year=-5" target="_blank">Star Wars Rebels, 5 BBY (49 years old)</a></li>
     </ul>
 

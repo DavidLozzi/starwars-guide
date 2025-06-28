@@ -1,10 +1,12 @@
 ---
 title: Obi-Wan Kenobi
-layout: page
+layout: character
+social-desc: Obi-Wan Kenobi (Old Ben)  | Star Wars
+social-image: /assets/characters/obi.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Obi-Wan Kenobi (Old Ben)     was born in <a href="https://timeline.starwars.guide/character/Obi-Wan Kenobi?year=-57" target="_blank">57 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Obi-Wan Kenobi?year=0" target="_blank">0 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Obi-Wan Kenobi in:</h2>
+    <h3>You can see Obi-Wan Kenobi in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Obi-Wan Kenobi?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (25 years old)</a></li>

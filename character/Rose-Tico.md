@@ -1,10 +1,12 @@
 ---
 title: Rose Tico
-layout: page
+layout: character
+social-desc: Rose Tico  | Star Wars
+social-image: /assets/characters/tico.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Rose Tico             was born in <a href="https://timeline.starwars.guide/character/Rose Tico?year=11" target="_blank">11 ABY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Rose Tico in:</h2>
+    <h3>You can see Rose Tico in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Rose Tico?year=34" target="_blank">Episode VIII: The Last Jedi, 34 ABY (23 years old)</a></li>

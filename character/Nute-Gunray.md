@@ -1,10 +1,12 @@
 ---
 title: Nute Gunray
-layout: page
+layout: character
+social-desc: Nute Gunray (Viceroy)  | Star Wars
+social-image: /assets/characters/gunray.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Nute Gunray (Viceroy)         died in <a href="https://timeline.starwars.guide/character/Nute Gunray?year=-19" target="_blank">19 BBY</a>.    
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Nute Gunray in:</h2>
+    <h3>You can see Nute Gunray in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Nute Gunray?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (37 years old)</a></li>

@@ -1,10 +1,12 @@
 ---
 title: Qi'ra
-layout: page
+layout: character
+social-desc: Qi'ra  | Star Wars
+social-image: /assets/characters/qira.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Qi'ra             was born in <a href="https://timeline.starwars.guide/character/Qi'ra?year=-31" target="_blank">31 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Qi'ra in:</h2>
+    <h3>You can see Qi'ra in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Qi'ra?year=-10" target="_blank">Solo: A Star Wars Story, 10 BBY (21 years old)</a></li>

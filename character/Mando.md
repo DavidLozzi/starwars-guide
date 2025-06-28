@@ -1,10 +1,12 @@
 ---
 title: Mando
-layout: page
+layout: character
+social-desc: Mando (Din Djarin)  | Star Wars
+social-image: /assets/characters/mando.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Mando (Din Djarin)             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Mando in:</h2>
+    <h3>You can see Mando in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Mando?year=9" target="_blank">The Mandalorian, 9 ABY (39 years old)</a></li>

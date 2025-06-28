@@ -1,10 +1,12 @@
 ---
 title: Grogu
-layout: page
+layout: character
+social-desc: Grogu (The Child)  | Star Wars
+social-image: /assets/characters/grogu.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Grogu (The Child)             was born in <a href="https://timeline.starwars.guide/character/Grogu?year=-41" target="_blank">41 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Grogu in:</h2>
+    <h3>You can see Grogu in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Grogu?year=9" target="_blank">The Mandalorian, 9 ABY (50 years old)</a></li>

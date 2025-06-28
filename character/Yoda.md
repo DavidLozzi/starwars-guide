@@ -1,10 +1,12 @@
 ---
 title: Yoda
-layout: page
+layout: character
+social-desc: Yoda  | Star Wars
+social-image: /assets/characters/yoda.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Yoda     was born in <a href="https://timeline.starwars.guide/character/Yoda?year=-300" target="_blank">896 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Yoda?year=4" target="_blank">4 ABY</a>.        
@@ -27,10 +29,11 @@ layout: page
     </div>
 
 
-    <h2>You can see Yoda in:</h2>
+    <h3>You can see Yoda in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Yoda?year=-232" target="_blank">Star Wars: Young Jedi Adventures, 232 BBY (664 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Yoda?year=-132" target="_blank">The Acolyte, 132 BBY (764 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Yoda?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (864 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Yoda?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (874 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Yoda?year=-22" target="_blank">The Clone Wars (movie), 22 BBY (874 years old)</a></li>
@@ -40,6 +43,7 @@ layout: page
   <li><a href="https://timeline.starwars.guide/character/Yoda?year=0" target="_blank">Episode IV: A New Hope, 0 BBY (896 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Yoda?year=3" target="_blank">Episode V: The Empire Strikes Back, 3 ABY (899 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Yoda?year=4" target="_blank">Episode VI: Return of the Jedi, 4 ABY (900 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Yoda?year=34" target="_blank">Episode VIII: The Last Jedi, 34 ABY (930 years old)</a></li>
     </ul>
 
     <a href="https://starwars.fandom.com/wiki/Yoda" target="_blank">Learn more on Wookiepedia.com</a>

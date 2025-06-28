@@ -1,10 +1,12 @@
 ---
 title: Jabba Desilijic Tiure
-layout: page
+layout: character
+social-desc: Jabba Desilijic Tiure (the Hutt)  | Star Wars
+social-image: /assets/characters/jabba.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Jabba Desilijic Tiure (the Hutt)     was born in <a href="https://timeline.starwars.guide/character/Jabba Desilijic Tiure?year=-300" target="_blank">600 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Jabba Desilijic Tiure?year=4" target="_blank">4 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Jabba Desilijic Tiure in:</h2>
+    <h3>You can see Jabba Desilijic Tiure in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Jabba Desilijic Tiure?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (568 years old)</a></li>

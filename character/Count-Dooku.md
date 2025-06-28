@@ -1,10 +1,12 @@
 ---
 title: Count Dooku
-layout: page
+layout: character
+social-desc: Count Dooku (Darth Tyranus)  | Star Wars
+social-image: /assets/characters/dooku.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Count Dooku (Darth Tyranus)     was born in <a href="https://timeline.starwars.guide/character/Count Dooku?year=-102" target="_blank">102 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Count Dooku?year=-19" target="_blank">19 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Count Dooku in:</h2>
+    <h3>You can see Count Dooku in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Count Dooku?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (80 years old)</a></li>

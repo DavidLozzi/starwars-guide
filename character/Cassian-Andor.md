@@ -1,10 +1,12 @@
 ---
 title: Cassian Andor
-layout: page
+layout: character
+social-desc: Cassian Andor  | Star Wars
+social-image: /assets/characters/andor.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Cassian Andor     was born in <a href="https://timeline.starwars.guide/character/Cassian Andor?year=-33" target="_blank">33 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Cassian Andor?year=0" target="_blank">0 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Cassian Andor in:</h2>
+    <h3>You can see Cassian Andor in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Cassian Andor?year=-5" target="_blank">Andor, 5 BBY (28 years old)</a></li>

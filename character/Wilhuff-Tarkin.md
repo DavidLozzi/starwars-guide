@@ -1,10 +1,12 @@
 ---
 title: Wilhuff Tarkin
-layout: page
+layout: character
+social-desc: Wilhuff Tarkin (Grand Moff)  | Star Wars
+social-image: /assets/characters/tarkin.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Wilhuff Tarkin (Grand Moff)     was born in <a href="https://timeline.starwars.guide/character/Wilhuff Tarkin?year=-64" target="_blank">64 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Wilhuff Tarkin?year=0" target="_blank">0 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Wilhuff Tarkin in:</h2>
+    <h3>You can see Wilhuff Tarkin in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Wilhuff Tarkin?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (42 years old)</a></li>

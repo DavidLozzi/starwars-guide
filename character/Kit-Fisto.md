@@ -1,10 +1,12 @@
 ---
 title: Kit Fisto
-layout: page
+layout: character
+social-desc: Kit Fisto  | Star Wars
+social-image: /assets/characters/fisto.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Kit Fisto         died in <a href="https://timeline.starwars.guide/character/Kit Fisto?year=-19" target="_blank">19 BBY</a>.    
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Kit Fisto in:</h2>
+    <h3>You can see Kit Fisto in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Kit Fisto?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (23 years old)</a></li>

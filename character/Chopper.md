@@ -1,10 +1,12 @@
 ---
 title: Chopper
-layout: page
+layout: character
+social-desc: Chopper (C1-10P)  | Star Wars
+social-image: /assets/characters/chopper.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Chopper (C1-10P)             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Chopper in:</h2>
+    <h3>You can see Chopper in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Chopper?year=-19" target="_blank">The Bad Batch, 19 BBY (11 years old)</a></li>

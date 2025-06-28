@@ -1,10 +1,12 @@
 ---
 title: Jango Fett
-layout: page
+layout: character
+social-desc: Jango Fett  | Star Wars
+social-image: /assets/characters/jango.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Jango Fett     was born in <a href="https://timeline.starwars.guide/character/Jango Fett?year=-66" target="_blank">66 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Jango Fett?year=-22" target="_blank">22 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Jango Fett in:</h2>
+    <h3>You can see Jango Fett in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Jango Fett?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (44 years old)</a></li>

@@ -1,10 +1,12 @@
 ---
 title: Hunter
-layout: page
+layout: character
+social-desc: Hunter  | Star Wars
+social-image: /assets/characters/hunter.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Hunter             
@@ -30,7 +32,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Hunter in:</h2>
+    <h3>You can see Hunter in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Hunter?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (10 years old)</a></li>

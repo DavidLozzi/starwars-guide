@@ -1,10 +1,12 @@
 ---
 title: Poe Dameron
-layout: page
+layout: character
+social-desc: Poe Dameron  | Star Wars
+social-image: /assets/characters/dameron.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Poe Dameron             was born in <a href="https://timeline.starwars.guide/character/Poe Dameron?year=2" target="_blank">2 ABY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Poe Dameron in:</h2>
+    <h3>You can see Poe Dameron in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Poe Dameron?year=34" target="_blank">Star Wars Resistance, 34 ABY (32 years old)</a></li>

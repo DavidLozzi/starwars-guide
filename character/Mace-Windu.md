@@ -1,10 +1,12 @@
 ---
 title: Mace Windu
-layout: page
+layout: character
+social-desc: Mace Windu  | Star Wars
+social-image: /assets/characters/mace.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Mace Windu     was born in <a href="https://timeline.starwars.guide/character/Mace Windu?year=-80" target="_blank">80 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Mace Windu?year=-19" target="_blank">19 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Mace Windu in:</h2>
+    <h3>You can see Mace Windu in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Mace Windu?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (48 years old)</a></li>

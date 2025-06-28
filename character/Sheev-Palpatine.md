@@ -1,10 +1,12 @@
 ---
 title: Sheev Palpatine
-layout: page
+layout: character
+social-desc: Sheev Palpatine (Darth Sidious)  | Star Wars
+social-image: /assets/characters/palpatine.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Sheev Palpatine (Darth Sidious)     was born in <a href="https://timeline.starwars.guide/character/Sheev Palpatine?year=-84" target="_blank">84 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Sheev Palpatine?year=35" target="_blank">35 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Sheev Palpatine in:</h2>
+    <h3>You can see Sheev Palpatine in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Sheev Palpatine?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (52 years old)</a></li>

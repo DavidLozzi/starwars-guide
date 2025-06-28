@@ -1,10 +1,12 @@
 ---
 title: Leia Organa
-layout: page
+layout: character
+social-desc: Leia Organa (Skywalker Solo)  | Star Wars
+social-image: /assets/characters/leia.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Leia Organa (Skywalker Solo)     was born in <a href="https://timeline.starwars.guide/character/Leia Organa?year=-19" target="_blank">19 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Leia Organa?year=35" target="_blank">35 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Leia Organa in:</h2>
+    <h3>You can see Leia Organa in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Leia Organa?year=-19" target="_blank">Episode III: Revenge of the Sith, 19 BBY (0 years old)</a></li>

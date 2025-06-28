@@ -1,10 +1,12 @@
 ---
 title: Anakin Skywalker
-layout: page
+layout: character
+social-desc: Anakin Skywalker (Darth Vader)  | Star Wars
+social-image: /assets/characters/vadar.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Anakin Skywalker (Darth Vader)     was born in <a href="https://timeline.starwars.guide/character/Anakin Skywalker?year=-41" target="_blank">41 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Anakin Skywalker?year=4" target="_blank">4 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Anakin Skywalker in:</h2>
+    <h3>You can see Anakin Skywalker in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Anakin Skywalker?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (9 years old)</a></li>

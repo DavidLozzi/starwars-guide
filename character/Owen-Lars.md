@@ -1,10 +1,12 @@
 ---
 title: Owen Lars
-layout: page
+layout: character
+social-desc: Owen Lars (Uncle)  | Star Wars
+social-image: /assets/characters/owenlars-old.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Owen Lars (Uncle)     was born in <a href="https://timeline.starwars.guide/character/Owen Lars?year=-52" target="_blank">52 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Owen Lars?year=0" target="_blank">0 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Owen Lars in:</h2>
+    <h3>You can see Owen Lars in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Owen Lars?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (30 years old)</a></li>

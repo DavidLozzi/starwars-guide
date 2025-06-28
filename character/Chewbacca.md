@@ -1,10 +1,12 @@
 ---
 title: Chewbacca
-layout: page
+layout: character
+social-desc: Chewbacca (Chewie)  | Star Wars
+social-image: /assets/characters/chewie.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Chewbacca (Chewie)             was born in <a href="https://timeline.starwars.guide/character/Chewbacca?year=-200" target="_blank">200 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Chewbacca in:</h2>
+    <h3>You can see Chewbacca in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Chewbacca?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (178 years old)</a></li>

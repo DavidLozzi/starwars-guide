@@ -1,10 +1,12 @@
 ---
 title: Kaydel Ko Connix
-layout: page
+layout: character
+social-desc: Kaydel Ko Connix  | Star Wars
+social-image: /assets/characters/connix.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Kaydel Ko Connix             was born in <a href="https://timeline.starwars.guide/character/Kaydel Ko Connix?year=13" target="_blank">13 ABY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Kaydel Ko Connix in:</h2>
+    <h3>You can see Kaydel Ko Connix in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Kaydel Ko Connix?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (21 years old)</a></li>

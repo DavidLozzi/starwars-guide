@@ -1,10 +1,12 @@
 ---
 title: Garazeb Orrelios
-layout: page
+layout: character
+social-desc: Garazeb Orrelios (Zeb)  | Star Wars
+social-image: /assets/characters/orrelios.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Garazeb Orrelios (Zeb)             was born in <a href="https://timeline.starwars.guide/character/Garazeb Orrelios?year=-44" target="_blank">44 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Garazeb Orrelios in:</h2>
+    <h3>You can see Garazeb Orrelios in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Garazeb Orrelios?year=-5" target="_blank">Star Wars Rebels, 5 BBY (39 years old)</a></li>

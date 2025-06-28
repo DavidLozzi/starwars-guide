@@ -1,10 +1,12 @@
 ---
 title: Phasma
-layout: page
+layout: character
+social-desc: Phasma  | Star Wars
+social-image: /assets/characters/phasma.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Phasma     was born in <a href="https://timeline.starwars.guide/character/Phasma?year=6" target="_blank">6 ABY</a> and died in <a href="https://timeline.starwars.guide/character/Phasma?year=34" target="_blank">34 ABY</a>.        
@@ -27,12 +29,12 @@ layout: page
     </div>
 
 
-    <h2>You can see Phasma in:</h2>
+    <h3>You can see Phasma in:</h3>
 
     <ul>
-      <li><a href="https://timeline.starwars.guide/character/Phasma?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (28 years old)</a></li>
+      <li><a href="https://timeline.starwars.guide/character/Phasma?year=34" target="_blank">Star Wars Resistance, 34 ABY (28 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Phasma?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (28 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Phasma?year=34" target="_blank">Episode VIII: The Last Jedi, 34 ABY (28 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Phasma?year=34" target="_blank">Star Wars Resistance, 34 ABY (28 years old)</a></li>
     </ul>
 
     <a href="https://starwars.fandom.com/wiki/Phasma" target="_blank">Learn more on Wookiepedia.com</a>

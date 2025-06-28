@@ -1,10 +1,12 @@
 ---
 title: Jacen Syndulla
-layout: page
+layout: character
+social-desc: Jacen Syndulla  | Star Wars
+social-image: /assets/characters/jacen-young.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Jacen Syndulla             was born in <a href="https://timeline.starwars.guide/character/Jacen Syndulla?year=-4" target="_blank">1 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Jacen Syndulla in:</h2>
+    <h3>You can see Jacen Syndulla in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Jacen Syndulla?year=-5" target="_blank">Star Wars Rebels, 5 BBY (-4 years old)</a></li>

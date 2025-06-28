@@ -1,10 +1,12 @@
 ---
 title: Rey Skywalker
-layout: page
+layout: character
+social-desc: Rey Skywalker  | Star Wars
+social-image: /assets/characters/rey.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Rey Skywalker             was born in <a href="https://timeline.starwars.guide/character/Rey Skywalker?year=15" target="_blank">15 ABY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Rey Skywalker in:</h2>
+    <h3>You can see Rey Skywalker in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Rey Skywalker?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (19 years old)</a></li>

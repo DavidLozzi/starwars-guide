@@ -1,10 +1,12 @@
 ---
 title: Plo Koon
-layout: page
+layout: character
+social-desc: Plo Koon  | Star Wars
+social-image: /assets/characters/plo.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Plo Koon         died in <a href="https://timeline.starwars.guide/character/Plo Koon?year=-19" target="_blank">19 BBY</a>.    
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Plo Koon in:</h2>
+    <h3>You can see Plo Koon in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Plo Koon?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (68 years old)</a></li>

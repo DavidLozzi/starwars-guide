@@ -1,10 +1,12 @@
 ---
 title: Han Solo
-layout: page
+layout: character
+social-desc: Han Solo (Nerf Herder)  | Star Wars
+social-image: /assets/characters/solo-og.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Han Solo (Nerf Herder)     was born in <a href="https://timeline.starwars.guide/character/Han Solo?year=-32" target="_blank">32 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Han Solo?year=34" target="_blank">34 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Han Solo in:</h2>
+    <h3>You can see Han Solo in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Han Solo?year=-10" target="_blank">Solo: A Star Wars Story, 10 BBY (22 years old)</a></li>

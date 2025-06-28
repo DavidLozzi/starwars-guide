@@ -1,10 +1,12 @@
 ---
 title: Gial Ackbar
-layout: page
+layout: character
+social-desc: Gial Ackbar  | Star Wars
+social-image: /assets/characters/ackbar.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Gial Ackbar         died in <a href="https://timeline.starwars.guide/character/Gial Ackbar?year=34" target="_blank">34 ABY</a>.    
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Gial Ackbar in:</h2>
+    <h3>You can see Gial Ackbar in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Gial Ackbar?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (33 years old)</a></li>

@@ -1,10 +1,12 @@
 ---
 title: Temmin Wexley
-layout: page
+layout: character
+social-desc: Temmin Wexley (Snap)  | Star Wars
+social-image: /assets/characters/wexley.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Temmin Wexley (Snap)     was born in <a href="https://timeline.starwars.guide/character/Temmin Wexley?year=-11" target="_blank">11 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Temmin Wexley?year=35" target="_blank">35 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Temmin Wexley in:</h2>
+    <h3>You can see Temmin Wexley in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Temmin Wexley?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (45 years old)</a></li>

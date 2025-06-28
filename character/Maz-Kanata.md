@@ -1,10 +1,12 @@
 ---
 title: Maz Kanata
-layout: page
+layout: character
+social-desc: Maz Kanata  | Star Wars
+social-image: /assets/characters/kanata.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Maz Kanata             was born in <a href="https://timeline.starwars.guide/character/Maz Kanata?year=-300" target="_blank">973 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Maz Kanata in:</h2>
+    <h3>You can see Maz Kanata in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Maz Kanata?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (1007 years old)</a></li>

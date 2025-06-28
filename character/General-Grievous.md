@@ -1,10 +1,12 @@
 ---
 title: General Grievous
-layout: page
+layout: character
+social-desc: General Grievous (Qymaen jai Sheelal)  | Star Wars
+social-image: /assets/characters/grievous.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     General Grievous (Qymaen jai Sheelal)         died in <a href="https://timeline.starwars.guide/character/General Grievous?year=-19" target="_blank">19 BBY</a>.    
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see General Grievous in:</h2>
+    <h3>You can see General Grievous in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/General Grievous?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (43 years old)</a></li>

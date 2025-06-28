@@ -1,10 +1,12 @@
 ---
 title: Greedo
-layout: page
+layout: character
+social-desc: Greedo  | Star Wars
+social-image: /assets/characters/greedo.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Greedo     was born in <a href="https://timeline.starwars.guide/character/Greedo?year=-44" target="_blank">44 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Greedo?year=0" target="_blank">0 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Greedo in:</h2>
+    <h3>You can see Greedo in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Greedo?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (22 years old)</a></li>

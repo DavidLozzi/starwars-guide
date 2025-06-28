@@ -1,10 +1,12 @@
 ---
 title: Carson Teva
-layout: page
+layout: character
+social-desc: Carson Teva  | Star Wars
+social-image: /assets/characters/teva.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Carson Teva             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Carson Teva in:</h2>
+    <h3>You can see Carson Teva in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Carson Teva?year=9" target="_blank">The Mandalorian, 9 ABY (51 years old)</a></li>

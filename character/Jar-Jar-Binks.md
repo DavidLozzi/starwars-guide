@@ -1,10 +1,12 @@
 ---
 title: Jar Jar Binks
-layout: page
+layout: character
+social-desc: Jar Jar Binks  | Star Wars
+social-image: /assets/characters/jarjar.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Jar Jar Binks             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Jar Jar Binks in:</h2>
+    <h3>You can see Jar Jar Binks in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Jar Jar Binks?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (28 years old)</a></li>

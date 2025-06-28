@@ -1,10 +1,12 @@
 ---
 title: Omega
-layout: page
+layout: character
+social-desc: Omega  | Star Wars
+social-image: /assets/characters/omega.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Omega             
@@ -30,7 +32,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Omega in:</h2>
+    <h3>You can see Omega in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Omega?year=-19" target="_blank">The Bad Batch, 19 BBY (13 years old)</a></li>

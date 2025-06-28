@@ -1,10 +1,12 @@
 ---
 title: Hera Syndulla
-layout: page
+layout: character
+social-desc: Hera Syndulla  | Star Wars
+social-image: /assets/characters/hera-old.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Hera Syndulla             was born in <a href="https://timeline.starwars.guide/character/Hera Syndulla?year=-29" target="_blank">29 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Hera Syndulla in:</h2>
+    <h3>You can see Hera Syndulla in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Hera Syndulla?year=-19" target="_blank">The Bad Batch, 19 BBY (10 years old)</a></li>

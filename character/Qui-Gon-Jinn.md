@@ -1,10 +1,12 @@
 ---
 title: Qui-Gon Jinn
-layout: page
+layout: character
+social-desc: Qui-Gon Jinn  | Star Wars
+social-image: /assets/characters/quigon.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Qui-Gon Jinn     was born in <a href="https://timeline.starwars.guide/character/Qui-Gon Jinn?year=-80" target="_blank">80 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Qui-Gon Jinn?year=-32" target="_blank">32 BBY</a>.        
@@ -27,10 +29,11 @@ layout: page
     </div>
 
 
-    <h2>You can see Qui-Gon Jinn in:</h2>
+    <h3>You can see Qui-Gon Jinn in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Qui-Gon Jinn?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (48 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Qui-Gon Jinn?year=-9" target="_blank">Obi-Wan Kenobi, 9 BBY (71 years old)</a></li>
     </ul>
 
     <a href="https://starwars.fandom.com/wiki/Qui-Gon_Jinn" target="_blank">Learn more on Wookiepedia.com</a>

@@ -1,10 +1,12 @@
 ---
 title: Kanan Jarrus
-layout: page
+layout: character
+social-desc: Kanan Jarrus  | Star Wars
+social-image: /assets/characters/kanan.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Kanan Jarrus     was born in <a href="https://timeline.starwars.guide/character/Kanan Jarrus?year=-33" target="_blank">33 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Kanan Jarrus?year=0" target="_blank">0 BBY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Kanan Jarrus in:</h2>
+    <h3>You can see Kanan Jarrus in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Kanan Jarrus?year=-19" target="_blank">The Bad Batch, 19 BBY (14 years old)</a></li>

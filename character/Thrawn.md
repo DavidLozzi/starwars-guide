@@ -1,10 +1,12 @@
 ---
 title: Thrawn
-layout: page
+layout: character
+social-desc: Thrawn (Mitth'raw' nuruodo)  | Star Wars
+social-image: /assets/characters/thrawn-old.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Thrawn (Mitth'raw' nuruodo)             was born in <a href="https://timeline.starwars.guide/character/Thrawn?year=-59" target="_blank">59 BBY</a>.
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Thrawn in:</h2>
+    <h3>You can see Thrawn in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Thrawn?year=-5" target="_blank">Star Wars Rebels, 5 BBY (54 years old)</a></li>

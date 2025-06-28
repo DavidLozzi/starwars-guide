@@ -1,10 +1,12 @@
 ---
 title: Armitage Hux
-layout: page
+layout: character
+social-desc: Armitage Hux  | Star Wars
+social-image: /assets/characters/hux.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Armitage Hux     was born in <a href="https://timeline.starwars.guide/character/Armitage Hux?year=0" target="_blank">0 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Armitage Hux?year=35" target="_blank">35 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Armitage Hux in:</h2>
+    <h3>You can see Armitage Hux in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Armitage Hux?year=34" target="_blank">Star Wars Resistance, 34 ABY (34 years old)</a></li>

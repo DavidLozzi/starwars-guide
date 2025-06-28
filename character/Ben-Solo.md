@@ -1,10 +1,12 @@
 ---
 title: Ben Solo
-layout: page
+layout: character
+social-desc: Ben Solo (Kylo Ren)  | Star Wars
+social-image: /assets/characters/bensolo.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Ben Solo (Kylo Ren)     was born in <a href="https://timeline.starwars.guide/character/Ben Solo?year=5" target="_blank">5 ABY</a> and died in <a href="https://timeline.starwars.guide/character/Ben Solo?year=35" target="_blank">35 ABY</a>.        
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Ben Solo in:</h2>
+    <h3>You can see Ben Solo in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Ben Solo?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (29 years old)</a></li>

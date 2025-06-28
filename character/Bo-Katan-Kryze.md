@@ -1,10 +1,12 @@
 ---
 title: Bo-Katan Kryze
-layout: page
+layout: character
+social-desc: Bo-Katan Kryze  | Star Wars
+social-image: /assets/characters/bokatan.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Bo-Katan Kryze             
@@ -27,7 +29,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Bo-Katan Kryze in:</h2>
+    <h3>You can see Bo-Katan Kryze in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Bo-Katan Kryze?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (23 years old)</a></li>

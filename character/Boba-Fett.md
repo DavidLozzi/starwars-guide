@@ -1,10 +1,12 @@
 ---
 title: Boba Fett
-layout: page
+layout: character
+social-desc: Boba Fett  | Star Wars
+social-image: /assets/characters/boba-og.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
-<div class="container">
+<div class="character-profile container">
   <div class="col-10">
     <p>
     Boba Fett             was born in <a href="https://timeline.starwars.guide/character/Boba Fett?year=-32" target="_blank">32 BBY</a>.
@@ -30,7 +32,7 @@ layout: page
     </div>
 
 
-    <h2>You can see Boba Fett in:</h2>
+    <h3>You can see Boba Fett in:</h3>
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Boba Fett?year=-22" target="_blank">Episode II: Attack of the Clones, 22 BBY (10 years old)</a></li>
