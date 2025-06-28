@@ -2,16 +2,15 @@
 <html>
   <head><meta charset="utf-8"><title>Content Manager</title></head>
   <body>
-    <!-- force manual init if you like, else you can drop this -->
+    <!-- if you want manual init: -->
     <script>window.CMS_MANUAL_INIT = true;</script>
 
-    <!-- use jsDelivr instead of unpkg (ORB won’t block it) -->
+    <!-- pick a major version instead of ^ -->
     <script
-      src="https://cdn.jsdelivr.net/npm/netlify-cms-app@^2.0.0/dist/netlify-cms.js"
+      src="https://cdn.jsdelivr.net/npm/netlify-cms-app@2.15.72/dist/netlify-cms-app.js"
       crossorigin="anonymous"
     ></script>
 
-    <!-- if you set MANUAL_INIT, do this; otherwise it’ll auto-init -->
     <script>
       CMS.init();
     </script>
