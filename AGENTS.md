@@ -3,5 +3,11 @@
 As you, the coding agent, learn about the user's preferences, application context, or anything else you were not aware about, write them below, as bullets.
 
 <learnings>
+- Don't explain everything, just focus on completing the work.
+- The home page app cards should be fully clickable to launch the respective apps (timeline.starwars.guide, comics.starwars.guide, wordle.starwars.guide)
+- The "READ" buttons within the app cards should navigate to the respective pages (star-wars-timeline, hyper-panels, swordle-star-wars-wordle) and use event.stopPropagation() to prevent triggering the card's click event
+- The news items (recent posts) should be fully clickable to load the individual post pages
+- The site uses Jekyll with custom SCSS styling, and cards have hover effects with cursor: pointer
+- When making elements clickable, ensure proper CSS inheritance by adding specific rules for anchor tags with card/news-item classes to remove default link styling
 
 </learnings>

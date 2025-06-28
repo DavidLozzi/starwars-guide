@@ -1,6 +1,6 @@
 ---
 title: Updates to The Ultimate Star Wars Timeline
-layout: post
+layout: posts
 tags:
 - Timeline
 ---

@@ -1,0 +1,70 @@
+<header class="border-b-4 border-white p-6 relative">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center">
+        <div class="ascii-art-container mr-8">
+          <pre class="ascii-art text-yellow-400 text-xs font-mono leading-tight m-0 p-0">
+███████╗████████╗ █████╗ ██████╗   ██╗    ██╗ █████╗ ██████╗ ███████╗
+██╔════╝╚══██╔══╝██╔══██╗██╔══██╗  ██║    ██║██╔══██╗██╔══██╗██╔════╝
+███████╗   ██║   ███████║██████╔╝  ██║ █╗ ██║███████║██████╔╝███████╗
+╚════██║   ██║   ██╔══██║██╔══██╗  ██║███╗██║██╔══██║██╔══██╗╚════██║
+███████║   ██║   ██║  ██║██║  ██║  ╚███╔███╔╝██║  ██║██║  ██║███████║
+╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+          </pre>
+        </div>
+      </div>
+      <!-- Hamburger for mobile -->
+      <button id="hamburger" class="md:hidden flex flex-col justify-center items-center w-10 h-10 z-50" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="target-line"></span>
+        <span class="target-line"></span>
+      </button>
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav hidden md:flex items-center space-x-6">
+        <a href="{{ '/' | relative_url }}" class="text-yellow-400 hover:text-white uppercase tracking-wide font-bold transition-colors">HOME</a>
+        <div class="relative group">
+          <button class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors">APPS</button>
+          <div class="absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <a href="{{ 'star-wars-timeline' | relative_url }}" class="block text-yellow-400 hover:text-white mb-2 uppercase tracking-wide">Timeline</a>
+            <a href="{{ 'hyper-panels' | relative_url }}" class="block text-blue-400 hover:text-white mb-2 uppercase tracking-wide">HyperPanels</a>
+            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="block text-red-400 hover:text-white uppercase tracking-wide">SWordle</a>
+          </div>
+        </div>
+        <a href="{{ 'posts' | relative_url }}" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors">UPDATES</a>
+      </nav>
+    </div>
+  </div>
+  <!-- Mobile nav menu -->
+  <nav id="mobile-nav" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 flex-col items-center justify-center space-y-8 text-2xl text-yellow-400 uppercase font-bold tracking-wide hidden z-40">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ 'star-wars-timeline' | relative_url }}">Timeline</a>
+    <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a>
+    <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a>
+    <a href="{{ 'posts' | relative_url }}">Updates</a>
+  </nav>
+</header>
+<div class="w-full h-4 bg-gradient-to-r"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var hamburger = document.getElementById('hamburger');
+    var mobileNav = document.getElementById('mobile-nav');
+    if (hamburger && mobileNav) {
+      hamburger.addEventListener('click', function() {
+        var isOpen = hamburger.classList.toggle('open');
+        mobileNav.classList.toggle('open', isOpen);
+        hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      });
+      mobileNav.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          hamburger.classList.remove('open');
+          mobileNav.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
+      });
+    }
+  });
+</script> 

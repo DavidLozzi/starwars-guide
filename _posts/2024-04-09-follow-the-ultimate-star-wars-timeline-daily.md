@@ -1,6 +1,6 @@
 ---
 title: Follow the Ultimate Star Wars Timeline daily!
-layout: post
+layout: posts
 ---
 
 We are now Tweeting out our entire [Ultimate Star Wars Timeline](https://timeline.starwars.guide/) daily! Follow [@UltStarWarsTime](https://twitter.com/UltStarWarsTime) to get a tweet daily about a character or movie/tv show from our timeline!

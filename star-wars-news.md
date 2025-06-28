@@ -1,5 +1,5 @@
 ---
 title: The latest
-layout: posts
+layout: postss
 ---
 

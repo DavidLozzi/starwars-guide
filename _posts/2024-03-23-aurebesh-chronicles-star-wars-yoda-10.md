@@ -1,6 +1,6 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 10'
-layout: post
+layout: posts
 tags:
 - YouTube
 - Comicbook

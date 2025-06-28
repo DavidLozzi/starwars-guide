@@ -2,7 +2,7 @@
 title: 'Aurebesh Chronicles: Star Wars: Yoda 1-3'
 Category: youtube
 Comicbook Series: 'Star Wars: Yoda'
-layout: post
+layout: posts
 tags:
 - YouTube
 - Yoda

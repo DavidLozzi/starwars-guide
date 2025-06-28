@@ -1,4 +1,6 @@
-# starwars-guide using Jekyll
+# starwars-guide using Jekyll on Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a8dd93e-19c6-40be-8740-608c8e70377f/deploy-status)](https://app.netlify.com/projects/starwars-guide-lozzi/deploys)
 
 update GemFile and install
 
