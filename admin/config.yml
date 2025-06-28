@@ -1,14 +1,10 @@
 backend:
   name: git-gateway
-  branch: main           
+  repo: DavidLozzi/starwars-guide
+  branch: main        
 
 media_folder: "assets"
 public_folder: "/assets"
-
-backend:
-  name: git-gateway
-  repo: DavidLozzi/starwars-guide
-  branch: main
 
 collections:
   - name: "posts"
