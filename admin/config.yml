@@ -2,8 +2,11 @@ backend:
   name: git-gateway
   branch: main           
   commit_messages:
-    create: "Create {{collection}} “{{slug}}”"
-    update: "Update {{collection}} “{{slug}}”"
+    create: "Create {{collection}} "{{slug}}""
+    update: "Update {{collection}} "{{slug}}""
+    delete: "Delete {{collection}} "{{slug}}""
+    uploadMedia: "Upload {{media}}"
+    deleteMedia: "Delete {{media}}"
 media_folder: "assets"
 public_folder: "/assets"
 
@@ -12,10 +15,13 @@ collections:
     label: "Blog Posts"
     folder: "_posts"
     create: true
-    slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
+      - { label: "Layout", name: "layout", widget: "string", default: "posts" }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "pages"
@@ -23,7 +29,58 @@ collections:
     files:
       - label: "About"
         name: "about"
-        file: "about.md"
+        file: "about.markdown"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Star Wars Timeline"
+        name: "timeline"
+        file: "star-wars-timeline.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "SWordle"
+        name: "swordle"
+        file: "swordle-star-wars-wordle.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Hyper Panels"
+        name: "hyperpanels"
+        file: "hyper-panels.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Building a Death Star"
+        name: "deathstar"
+        file: "building-a-death-star.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "characters"
+    label: "Character Pages"
+    folder: "character"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "string", default: "page" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "navigation"
+    label: "Navigation"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - { label: "Navigation Items", name: "navigation", widget: "list", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "URL", name: "url", widget: "string" }
+            ]}
