@@ -6,6 +6,8 @@ social-desc: HyperPanels is the platform that enriches your world with Star
   Wars. Find the best response that make your conversations more positive, more
   expressive, and more you.
 social-title: HyperPanels
+date: 2026-06-28 12:00:00
+last_modified_at: 2026-06-28 12:00:00
 ---
 Respond to that last Text, Tweet, Thread, Slack, Email or any other conversation with Star Wars style!
 

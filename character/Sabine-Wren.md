@@ -1,6 +1,8 @@
 ---
 title: Sabine Wren
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.391Z
 social-desc: Sabine Wren  | Star Wars
 social-image: /assets/characters/wren-old.png
 ---

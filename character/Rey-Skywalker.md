@@ -1,6 +1,8 @@
 ---
 title: Rey Skywalker
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.389Z
 social-desc: Rey Skywalker  | Star Wars
 social-image: /assets/characters/rey.png
 ---

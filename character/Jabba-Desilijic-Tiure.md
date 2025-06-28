@@ -1,6 +1,8 @@
 ---
 title: Jabba Desilijic Tiure
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.352Z
 social-desc: Jabba Desilijic Tiure (the Hutt)  | Star Wars
 social-image: /assets/characters/jabba.png
 ---

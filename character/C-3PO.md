@@ -1,6 +1,8 @@
 ---
 title: C-3PO
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.324Z
 social-desc: C-3PO  | Star Wars
 social-image: /assets/characters/c3po.png
 ---

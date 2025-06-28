@@ -1,6 +1,8 @@
 ---
 title: Leia Organa
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.363Z
 social-desc: Leia Organa (Skywalker Solo)  | Star Wars
 social-image: /assets/characters/leia.png
 ---

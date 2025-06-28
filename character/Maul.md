@@ -1,6 +1,8 @@
 ---
 title: Maul
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.365Z
 social-desc: Maul (Darth)  | Star Wars
 social-image: /assets/characters/maul.png
 ---

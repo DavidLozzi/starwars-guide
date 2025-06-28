@@ -1,6 +1,8 @@
 ---
 title: BB-8
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.313Z
 social-desc: BB-8  | Star Wars
 social-image: /assets/characters/bb8.png
 ---

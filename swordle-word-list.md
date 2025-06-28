@@ -1,6 +1,8 @@
 ---
 title: Word List for SWordle
 layout: page
+date: 2023-06-28 12:00:00
+last_modified_at: 2026-06-28 12:00:00
 ---
 
 Play at <a href="https://wordle.starwars.guide" target="_blank">wordle.starwars.guide</a>.

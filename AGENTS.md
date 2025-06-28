@@ -12,5 +12,6 @@ As you, the coding agent, learn about the user's preferences, application contex
 - The hamburger menu breakpoint is set to 1000px (appears on screens 1000px and below), while general responsive design breakpoints remain at 768px
 - Navigation uses custom CSS classes (.hamburger-hidden, .hamburger-visible) instead of Tailwind's md: breakpoint classes for the 1000px breakpoint
 - The site has specific responsive design needs where navigation breakpoints differ from general mobile responsiveness breakpoints
-
+- Always check for and include SEO tags (such as title, description, image, social-desc, social-image) in the front matter of all pages, especially character and content pages.
+- Always include date fields (date, last_modified_at) in the front matter to support sitemap.xml and improve SEO.
 </learnings>

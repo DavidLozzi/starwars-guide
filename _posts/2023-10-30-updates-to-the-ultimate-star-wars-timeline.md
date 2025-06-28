@@ -1,8 +1,12 @@
 ---
 title: Updates to The Ultimate Star Wars Timeline
 layout: posts
+date: 2023-10-30 12:00:00
+last_modified_at: 2025-06-28 12:00:00
+categories:
+  - Apps
 tags:
-- Timeline
+  - Timeline
 ---
 
 Excited to share our padawans have created some great updates to [The Ultimate Star Wars Timeline](https://timeline.starwars.guide)!

@@ -5,6 +5,8 @@ social-image: "/assets/cards/swordle.png"
 social-title: SWordle - Wordle for Star Wars
 social-desc: Play the best Wordle in the galaxy! 5 letters to guess names, planets,
   sayings, etc.
+date: 2023-06-28 12:00:00
+last_modified_at: 2026-06-28 12:00:00
 ---
 
 SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!

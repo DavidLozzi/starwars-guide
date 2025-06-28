@@ -1,6 +1,8 @@
 ---
 title: Bail Organa
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.316Z
 social-desc: Bail Organa  | Star Wars
 social-image: /assets/characters/bailorgana.png
 ---

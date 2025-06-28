@@ -1,6 +1,8 @@
 ---
 title: Anakin Skywalker
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.310Z
 social-desc: Anakin Skywalker (Darth Vader)  | Star Wars
 social-image: /assets/characters/vadar.png
 ---

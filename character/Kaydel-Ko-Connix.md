@@ -1,6 +1,8 @@
 ---
 title: Kaydel Ko Connix
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.356Z
 social-desc: Kaydel Ko Connix  | Star Wars
 social-image: /assets/characters/connix.png
 ---

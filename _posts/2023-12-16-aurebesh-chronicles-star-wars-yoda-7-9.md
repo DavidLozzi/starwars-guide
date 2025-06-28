@@ -1,10 +1,14 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 7-9'
 layout: posts
+date: 2023-12-16 12:00:00
+last_modified_at: 2025-06-28 12:00:00
 tags:
-- YouTube
-- Comicbook
-- Yoda
+  - YouTube
+  - Comcis
+  - Yoda
+categories:
+  - youtube
 ---
 
 Join the fun on our [YouTube Channel](https://youtu.be/D3Vaj37a0Rs)! Our third episode is out, where we dive into the Star Wars: Yoda comic series. Join us as we explore these few books and their impact on an original… A New Hope!

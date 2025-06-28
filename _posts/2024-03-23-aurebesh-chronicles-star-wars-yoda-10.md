@@ -1,10 +1,14 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 10'
 layout: posts
+date: 2024-03-23 12:00:00
+last_modified_at: 2025-06-28 12:00:00
 tags:
-- YouTube
-- Comicbook
-- Yoda
+  - YouTube
+  - Comcis
+  - Yoda
+categories:
+  - youtube
 ---
 
 Our fourth episode is out, and wraps up the Star Wars: Yoda comicbooks series with book 10!

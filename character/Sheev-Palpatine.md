@@ -1,6 +1,8 @@
 ---
 title: Sheev Palpatine
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.392Z
 social-desc: Sheev Palpatine (Darth Sidious)  | Star Wars
 social-image: /assets/characters/palpatine.png
 ---

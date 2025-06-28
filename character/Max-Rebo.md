@@ -1,6 +1,8 @@
 ---
 title: Max Rebo
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.367Z
 social-desc: Max Rebo  | Star Wars
 social-image: /assets/characters/maxrebo.png
 ---

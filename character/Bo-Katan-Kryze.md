@@ -1,6 +1,8 @@
 ---
 title: Bo-Katan Kryze
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.320Z
 social-desc: Bo-Katan Kryze  | Star Wars
 social-image: /assets/characters/bokatan.png
 ---

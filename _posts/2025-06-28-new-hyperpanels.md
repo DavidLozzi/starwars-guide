@@ -1,7 +1,14 @@
 ---
 title: NEW! HyperPanels for your conversations
 layout: posts
-
+date: 2025-06-28 12:00:00
+last_modified_at: 2025-06-28 12:00:00
+categories:
+  - Apps
+tags:
+  - Comics
+  - Social
+  - Meme
 ---
 
 Your go-to for instant Star Wars reactions

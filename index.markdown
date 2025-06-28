@@ -1,5 +1,7 @@
 ---
 layout: home
+date: 2023-06-28 12:00:00
+last_modified_at: 2026-06-28 12:00:00
 ---
 
 <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">

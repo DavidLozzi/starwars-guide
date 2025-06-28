@@ -1,6 +1,8 @@
 ---
 title: Han Solo
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.346Z
 social-desc: Han Solo (Nerf Herder)  | Star Wars
 social-image: /assets/characters/solo-og.png
 ---

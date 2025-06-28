@@ -1,6 +1,8 @@
 ---
 title: Chopper
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.329Z
 social-desc: Chopper (C1-10P)  | Star Wars
 social-image: /assets/characters/chopper.png
 ---

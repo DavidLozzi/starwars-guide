@@ -1,6 +1,8 @@
 ---
 title: Qui-Gon Jinn
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.386Z
 social-desc: Qui-Gon Jinn  | Star Wars
 social-image: /assets/characters/quigon.png
 ---

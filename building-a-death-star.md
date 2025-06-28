@@ -4,6 +4,8 @@ layout: page
 social-image: "/assets/cards/deathstar.png"
 social-desc: What it would take to build the Death Star today
 social-title: Full Debrief - Constructing the Death Star
+date: 2023-09-07
+last_modified_at: 2026-06-28 12:00:00
 ---
 
 <img alt="http://en.space.mzyachts.ru/ships/2/layout.jpg" src="/assets/death-star/image10.jpg" style="  margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">

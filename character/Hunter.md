@@ -1,6 +1,8 @@
 ---
 title: Hunter
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.349Z
 social-desc: Hunter  | Star Wars
 social-image: /assets/characters/hunter.png
 ---

@@ -1,6 +1,8 @@
 ---
 title: Cassian Andor
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.327Z
 social-desc: Cassian Andor  | Star Wars
 social-image: /assets/characters/andor.png
 ---

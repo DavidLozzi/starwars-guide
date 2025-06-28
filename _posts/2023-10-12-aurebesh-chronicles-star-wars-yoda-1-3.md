@@ -1,12 +1,15 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 1-3'
-Category: youtube
+date: 2023-10-12 12:00:00
+last_modified_at: 2025-06-28 12:00:00
 Comicbook Series: 'Star Wars: Yoda'
 layout: posts
+categories:
+  - youtube
 tags:
-- YouTube
-- Yoda
-- Comicbook
+  - YouTube
+  - Yoda
+  - Comics
 ---
 
 Join the fun on our new [YouTube Channel](https://www.youtube.com/watch?v=6KbqUh7fAgY&t=22s&ab_channel=AurebeshFiles)! Our first episode is out, where we dive into the Star Wars: Yoda comic series. Join us as we explore these first few books and their impact on an original... A New Hope!

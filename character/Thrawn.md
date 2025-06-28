@@ -1,6 +1,8 @@
 ---
 title: Thrawn
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.395Z
 social-desc: Thrawn (Mitth'raw' nuruodo)  | Star Wars
 social-image: /assets/characters/thrawn-old.png
 ---

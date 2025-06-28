@@ -1,6 +1,8 @@
 ---
 title: Morgan Elsbeth
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.371Z
 social-desc: Morgan Elsbeth  | Star Wars
 social-image: /assets/characters/elsbeth.png
 ---

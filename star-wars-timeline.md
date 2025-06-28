@@ -4,6 +4,8 @@ layout: page
 social-image: "/assets/cards/timeline.png"
 social-desc: Explore all Star Wars TV Shows, Movies, and characters!
 social-title: The Ultimate Star Wars Timeline
+date: 2023-06-28 12:00:00
+last_modified_at: 2026-06-28 12:00:00
 ---
 
 Explore the movies, TV shows, and characters of Star Wars in an interactive timeline! There are over 75 characters spanning 25 movies and TV shows!

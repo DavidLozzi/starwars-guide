@@ -1,6 +1,8 @@
 ---
 title: Nute Gunray
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.373Z
 social-desc: Nute Gunray (Viceroy)  | Star Wars
 social-image: /assets/characters/gunray.png
 ---

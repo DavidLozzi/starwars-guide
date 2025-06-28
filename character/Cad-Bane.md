@@ -1,6 +1,8 @@
 ---
 title: Cad Bane
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.325Z
 social-desc: Cad Bane  | Star Wars
 social-image: /assets/characters/bane.png
 ---

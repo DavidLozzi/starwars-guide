@@ -1,6 +1,8 @@
 ---
 title: Mando
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.365Z
 social-desc: Mando (Din Djarin)  | Star Wars
 social-image: /assets/characters/mando.png
 ---

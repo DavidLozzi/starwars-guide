@@ -1,6 +1,8 @@
 ---
 title: Rose Tico
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.390Z
 social-desc: Rose Tico  | Star Wars
 social-image: /assets/characters/tico.png
 ---

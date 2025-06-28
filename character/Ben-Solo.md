@@ -1,6 +1,8 @@
 ---
 title: Ben Solo
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.317Z
 social-desc: Ben Solo (Kylo Ren)  | Star Wars
 social-image: /assets/characters/bensolo.png
 ---

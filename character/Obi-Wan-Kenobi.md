@@ -1,6 +1,8 @@
 ---
 title: Obi-Wan Kenobi
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.375Z
 social-desc: Obi-Wan Kenobi (Old Ben)  | Star Wars
 social-image: /assets/characters/obi.png
 ---

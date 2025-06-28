@@ -1,6 +1,8 @@
 ---
 title: Ezra Bridger
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.331Z
 social-desc: Ezra Bridger  | Star Wars
 social-image: /assets/characters/ezra-old.png
 ---

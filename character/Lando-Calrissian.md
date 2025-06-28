@@ -1,6 +1,8 @@
 ---
 title: Lando Calrissian
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.362Z
 social-desc: Lando Calrissian  | Star Wars
 social-image: /assets/characters/lando-og.png
 ---

@@ -1,6 +1,8 @@
 ---
 title: Support Aurebesh Files
 layout: page
+date: 2023-06-28 12:00:00
+last_modified_at: 2026-06-28 12:00:00
 ---
 
 We are just a couple of Star Wars nerds geeking out, building some fun stuff. If you have enjoyed what you see, please consider throwing us a few bucks to help cover hosting costs and to show appreciation. 

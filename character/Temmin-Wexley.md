@@ -1,6 +1,8 @@
 ---
 title: Temmin Wexley
 layout: character
+date: 2022-05-08
+last_modified_at: 2025-06-28T19:38:37.394Z
 social-desc: Temmin Wexley (Snap)  | Star Wars
 social-image: /assets/characters/wexley.png
 ---
