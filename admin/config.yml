@@ -1,12 +1,7 @@
 backend:
   name: git-gateway
   branch: main           
-  commit_messages:
-    create: "Create {{collection}} "{{slug}}""
-    update: "Update {{collection}} "{{slug}}""
-    delete: "Delete {{collection}} "{{slug}}""
-    uploadMedia: "Upload {{media}}"
-    deleteMedia: "Delete {{media}}"
+
 media_folder: "assets"
 public_folder: "/assets"
 
