@@ -19,20 +19,8 @@
     </style>
   </head>
   <body>
-    <!-- Use the official Netlify CMS app with a stable version -->
+    <!-- Use the most stable Netlify CMS version -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/netlify-cms-app@2.14.0/dist/netlify-cms-app.js"></script>
-    <script>
-      // Initialize Netlify CMS with proper error handling
-      if (typeof netlifyIdentity !== 'undefined') {
-        netlifyIdentity.on("init", user => {
-          if (!user) {
-            netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
+    <script src="https://unpkg.com/netlify-cms@2.9.7/dist/netlify-cms.js"></script>
   </body>
 </html>
