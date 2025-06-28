@@ -1,5 +1,3 @@
-{% include header.html %}
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en" }}">
 <head>
@@ -47,6 +45,8 @@
 </head>
 <body>
     <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
+        {% include header.html %}
+        
         <!-- Main Content -->
         <main class="max-w-6xl mx-auto p-6 relative">
             <!-- Page Title -->

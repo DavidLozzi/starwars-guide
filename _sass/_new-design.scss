@@ -1429,7 +1429,7 @@ nav {
 }
 
 // Responsive: show hamburger, hide desktop nav on mobile
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #hamburger {
     display: flex !important;
     background-color: var(--black);
@@ -1440,7 +1440,7 @@ nav {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
   #hamburger {
     display: none !important;
   }
@@ -1449,5 +1449,32 @@ nav {
   }
   .desktop-nav {
     display: flex !important;
+  }
+}
+
+// Custom classes for 1000px breakpoint (replacing md: breakpoint)
+.hamburger-hidden {
+  display: none !important;
+}
+
+.hamburger-visible {
+  display: flex !important;
+}
+
+@media (max-width: 1000px) {
+  .hamburger-hidden {
+    display: none !important;
+  }
+  .hamburger-visible {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 1001px) {
+  .hamburger-hidden {
+    display: flex !important;
+  }
+  .hamburger-visible {
+    display: none !important;
   }
 } 

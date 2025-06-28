@@ -1,10 +1,14 @@
 - title: Home
   url: /
-- title: SWordle
-  url: /swordle-star-wars-wordle
-- title: Timeline
-  url: /star-wars-timeline
+- title: Apps
+  children:
+    - title: Timeline
+      url: /star-wars-timeline
+    - title: HyperPanels
+      url: /hyper-panels
+    - title: SWordle
+      url: /swordle-star-wars-wordle
+- title: Characters
+  url: /character
 - title: Updates
   url: /posts
-- title: Death Star Plans
-  url: /building-a-death-star

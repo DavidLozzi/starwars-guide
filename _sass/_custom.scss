@@ -115,3 +115,49 @@ $grid-gutter-width: 20px;
     text-shadow: 1px 1px 2px #000;
   }
 }
+
+.desktop-nav a {
+  margin-left: 2rem;
+}
+.desktop-nav a:first-child {
+  margin-left: 0;
+}
+
+/* Ensure the dropdown is directly under the APPS button and left-aligned */
+.desktop-nav .group {
+  position: relative;
+  margin-left: 2rem;
+}
+.desktop-nav .group:first-child {
+  margin-left: 0;
+}
+
+.desktop-nav .group .absolute,
+.desktop-nav .group .absolute[style] {
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 12rem;
+  text-align: left;
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  border-radius: 0.25rem;
+}
+
+.desktop-nav .group .absolute a,
+.desktop-nav .group .absolute[style] a {
+  color: #fff !important;
+  text-align: left;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+  transition: color 0.2s, background 0.2s;
+  border-radius: 0.125rem;
+}
+
+.desktop-nav .group .absolute a:hover,
+.desktop-nav .group .absolute[style] a:hover {
+  color: #facc15 !important;
+  background: #222;
+}

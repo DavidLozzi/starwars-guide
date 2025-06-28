@@ -14,7 +14,7 @@
         </div>
       </div>
       <!-- Hamburger for mobile -->
-      <button id="hamburger" class="md:hidden flex flex-col justify-center items-center w-10 h-10 z-50" aria-label="Open menu" aria-expanded="false">
+      <button id="hamburger" class="hamburger-visible flex flex-col justify-center items-center w-10 h-10 z-50" aria-label="Open menu" aria-expanded="false">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -22,27 +22,35 @@
         <span class="target-line"></span>
       </button>
       <!-- Desktop Navigation -->
-      <nav class="desktop-nav hidden md:flex items-center space-x-6">
-        <a href="{{ '/' | relative_url }}" class="text-yellow-400 hover:text-white uppercase tracking-wide font-bold transition-colors">HOME</a>
-        <div class="relative group">
-          <button class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors">APPS</button>
-          <div class="absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <a href="{{ 'star-wars-timeline' | relative_url }}" class="block text-yellow-400 hover:text-white mb-2 uppercase tracking-wide">Timeline</a>
-            <a href="{{ 'hyper-panels' | relative_url }}" class="block text-blue-400 hover:text-white mb-2 uppercase tracking-wide">HyperPanels</a>
-            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="block text-red-400 hover:text-white uppercase tracking-wide">SWordle</a>
-          </div>
-        </div>
-        <a href="{{ 'posts' | relative_url }}" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors">UPDATES</a>
+      <nav class="desktop-nav hamburger-hidden items-center flex-wrap">
+        {% for item in site.data.navigation %}
+          {% if item.children %}
+            <div class="relative group px-3" id="apps-group">
+              <button id="apps-btn" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
+              <div id="apps-dropdown" class="absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                {% for child in item.children %}
+                  <a href="{{ child.url | relative_url }}" class="block text-white hover:text-yellow-400 uppercase tracking-wide mb-2">{{ child.title }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          {% else %}
+            <a href="{{ item.url | relative_url }}" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base px-3">{{ item.title | upcase }}</a>
+          {% endif %}
+        {% endfor %}
       </nav>
     </div>
   </div>
   <!-- Mobile nav menu -->
   <nav id="mobile-nav" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 flex-col items-center justify-center space-y-8 text-2xl text-yellow-400 uppercase font-bold tracking-wide hidden z-40">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ 'star-wars-timeline' | relative_url }}">Timeline</a>
-    <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a>
-    <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a>
-    <a href="{{ 'posts' | relative_url }}">Updates</a>
+    {% for item in site.data.navigation %}
+      {% if item.children %}
+        {% for child in item.children %}
+          <a href="{{ child.url | relative_url }}">{{ child.title | upcase }}</a>
+        {% endfor %}
+      {% else %}
+        <a href="{{ item.url | relative_url }}">{{ item.title | upcase }}</a>
+      {% endif %}
+    {% endfor %}
   </nav>
 </header>
 <div class="w-full h-4 bg-gradient-to-r"></div>
@@ -64,6 +72,46 @@
           hamburger.setAttribute('aria-expanded', 'false');
           document.body.style.overflow = '';
         });
+      });
+    }
+    var appsBtn = document.getElementById('apps-btn');
+    var appsDropdown = document.getElementById('apps-dropdown');
+    if (appsBtn && appsDropdown) {
+      appsBtn.addEventListener('click', function(e) {
+        // Only enable toggle for mobile (width < 1000px)
+        if (window.innerWidth < 1000) {
+          e.preventDefault();
+          var isOpen = appsDropdown.classList.contains('open');
+          if (isOpen) {
+            appsDropdown.classList.remove('open');
+            appsDropdown.classList.add('opacity-0', 'invisible');
+            appsDropdown.classList.remove('opacity-100', 'visible');
+          } else {
+            appsDropdown.classList.add('open');
+            appsDropdown.classList.remove('opacity-0', 'invisible');
+            appsDropdown.classList.add('opacity-100', 'visible');
+          }
+        }
+      });
+      // Optional: close dropdown when clicking outside
+      document.addEventListener('click', function(e) {
+        if (window.innerWidth < 1000 && !appsBtn.contains(e.target) && !appsDropdown.contains(e.target)) {
+          appsDropdown.classList.remove('open');
+          appsDropdown.classList.add('opacity-0', 'invisible');
+          appsDropdown.classList.remove('opacity-100', 'visible');
+        }
+      });
+    }
+    var mobileAppsBtn = document.getElementById('mobile-apps-btn');
+    var mobileAppsDropdown = document.getElementById('mobile-apps-dropdown');
+    if (mobileAppsBtn && mobileAppsDropdown) {
+      mobileAppsBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (mobileAppsDropdown.style.display === 'block') {
+          mobileAppsDropdown.style.display = 'none';
+        } else {
+          mobileAppsDropdown.style.display = 'block';
+        }
       });
     }
   });
