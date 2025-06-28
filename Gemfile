@@ -32,5 +32,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem 'jekyll-admin', group: :jekyll_plugins
+group :development do
+  gem "jekyll-admin", "~> 0.11.1"
+end
 gem "jekyll-theme-so-simple"
