@@ -1,0 +1,16 @@
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[dev]
+  command = "bundle exec jekyll serve --livereload"
+  port = 4000
+  publish = "_site"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
+
+[build.environment]
+  JEKYLL_ENV = "production" 
