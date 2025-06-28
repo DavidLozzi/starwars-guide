@@ -52,7 +52,7 @@
             <!-- Page Title -->
             <div class="mb-8">
                 <h1 class="text-4xl font-black text-white mb-8 border-l-8 border-yellow-400 pl-4 uppercase flex items-center">
-                    <span class="zap mr-4 text-yellow-400">⚡</span>
+                    <i class="fas fa-bolt mr-4 text-yellow-400"></i>
                     {{ page.title}}
                     <div class="ml-4 flex space-x-1">
                       <div class="w-2 h-2 bg-red-400 animate-pulse"></div>
@@ -74,16 +74,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-bg"></div>
-            <div class="footer-content">
-                <p class="footer-text">
-                    <span class="star mr-2 text-yellow-400">★</span>
-                    © 2025 STARWARS.GUIDE // UNOFFICIAL FAN SITE // NOT AFFILIATED WITH DISNEY OR LUCASFILM
-                    <span class="star ml-2 text-yellow-400">★</span>
-                </p>
-            </div>
-        </footer>
+        {% include footer.html %}
     </div>
     
     <!-- FontAwesome -->

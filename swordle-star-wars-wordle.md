@@ -13,10 +13,11 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 
 <a href="https://wordle.starwars.guide" target="_blank">Play SWordle</a> and check out the <a href="{{ 'swordle-word-list' | absolute_url}}">list of over 14,000 possible words</a>!
 
+
 <div class="separator">
-	<div class="separator-line bg-red-400"></div>
-	<span class="separator-icon">★</span>
-	<div class="separator-line bg-blue-400"></div>
+<div class="separator-line bg-red-400"></div>
+<i class="fas fa-star separator-icon"></i>
+<div class="separator-line bg-blue-400"></div>
 </div>
 
 ## How to play SWordle

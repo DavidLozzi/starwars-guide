@@ -988,9 +988,7 @@ a.news-item:hover {
 // Quote section styles
 .quote-section {
   text-align: center;
-  padding: 4rem 0;
-  border-top: 4px solid var(--white);
-  border-bottom: 4px solid var(--white);
+  padding: 6rem 0;
   position: relative;
 }
 
@@ -1048,9 +1046,7 @@ a.news-item:hover {
 
 // Footer styles
 .footer {
-  border-top: 4px solid var(--white);
-  margin-top: 4rem;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   position: relative;
 }
 
@@ -1151,6 +1147,22 @@ a.news-item:hover {
   
   .md\:grid-cols-3 {
     grid-template-columns: 1fr;
+  }
+  
+  .flex.flex-wrap.justify-center.gap-6 {
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;
+    justify-content: center;
+  }
+  .social-link {
+    min-width: 70px;
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+  }
+  .social-link .flex.flex-col.items-center.justify-center.p-4 {
+    padding: 0.5rem;
   }
 }
 
@@ -1494,4 +1506,184 @@ nav {
 
 .card .btn span {
   margin-right: 0.25rem;
+}
+
+.card a:hover {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+// Social card component
+.social-card {
+  background-color: var(--black);
+  border: 4px solid var(--white);
+  padding: 1.5rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  color: var(--white) !important;
+}
+
+.social-card:hover {
+  transform: scale(1.05);
+  text-decoration: none !important;
+  color: var(--black) !important;
+}
+
+.social-card.border-green-400 {
+  border-color: var(--green-400);
+}
+
+.social-card.border-green-400:hover {
+  background-color: var(--green-400);
+}
+
+.social-card.border-blue-400 {
+  border-color: var(--blue-400);
+}
+
+.social-card.border-blue-400:hover {
+  background-color: var(--blue-400);
+}
+
+.social-card.border-pink-400 {
+  border-color: #ec4899;
+}
+
+.social-card.border-pink-400:hover {
+  background-color: #ec4899;
+}
+
+.social-card.border-red-400 {
+  border-color: var(--red-400);
+}
+
+.social-card.border-red-400:hover {
+  background-color: var(--red-400);
+}
+
+.social-card.border-orange-400 {
+  border-color: #fb923c;
+}
+
+.social-card.border-orange-400:hover {
+  background-color: #fb923c;
+}
+
+// Button component
+.btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--white);
+  background-color: transparent;
+  color: var(--white) !important;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--white);
+  color: var(--black) !important;
+  text-decoration: none !important;
+}
+
+.btn.bg-red-400 {
+  background-color: var(--red-400);
+  border-color: var(--red-400);
+  color: var(--black) !important;
+}
+
+.btn.bg-red-400:hover {
+  background-color: #fca5a5;
+  color: var(--black) !important;
+}
+
+.btn.border-red-400 {
+  border-color: var(--red-400);
+  color: var(--red-400) !important;
+}
+
+.btn.border-red-400:hover {
+  background-color: var(--red-400);
+  color: var(--black) !important;
+}
+
+.btn.border-yellow-400 {
+  border-color: var(--yellow-400);
+  color: var(--yellow-400) !important;
+}
+
+.btn.border-yellow-400:hover {
+  background-color: var(--yellow-400);
+  color: var(--black) !important;
+}
+
+.btn.border-blue-400 {
+  border-color: var(--blue-400);
+  color: var(--blue-400) !important;
+}
+
+.btn.border-blue-400:hover {
+  background-color: var(--blue-400);
+  color: var(--black) !important;
+}
+
+.btn.w-full {
+  width: 100%;
+}
+
+.btn.text-lg {
+  font-size: 1.125rem;
+}
+
+.btn.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btn.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.md\:grid-cols-3 {
+  grid-template-columns: 1fr;
+}
+
+// Mobile social media section adjustments
+.flex.flex-wrap.justify-center.gap-6 {
+  flex-wrap: nowrap;
+  gap: 4rem;
+}
+
+.social-link {
+  min-width: auto;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.social-link .flex.flex-col.items-center.justify-center.p-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.social-link .text-3xl {
+  font-size: 1.5rem;
+}
+
+.social-link .text-sm {
+  font-size: 0.75rem;
 } 

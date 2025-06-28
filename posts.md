@@ -13,22 +13,22 @@ social-desc: "All Star Wars blog posts and updates from StarWars.Guide"
           <!-- Background Pattern -->
           <div class="absolute top-0 right-0 opacity-5">
             {% if post.tags contains 'YouTube' %}
-              <span class="youtube" style="font-size: 120px;">📺</span>
+              <i class="fas fa-tv" style="font-size: 120px;"></i>
             {% elsif post.tags contains 'Comicbook' %}
-              <span class="book" style="font-size: 120px;">📖</span>
+              <i class="fas fa-book" style="font-size: 120px;"></i>
             {% else %}
-              <span class="star" style="font-size: 120px;">★</span>
+              <i class="fas fa-star" style="font-size: 120px;"></i>
             {% endif %}
           </div>
           
           <div class="mb-2 relative z-10">
             <div class="flex items-center">
               {% if post.tags contains 'YouTube' %}
-                <span class="youtube text-yellow-400 mr-2">📺</span>
+                <i class="fas fa-tv text-yellow-400 mr-2"></i>
               {% elsif post.tags contains 'Comicbook' %}
-                <span class="book text-yellow-400 mr-2">📖</span>
+                <i class="fas fa-book text-yellow-400 mr-2"></i>
               {% else %}
-                <span class="star text-yellow-400 mr-2">★</span>
+                <i class="fas fa-star text-yellow-400 mr-2"></i>
               {% endif %}
               <h3 class="news-title">
                 {{ post.title | upcase }}
@@ -44,7 +44,7 @@ social-desc: "All Star Wars blog posts and updates from StarWars.Guide"
           </p>
           <div class="mt-3 relative z-10">
             <span class="text-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
-              <span class="arrow mr-1">→</span>
+              <i class="fas fa-arrow-right mr-1"></i>
               READ MORE
             </span>
           </div>
@@ -54,7 +54,7 @@ social-desc: "All Star Wars blog posts and updates from StarWars.Guide"
     </div>
     <div class="mt-8 text-center">
       <a href="{{ '/' | relative_url }}" class="btn bg-transparent border-4 border-white text-white hover:bg-white hover:text-black font-black uppercase tracking-wider text-lg px-8 py-4">
-        <span class="home mr-2">🏠</span>
+        <i class="fas fa-home mr-2"></i>
         BACK TO HOME
       </a>
     </div>
