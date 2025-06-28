@@ -1477,4 +1477,21 @@ nav {
   .hamburger-visible {
     display: none !important;
   }
+}
+
+// Responsive card button styles
+.card > .flex.gap-2 {
+  flex-wrap: wrap;
+}
+.card > .flex.gap-2 > .btn,
+.card > .flex.gap-2 > .btn.flex-1 {
+  flex: 1 1 50%;
+  max-width: 50%;
+  min-width: 120px;
+  font-size: 0.95rem;
+  padding: 0.75rem 0.5rem;
+}
+
+.card .btn span {
+  margin-right: 0.25rem;
 } 
