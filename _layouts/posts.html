@@ -33,15 +33,15 @@
     </script>
     <!-- AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280" crossorigin="anonymous"></script>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/lozzi.css' | relative_url }}">
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <title>{{ page.title | default: site.title }}</title>
 </head>
 <body>
     {% include header.html %}
-    <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
+    <div class="min-h-screen bg-sw-black text-sw-white font-mono relative overflow-hidden">
         <main class="max-w-6xl mx-auto p-6 relative">
-            <h1 class="text-5xl font-black text-yellow-400 mb-8 border-l-8 border-yellow-400 pl-4 uppercase tracking-wider">
+            <h1 class="text-5xl font-black text-sw-yellow-400 mb-8 border-l-8 border-sw-yellow-400 pl-4 uppercase tracking-wider">
                 {{ page.title }}
             </h1>
             {{ content }}

@@ -4,7 +4,7 @@ date: 2023-06-28 12:00:00
 last_modified_at: 2026-06-28 12:00:00
 ---
 
-<div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
+<div class="min-h-screen bg-sw-black text-sw-white font-mono relative overflow-hidden">
 
   <!-- Main Content -->
   <main class="max-w-6xl mx-auto p-6 relative home-main-flex">
@@ -12,11 +12,11 @@ last_modified_at: 2026-06-28 12:00:00
     <section class="mb-16">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- Timeline Card -->
-        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
+        <div class="card border-sw-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/timeline.png" alt="Timeline Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
+            <img src="/assets/cards/timeline.png" alt="Timeline Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-sw-black border-2 border-sw-yellow-400">
           </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+          <p class="text-sw-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Explore the complete Star Wars chronology
           </p>
           <div class="flex gap-2 mt-4 w-full">
@@ -24,7 +24,7 @@ last_modified_at: 2026-06-28 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'star-wars-timeline' | relative_url }}" class="btn flex-1 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ 'star-wars-timeline' | relative_url }}" class="btn flex-1 border-sw-yellow-400 text-sw-yellow-400 hover:bg-sw-yellow-400 hover:text-sw-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
@@ -32,11 +32,11 @@ last_modified_at: 2026-06-28 12:00:00
         </div>
 
         <!-- HyperPanels Card -->
-        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://comics.starwars.guide', '_blank')">
+        <div class="card border-sw-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://comics.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
+            <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-sw-black border-2 border-sw-blue-400">
           </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+          <p class="text-sw-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Respond using the Force! with a witty Star Wars comic.
           </p>
           <div class="flex gap-2 mt-4 w-full">
@@ -44,7 +44,7 @@ last_modified_at: 2026-06-28 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'hyper-panels' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ 'hyper-panels' | relative_url }}" class="btn flex-1 border-sw-blue-400 text-sw-blue-400 hover:bg-sw-blue-400 hover:text-sw-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
@@ -52,11 +52,11 @@ last_modified_at: 2026-06-28 12:00:00
         </div>
 
         <!-- SWordle Card -->
-        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
+        <div class="card border-sw-red-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/swordle.png" alt="SWordle Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
+            <img src="/assets/cards/swordle.png" alt="SWordle Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-sw-black border-2 border-sw-red-400">
           </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+          <p class="text-sw-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Wordle for the real Star Wars fan
           </p>
           <div class="flex gap-2 mt-4 w-full">
@@ -64,7 +64,7 @@ last_modified_at: 2026-06-28 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="btn flex-1 border-sw-red-400 text-sw-red-400 hover:bg-sw-red-400 hover:text-sw-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
@@ -75,43 +75,43 @@ last_modified_at: 2026-06-28 12:00:00
 
     <!-- Raffle Promo Section -->
     <section class="mb-16 raffle-promo-mobile">
-      <div class="card border-yellow-400 bg-gradient-to-r from-yellow-900 to-red-900 relative overflow-hidden">
+      <div class="card border-sw-yellow-400 bg-gradient-to-r from-yellow-900 to-red-900 relative overflow-hidden">
         <!-- Animated Background -->
         <div class="absolute inset-0 opacity-10">
-          <div class="absolute top-4 left-4 text-yellow-400 animate-pulse">
+          <div class="absolute top-4 left-4 text-sw-yellow-400 animate-pulse">
             <i class="fas fa-star text-4xl"></i>
           </div>
-          <div class="absolute top-12 right-8 text-red-400 animate-pulse" style="animation-delay: 0.5s;">
+          <div class="absolute top-12 right-8 text-sw-red-400 animate-pulse" style="animation-delay: 0.5s;">
             <i class="fas fa-gift text-3xl"></i>
           </div>
-          <div class="absolute bottom-8 left-12 text-blue-400 animate-pulse" style="animation-delay: 1s;">
+          <div class="absolute bottom-8 left-12 text-sw-blue-400 animate-pulse" style="animation-delay: 1s;">
             <i class="fas fa-heart text-2xl"></i>
           </div>
         </div>
         
         <div class="relative z-10 text-center py-12">
           <div class="mb-6">
-            <h2 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-wider">
-              <span class="text-white">Win the</span><br>
-              <span class="text-white">Star Wars</span><br>
-              <span class="text-red-400">The Force Box Set</span>
+            <h2 class="text-4xl md:text-6xl font-black text-sw-white mb-4 uppercase tracking-wider">
+              <span class="text-sw-white">Win the</span><br>
+              <span class="text-sw-white">Star Wars</span><br>
+              <span class="text-sw-red-400">The Force Box Set</span>
             </h2>
-            <p class="text-xl text-white mb-6 max-w-3xl mx-auto">
+            <p class="text-xl text-sw-white mb-6 max-w-3xl mx-auto">
               Enter our exclusive raffle for the Theory 11 Star Wars The Force Box Set! 
-              <span class="text-white font-bold">All proceeds benefit Cancer Research at Dana-Farber.</span>
+              <span class="text-sw-white font-bold">All proceeds benefit Cancer Research at Dana-Farber.</span>
             </p>
           </div>
           
           <div class="flex flex-col items-center justify-center gap-4 mb-8">
-            <div class="bg-red-400 text-white px-6 py-3 rounded font-bold text-lg">
+            <div class="bg-sw-red-400 text-sw-white px-6 py-3 rounded font-bold text-lg">
               Drawing July 13th, 6:00 PM EST
             </div>
-            <div class="bg-blue-400 text-white px-6 py-3 rounded font-bold text-lg">
+            <div class="bg-sw-blue-400 text-sw-white px-6 py-3 rounded font-bold text-lg">
               $10/Entry
             </div>
           </div>
           
-          <a href="{{ '/fundraiser/2025/07/07/star-wars-raffle.html' | relative_url }}" class="btn bg-yellow-400 text-black font-black uppercase tracking-wider text-xl px-8 py-4 border-4 border-black">
+          <a href="{{ '/fundraiser/2025/07/07/star-wars-raffle.html' | relative_url }}" class="btn bg-sw-yellow-400 text-sw-black font-black uppercase tracking-wider text-xl px-8 py-4 border-4 border-sw-black">
             <i class="fas fa-ticket-alt mr-2"></i>
             Enter
           </a>
@@ -121,19 +121,19 @@ last_modified_at: 2026-06-28 12:00:00
 
     <!-- Follow Us Section -->
     <section class="mb-16">
-      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-green-400 pl-4 uppercase flex items-center">
-        <i class="fas fa-users mr-4 text-blue-400"></i>
+      <h2 class="text-4xl font-black text-sw-white mb-8 border-l-8 border-sw-green-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-users mr-4 text-sw-blue-400"></i>
         follow us
         <div class="ml-4 flex space-x-1">
-          <div class="w-2 h-2 bg-red-400 animate-pulse"></div>
-          <div class="w-2 h-2 bg-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
-          <div class="w-2 h-2 bg-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
+          <div class="w-2 h-2 bg-sw-red-400 animate-pulse"></div>
+          <div class="w-2 h-2 bg-sw-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
+          <div class="w-2 h-2 bg-sw-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
         </div>
       </h2>
       
       <div class="flex flex-wrap justify-center gap-6">
         <!-- Threads -->
-        <a href="https://threads.net/@aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-green-400 hover:text-white transition-all duration-300">
+        <a href="https://threads.net/@aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-sw-green-400 hover:text-sw-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-threads text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">Threads</span>
@@ -141,7 +141,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- BlueSky -->
-        <a href="https://bsky.app/profile/aurebeshfiles.bsky.social" target="_blank" rel="noopener noreferrer" class="social-link text-blue-400 hover:text-white transition-all duration-300">
+        <a href="https://bsky.app/profile/aurebeshfiles.bsky.social" target="_blank" rel="noopener noreferrer" class="social-link text-sw-blue-400 hover:text-sw-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fas fa-cloud text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">BlueSky</span>
@@ -149,7 +149,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- Instagram -->
-        <a href="https://instagram.com/aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-pink-400 hover:text-white transition-all duration-300">
+        <a href="https://instagram.com/aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-sw-pink-400 hover:text-sw-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-instagram text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">Instagram</span>
@@ -157,7 +157,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- YouTube -->
-        <a href="https://youtube.com/@aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-red-400 hover:text-white transition-all duration-300">
+        <a href="https://youtube.com/@aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-sw-red-400 hover:text-sw-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-youtube text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">YouTube</span>
@@ -165,7 +165,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- Reddit -->
-        <a href="https://www.reddit.com/user/aurebeshFiles/" target="_blank" rel="noopener noreferrer" class="social-link text-orange-400 hover:text-white transition-all duration-300">
+        <a href="https://www.reddit.com/user/aurebeshFiles/" target="_blank" rel="noopener noreferrer" class="social-link text-sw-orange-400 hover:text-sw-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-reddit text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">Reddit</span>
@@ -176,20 +176,20 @@ last_modified_at: 2026-06-28 12:00:00
 
     <!-- Decorative Break -->
     <div class="separator">
-      <div class="separator-line bg-red-400"></div>
+      <div class="separator-line bg-sw-red-400"></div>
       <i class="fas fa-star separator-icon"></i>
-      <div class="separator-line bg-blue-400"></div>
+      <div class="separator-line bg-sw-blue-400"></div>
     </div>
 
     <!-- News Section -->
     <section class="mb-16">
-      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-red-400 pl-4 uppercase flex items-center">
-        <i class="fas fa-bolt mr-4 text-red-400"></i>
+      <h2 class="text-4xl font-black text-sw-white mb-8 border-l-8 border-sw-red-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-bolt mr-4 text-sw-red-400"></i>
         recent posts
         <div class="ml-4 flex space-x-1">
-          <div class="w-2 h-2 bg-red-400 animate-pulse"></div>
-          <div class="w-2 h-2 bg-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
-          <div class="w-2 h-2 bg-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
+          <div class="w-2 h-2 bg-sw-red-400 animate-pulse"></div>
+          <div class="w-2 h-2 bg-sw-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
+          <div class="w-2 h-2 bg-sw-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
         </div>
       </h2>
       
@@ -210,13 +210,13 @@ last_modified_at: 2026-06-28 12:00:00
           <div class="mb-2 relative z-10">
             <div class="flex items-center">
               <div class="news-icon">
-                {% if post.tags contains 'YouTube' %}
-                  <i class="fas fa-tv text-yellow-400"></i>
-                {% elsif post.tags contains 'Comicbook' %}
-                  <i class="fas fa-book text-yellow-400"></i>
-                {% else %}
-                  <i class="fas fa-star text-yellow-400"></i>
-                {% endif %}
+                              {% if post.tags contains 'YouTube' %}
+                <i class="fas fa-tv text-sw-yellow-400"></i>
+              {% elsif post.tags contains 'Comicbook' %}
+                <i class="fas fa-book text-sw-yellow-400"></i>
+              {% else %}
+                <i class="fas fa-star text-sw-yellow-400"></i>
+              {% endif %}
               </div>
               <h3 class="news-title">
                 {{ post.title | upcase }}
@@ -231,7 +231,7 @@ last_modified_at: 2026-06-28 12:00:00
             {% endif %}
           </p>
           <div class="mt-3 relative z-10">
-            <span class="text-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
+            <span class="text-sw-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
               <i class="fas fa-arrow-right mr-1"></i>
               READ MORE
             </span>
@@ -240,7 +240,7 @@ last_modified_at: 2026-06-28 12:00:00
         {% endfor %}
       </div>
       
-      <a href="{{ '/posts' | relative_url }}" class="btn mt-6 bg-transparent border-4 border-white text-white hover:bg-white hover:text-black font-black uppercase tracking-wider text-lg px-8 py-4">
+      <a href="{{ '/posts' | relative_url }}" class="btn mt-6 bg-transparent border-4 border-sw-white text-sw-white hover:bg-sw-white hover:text-sw-black font-black uppercase tracking-wider text-lg px-8 py-4">
         <i class="fas fa-external-link-alt mr-2"></i>
         VIEW ALL POSTS
       </a>
@@ -249,18 +249,18 @@ last_modified_at: 2026-06-28 12:00:00
     <!-- Quote Section -->
     <section class="quote-section relative overflow-hidden min-h-[300px]" style="background-image: url('{{ '/assets/kenobi.png' | relative_url }}'); background-position: left center; background-repeat: no-repeat; background-size: contain;">  
       <div class="quote-icons relative z-10">
-        <i class="fas fa-khanda text-blue-400 mr-4"></i>
-        <i class="fas fa-star text-yellow-400"></i>
-        <i class="fas fa-khanda text-blue-400 ml-4"></i>
+        <i class="fas fa-khanda text-sw-blue-400 mr-4"></i>
+        <i class="fas fa-star text-sw-yellow-400"></i>
+        <i class="fas fa-khanda text-sw-blue-400 ml-4"></i>
       </div>
       
       <blockquote class="quote-text relative z-10">
         "THE FORCE WILL BE WITH YOU, ALWAYS"
       </blockquote>
       <cite class="quote-author relative z-10">
-        <div class="h-1 w-8 bg-blue-400 mr-3"></div>
+        <div class="h-1 w-8 bg-sw-blue-400 mr-3"></div>
         OBI-WAN KENOBI
-        <div class="h-1 w-8 bg-blue-400 ml-3"></div>
+        <div class="h-1 w-8 bg-sw-blue-400 ml-3"></div>
       </cite>
     </section>
   </main>

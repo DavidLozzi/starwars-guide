@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;900&display=swap');
+
+@layer base {
+  body {
+    @apply font-mono bg-sw-black text-sw-white;
+  }
+  
+  a {
+    @apply text-sw-yellow-400 no-underline;
+  }
+  
+  a:hover {
+    @apply text-sw-white underline;
+  }
+  
+  a:visited {
+    @apply text-sw-yellow-400;
+  }
+  
+  a:active {
+    @apply text-sw-red-400;
+  }
+}
+
+@layer components {
+  /* Card component */
+  .card {
+    @apply bg-sw-black border-4 border-sw-white p-6 transition-all duration-200 relative overflow-hidden block w-full;
+  }
+  
+  .card:hover {
+    @apply scale-105;
+  }
+  
+  .card.border-sw-yellow-400 {
+    border-color: #facc15;
+  }
+  
+  .card.border-sw-yellow-400:hover {
+    background-color: rgba(250, 204, 21, 0.1);
+  }
+  
+  .card.border-sw-blue-400 {
+    border-color: #60a5fa;
+  }
+  
+  .card.border-sw-blue-400:hover {
+    background-color: rgba(96, 165, 250, 0.1);
+  }
+  
+  .card.border-sw-red-400 {
+    border-color: #f87171;
+  }
+  
+  .card.border-sw-red-400:hover {
+    background-color: rgba(248, 113, 113, 0.1);
+  }
+  
+  /* Button component */
+  .btn {
+    @apply px-4 py-2 border-2 border-sw-white text-sw-white uppercase tracking-wide font-bold text-center cursor-pointer transition-all duration-200 flex items-center justify-center;
+  }
+  
+  .btn:hover {
+    @apply bg-sw-white text-sw-black;
+  }
+  
+  /* News item component */
+  .news-item {
+    @apply block bg-sw-black border-2 border-sw-white p-6 relative overflow-hidden cursor-pointer transition-all duration-200;
+  }
+  
+  .news-item:hover {
+    border-color: #facc15;
+    background-color: rgba(250, 204, 21, 0.05);
+  }
+  
+  .news-icon {
+    @apply text-2xl mr-4;
+  }
+  
+  .news-title {
+    @apply text-xl font-black text-sw-white tracking-wide;
+  }
+  
+  .news-summary {
+    @apply text-sw-white opacity-70 text-sm leading-relaxed;
+  }
+  
+  /* Social link component */
+  .social-link {
+    @apply transition-all duration-300 hover:scale-110;
+  }
+  
+  /* Separator component */
+  .separator {
+    @apply flex items-center justify-center my-16;
+  }
+  
+  .separator-line {
+    @apply h-1 flex-1;
+  }
+  
+  .separator-icon {
+    @apply text-4xl text-sw-yellow-400 mx-8;
+  }
+  
+  /* Quote section */
+  .quote-section {
+    @apply text-center py-16 px-8 relative;
+  }
+  
+  .quote-icons {
+    @apply text-4xl mb-8 flex items-center justify-center;
+  }
+  
+  .quote-text {
+    @apply text-4xl md:text-6xl font-black text-sw-white mb-8 uppercase tracking-wider leading-tight;
+  }
+  
+  .quote-author {
+    @apply text-xl font-bold text-sw-white uppercase tracking-widest flex items-center justify-center;
+  }
+  
+  /* Navigation styles */
+  .hamburger-hidden {
+    display: none;
+  }
+  
+  .hamburger-visible {
+    display: block;
+  }
+  
+  @media (min-width: 1000px) {
+    .hamburger-hidden {
+      display: block;
+    }
+    
+    .hamburger-visible {
+      display: none;
+    }
+  }
+  
+  /* Home page specific styles */
+  .home-main-flex {
+    @apply flex flex-col;
+  }
+  
+  .raffle-promo-mobile {
+    @apply block;
+  }
+}
+
+@layer utilities {
+  /* Custom utilities for Star Wars theme */
+  .text-glow {
+    text-shadow: 0 0 10px currentColor;
+  }
+  
+  .border-glow {
+    box-shadow: 0 0 10px currentColor;
+  }
+}

@@ -1,9 +1,9 @@
-<header class="border-b-4 border-white p-6 relative">
+<header class="border-b-4 border-sw-white p-6 relative">
   <div class="max-w-6xl mx-auto">
     <div class="flex items-center justify-between">
       <div class="flex items-center">
         <div class="ascii-art-container mr-8">
-          <pre class="ascii-art text-yellow-400 text-xs font-mono leading-tight m-0 p-0">
+          <pre class="ascii-art text-sw-yellow-400 text-xs font-mono leading-tight m-0 p-0">
 ███████╗████████╗ █████╗ ██████╗   ██╗    ██╗ █████╗ ██████╗ ███████╗
 ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗  ██║    ██║██╔══██╗██╔══██╗██╔════╝
 ███████╗   ██║   ███████║██████╔╝  ██║ █╗ ██║███████║██████╔╝███████╗
@@ -26,22 +26,22 @@
         {% for item in site.data.navigation %}
           {% if item.children %}
             <div class="relative group px-3" id="apps-group">
-              <button id="apps-btn" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
-              <div id="apps-dropdown" class="absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <button id="apps-btn" class="text-sw-white hover:text-sw-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
+              <div id="apps-dropdown" class="absolute top-full left-0 mt-2 bg-sw-black border-2 border-sw-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 {% for child in item.children %}
-                  <a href="{{ child.url | relative_url }}" class="block text-white hover:text-yellow-400 uppercase tracking-wide mb-2">{{ child.title }}</a>
+                  <a href="{{ child.url | relative_url }}" class="block text-sw-white hover:text-sw-yellow-400 uppercase tracking-wide mb-2">{{ child.title }}</a>
                 {% endfor %}
               </div>
             </div>
           {% else %}
-            <a href="{{ item.url | relative_url }}" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base px-3">{{ item.title | upcase }}</a>
+            <a href="{{ item.url | relative_url }}" class="text-sw-white hover:text-sw-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base px-3">{{ item.title | upcase }}</a>
           {% endif %}
         {% endfor %}
       </nav>
     </div>
   </div>
   <!-- Mobile nav menu -->
-  <nav id="mobile-nav" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 flex-col items-center justify-center space-y-8 text-2xl text-yellow-400 uppercase font-bold tracking-wide hidden z-40">
+  <nav id="mobile-nav" class="fixed top-0 left-0 w-full h-full bg-sw-black bg-opacity-95 flex-col items-center justify-center space-y-8 text-2xl text-sw-yellow-400 uppercase font-bold tracking-wide hidden z-40">
     {% for item in site.data.navigation %}
       {% if item.children %}
         {% for child in item.children %}

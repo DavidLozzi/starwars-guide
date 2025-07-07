@@ -14,4 +14,9 @@ As you, the coding agent, learn about the user's preferences, application contex
 - The site has specific responsive design needs where navigation breakpoints differ from general mobile responsiveness breakpoints
 - Always check for and include SEO tags (such as title, description, image, social-desc, social-image) in the front matter of all pages, especially character and content pages.
 - Always include date fields (date, last_modified_at) in the front matter to support sitemap.xml and improve SEO.
+- The site has been refactored from custom SCSS to Tailwind CSS for better maintainability and consistency
+- Use custom Star Wars theme colors (sw-black, sw-white, sw-red-400, sw-yellow-400, sw-blue-400, sw-green-400, sw-pink-400, sw-orange-400) for consistency across the site
+- CSS builds are handled through npm scripts (npm run build:css) and the output is built to assets/css/main.css
+- The custom hamburger menu breakpoint (1000px) is configured in Tailwind as the 'nav' breakpoint
+- Legacy SCSS files in _sass/ are preserved for reference but no longer used
 </learnings>

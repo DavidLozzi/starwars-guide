@@ -38,30 +38,30 @@
     <!-- AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280" crossorigin="anonymous"></script>
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/lozzi.css' | relative_url }}">
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     
     <title>{{ page.title | default: site.title }}</title>
 </head>
 <body>
-    <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
+    <div class="min-h-screen bg-sw-black text-sw-white font-mono relative overflow-hidden">
         {% include header.html %}
         
         <!-- Main Content -->
         <main class="max-w-6xl mx-auto p-6 relative">
             <!-- Page Title -->
             <div class="mb-8">
-                <h1 class="text-4xl font-black text-white mb-8 border-l-8 border-yellow-400 pl-4 uppercase flex items-center">
-                    <i class="fas fa-bolt mr-4 text-yellow-400"></i>
+                <h1 class="text-4xl font-black text-sw-white mb-8 border-l-8 border-sw-yellow-400 pl-4 uppercase flex items-center">
+                    <i class="fas fa-bolt mr-4 text-sw-yellow-400"></i>
                     {{ page.title}}
                     <div class="ml-4 flex space-x-1">
-                      <div class="w-2 h-2 bg-red-400 animate-pulse"></div>
-                      <div class="w-2 h-2 bg-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
-                      <div class="w-2 h-2 bg-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
+                      <div class="w-2 h-2 bg-sw-red-400 animate-pulse"></div>
+                      <div class="w-2 h-2 bg-sw-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
+                      <div class="w-2 h-2 bg-sw-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
                     </div>
                   </h1>
                 {% if page.social-desc %}
-                <p class="text-white opacity-80 text-lg uppercase tracking-wide">
+                <p class="text-sw-white opacity-80 text-lg uppercase tracking-wide">
                     {{ page.social-desc }}
                 </p>
                 {% endif %}
