@@ -30,7 +30,7 @@
 @layer components {
   /* Card component */
   .card {
-    @apply bg-sw-black border-4 border-sw-white p-6 transition-all duration-200 relative overflow-hidden block w-full;
+    @apply bg-sw-black border-4 border-sw-white p-6 transition-all duration-200 relative overflow-hidden block;
   }
   
   .card:hover {
