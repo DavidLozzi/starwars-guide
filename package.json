@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build:css && open http://localhost:4000 && bundle exec jekyll serve --watch",
-    "dev": "npm run build:css && bundle exec jekyll serve --watch",
-    "build": "npm run build:css && bundle exec jekyll build",
+    "start": "npm run build:css-once && open http://localhost:4000 && bundle exec jekyll serve --watch",
+    "dev": "npm run build:css-once && bundle exec jekyll serve --watch",
+    "build": "npm run build:css-prod && bundle exec jekyll build",
+    "build:css-once": "npx tailwindcss -i ./src/input.css -o ./assets/css/main.css",
     "build:css": "npx tailwindcss -i ./src/input.css -o ./assets/css/main.css --watch",
     "build:css-prod": "npx tailwindcss -i ./src/input.css -o ./assets/css/main.css --minify",
     "bundle_install": "bundle install && bundle lock --add-platform x86_64-linux",
