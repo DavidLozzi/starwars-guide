@@ -8,6 +8,10 @@ categories:
 tags:
   - Charity
   - Raffle
+social-image: /assets/cards/raffle.png
+social-desc: Enter to win the exclusive Theory 11 Star Wars The Force Box Set!
+  All proceeds benefit Cancer Research at Dana-Farber through the Pan-Mass Challenge.
+social-title: Star Wars The Force Box Set Raffle
 ---
 
 <style>
