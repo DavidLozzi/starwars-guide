@@ -161,3 +161,14 @@ $grid-gutter-width: 20px;
   color: #facc15 !important;
   background: #222;
 }
+
+/* Raffle Promo Mobile Reorder */
+@media (max-width: 768px) {
+  .home-main-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .raffle-promo-mobile {
+    order: -1;
+  }
+}

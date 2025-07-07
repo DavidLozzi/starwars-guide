@@ -7,7 +7,7 @@ last_modified_at: 2026-06-28 12:00:00
 <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
 
   <!-- Main Content -->
-  <main class="max-w-6xl mx-auto p-6 relative">
+  <main class="max-w-6xl mx-auto p-6 relative home-main-flex">
     <!-- Apps Section -->
     <section class="mb-16">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -69,6 +69,52 @@ last_modified_at: 2026-06-28 12:00:00
               READ
             </a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Raffle Promo Section -->
+    <section class="mb-16 raffle-promo-mobile">
+      <div class="card border-yellow-400 bg-gradient-to-r from-yellow-900 to-red-900 relative overflow-hidden">
+        <!-- Animated Background -->
+        <div class="absolute inset-0 opacity-10">
+          <div class="absolute top-4 left-4 text-yellow-400 animate-pulse">
+            <i class="fas fa-star text-4xl"></i>
+          </div>
+          <div class="absolute top-12 right-8 text-red-400 animate-pulse" style="animation-delay: 0.5s;">
+            <i class="fas fa-gift text-3xl"></i>
+          </div>
+          <div class="absolute bottom-8 left-12 text-blue-400 animate-pulse" style="animation-delay: 1s;">
+            <i class="fas fa-heart text-2xl"></i>
+          </div>
+        </div>
+        
+        <div class="relative z-10 text-center py-12">
+          <div class="mb-6">
+            <h2 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-wider">
+              <span class="text-white">Win the</span><br>
+              <span class="text-white">Star Wars</span><br>
+              <span class="text-red-400">The Force Box Set</span>
+            </h2>
+            <p class="text-xl text-white mb-6 max-w-3xl mx-auto">
+              Enter our exclusive raffle for the Theory 11 Star Wars The Force Box Set! 
+              <span class="text-white font-bold">All proceeds benefit Cancer Research at Dana-Farber.</span>
+            </p>
+          </div>
+          
+          <div class="flex flex-col items-center justify-center gap-4 mb-8">
+            <div class="bg-red-400 text-white px-6 py-3 rounded font-bold text-lg">
+              Drawing July 13th, 6:00 PM EST
+            </div>
+            <div class="bg-blue-400 text-white px-6 py-3 rounded font-bold text-lg">
+              $10/Entry
+            </div>
+          </div>
+          
+          <a href="{{ 'star-wars-raffle' | relative_url }}" class="btn bg-yellow-400 text-black font-black uppercase tracking-wider text-xl px-8 py-4 border-4 border-black">
+            <i class="fas fa-ticket-alt mr-2"></i>
+            Enter
+          </a>
         </div>
       </div>
     </section>

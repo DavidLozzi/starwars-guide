@@ -565,8 +565,9 @@ a:active {
 }
 
 .btn.border-yellow-400:hover {
-  background-color: var(--yellow-400);
-  color: var(--black) !important;
+  background-color: var(--blue-400) !important;
+  color: var(--white) !important;
+  border-color: var(--black) !important;
 }
 
 .btn.border-blue-400 {
@@ -1625,8 +1626,9 @@ nav {
 }
 
 .btn.border-yellow-400:hover {
-  background-color: var(--yellow-400);
-  color: var(--black) !important;
+  background-color: var(--blue-400) !important;
+  color: var(--white) !important;
+  border-color: var(--black) !important;
 }
 
 .btn.border-blue-400 {
@@ -1655,6 +1657,12 @@ nav {
 .btn.py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.btn.bg-yellow-400:hover {
+  background-color: var(--blue-400) !important;
+  color: var(--white) !important;
+  border-color: var(--black) !important;
 }
 
 .md\:grid-cols-3 {
@@ -1686,4 +1694,13 @@ nav {
 
 .social-link .text-sm {
   font-size: 0.75rem;
+}
+
+p a, .prose a {
+  text-decoration: underline !important;
+}
+
+.raffle-pill {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 } 
