@@ -111,7 +111,7 @@ last_modified_at: 2026-06-28 12:00:00
             </div>
           </div>
           
-          <a href="{{ 'star-wars-raffle' | relative_url }}" class="btn bg-yellow-400 text-black font-black uppercase tracking-wider text-xl px-8 py-4 border-4 border-black">
+          <a href="{{ '/fundraiser/2025/07/07/star-wars-raffle.html' | relative_url }}" class="btn bg-yellow-400 text-black font-black uppercase tracking-wider text-xl px-8 py-4 border-4 border-black">
             <i class="fas fa-ticket-alt mr-2"></i>
             Enter
           </a>

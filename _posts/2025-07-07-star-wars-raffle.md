@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: posts
 title: "Star Wars The Force Box Set Raffle"
-date: 2024-12-19 12:00:00
-last_modified_at: 2024-12-19 12:00:00
+date: 2025-07-07 08:00:00
+last_modified_at: 2025-07-07 08:00:00
+categories:
+  - Fundraiser
+tags:
+  - Charity
+  - Raffle
 ---
 
 <style>
@@ -25,7 +30,7 @@ last_modified_at: 2024-12-19 12:00:00
       <!-- Prize Image Placeholder -->
       <div class="bg-gray-800 rounded-lg p-8 mb-8 max-w-2xl mx-auto">
         <div class="text-gray-400 text-lg mb-4">
-          <p><img src="/assets/theory11_force_set.png" alt="Theory11 Star Wars Force Box Set Raffle" /></p>
+          <p><img src="/assets/theory11_force_set.png" alt="Theory11 Star Wars Force Box Set Raffle" class="w-full h-auto max-w-full" /></p>
           <p>This raffle and fundraiser is not associated with Theory11.</p>
         </div>
       </div>
@@ -50,8 +55,8 @@ last_modified_at: 2024-12-19 12:00:00
               <li><i class="fas fa-check text-green-400 mr-2"></i>This is the perfect gift and conversation starter for ANY Star Wars fan in your life.
 
 </li>
-              <li><i class="fas fa-check text-green-400 mr-2"></i><a href="https://store.theory11.com/products/star-wars-box-set" target="_blank">Learn more on Theory11's site</a></li>
             </ul>
+              <a href="https://store.theory11.com/products/star-wars-box-set" target="_blank" class="card-link">Learn more on Theory11's site</a>
           </div>
         </div>
 
@@ -71,7 +76,7 @@ last_modified_at: 2024-12-19 12:00:00
             </ul>
           </div>
           <div class="space-y-4 text-lg">
-            <a href="#enter">Enter Now</a>
+            <a href="#enter" class="card-link">Enter Now</a>
           </div>
         </div>
       </div>
@@ -97,12 +102,12 @@ last_modified_at: 2024-12-19 12:00:00
           </p>
         </div>
         <div class="card border-yellow-400">
-          <h3 class="text-2xl font-black text-green-400 mb-4 uppercase">
+          <h3 class="text-2xl font-black text-yellow-400 mb-4 uppercase">
             <i class="fas fa-bicycle mr-2"></i>
             Pan-Mass Challenge
           </h3>
           <p class="text-gray-300">
-            The donation will be made through the <a href="https://profile.pmc.org/DL0297" target="_blank">Pan-Mass Challenge</a>, an annual bike-a-thon that raises 
+            The donation will be made through the <a href="https://profile.pmc.org/DL0297" target="_blank" class="card-link">Pan-Mass Challenge</a>, an annual bike-a-thon that raises 
             millions for cancer research and treatment at Dana-Farber. Every dollar collected will be used for cancer research!
           </p>
         </div>
@@ -123,8 +128,8 @@ last_modified_at: 2024-12-19 12:00:00
   <!-- Entry Form -->
   <section class="py-16">
     <div class="max-w-4xl mx-auto px-6">
-      <div class="card border-green-400 text-center">
-        <h2 class="text-4xl font-black text-green-400 mb-8 uppercase tracking-wider">
+      <div class="card border-blue-400 text-center">
+        <h2 class="text-4xl font-black text-blue-400 mb-8 uppercase tracking-wider">
           <i class="fas fa-ticket-alt mr-4"></i><a name="enter"></a>
           Enter the Raffle
         </h2>

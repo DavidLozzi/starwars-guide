@@ -514,6 +514,16 @@ a:active {
   color: inherit !important;
 }
 
+.card-link, a.card-link, .card a.card-link {
+  text-decoration: underline !important;
+  color: var(--blue-400) !important;
+}
+
+.card-link:hover, a.card-link:hover, .card a.card-link:hover {
+  text-decoration: underline !important;
+  color: var(--blue-300) !important;
+}
+
 // Button component
 .btn {
   display: inline-flex !important;
@@ -1696,8 +1706,14 @@ nav {
   font-size: 0.75rem;
 }
 
-p a, .prose a {
+p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
   text-decoration: underline !important;
+  color: var(--blue-400) !important;
+}
+
+.prose a:hover, .prose .card a:hover, .card-link:hover {
+  text-decoration: underline !important;
+  color: var(--blue-300) !important;
 }
 
 .raffle-pill {
