@@ -103,7 +103,7 @@ social-title: Star Wars The Force Box Set Raffle
             Pan-Mass Challenge
           </h3>
           <p class="text-gray-300">
-            The donation will be made through the <a href="https://profile.pmc.org/DL0297" target="_blank" class="card-link">Pan-Mass Challenge</a>, an annual bike-a-thon that raises 
+            The final donation will be made through the <a href="https://pmc.org" target="_blank" class="card-link">Pan-Mass Challenge</a>, an annual bike-a-thon that raises 
             millions for cancer research and treatment at Dana-Farber. Every dollar collected will be used for cancer research!
           </p>
         </div>
