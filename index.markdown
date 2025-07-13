@@ -104,7 +104,7 @@ last_modified_at: 2026-06-28 12:00:00
           
           <div class="flex flex-col items-center justify-center gap-4 mb-8">
             <div class="bg-red-400 text-white px-6 py-3 rounded font-bold text-lg">
-              Drawing July 13th, 6:00 PM EST
+              Drawing July 20th, 6:00 PM EST
             </div>
             <div class="bg-blue-400 text-white px-6 py-3 rounded font-bold text-lg">
               $10/Entry

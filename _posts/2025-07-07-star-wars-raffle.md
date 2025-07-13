@@ -28,7 +28,10 @@ social-title: Star Wars The Force Box Set Raffle
       <!-- Prize Image Placeholder -->
       <div class="bg-gray-800 rounded-lg p-8 mb-8 max-w-2xl mx-auto">
         <div class="text-gray-400 text-lg mb-4">
-          <p><img src="/assets/theory11_force_set.png" alt="Theory11 Star Wars Force Box Set Raffle" class="w-full h-auto max-w-full" /></p>
+          <video class="w-full h-auto max-w-full rounded shadow-lg" controls autoplay muted loop playsinline>
+            <source src="/assets/raffle.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
           <p>This raffle and fundraiser is not associated with Theory11.</p>
         </div>
       </div>
@@ -67,7 +70,7 @@ social-title: Star Wars The Force Box Set Raffle
             <ul class="space-y-2 text-gray-300 list-none">
               <li><i class="fas fa-dollar-sign text-green-400 mr-2"></i>$10 per entry</li>
               <li><i class="fas fa-users text-green-400 mr-2"></i>Multiple entries allowed</li>
-              <li><i class="fas fa-calendar text-green-400 mr-2"></i>Drawing date July 13th, 6:00 PM EST</li>
+              <li><i class="fas fa-calendar text-green-400 mr-2"></i>Drawing date July 20th, 6:00 PM EST</li>
               <li><i class="fas fa-shipping-fast text-green-400 mr-2"></i>Free shipping to winner</li>
             </ul>
           </div>
@@ -135,13 +138,12 @@ social-title: Star Wars The Force Box Set Raffle
         
         <div class="bg-gray-800 p-8 rounded-lg mb-8">
           <h3 class="text-2xl font-black text-yellow-400 mb-4">
-            Raffle closes July 13th, 6:00 PM EST
+            Raffle closes July 20th, 6:00 PM EST
           </h3>
           <p class="text-lg text-gray-300 mb-4">
-            Enter the raffle by July 13th, 6:00 PM EST for your chance to win!
+            Enter the raffle by July 20th, 6:00 PM EST for your chance to win!
           </p>
         <p class="text-lg text-gray-300 mt-4">Every dollar collected will be used for cancer research!</p>
-        <p>Donate:</p>
           <div class="flex flex-wrap justify-center gap-4 mt-6">
             <div class="bg-blue-400 text-black px-6 py-3 rounded font-bold raffle-pill">
               <a href="https://www.paypal.com/ncp/payment/5W7XP55EHGEEQ" target="_blank">Enter Raffle</a>
