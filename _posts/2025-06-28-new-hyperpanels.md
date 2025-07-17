@@ -11,10 +11,10 @@ tags:
   - Meme
 ---
 
-Your go-to for instant Star Wars reactions
+Your go-to for instant Star Wars reactions!
 
-Like Giphy, but for Star Wars, HyperPanels lets you find the right response, using Star Wars comics!
+Like Giphy, but for Star Wars, HyperPanels lets you find the right response, using Star Wars comic panels!
 
-<a href="https://comics.starwars.guide" target="_blank">Search for your response now!</a>
+<a href="https://hyperpanels.starwars.guide" target="_blank">Search for your response now!</a>
 
 <a href="{{ 'hyper-panels' | relative_url }}">Learn more here</a>

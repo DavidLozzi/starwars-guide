@@ -13,9 +13,9 @@ Respond to that last Text, Tweet, Thread, Slack, Email or any other conversation
 
 Search a giant database of Star Wars comic panels, all with a high M-count, to empower your conversation with the Force!
 
-Go to <a href="https://comics.starwars.guide" target="_blank">HyperPanels</a> and find your response!
+Go to <a href="https://hyperpanels.starwars.guide" target="_blank">HyperPanels</a> and find your response!
 
-<a href="https://comics.starwars.guide" target="_blank"><img src="{{ 'assets/hyperpanel.png' | relative_url }}" alt="Search the force for your next response." /></a>
+<a href="https://hyperpanels.starwars.guide" target="_blank"><img src="{{ 'assets/hyperpanel.png' | relative_url }}" alt="Search the force for your next response." /></a>
 
 ## How to use HyperPanels
 

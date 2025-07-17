@@ -32,7 +32,7 @@ last_modified_at: 2026-06-28 12:00:00
         </div>
 
         <!-- HyperPanels Card -->
-        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://comics.starwars.guide', '_blank')">
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://hyperpanels.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
           </div>
