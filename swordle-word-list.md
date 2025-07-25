@@ -14,11 +14,13 @@ Below are all the words you could guess. The winning words include over 400 of t
 
 <h2>14071 Possible Star Wars Words</h2>
 
-<div class="alphabet-nav">
-    <div style="margin-bottom: 10px;">
+<div style="display:inline;">
+    <div style="margin-bottom: 10px; display:flex; flex-wrap: wrap">
         <a href="#1" style="margin: 0 5px;">1</a><a href="#2" style="margin: 0 5px;">2</a><a href="#3" style="margin: 0 5px;">3</a><a href="#4" style="margin: 0 5px;">4</a><a href="#5" style="margin: 0 5px;">5</a><a href="#6" style="margin: 0 5px;">6</a><a href="#7" style="margin: 0 5px;">7</a><a href="#8" style="margin: 0 5px;">8</a><a href="#9" style="margin: 0 5px;">9</a>
     </div>
+    <div style="margin-bottom: 10px; display:flex; flex-wrap: wrap">
     <a href="#A" style="margin: 0 5px;">A</a><a href="#B" style="margin: 0 5px;">B</a><a href="#C" style="margin: 0 5px;">C</a><a href="#D" style="margin: 0 5px;">D</a><a href="#E" style="margin: 0 5px;">E</a><a href="#F" style="margin: 0 5px;">F</a><a href="#G" style="margin: 0 5px;">G</a><a href="#H" style="margin: 0 5px;">H</a><a href="#I" style="margin: 0 5px;">I</a><a href="#J" style="margin: 0 5px;">J</a><a href="#K" style="margin: 0 5px;">K</a><a href="#L" style="margin: 0 5px;">L</a><a href="#M" style="margin: 0 5px;">M</a><a href="#N" style="margin: 0 5px;">N</a><a href="#O" style="margin: 0 5px;">O</a><a href="#P" style="margin: 0 5px;">P</a><a href="#Q" style="margin: 0 5px;">Q</a><a href="#R" style="margin: 0 5px;">R</a><a href="#S" style="margin: 0 5px;">S</a><a href="#T" style="margin: 0 5px;">T</a><a href="#U" style="margin: 0 5px;">U</a><a href="#V" style="margin: 0 5px;">V</a><a href="#W" style="margin: 0 5px;">W</a><a href="#X" style="margin: 0 5px;">X</a><a href="#Y" style="margin: 0 5px;">Y</a><a href="#Z" style="margin: 0 5px;">Z</a>
+    </div>
 </div>
 
 
