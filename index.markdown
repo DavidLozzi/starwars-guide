@@ -87,7 +87,7 @@ last_modified_at: 2026-06-28 12:00:00
       
       <div class="flex flex-wrap justify-center gap-6">
         <!-- Threads -->
-        <a href="https://threads.net/@aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-green-400 hover:text-white transition-all duration-300">
+        <a href="https://threads.net/@starwars_77_af" target="_blank" rel="noopener noreferrer" class="social-link text-green-400 hover:text-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-threads text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">Threads</span>
@@ -95,7 +95,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- BlueSky -->
-        <a href="https://bsky.app/profile/aurebeshfiles.bsky.social" target="_blank" rel="noopener noreferrer" class="social-link text-blue-400 hover:text-white transition-all duration-300">
+        <a href="https://bsky.app/profile/starwars77af.bsky.social" target="_blank" rel="noopener noreferrer" class="social-link text-blue-400 hover:text-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fas fa-cloud text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">BlueSky</span>
@@ -103,7 +103,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- Instagram -->
-        <a href="https://instagram.com/aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-pink-400 hover:text-white transition-all duration-300">
+        <a href="https://instagram.com/starwars_77_af" target="_blank" rel="noopener noreferrer" class="social-link text-pink-400 hover:text-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-instagram text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">Instagram</span>
@@ -111,7 +111,7 @@ last_modified_at: 2026-06-28 12:00:00
         </a>
 
         <!-- YouTube -->
-        <a href="https://youtube.com/@aurebeshfiles" target="_blank" rel="noopener noreferrer" class="social-link text-red-400 hover:text-white transition-all duration-300">
+        <a href="https://youtube.com/@starwars_77_af" target="_blank" rel="noopener noreferrer" class="social-link text-red-400 hover:text-white transition-all duration-300">
           <div class="flex flex-col items-center justify-center p-4">
             <i class="fab fa-youtube text-3xl mb-2"></i>
             <span class="text-sm font-bold uppercase tracking-wide">YouTube</span>
