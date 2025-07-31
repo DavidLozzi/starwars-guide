@@ -2,7 +2,7 @@
 title: Star Wars Characters on the Timeline
 layout: page
 date: 2022-05-08
-last_modified_at: 2025-06-28T19:38:37.401Z
+last_modified_at: 2025-07-31T17:13:57.172Z
 ---
 
 Explore all of the characters from the <a href="https://timeline.starwars.guide" target="_blank">Ultimate Star Wars Timeline</a>.
