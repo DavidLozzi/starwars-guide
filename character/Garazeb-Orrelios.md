@@ -2,7 +2,7 @@
 title: Garazeb Orrelios's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:13:57.099Z
+last_modified_at: 2025-07-31T17:18:57.415Z
 social-desc: Garazeb Orrelios (Zeb)  | Star Wars
 social-image: /assets/characters/orrelios.png
 ---
@@ -53,7 +53,7 @@ social-image: /assets/characters/orrelios.png
         crossorigin="anonymous"></script>
     <!-- starwars character -->
     <ins class="adsbygoogle"
-        style="display:block"
+        style="display:block; min-height: 280px; width: 100%;"
         data-ad-client="ca-pub-6056590143595280"
         data-ad-slot="1622037034"
         data-ad-format="auto"

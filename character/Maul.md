@@ -2,7 +2,7 @@
 title: Maul's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:13:57.135Z
+last_modified_at: 2025-07-31T17:18:57.447Z
 social-desc: Maul (Darth)  | Star Wars
 social-image: /assets/characters/maul.png
 ---
@@ -55,7 +55,7 @@ social-image: /assets/characters/maul.png
         crossorigin="anonymous"></script>
     <!-- starwars character -->
     <ins class="adsbygoogle"
-        style="display:block"
+        style="display:block; min-height: 280px; width: 100%;"
         data-ad-client="ca-pub-6056590143595280"
         data-ad-slot="1622037034"
         data-ad-format="auto"
