@@ -54,6 +54,9 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/starwars-guide"
           ln -sfn "$GITHUB_WORKSPACE/swordle-word-list.md" "$GITHUB_WORKSPACE/starwars-guide/swordle-word-list.md"
 
+      - name: Update main
+        run: git pull --rebase origin main
+
       - name: Generate word list (hashData.js)
         working-directory: swordle-data
         run: node hashData.js
@@ -63,7 +66,6 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add swordle-word-list.md
           if git diff --cached --quiet; then
             echo "No swordle-word-list.md changes"
