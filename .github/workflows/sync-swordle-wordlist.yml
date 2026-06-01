@@ -1,5 +1,8 @@
 # Regenerate swordle-word-list.md when swordle-data sync runs.
 # Triggered by repository_dispatch from swordle-data; pushes with this repo's GITHUB_TOKEN.
+#
+# Requires repo secret SYNC_REPOS_TOKEN: PAT with contents:read on DavidLozzi/swordle-data
+# and DavidLozzi/swordle (both private repos).
 
 name: Sync Swordle word list
 
@@ -25,7 +28,9 @@ jobs:
           repository: DavidLozzi/swordle-data
           ref: ${{ github.event.client_payload.swordle_data_sha || 'main' }}
           path: swordle-data
+          token: ${{ secrets.SYNC_REPOS_TOKEN }}
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Checkout swordle
         uses: actions/checkout@v4
@@ -33,7 +38,9 @@ jobs:
           repository: DavidLozzi/swordle
           ref: main
           path: swordle
+          token: ${{ secrets.SYNC_REPOS_TOKEN }}
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Setup Node
         uses: actions/setup-node@v4
