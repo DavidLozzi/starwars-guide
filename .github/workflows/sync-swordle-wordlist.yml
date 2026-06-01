@@ -47,6 +47,13 @@ jobs:
         with:
           node-version: '20'
 
+      # hashData.js expects ../starwars-guide/swordle-word-list.md as a sibling of swordle-data;
+      # in this workflow the repo root is starwars-guide, so link the markdown file there.
+      - name: Link repo paths for hashData.js
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/starwars-guide"
+          ln -sfn "$GITHUB_WORKSPACE/swordle-word-list.md" "$GITHUB_WORKSPACE/starwars-guide/swordle-word-list.md"
+
       - name: Generate word list (hashData.js)
         working-directory: swordle-data
         run: node hashData.js
