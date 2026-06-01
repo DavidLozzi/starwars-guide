@@ -1,0 +1,58 @@
+# Regenerate swordle-word-list.md when swordle-data sync runs.
+# Triggered by repository_dispatch from swordle-data; pushes with this repo's GITHUB_TOKEN.
+
+name: Sync Swordle word list
+
+on:
+  repository_dispatch:
+    types: [sync-swordle-wordlist]
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout starwars-guide
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout swordle-data
+        uses: actions/checkout@v4
+        with:
+          repository: DavidLozzi/swordle-data
+          ref: ${{ github.event.client_payload.swordle_data_sha || 'main' }}
+          path: swordle-data
+          fetch-depth: 0
+
+      - name: Checkout swordle
+        uses: actions/checkout@v4
+        with:
+          repository: DavidLozzi/swordle
+          ref: main
+          path: swordle
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate word list (hashData.js)
+        working-directory: swordle-data
+        run: node hashData.js
+
+      - name: Commit and push
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add swordle-word-list.md
+          if git diff --cached --quiet; then
+            echo "No swordle-word-list.md changes"
+          else
+            git commit -m "chore: sync Swordle word list from swordle-data (${{ github.event.client_payload.swordle_data_ref || 'main' }}@${{ github.event.client_payload.swordle_data_sha }})"
+            git push origin main
+          fi
