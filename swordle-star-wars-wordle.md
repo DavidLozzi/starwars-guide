@@ -42,7 +42,7 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 	<li><strong>Info</strong> - Learn more about how to play and read the latest news.</li>
 	<li><strong>Hint</strong> -	After your 3rd try, you can press the hint button (labeled above) to get a free hint. The hint should get you a little closer but won't tell you what it is. May the force be with you!</li>
 	<li><strong>Stats</strong> - View the stats from your last game, and all games. Show off your stats with your friend!</li>
-	<li><strong>Settings</strong> - Modify various settings like accessiblity and play with Aurebesh letters. 
-	</ul>
+	<li><strong>Settings</strong> - Modify various settings like accessiblity and play with Aurebesh letters.</li>
+</ul>
 </div>
 </div>
