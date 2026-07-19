@@ -26,7 +26,12 @@ last_modified_at: 2026-07-19 12:00:00
 
     <!-- Apps Section -->
     <section class="mb-16">
+      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-yellow-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-rocket mr-4 text-yellow-400"></i>
+        apps
+      </h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
         <!-- Timeline Card -->
         <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
@@ -36,7 +41,7 @@ last_modified_at: 2026-07-19 12:00:00
             Explore the complete Star Wars chronology
           </p>
           <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1">
+            <div class="btn flex-1 bg-yellow-400">
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
@@ -56,7 +61,7 @@ last_modified_at: 2026-07-19 12:00:00
             Respond using the Force! with a witty Star Wars comic.
           </p>
           <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1">
+            <div class="btn flex-1 bg-blue-400">
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
@@ -66,21 +71,52 @@ last_modified_at: 2026-07-19 12:00:00
             </a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="mb-16">
+      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-red-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-gamepad mr-4 text-red-400"></i>
+        games
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Clone Defense Card -->
+        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ 'clone-defense' | relative_url }}'">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/clone-defense.png" alt="Clone Defense Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            Defend your clones, jedi!
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-red-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ 'clone-defense' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
 
         <!-- SWordle Card -->
-        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/swordle.png" alt="SWordle, the daily Star Wars word game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
+            <img src="/assets/cards/swordle.png" alt="SWordle, the daily Star Wars word game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
+
           </div>
           <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Wordle for the real Star Wars fan
           </p>
           <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1">
+            <div class="btn flex-1 bg-blue-400">
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
