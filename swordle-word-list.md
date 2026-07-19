@@ -7,7 +7,7 @@ last_modified_at: 2026-06-28 12:00:00
 
 Play at <a href="https://wordle.starwars.guide" target="_blank">wordle.starwars.guide</a>.
 
-Below are all the words you could guess. The winning words include over 400 of thesem. Missing a word, let us know!
+Below are all the words you could guess. The winning words include over 500 of these. Missing a word, let us know!
 
 <a name="top"></a>
 
