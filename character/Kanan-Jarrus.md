@@ -2,7 +2,7 @@
 title: Kanan Jarrus's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:21:06.276Z
+last_modified_at: 2026-07-20T18:49:02.218Z
 social-desc: Kanan Jarrus  | Star Wars
 social-image: /assets/characters/kanan.png
 ---

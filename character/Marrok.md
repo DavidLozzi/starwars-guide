@@ -2,7 +2,7 @@
 title: Marrok's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:21:06.277Z
+last_modified_at: 2026-07-20T18:49:02.221Z
 social-desc: Marrok (First Brother)  | Star Wars
 social-image: /assets/characters/marrok.png
 ---

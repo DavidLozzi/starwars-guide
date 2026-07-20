@@ -2,7 +2,7 @@
 title: Saw Gerrera's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:21:06.297Z
+last_modified_at: 2026-07-20T18:49:02.229Z
 social-desc: Saw Gerrera  | Star Wars
 social-image: /assets/characters/saw.png
 ---
