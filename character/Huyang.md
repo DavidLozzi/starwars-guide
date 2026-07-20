@@ -2,7 +2,7 @@
 title: Huyang's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:06:13.543Z
+last_modified_at: 2026-07-20T18:21:06.275Z
 social-desc: Huyang  | Star Wars
 social-image: /assets/characters/huyang.png
 ---

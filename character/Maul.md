@@ -2,7 +2,7 @@
 title: Maul's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:06:13.548Z
+last_modified_at: 2026-07-20T18:21:06.278Z
 social-desc: Maul (Darth)  | Star Wars
 social-image: /assets/characters/maul-shadow-lord.png
 ---

@@ -2,7 +2,7 @@
 title: Temmin Wexley's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:06:13.556Z
+last_modified_at: 2026-07-20T18:21:06.297Z
 social-desc: Temmin Wexley (Snap)  | Star Wars
 social-image: /assets/characters/wexley.png
 ---

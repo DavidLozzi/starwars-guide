@@ -2,7 +2,7 @@
 title: Yoda's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:06:13.557Z
+last_modified_at: 2026-07-20T18:21:06.298Z
 social-desc: Yoda  | Star Wars
 social-image: /assets/characters/yoda.png
 ---
