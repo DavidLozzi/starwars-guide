@@ -2,7 +2,7 @@
 title: Babu Frik's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:05:59.944Z
+last_modified_at: 2026-07-20T18:06:13.535Z
 social-desc: Babu Frik  | Star Wars
 social-image: /assets/characters/frik.png
 ---

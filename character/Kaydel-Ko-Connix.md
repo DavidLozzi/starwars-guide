@@ -2,7 +2,7 @@
 title: Kaydel Ko Connix's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:05:59.952Z
+last_modified_at: 2026-07-20T18:06:13.545Z
 social-desc: Kaydel Ko Connix  | Star Wars
 social-image: /assets/characters/connix.png
 ---

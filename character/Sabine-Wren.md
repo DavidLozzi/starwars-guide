@@ -2,7 +2,7 @@
 title: Sabine Wren's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:06:00.010Z
+last_modified_at: 2026-07-20T18:06:13.555Z
 social-desc: Sabine Wren  | Star Wars
 social-image: /assets/characters/wren-old.png
 ---

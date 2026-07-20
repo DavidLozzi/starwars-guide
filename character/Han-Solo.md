@@ -2,7 +2,7 @@
 title: Han Solo's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:05:59.950Z
+last_modified_at: 2026-07-20T18:06:13.542Z
 social-desc: Han Solo (Nerf Herder)  | Star Wars
 social-image: /assets/characters/solo-og.png
 ---

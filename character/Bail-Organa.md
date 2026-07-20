@@ -2,7 +2,7 @@
 title: Bail Organa's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:05:59.945Z
+last_modified_at: 2026-07-20T18:06:13.535Z
 social-desc: Bail Organa  | Star Wars
 social-image: /assets/characters/bailorgana.png
 ---

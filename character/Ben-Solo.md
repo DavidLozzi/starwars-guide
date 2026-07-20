@@ -2,7 +2,7 @@
 title: Ben Solo's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:05:59.945Z
+last_modified_at: 2026-07-20T18:06:13.535Z
 social-desc: Ben Solo (Kylo Ren)  | Star Wars
 social-image: /assets/characters/bensolo.png
 ---

@@ -2,7 +2,7 @@
 title: Finn's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:05:59.949Z
+last_modified_at: 2026-07-20T18:06:13.540Z
 social-desc: Finn (FN-2187)  | Star Wars
 social-image: /assets/characters/finn.png
 ---
