@@ -2,7 +2,7 @@
 title: Beru Lars's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:26:20.871Z
+last_modified_at: 2026-07-20T20:19:12.606Z
 social-desc: Beru Lars  | Star Wars
 social-image: /assets/characters/berulars-old.png
 ---

@@ -2,7 +2,7 @@
 title: Bo-Katan Kryze's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:26:20.872Z
+last_modified_at: 2026-07-20T20:19:12.606Z
 social-desc: Bo-Katan Kryze  | Star Wars
 social-image: /assets/characters/bokatan.png
 ---

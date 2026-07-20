@@ -2,7 +2,7 @@
 title: Anakin Skywalker's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:26:20.869Z
+last_modified_at: 2026-07-20T20:19:12.603Z
 social-desc: Anakin Skywalker (Darth Vader)  | Star Wars
 social-image: /assets/characters/vadar.png
 ---

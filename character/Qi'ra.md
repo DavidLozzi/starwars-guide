@@ -2,7 +2,7 @@
 title: Qi'ra's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:26:20.888Z
+last_modified_at: 2026-07-20T20:19:12.622Z
 social-desc: Qi'ra  | Star Wars
 social-image: /assets/characters/qira.png
 ---

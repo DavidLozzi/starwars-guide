@@ -2,7 +2,7 @@
 title: Rey Skywalker's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:26:20.890Z
+last_modified_at: 2026-07-20T20:19:12.623Z
 social-desc: Rey Skywalker  | Star Wars
 social-image: /assets/characters/rey.png
 ---

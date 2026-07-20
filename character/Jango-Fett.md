@@ -2,7 +2,7 @@
 title: Jango Fett's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:26:20.881Z
+last_modified_at: 2026-07-20T20:19:12.614Z
 social-desc: Jango Fett  | Star Wars
 social-image: /assets/characters/jango.png
 ---
