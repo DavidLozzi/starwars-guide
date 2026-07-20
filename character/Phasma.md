@@ -2,7 +2,7 @@
 title: Phasma's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.459Z
+last_modified_at: 2026-07-20T18:05:59.956Z
 social-desc: Phasma  | Star Wars
 social-image: /assets/characters/phasma.png
 ---

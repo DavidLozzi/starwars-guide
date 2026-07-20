@@ -2,7 +2,7 @@
 title: Mando's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.446Z
+last_modified_at: 2026-07-20T18:05:59.954Z
 social-desc: Mando (Din Djarin)  | Star Wars
 social-image: /assets/characters/mando.png
 ---
@@ -37,6 +37,7 @@ social-image: /assets/characters/mando.png
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Mando?year=9" target="_blank">The Mandalorian, 9 ABY (39 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Mando?year=9" target="_blank">The Book of Boba Fett, 9 ABY (39 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Mando?year=10" target="_blank">The Mandalorian and Grogu, 10 ABY (40 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>

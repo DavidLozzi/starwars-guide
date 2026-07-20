@@ -2,7 +2,7 @@
 title: Jabba Desilijic Tiure's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.433Z
+last_modified_at: 2026-07-20T18:05:59.951Z
 social-desc: Jabba Desilijic Tiure (the Hutt)  | Star Wars
 social-image: /assets/characters/jabba.png
 ---

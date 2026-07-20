@@ -2,7 +2,7 @@
 title: Qui-Gon Jinn's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.463Z
+last_modified_at: 2026-07-20T18:06:00.008Z
 social-desc: Qui-Gon Jinn  | Star Wars
 social-image: /assets/characters/quigon.png
 ---
@@ -36,7 +36,6 @@ social-image: /assets/characters/quigon.png
 
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Qui-Gon Jinn?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (48 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Qui-Gon Jinn?year=-9" target="_blank">Obi-Wan Kenobi, 9 BBY (71 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>

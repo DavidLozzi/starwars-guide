@@ -2,7 +2,7 @@
 title: Star Wars Characters on the Timeline
 layout: page
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.479Z
+last_modified_at: 2026-07-20T18:06:00.012Z
 ---
 
 Explore all of the characters from the <a href="https://timeline.starwars.guide" target="_blank">Ultimate Star Wars Timeline</a>.
@@ -55,6 +55,7 @@ Explore all of the characters from the <a href="https://timeline.starwars.guide"
 <li><a href="/character/Luke-Skywalker">Luke Skywalker</a></li>
 <li><a href="/character/Mace-Windu">Mace Windu</a></li>
 <li><a href="/character/Mando">Mando</a></li>
+<li><a href="/character/Marrok">Marrok</a></li>
 <li><a href="/character/Maul">Maul</a></li>
 <li><a href="/character/Max-Rebo">Max Rebo</a></li>
 <li><a href="/character/Maz-Kanata">Maz Kanata</a></li>
@@ -76,6 +77,7 @@ Explore all of the characters from the <a href="https://timeline.starwars.guide"
 <li><a href="/character/Rex">Rex</a></li>
 <li><a href="/character/Rey-Skywalker">Rey Skywalker</a></li>
 <li><a href="/character/Rose-Tico">Rose Tico</a></li>
+<li><a href="/character/Rotta-the-Hutt">Rotta the Hutt</a></li>
 <li><a href="/character/Sabine-Wren">Sabine Wren</a></li>
 <li><a href="/character/Saw-Gerrera">Saw Gerrera</a></li>
 <li><a href="/character/Sheev-Palpatine">Sheev Palpatine</a></li>

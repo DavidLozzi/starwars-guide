@@ -2,7 +2,7 @@
 title: Armitage Hux's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.387Z
+last_modified_at: 2026-07-20T18:05:59.944Z
 social-desc: Armitage Hux  | Star Wars
 social-image: /assets/characters/hux.png
 ---

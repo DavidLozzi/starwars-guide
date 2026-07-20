@@ -2,7 +2,7 @@
 title: Wilhuff Tarkin's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.477Z
+last_modified_at: 2026-07-20T18:06:00.011Z
 social-desc: Wilhuff Tarkin (Grand Moff)  | Star Wars
 social-image: /assets/characters/tarkin.png
 ---

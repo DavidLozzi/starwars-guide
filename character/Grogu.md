@@ -2,7 +2,7 @@
 title: Grogu's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.422Z
+last_modified_at: 2026-07-20T18:05:59.950Z
 social-desc: Grogu (The Child)  | Star Wars
 social-image: /assets/characters/grogu.png
 ---
@@ -37,6 +37,7 @@ social-image: /assets/characters/grogu.png
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Grogu?year=9" target="_blank">The Mandalorian, 9 ABY (50 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Grogu?year=9" target="_blank">The Book of Boba Fett, 9 ABY (50 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Grogu?year=10" target="_blank">The Mandalorian and Grogu, 10 ABY (51 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>

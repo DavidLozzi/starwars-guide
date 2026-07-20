@@ -2,7 +2,7 @@
 title: Maz Kanata's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.449Z
+last_modified_at: 2026-07-20T18:05:59.955Z
 social-desc: Maz Kanata  | Star Wars
 social-image: /assets/characters/kanata.png
 ---

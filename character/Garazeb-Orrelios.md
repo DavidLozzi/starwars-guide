@@ -2,7 +2,7 @@
 title: Garazeb Orrelios's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.415Z
+last_modified_at: 2026-07-20T18:05:59.949Z
 social-desc: Garazeb Orrelios (Zeb)  | Star Wars
 social-image: /assets/characters/orrelios.png
 ---
@@ -37,6 +37,7 @@ social-image: /assets/characters/orrelios.png
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Garazeb Orrelios?year=-5" target="_blank">Star Wars Rebels, 5 BBY (39 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Garazeb Orrelios?year=9" target="_blank">The Mandalorian, 9 ABY (53 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Garazeb Orrelios?year=10" target="_blank">The Mandalorian and Grogu, 10 ABY (54 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>

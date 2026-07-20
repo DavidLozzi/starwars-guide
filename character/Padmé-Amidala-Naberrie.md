@@ -2,7 +2,7 @@
 title: Padmé Amidala Naberrie's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.457Z
+last_modified_at: 2026-07-20T18:05:59.956Z
 social-desc: Padmé Amidala Naberrie  | Star Wars
 social-image: /assets/characters/padme.png
 ---

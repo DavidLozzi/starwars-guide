@@ -2,9 +2,9 @@
 title: Maul's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.447Z
+last_modified_at: 2026-07-20T18:05:59.954Z
 social-desc: Maul (Darth)  | Star Wars
-social-image: /assets/characters/maul.png
+social-image: /assets/characters/maul-shadow-lord.png
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -37,6 +37,7 @@ social-image: /assets/characters/maul.png
     <ul>
       <li><a href="https://timeline.starwars.guide/character/Maul?year=-32" target="_blank">Episode I: The Phantom Menace, 32 BBY (22 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Maul?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (32 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Maul?year=-17" target="_blank">Star Wars: Maul - Shadow Lord, 17 BBY (37 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Maul?year=-10" target="_blank">Solo: A Star Wars Story, 10 BBY (44 years old)</a></li>
   <li><a href="https://timeline.starwars.guide/character/Maul?year=-5" target="_blank">Star Wars Rebels, 5 BBY (49 years old)</a></li>
     </ul>
@@ -49,7 +50,7 @@ social-image: /assets/characters/maul.png
     <a href="/character" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
-    
+    <img src="https://timeline.starwars.guide//images/maul-shadow-lord.png" alt="Maul" />
     <img src="https://timeline.starwars.guide//images/maul.png" alt="Maul" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>

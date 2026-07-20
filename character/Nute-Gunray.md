@@ -2,7 +2,7 @@
 title: Nute Gunray's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.452Z
+last_modified_at: 2026-07-20T18:05:59.955Z
 social-desc: Nute Gunray (Viceroy)  | Star Wars
 social-image: /assets/characters/gunray.png
 ---

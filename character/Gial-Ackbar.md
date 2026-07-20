@@ -2,7 +2,7 @@
 title: Gial Ackbar's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.419Z
+last_modified_at: 2026-07-20T18:05:59.949Z
 social-desc: Gial Ackbar  | Star Wars
 social-image: /assets/characters/ackbar.png
 ---

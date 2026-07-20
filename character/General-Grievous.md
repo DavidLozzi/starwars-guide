@@ -2,7 +2,7 @@
 title: General Grievous's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.417Z
+last_modified_at: 2026-07-20T18:05:59.949Z
 social-desc: General Grievous (Qymaen jai Sheelal)  | Star Wars
 social-image: /assets/characters/grievous.png
 ---

@@ -2,7 +2,7 @@
 title: Snoke's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.473Z
+last_modified_at: 2026-07-20T18:06:00.011Z
 social-desc: Snoke  | Star Wars
 social-image: /assets/characters/snoke.png
 ---

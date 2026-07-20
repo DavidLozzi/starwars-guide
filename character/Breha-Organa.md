@@ -2,7 +2,7 @@
 title: Breha Organa's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2025-07-31T17:18:57.401Z
+last_modified_at: 2026-07-20T18:05:59.946Z
 social-desc: Breha Organa  | Star Wars
 social-image: /assets/characters/brehaorgana.png
 ---
