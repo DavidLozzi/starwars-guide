@@ -1,10 +1,23 @@
 ---
-title: Finn's Timeline
+title: "Finn's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.187Z
-social-desc: Finn (FN-2187)  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.122Z
+social-title: "Finn — Star Wars Timeline & Story"
+social-desc: "Finn, originally designated FN-2187, is a former First Order stormtrooper who became a key hero of the Resistance in the Star Wars sequel trilogy."
 social-image: /assets/characters/finn.png
+character:
+  name: "Finn"
+  also_known_as: "FN-2187"
+  species: "Human"
+  homeworld: "Unknown"
+  birth_year: "11 ABY"
+  wookieepedia: https://starwars.fandom.com/wiki/Finn
+  appearances:
+    - "Episode VII: The Force Awakens"
+    - "Episode VIII: The Last Jedi"
+    - "Galaxy's Edge"
+    - "Episode IX: The Rise of Skywalker"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +42,7 @@ social-image: /assets/characters/finn.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~15 BBY – Birth</h4><p>Born on a remote First Order colony and separated from his family at a young age.</p><h4>~9 BBY – First Order Conscript</h4><p>Seized by the First Order, trained as a stormtrooper and designated FN-2187.</p><h4>~34 ABY – Desertion on Jakku</h4><p>Refuses an order to fire on civilians at Niima Outpost, frees Poe Dameron and escapes the First Order, crash-landing on Jakku.</p><h4>~34 ABY – Adoption of the Name Finn</h4><p>Inspired by Poe’s call sign, FN-2187 chooses the name “Finn” to mark his new identity.</p><h4>~34 ABY – Battle of Takodana and Starkiller Base</h4><p>Fights alongside the Resistance at Maz Kanata’s castle on Takodana and helps destroy the First Order’s Starkiller Base.</p><h4>~34 ABY – Alliance with the Resistance</h4><p>Travels to the Resistance base on D’Qar, formally joins their cause and participates in the Battle of Crait, where his defection call inspires surviving forces.</p><h4>~35 ABY – Training on Ajan Kloss</h4><p>Resides on the Resistance base aboard Ajan Kloss, deepens his bond with Rey and prepares for future missions.</p><h4>~35 ABY – Mission to Pasaana</h4><p>Accompanies Rey and Poe to the desert planet Pasaana in search of the Sith Wayfinder, clashes with pirates and rescues the droid D-O.</p><h4>~35 ABY – Battle of Exegol</h4><p>Infiltrates a First Order Star Destroyer to rescue Rey, then joins the climactic battle against Emperor Palpatine’s fleet on Exegol, helping secure the Final Order’s defeat.</p></div>
+    <div class="timeline"><h3>~15 BBY – Birth</h3><p>Born on a remote First Order colony and separated from his family at a young age.</p><h3>~9 BBY – First Order Conscript</h3><p>Seized by the First Order, trained as a stormtrooper and designated FN-2187.</p><h3>~34 ABY – Desertion on Jakku</h3><p>Refuses an order to fire on civilians at Niima Outpost, frees Poe Dameron and escapes the First Order, crash-landing on Jakku.</p><h3>~34 ABY – Adoption of the Name Finn</h3><p>Inspired by Poe’s call sign, FN-2187 chooses the name “Finn” to mark his new identity.</p><h3>~34 ABY – Battle of Takodana and Starkiller Base</h3><p>Fights alongside the Resistance at Maz Kanata’s castle on Takodana and helps destroy the First Order’s Starkiller Base.</p><h3>~34 ABY – Alliance with the Resistance</h3><p>Travels to the Resistance base on D’Qar, formally joins their cause and participates in the Battle of Crait, where his defection call inspires surviving forces.</p><h3>~35 ABY – Training on Ajan Kloss</h3><p>Resides on the Resistance base aboard Ajan Kloss, deepens his bond with Rey and prepares for future missions.</p><h3>~35 ABY – Mission to Pasaana</h3><p>Accompanies Rey and Poe to the desert planet Pasaana in search of the Sith Wayfinder, clashes with pirates and rescues the droid D-O.</p><h3>~35 ABY – Battle of Exegol</h3><p>Infiltrates a First Order Star Destroyer to rescue Rey, then joins the climactic battle against Emperor Palpatine’s fleet on Exegol, helping secure the Final Order’s defeat.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Finn in our timeline:</h3>
@@ -50,7 +63,7 @@ social-image: /assets/characters/finn.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/finn.png" alt="Finn" />
+    <img src="https://timeline.starwars.guide/images/finn.png" alt="Finn" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

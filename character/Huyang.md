@@ -1,10 +1,19 @@
 ---
-title: Huyang's Timeline
+title: "Huyang's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.190Z
-social-desc: Huyang  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.127Z
+social-title: "Huyang — Star Wars Timeline & Story"
+social-desc: "Huyang is an ancient architectural and technical droid who served the Jedi Order for over seven thousand years, renowned for his expertise in designing and…"
 social-image: /assets/characters/huyang.png
+character:
+  name: "Huyang"
+  species: "Droid"
+  birth_year: "25020 BBY"
+  wookieepedia: https://starwars.fandom.com/wiki/Huyang
+  appearances:
+    - "The Clone Wars (TV series)"
+    - "Ahsoka"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -26,7 +35,7 @@ social-image: /assets/characters/huyang.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~7000 BBY - Activation</h4><p>Huyang is activated by the Jedi Order as an architectural and technical droid, beginning his lightsaber construction service across the galaxy.</p><h4>~7000 to ~22 BBY - Centuries of Service</h4><p>Over the next millennia, Huyang assists Jedi in crafting thousands of lightsabers, becoming a repository of wisdom and tradition.</p><h4>22 BBY - The Gathering on Ilum</h4><p>Assigned to guide younglings on Ilum, Huyang oversees their lightsaber assembly and evaluates candidates during their crystal-seeking trials.</p><h4>22 BBY - A Test of Strength</h4><p>Continues instruction by transporting younglings to Mortis to test their determination in retrieving kyber crystals from the World Between Worlds.</p><h4>19 BBY - Disappearance</h4><p>Following Order 66, Huyang vanishes from Jedi records, his whereabouts unknown as the Empire rises.</p><h4>~9 ABY - Teachings on Lothal</h4><p>Reemerges in the Jedi Temple on Lothal to train Sabine Wren in lightsaber construction and the rituals of the Jedi path.</p></div>
+    <div class="timeline"><h3>~7000 BBY - Activation</h3><p>Huyang is activated by the Jedi Order as an architectural and technical droid, beginning his lightsaber construction service across the galaxy.</p><h3>~7000 to ~22 BBY - Centuries of Service</h3><p>Over the next millennia, Huyang assists Jedi in crafting thousands of lightsabers, becoming a repository of wisdom and tradition.</p><h3>22 BBY - The Gathering on Ilum</h3><p>Assigned to guide younglings on Ilum, Huyang oversees their lightsaber assembly and evaluates candidates during their crystal-seeking trials.</p><h3>22 BBY - A Test of Strength</h3><p>Continues instruction by transporting younglings to Mortis to test their determination in retrieving kyber crystals from the World Between Worlds.</p><h3>19 BBY - Disappearance</h3><p>Following Order 66, Huyang vanishes from Jedi records, his whereabouts unknown as the Empire rises.</p><h3>~9 ABY - Teachings on Lothal</h3><p>Reemerges in the Jedi Temple on Lothal to train Sabine Wren in lightsaber construction and the rituals of the Jedi path.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Huyang in our timeline:</h3>
@@ -45,7 +54,7 @@ social-image: /assets/characters/huyang.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/huyang.png" alt="Huyang" />
+    <img src="https://timeline.starwars.guide/images/huyang.png" alt="Huyang" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

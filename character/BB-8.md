@@ -1,10 +1,23 @@
 ---
-title: BB-8's Timeline
+title: "BB-8's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.181Z
-social-desc: BB-8  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.113Z
+social-title: "BB-8 — Star Wars Timeline & Story"
+social-desc: "BB-8 is a spherical astromech droid active during the sequel trilogy of the Star Wars saga."
 social-image: /assets/characters/bb8.png
+character:
+  name: "BB-8"
+  species: "Droid"
+  homeworld: "Hosian Prime"
+  birth_year: "29 ABY"
+  wookieepedia: https://starwars.fandom.com/wiki/BB-8
+  appearances:
+    - "Star Wars Resistance"
+    - "Episode VII: The Force Awakens"
+    - "Episode VIII: The Last Jedi"
+    - "Galaxy's Edge"
+    - "Episode IX: The Rise of Skywalker"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +42,7 @@ social-image: /assets/characters/bb8.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~30 ABY - Construction of BB-8</h4><p>Built on Niima Outpost by an independent technician for a Resistance pilot's reconnaissance needs.</p><h4>~32 ABY - Assignment to Poe Dameron</h4><p>Delivered to pilot Poe Dameron and begins mapping First Order activity.</p><h4>~34 ABY - Jakku Mission</h4><p>Accompanies Poe to Jakku, survives crash, and meets scavenger Rey while carrying a map to Luke Skywalker.</p><h4>~34 ABY - Delivery of the Skywalker Map</h4><p>Escapes the First Order aboard the Millennium Falcon and delivers the map fragment to General Leia Organa on D'Qar.</p><h4>~34 ABY - Battle of Starkiller Base</h4><p>Assists the Resistance strike team that destroys Starkiller Base.</p><h4>~34 ABY - Battle of Crait</h4><p>Provides technical support during the Resistance's defensive stand on Crait.</p><h4>~35 ABY - Pasaana Infiltration</h4><p>Joins the quest for a Sith wayfinder on Pasaana and helps evade the First Order.</p><h4>~35 ABY - Battle of Exegol</h4><p>Participates in the final battle against the resurrected Emperor Palpatine aboard Exegol.</p><h4>~36 ABY - Continuing Service</h4><p>Remains an active member of the New Republic's droid corps, aiding in exploration and defense missions.</p></div>
+    <div class="timeline"><h3>~30 ABY - Construction of BB-8</h3><p>Built on Niima Outpost by an independent technician for a Resistance pilot's reconnaissance needs.</p><h3>~32 ABY - Assignment to Poe Dameron</h3><p>Delivered to pilot Poe Dameron and begins mapping First Order activity.</p><h3>~34 ABY - Jakku Mission</h3><p>Accompanies Poe to Jakku, survives crash, and meets scavenger Rey while carrying a map to Luke Skywalker.</p><h3>~34 ABY - Delivery of the Skywalker Map</h3><p>Escapes the First Order aboard the Millennium Falcon and delivers the map fragment to General Leia Organa on D'Qar.</p><h3>~34 ABY - Battle of Starkiller Base</h3><p>Assists the Resistance strike team that destroys Starkiller Base.</p><h3>~34 ABY - Battle of Crait</h3><p>Provides technical support during the Resistance's defensive stand on Crait.</p><h3>~35 ABY - Pasaana Infiltration</h3><p>Joins the quest for a Sith wayfinder on Pasaana and helps evade the First Order.</p><h3>~35 ABY - Battle of Exegol</h3><p>Participates in the final battle against the resurrected Emperor Palpatine aboard Exegol.</p><h3>~36 ABY - Continuing Service</h3><p>Remains an active member of the New Republic's droid corps, aiding in exploration and defense missions.</p></div>
     
     <p>&nbsp;</p>
     <h3>View BB-8 in our timeline:</h3>
@@ -51,7 +64,7 @@ social-image: /assets/characters/bb8.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/bb8.png" alt="BB-8" />
+    <img src="https://timeline.starwars.guide/images/bb8.png" alt="BB-8" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

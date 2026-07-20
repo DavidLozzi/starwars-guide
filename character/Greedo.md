@@ -1,10 +1,21 @@
 ---
-title: Greedo's Timeline
+title: "Greedo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.188Z
-social-desc: Greedo  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.124Z
+social-title: "Greedo — Star Wars Timeline & Story"
+social-desc: "Greedo is a Rodian bounty hunter famed for his ruthless tracking skills and infamous duel with Han Solo in the Mos Eisley Cantina."
 social-image: /assets/characters/greedo.png
+character:
+  name: "Greedo"
+  species: "Rodian"
+  homeworld: "Rodia"
+  birth_year: "44 BBY"
+  death_year: "0 BBY"
+  wookieepedia: https://starwars.fandom.com/wiki/Greedo
+  appearances:
+    - "The Clone Wars (TV series)"
+    - "Episode IV: A New Hope"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +40,7 @@ social-image: /assets/characters/greedo.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~53 BBY - Birth on Rodia</h4><p>Greedo is born on Rodia, displaying early aptitude for hunting, tracking, and marksmanship.</p><h4>~25 BBY - Joins the Bounty Hunters’ Guild</h4><p>Undergoes formal training in the Guild, mastering interrogation techniques and blaster combat.</p><h4>~5 BBY - Outer Rim Bounty Missions</h4><p>Accepts numerous contracts across the Outer Rim, building a reputation for persistence and cold efficiency.</p><h4>~1 BBY - Enters Jabba the Hutt’s Service</h4><p>Hired by Jabba as an enforcer and tracker of smugglers, including high-profile fugitives.</p><h4>0 BBY - Mos Eisley Cantina Confrontation</h4><p>Assigned to capture Han Solo under Jabba’s orders; confronts him in the cantina and is shot dead after underestimating his quarry.</p></div>
+    <div class="timeline"><h3>~53 BBY - Birth on Rodia</h3><p>Greedo is born on Rodia, displaying early aptitude for hunting, tracking, and marksmanship.</p><h3>~25 BBY - Joins the Bounty Hunters’ Guild</h3><p>Undergoes formal training in the Guild, mastering interrogation techniques and blaster combat.</p><h3>~5 BBY - Outer Rim Bounty Missions</h3><p>Accepts numerous contracts across the Outer Rim, building a reputation for persistence and cold efficiency.</p><h3>~1 BBY - Enters Jabba the Hutt’s Service</h3><p>Hired by Jabba as an enforcer and tracker of smugglers, including high-profile fugitives.</p><h3>0 BBY - Mos Eisley Cantina Confrontation</h3><p>Assigned to capture Han Solo under Jabba’s orders; confronts him in the cantina and is shot dead after underestimating his quarry.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Greedo in our timeline:</h3>
@@ -48,7 +59,7 @@ social-image: /assets/characters/greedo.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/greedo.png" alt="Greedo" />
+    <img src="https://timeline.starwars.guide/images/greedo.png" alt="Greedo" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

@@ -1,10 +1,22 @@
 ---
-title: Chopper's Timeline
+title: "Chopper's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.186Z
-social-desc: Chopper (C1-10P)  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.120Z
+social-title: "Chopper — Star Wars Timeline & Story"
+social-desc: "C1-10P, nicknamed \"Chopper\", is a cranky yet resourceful astromech droid who served aboard the Ghost for the early Rebel Alliance."
 social-image: /assets/characters/chopper.png
+character:
+  name: "Chopper"
+  also_known_as: "C1-10P"
+  species: "Droid"
+  homeworld: "Lasan"
+  wookieepedia: https://starwars.fandom.com/wiki/C1-10P
+  appearances:
+    - "The Bad Batch"
+    - "Star Wars Rebels"
+    - "Rogue One: A Star Wars Story"
+    - "Ahsoka"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +41,7 @@ social-image: /assets/characters/chopper.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~32 BBY – Activation</h4><p>C1-10P is activated in a droid production facility, beginning decades of varied service.</p><h4>~5 BBY – Acquired by Hera Syndulla</h4><p>Purchased from an Imperial scrap dealer, he joins the Ghost crew in the fledgling Rebel cell on Lothal.</p><h4>~5 BBY – Spark of Rebellion</h4><p>Assists in data-running missions to supply intelligence to the growing Rebellion.</p><h4>~4 BBY – Rescue of Kanan Jarrus</h4><p>Plays a key role in infiltrating an Imperial training facility and freeing the captured Jedi Padawan.</p><h4>~3 BBY – Mount Tantiss Infiltration</h4><p>Helps the crew breach an Imperial repository to retrieve a lost Jedi holocron.</p><h4>~2 BBY – Battle of Atollon</h4><p>Participates in the Rebel offensive to secure Atollon as a forward base, performing rapid repairs under fire.</p><h4>~1 BBY – Fall of the Phoenix Squadron</h4><p>Endures heavy losses in Rebel ranks, then aids in regrouping and evacuation efforts on Lothal.</p><h4>~0 BBY – Battle for Lothal</h4><p>Supports the final showdown against Grand Admiral Thrawn and remains behind on Lothal when Ezra Bridger disappears.</p><h4>~9 ABY – New Republic Reunion</h4><p>Reunites aboard the restored Ghost with Hera and Sabine as the New Republic takes shape.</p></div>
+    <div class="timeline"><h3>~32 BBY – Activation</h3><p>C1-10P is activated in a droid production facility, beginning decades of varied service.</p><h3>~5 BBY – Acquired by Hera Syndulla</h3><p>Purchased from an Imperial scrap dealer, he joins the Ghost crew in the fledgling Rebel cell on Lothal.</p><h3>~5 BBY – Spark of Rebellion</h3><p>Assists in data-running missions to supply intelligence to the growing Rebellion.</p><h3>~4 BBY – Rescue of Kanan Jarrus</h3><p>Plays a key role in infiltrating an Imperial training facility and freeing the captured Jedi Padawan.</p><h3>~3 BBY – Mount Tantiss Infiltration</h3><p>Helps the crew breach an Imperial repository to retrieve a lost Jedi holocron.</p><h3>~2 BBY – Battle of Atollon</h3><p>Participates in the Rebel offensive to secure Atollon as a forward base, performing rapid repairs under fire.</p><h3>~1 BBY – Fall of the Phoenix Squadron</h3><p>Endures heavy losses in Rebel ranks, then aids in regrouping and evacuation efforts on Lothal.</p><h3>~0 BBY – Battle for Lothal</h3><p>Supports the final showdown against Grand Admiral Thrawn and remains behind on Lothal when Ezra Bridger disappears.</p><h3>~9 ABY – New Republic Reunion</h3><p>Reunites aboard the restored Ghost with Hera and Sabine as the New Republic takes shape.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Chopper in our timeline:</h3>
@@ -50,7 +62,7 @@ social-image: /assets/characters/chopper.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/chopper.png" alt="Chopper" />
+    <img src="https://timeline.starwars.guide/images/chopper.png" alt="Chopper" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

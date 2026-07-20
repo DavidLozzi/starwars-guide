@@ -1,10 +1,21 @@
 ---
-title: Marrok's Timeline
+title: "Marrok's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.194Z
-social-desc: Marrok (First Brother)  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.133Z
+social-title: "Marrok — Star Wars Timeline & Story"
+social-desc: "Marrok was a mysterious warrior who once served in the Inquisitorius of the Galactic Empire, and the Jedi Order before that."
 social-image: /assets/characters/marrok.png
+character:
+  name: "Marrok"
+  also_known_as: "First Brother"
+  species: "Humanoid"
+  homeworld: "Unknown"
+  death_year: "9 ABY"
+  wookieepedia: https://starwars.fandom.com/wiki/Marrok
+  appearances:
+    - "Star Wars: Maul - Shadow Lord"
+    - "Ahsoka"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -48,7 +59,7 @@ social-image: /assets/characters/marrok.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/marrok.png" alt="Marrok" />
+    <img src="https://timeline.starwars.guide/images/marrok.png" alt="Marrok" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

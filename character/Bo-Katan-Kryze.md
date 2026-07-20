@@ -1,10 +1,19 @@
 ---
-title: Bo-Katan Kryze's Timeline
+title: "Bo-Katan Kryze's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.183Z
-social-desc: Bo-Katan Kryze  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.116Z
+social-title: "Bo-Katan Kryze — Star Wars Timeline & Story"
+social-desc: "Bo-Katan Kryze is a skilled Mandalorian warrior and scion of House Kryze, daughter of Duchess Satine."
 social-image: /assets/characters/bokatan.png
+character:
+  name: "Bo-Katan Kryze"
+  species: "Human"
+  homeworld: "Mandalore"
+  wookieepedia: https://starwars.fandom.com/wiki/Bo-Katan_Kryze
+  appearances:
+    - "The Clone Wars (TV series)"
+    - "The Mandalorian"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,14 +38,14 @@ social-image: /assets/characters/bokatan.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~41 BBY - Birth</h4><p>Born into House Kryze on Mandalore as the younger sister of Duchess Satine.</p><h4>~22 BBY - Joins Death Watch</h4><p>Aligns with the extremist Death Watch faction opposing her sister’s pacifist regime.</p><h4>~20 BBY - Becomes Lieutenant</h4><p>Serves under Pre Vizsla as second-in-command of the Death Watch militia.</p><h4>~19 BBY - Nite Owls Leader</h4><p>Takes command of the elite Nite Owls after Vizsla’s death during the Siege of Mandalore.</p><h4>~19 BBY - Resistance Against Maul</h4><p>Leads Mandalorian loyalists in defending Sundari but is forced into exile when Maul seizes control.</p><h4>~19 BBY - Exile and Reconciliation</h4><p>Flees Mandalore, allies with former enemies, and aids in covert resistance throughout the Clone Wars’ end.</p><h4>~5 BBY - Rebel Alliance Alliance</h4><p>Joins forces with the Ghost crew to liberate Mandalore from Imperial occupation.</p><h4>~5 BBY - Receives the Darksaber</h4><p>Sabine Wren bestows the Darksaber, symbolizing her claim to Mand’alor.</p><h4>~5 BBY - Mandalorian Liberation</h4><p>Declines immediate reclaiming of Mandalore to avoid civil strife, focusing on uniting clans against the Empire.</p><h4>~9 ABY - The Mandalorian</h4><p>Allies with Din Djarin, leads an assault on Imperial tunnels beneath Sundari, and accepts leadership of the Mandalorian people.</p><h4>~9 ABY - Ahsoka Mission</h4><p>Joins Ahsoka Tano in rescuing Ezra Bridger, duels and defeats Morgan Elsbeth to reclaim the Darksaber.</p><h4>~9 ABY - Reunification of Mandalore</h4><p>Affirms her position as Mand’alor and begins the rebuilding of Mandalorian society.</p></div>
+    <div class="timeline"><h3>~41 BBY - Birth</h3><p>Born into House Kryze on Mandalore as the younger sister of Duchess Satine.</p><h3>~22 BBY - Joins Death Watch</h3><p>Aligns with the extremist Death Watch faction opposing her sister’s pacifist regime.</p><h3>~20 BBY - Becomes Lieutenant</h3><p>Serves under Pre Vizsla as second-in-command of the Death Watch militia.</p><h3>~19 BBY - Nite Owls Leader</h3><p>Takes command of the elite Nite Owls after Vizsla’s death during the Siege of Mandalore.</p><h3>~19 BBY - Resistance Against Maul</h3><p>Leads Mandalorian loyalists in defending Sundari but is forced into exile when Maul seizes control.</p><h3>~19 BBY - Exile and Reconciliation</h3><p>Flees Mandalore, allies with former enemies, and aids in covert resistance throughout the Clone Wars’ end.</p><h3>~5 BBY - Rebel Alliance Alliance</h3><p>Joins forces with the Ghost crew to liberate Mandalore from Imperial occupation.</p><h3>~5 BBY - Receives the Darksaber</h3><p>Sabine Wren bestows the Darksaber, symbolizing her claim to Mand’alor.</p><h3>~5 BBY - Mandalorian Liberation</h3><p>Declines immediate reclaiming of Mandalore to avoid civil strife, focusing on uniting clans against the Empire.</p><h3>~9 ABY - The Mandalorian</h3><p>Allies with Din Djarin, leads an assault on Imperial tunnels beneath Sundari, and accepts leadership of the Mandalorian people.</p><h3>~9 ABY - Ahsoka Mission</h3><p>Joins Ahsoka Tano in rescuing Ezra Bridger, duels and defeats Morgan Elsbeth to reclaim the Darksaber.</p><h3>~9 ABY - Reunification of Mandalore</h3><p>Affirms her position as Mand’alor and begins the rebuilding of Mandalorian society.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Bo-Katan Kryze in our timeline:</h3>
 
     <ul>
-      <li><a href="https://timeline.starwars.guide/character/Bo-Katan Kryze?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (23 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bo-Katan Kryze?year=9" target="_blank">The Mandalorian, 9 ABY (54 years old)</a></li>
+      <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (23 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=9" target="_blank">The Mandalorian, 9 ABY (54 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>
@@ -48,7 +57,7 @@ social-image: /assets/characters/bokatan.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/bokatan.png" alt="Bo-Katan Kryze" />
+    <img src="https://timeline.starwars.guide/images/bokatan.png" alt="Bo-Katan Kryze" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

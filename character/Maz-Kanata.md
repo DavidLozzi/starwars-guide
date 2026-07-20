@@ -1,17 +1,27 @@
 ---
-title: Maz Kanata's Timeline
+title: "Maz Kanata's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.195Z
-social-desc: Maz Kanata  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.134Z
+social-title: "Maz Kanata — Star Wars Timeline & Story"
+social-desc: "Maz Kanata is a centuries-old, Force-sensitive smuggler, pirate leader, treasure hunter and tavern keeper celebrated for her wide-ranging experiences and deep…"
 social-image: /assets/characters/kanata.png
+character:
+  name: "Maz Kanata"
+  species: "Unknown"
+  homeworld: "Takodana"
+  birth_year: "973 BBY"
+  wookieepedia: https://starwars.fandom.com/wiki/Maz_Kanata
+  appearances:
+    - "Episode VII: The Force Awakens"
+    - "Episode IX: The Rise of Skywalker"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
     <p>
-    Maz Kanata             was born in <a href="https://timeline.starwars.guide/character/Maz Kanata?year=-300" target="_blank">973 BBY</a>.
+    Maz Kanata             was born in <a href="https://timeline.starwars.guide/character/Maz%20Kanata?year=-300" target="_blank">973 BBY</a>.
     </p>
 
     <p><p>Maz Kanata is a centuries-old, Force-sensitive smuggler, pirate leader, treasure hunter and tavern keeper celebrated for her wide-ranging experiences and deep insight. Having studied under a Jedi master on Yavin 4 in her youth, she spent millennia traversing the galaxy as a notorious pirate queen before settling on Takodana, where she founded her famed castle and built a secret intelligence network. In the sequel era she played a vital role in aiding the Resistance—sheltering Han Solo and BB-8, guiding Rey to Luke Skywalker’s lightsaber—and later used her Force perception and contacts to help locate Emperor Palpatine and secure the final victory over the Sith.</p></p>
@@ -29,14 +39,14 @@ social-image: /assets/characters/kanata.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~32,000 BBY - Birth</h4><p>Maz Kanata is born on an unnamed world. From early on she demonstrates Force sensitivity and a keen intellect.</p><h4>~25,000 BBY - Jedi tutelage</h4><p>Under the guidance of Jedi Master Tolja on Yavin 4, she hones her Force insight and learns advanced perception techniques.</p><h4>~20,000 BBY to ~0 BBY - Pirate and smuggler</h4><p>Over thousands of years she rises to prominence as a pirate queen and treasure hunter, commanding ships, crews and a vast network of contacts.</p><h4>~0 BBY - Establishes Maz’s Castle</h4><p>She settles on the forested moon of Takodana, converting an ancient fortress into Maz’s Castle, a neutral haven for travelers, scoundrels and spies.</p><h4>~34 ABY - The Force Awakens</h4><p>Maz aids the Resistance by sheltering Han Solo, Chewbacca and the droid BB-8; she encourages Rey’s destiny by presenting her with Luke Skywalker’s old lightsaber and senses the awakening of the Force in a new generation.</p><h4>~35 ABY - The Rise of Skywalker</h4><p>Leveraging her hidden network and Force perception, Maz helps pinpoint the return of Emperor Palpatine and rejoices in the final defeat of the Sith and the dawn of a new Jedi era.</p></div>
+    <div class="timeline"><h3>~32,000 BBY - Birth</h3><p>Maz Kanata is born on an unnamed world. From early on she demonstrates Force sensitivity and a keen intellect.</p><h3>~25,000 BBY - Jedi tutelage</h3><p>Under the guidance of Jedi Master Tolja on Yavin 4, she hones her Force insight and learns advanced perception techniques.</p><h3>~20,000 BBY to ~0 BBY - Pirate and smuggler</h3><p>Over thousands of years she rises to prominence as a pirate queen and treasure hunter, commanding ships, crews and a vast network of contacts.</p><h3>~0 BBY - Establishes Maz’s Castle</h3><p>She settles on the forested moon of Takodana, converting an ancient fortress into Maz’s Castle, a neutral haven for travelers, scoundrels and spies.</p><h3>~34 ABY - The Force Awakens</h3><p>Maz aids the Resistance by sheltering Han Solo, Chewbacca and the droid BB-8; she encourages Rey’s destiny by presenting her with Luke Skywalker’s old lightsaber and senses the awakening of the Force in a new generation.</p><h3>~35 ABY - The Rise of Skywalker</h3><p>Leveraging her hidden network and Force perception, Maz helps pinpoint the return of Emperor Palpatine and rejoices in the final defeat of the Sith and the dawn of a new Jedi era.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Maz Kanata in our timeline:</h3>
 
     <ul>
-      <li><a href="https://timeline.starwars.guide/character/Maz Kanata?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (1007 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Maz Kanata?year=35" target="_blank">Episode IX: The Rise of Skywalker, 35 ABY (1008 years old)</a></li>
+      <li><a href="https://timeline.starwars.guide/character/Maz%20Kanata?year=34" target="_blank">Episode VII: The Force Awakens, 34 ABY (1007 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Maz%20Kanata?year=35" target="_blank">Episode IX: The Rise of Skywalker, 35 ABY (1008 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>
@@ -48,7 +58,7 @@ social-image: /assets/characters/kanata.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/kanata.png" alt="Maz Kanata" />
+    <img src="https://timeline.starwars.guide/images/kanata.png" alt="Maz Kanata" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

@@ -1,10 +1,25 @@
 ---
-title: Maul's Timeline
+title: "Maul's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.195Z
-social-desc: Maul (Darth)  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.133Z
+social-title: "Maul — Star Wars Timeline & Story"
+social-desc: "Darth Maul is a fearsome Dathomirian Zabrak who became the Sith apprentice of Darth Sidious, renowned for his horned visage, his red double-bladed lightsaber…"
 social-image: /assets/characters/maul-shadow-lord.png
+character:
+  name: "Maul"
+  also_known_as: "Darth"
+  species: "Zabrak"
+  homeworld: "Dathomir"
+  birth_year: "54 BBY"
+  death_year: "2 BBY"
+  wookieepedia: https://starwars.fandom.com/wiki/Maul
+  appearances:
+    - "Episode I: The Phantom Menace"
+    - "The Clone Wars (TV series)"
+    - "Star Wars: Maul - Shadow Lord"
+    - "Solo: A Star Wars Story"
+    - "Star Wars Rebels"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +44,7 @@ social-image: /assets/characters/maul-shadow-lord.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~54 BBY – Birth on Dathomir</h4><p>Born into a clan of Nightbrothers on Dathomir, discovered by Darth Sidious for his unique Force presence.</p><h4>~52 BBY – Sith Apprenticeship Begins</h4><p>Plucked by Sidious and taken to Coruscant to undergo rigorous Sith training in the dark side.</p><h4>~32 BBY – Battle of Naboo</h4><p>Ambushed Queen Amidala’s convoy; dueled Jedi Qui-Gon Jinn and Obi-Wan Kenobi, killed Qui-Gon before being bisected by Obi-Wan.</p><h4>~31 BBY – Resurrection and Return</h4><p>Survived a crash on Lotho Minor, rescued by his brother Savage Opress and rebuilt with cybernetic legs.</p><h4>~31 BBY – Formation of the Shadow Collective</h4><p>United criminal syndicates and Mandalorian clans under his command to seek revenge on both Jedi and Sith.</p><h4>~28 BBY – Hunt for Obi-Wan</h4><p>After Savage’s death, returned to Dathomir then resumed obsession with tracking and killing Obi-Wan Kenobi.</p><h4>~22–19 BBY – Clone Wars Engagements</h4><p>Reemerged during the Clone Wars, orchestrating battles against Jedi and forging uneasy alliances with underworld factions.</p><h4>~19–5 BBY – Underworld Dominance</h4><p>Built a criminal empire amid the rise of the Empire, manipulating crime syndicates and expanding his influence.</p><h4>~10 BBY – Corellian Operation</h4><p>Led a raid on Corellian shipyards, demonstrating his ongoing power and impact on galactic smuggling networks.</p><h4>~3 BBY – Tatooine Confrontation</h4><p>Tracked Obi-Wan to Tatooine and dueled him in the Dune Sea, but was once again repelled by his old foe.</p><h4>0 BBY – Final Duel and Death</h4><p>Returned to Tatooine to protect his apprentice, confronted Obi-Wan Kenobi on the Lars homestead and was slain, ending his long vendetta.</p></div>
+    <div class="timeline"><h3>~54 BBY – Birth on Dathomir</h3><p>Born into a clan of Nightbrothers on Dathomir, discovered by Darth Sidious for his unique Force presence.</p><h3>~52 BBY – Sith Apprenticeship Begins</h3><p>Plucked by Sidious and taken to Coruscant to undergo rigorous Sith training in the dark side.</p><h3>~32 BBY – Battle of Naboo</h3><p>Ambushed Queen Amidala’s convoy; dueled Jedi Qui-Gon Jinn and Obi-Wan Kenobi, killed Qui-Gon before being bisected by Obi-Wan.</p><h3>~31 BBY – Resurrection and Return</h3><p>Survived a crash on Lotho Minor, rescued by his brother Savage Opress and rebuilt with cybernetic legs.</p><h3>~31 BBY – Formation of the Shadow Collective</h3><p>United criminal syndicates and Mandalorian clans under his command to seek revenge on both Jedi and Sith.</p><h3>~28 BBY – Hunt for Obi-Wan</h3><p>After Savage’s death, returned to Dathomir then resumed obsession with tracking and killing Obi-Wan Kenobi.</p><h3>~22–19 BBY – Clone Wars Engagements</h3><p>Reemerged during the Clone Wars, orchestrating battles against Jedi and forging uneasy alliances with underworld factions.</p><h3>~19–5 BBY – Underworld Dominance</h3><p>Built a criminal empire amid the rise of the Empire, manipulating crime syndicates and expanding his influence.</p><h3>~10 BBY – Corellian Operation</h3><p>Led a raid on Corellian shipyards, demonstrating his ongoing power and impact on galactic smuggling networks.</p><h3>~3 BBY – Tatooine Confrontation</h3><p>Tracked Obi-Wan to Tatooine and dueled him in the Dune Sea, but was once again repelled by his old foe.</p><h3>0 BBY – Final Duel and Death</h3><p>Returned to Tatooine to protect his apprentice, confronted Obi-Wan Kenobi on the Lars homestead and was slain, ending his long vendetta.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Maul in our timeline:</h3>
@@ -50,8 +65,8 @@ social-image: /assets/characters/maul-shadow-lord.png
     <a href="/character" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
-    <img src="https://timeline.starwars.guide//images/maul-shadow-lord.png" alt="Maul" />
-    <img src="https://timeline.starwars.guide//images/maul.png" alt="Maul" />
+    <img src="https://timeline.starwars.guide/images/maul-shadow-lord.png" alt="Maul" />
+    <img src="https://timeline.starwars.guide/images/maul.png" alt="Maul" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

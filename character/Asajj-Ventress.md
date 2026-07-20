@@ -1,17 +1,27 @@
 ---
-title: Asajj Ventress's Timeline
+title: "Asajj Ventress's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.181Z
-social-desc: Asajj Ventress  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.113Z
+social-title: "Asajj Ventress — Star Wars Timeline & Story"
+social-desc: "Asajj Ventress is a Dathomiran Force-sensitive Nightsister who was taken from her clan and trained as a Sith apprentice by Count Dooku during the Clone Wars."
 social-image: /assets/characters/asajj.png
+character:
+  name: "Asajj Ventress"
+  species: "Zabrak"
+  homeworld: "Dathomir"
+  birth_year: "50 BBY"
+  wookieepedia: https://starwars.fandom.com/wiki/Asajj_Ventress
+  appearances:
+    - "The Clone Wars (TV series)"
+    - "The Bad Batch"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
     <p>
-    Asajj Ventress             was born in <a href="https://timeline.starwars.guide/character/Asajj Ventress?year=-50" target="_blank">50 BBY</a>.
+    Asajj Ventress             was born in <a href="https://timeline.starwars.guide/character/Asajj%20Ventress?year=-50" target="_blank">50 BBY</a>.
     </p>
 
     <p><p>Asajj Ventress is a Dathomiran Force-sensitive Nightsister who was taken from her clan and trained as a Sith apprentice by Count Dooku during the Clone Wars. Known for wielding twin red lightsabers and her ruthless combat tactics, she rose to prominence as a commander of the Separatist droid armies and a formidable adversary of Jedi such as Obi-Wan Kenobi and Anakin Skywalker. After her betrayal by Dooku, she survived as an outlaw bounty hunter, briefly allied with the Black Sun syndicate, and later partnered with Jedi Quinlan Vos to assassinate her former master. In the aftermath she sought to restore her Nightsister clan on Dathomir, but was ultimately mortally wounded in a confrontation with her brother Savage Opress.</p></p>
@@ -29,14 +39,14 @@ social-image: /assets/characters/asajj.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~40 BBY – Birth on Dathomir</h4><p>Born into the Nightsister clan on the witch planet Dathomir, showing early sensitivity to the Force.</p><h4>~21 BBY – Jedi Initiation and Sith Recruitment</h4><p>Discovered by Count Dooku, she left Jedi training to become his Sith apprentice and weapon.</p><h4>~22 BBY – Clone Wars Commander</h4><p>At the outbreak of the Clone Wars, she led Separatist droid forces in raids and high-profile missions against the Republic.</p><h4>~22 to ~19 BBY – Key Clone Wars Engagements</h4><p>Fought numerous duels with Obi-Wan Kenobi and Anakin Skywalker, and coordinated operations alongside General Grievous.</p><h4>~19 BBY – Betrayal by Count Dooku</h4><p>After a string of setbacks, Dooku orders her assassination; Ventress narrowly escapes and becomes a fugitive.</p><h4>~19 BBY – Outlaw and Bounty Hunter</h4><p>Striking out on her own, she survives attacks by bounty hunters and builds a reputation as a deadly freelance operative.</p><h4>~19 BBY – Alliance with Black Sun</h4><p>Serves under the pirate lord Kryat and provides her skills to the Black Sun crime syndicate for hire.</p><h4>~19 BBY – Partnership with Quinlan Vos</h4><p>Forms an uneasy alliance with Jedi Quinlan Vos, undertaking a secret mission to Serenno to assassinate Count Dooku.</p><h4>~19 BBY – Return to Dathomir</h4><p>Attempts to revive her Nightsister clan through ancient blood magic rituals, driven by revenge and redemption.</p><h4>~19 BBY – Death</h4><p>Confronted by her former brother and apprentice Savage Opress, she is critically injured and dies, ending her turbulent journey.</p></div>
+    <div class="timeline"><h3>~40 BBY – Birth on Dathomir</h3><p>Born into the Nightsister clan on the witch planet Dathomir, showing early sensitivity to the Force.</p><h3>~21 BBY – Jedi Initiation and Sith Recruitment</h3><p>Discovered by Count Dooku, she left Jedi training to become his Sith apprentice and weapon.</p><h3>~22 BBY – Clone Wars Commander</h3><p>At the outbreak of the Clone Wars, she led Separatist droid forces in raids and high-profile missions against the Republic.</p><h3>~22 to ~19 BBY – Key Clone Wars Engagements</h3><p>Fought numerous duels with Obi-Wan Kenobi and Anakin Skywalker, and coordinated operations alongside General Grievous.</p><h3>~19 BBY – Betrayal by Count Dooku</h3><p>After a string of setbacks, Dooku orders her assassination; Ventress narrowly escapes and becomes a fugitive.</p><h3>~19 BBY – Outlaw and Bounty Hunter</h3><p>Striking out on her own, she survives attacks by bounty hunters and builds a reputation as a deadly freelance operative.</p><h3>~19 BBY – Alliance with Black Sun</h3><p>Serves under the pirate lord Kryat and provides her skills to the Black Sun crime syndicate for hire.</p><h3>~19 BBY – Partnership with Quinlan Vos</h3><p>Forms an uneasy alliance with Jedi Quinlan Vos, undertaking a secret mission to Serenno to assassinate Count Dooku.</p><h3>~19 BBY – Return to Dathomir</h3><p>Attempts to revive her Nightsister clan through ancient blood magic rituals, driven by revenge and redemption.</p><h3>~19 BBY – Death</h3><p>Confronted by her former brother and apprentice Savage Opress, she is critically injured and dies, ending her turbulent journey.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Asajj Ventress in our timeline:</h3>
 
     <ul>
-      <li><a href="https://timeline.starwars.guide/character/Asajj Ventress?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (28 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Asajj Ventress?year=-19" target="_blank">The Bad Batch, 19 BBY (31 years old)</a></li>
+      <li><a href="https://timeline.starwars.guide/character/Asajj%20Ventress?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (28 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Asajj%20Ventress?year=-19" target="_blank">The Bad Batch, 19 BBY (31 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>
@@ -48,7 +58,7 @@ social-image: /assets/characters/asajj.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/asajj.png" alt="Asajj Ventress" />
+    <img src="https://timeline.starwars.guide/images/asajj.png" alt="Asajj Ventress" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

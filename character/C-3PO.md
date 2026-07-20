@@ -1,10 +1,32 @@
 ---
-title: C-3PO's Timeline
+title: "C-3PO's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:36:38.184Z
-social-desc: C-3PO  | Star Wars
+last_modified_at: 2026-07-20T21:57:09.118Z
+social-title: "C-3PO — Star Wars Timeline & Story"
+social-desc: "C-3PO is a humanoid protocol droid fluent in over six million forms of communication, known for his meticulous etiquette and neurotic personality."
 social-image: /assets/characters/c3po.png
+character:
+  name: "C-3PO"
+  species: "Droid"
+  homeworld: "Tatooine"
+  wookieepedia: https://starwars.fandom.com/wiki/C-3PO
+  appearances:
+    - "Episode I: The Phantom Menace"
+    - "Episode II: Attack of the Clones"
+    - "The Clone Wars (movie)"
+    - "The Clone Wars (TV series)"
+    - "Episode III: Revenge of the Sith"
+    - "Obi-Wan Kenobi"
+    - "Star Wars Rebels"
+    - "Rogue One: A Star Wars Story"
+    - "Episode IV: A New Hope"
+    - "Episode V: The Empire Strikes Back"
+    - "Episode VI: Return of the Jedi"
+    - "Ahsoka"
+    - "Episode VII: The Force Awakens"
+    - "Episode VIII: The Last Jedi"
+    - "Episode IX: The Rise of Skywalker"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -32,7 +54,7 @@ social-image: /assets/characters/c3po.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~32 BBY - Construction</h4><p>Anakin Skywalker assembles C-3PO as a protocol droid in his Tatooine workshop.</p><h4>~22–19 BBY - Clone Wars Service</h4><p>Serves Senator Padmé Amidala and the Republic across numerous diplomatic and military missions.</p><h4>~19 BBY - Memory Wipe and Rebel Assignment</h4><p>Undergoes a complete memory wipe due to damage, then is assigned to Princess Leia Organa’s crew on the Tantive IV.</p><h4>~0 BBY - A New Hope and Battle of Yavin</h4><p>Translates critical schematics for the Rebel Alliance during the Death Star assault and evacuation to Yavin 4.</p><h4>~3 ABY - Battle of Hoth and Dagobah</h4><p>Evacuates the Rebel base on Hoth, then accompanies Luke Skywalker to Dagobah for Jedi training with Yoda.</p><h4>~3 ABY - Cloud City Capture</h4><p>Is captured by Imperial forces on Bespin and remains in carbonite until his reactivation by Lando Calrissian.</p><h4>~4 ABY - Battle of Endor</h4><p>Helps disable the second Death Star’s shield generator and receives a protective memory wipe of sensitive Rebel plans.</p><h4>~5 ABY - New Republic Service</h4><p>Continues diplomatic and translation duties within the burgeoning New Republic government.</p><h4>~34 ABY - Resistance and Sith Data Lock</h4><p>Memory circuits are locked to safeguard ancient Sith language data; he is found deactivated on Pasaana and returned to Resistance service.</p><h4>~35 ABY - Exegol and Final Victory</h4><p>Memory is restored, enabling him to translate Sith text and support the Resistance’s final assault against Emperor Palpatine on Exegol.</p></div>
+    <div class="timeline"><h3>~32 BBY - Construction</h3><p>Anakin Skywalker assembles C-3PO as a protocol droid in his Tatooine workshop.</p><h3>~22–19 BBY - Clone Wars Service</h3><p>Serves Senator Padmé Amidala and the Republic across numerous diplomatic and military missions.</p><h3>~19 BBY - Memory Wipe and Rebel Assignment</h3><p>Undergoes a complete memory wipe due to damage, then is assigned to Princess Leia Organa’s crew on the Tantive IV.</p><h3>~0 BBY - A New Hope and Battle of Yavin</h3><p>Translates critical schematics for the Rebel Alliance during the Death Star assault and evacuation to Yavin 4.</p><h3>~3 ABY - Battle of Hoth and Dagobah</h3><p>Evacuates the Rebel base on Hoth, then accompanies Luke Skywalker to Dagobah for Jedi training with Yoda.</p><h3>~3 ABY - Cloud City Capture</h3><p>Is captured by Imperial forces on Bespin and remains in carbonite until his reactivation by Lando Calrissian.</p><h3>~4 ABY - Battle of Endor</h3><p>Helps disable the second Death Star’s shield generator and receives a protective memory wipe of sensitive Rebel plans.</p><h3>~5 ABY - New Republic Service</h3><p>Continues diplomatic and translation duties within the burgeoning New Republic government.</p><h3>~34 ABY - Resistance and Sith Data Lock</h3><p>Memory circuits are locked to safeguard ancient Sith language data; he is found deactivated on Pasaana and returned to Resistance service.</p><h3>~35 ABY - Exegol and Final Victory</h3><p>Memory is restored, enabling him to translate Sith text and support the Resistance’s final assault against Emperor Palpatine on Exegol.</p></div>
     
     <p>&nbsp;</p>
     <h3>View C-3PO in our timeline:</h3>
@@ -64,7 +86,7 @@ social-image: /assets/characters/c3po.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/c3po.png" alt="C-3PO" />
+    <img src="https://timeline.starwars.guide/images/c3po.png" alt="C-3PO" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->
