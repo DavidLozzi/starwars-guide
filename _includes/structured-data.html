@@ -1,0 +1,105 @@
+{%- comment -%}
+JSON-LD structured data, selected by layout so the generated character pages
+need no front-matter changes.
+{%- endcomment -%}
+{%- assign sd_desc = page.social-desc | default: site.description | strip | replace: '  ', ' ' -%}
+{%- assign sd_image = page.social-image | default: '/assets/social.png' | absolute_url -%}
+{%- if page.layout == 'home' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "publisher": { "@id": "{{ site.url }}/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "AurebeshFiles",
+      "url": "{{ site.url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/social.png' | absolute_url }}"
+      },
+      "sameAs": [
+        "https://twitter.com/aurebeshfiles",
+        "https://www.instagram.com/aurebeshfiles/",
+        "https://www.youtube.com/@aurebeshfiles6312"
+      ]
+    }
+  ]
+}
+</script>
+{%- elsif page.layout == 'posts' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" },
+  "headline": {{ page.title | jsonify }},
+  "description": {{ sd_desc | jsonify }},
+  "image": "{{ sd_image }}",
+  {%- if page.date %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {%- endif %}
+  {%- if page.last_modified_at %}
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  {%- endif %}
+  {%- if page.tags and page.tags.size > 0 %}
+  "keywords": {{ page.tags | join: ', ' | jsonify }},
+  {%- endif %}
+  "author": { "@type": "Organization", "name": "AurebeshFiles", "url": "{{ site.url }}/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AurebeshFiles",
+    "logo": { "@type": "ImageObject", "url": "{{ '/assets/social.png' | absolute_url }}" }
+  }
+}
+</script>
+{%- elsif page.layout == 'character' -%}
+{%- assign character_name = page.title | remove: "'s Timeline" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" },
+      "headline": {{ page.title | jsonify }},
+      "description": {{ sd_desc | jsonify }},
+      "image": "{{ sd_image }}",
+      {%- if page.date %}
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      {%- endif %}
+      {%- if page.last_modified_at %}
+      "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+      {%- endif %}
+      "about": {
+        "@type": "Person",
+        "name": {{ character_name | jsonify }},
+        "image": "{{ sd_image }}"
+      },
+      "author": { "@type": "Organization", "name": "AurebeshFiles", "url": "{{ site.url }}/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AurebeshFiles",
+        "logo": { "@type": "ImageObject", "url": "{{ '/assets/social.png' | absolute_url }}" }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Characters", "item": "{{ '/character' | absolute_url }}" },
+        { "@type": "ListItem", "position": 3, "name": {{ character_name | jsonify }}, "item": "{{ page.url | absolute_url }}" }
+      ]
+    }
+  ]
+}
+</script>
+{%- endif -%}

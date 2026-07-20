@@ -12,6 +12,6 @@ alwaysApply: true
 </tech>
 
 <learn>
-See [AGENTS.md](mdc:starwars-guide/AGENTS.md) for additional learnings you must consider.
-As you interact with the user and the app, if you end up being wrong and are corrected, learn more about the context of the app and its purpose, or learn anything else that would help you in the future, please write it to [AGENTS.md](mdc:AGENTS.md).
+See [CLAUDE.md](mdc:CLAUDE.md) for additional learnings you must consider.
+As you interact with the user and the app, if you end up being wrong and are corrected, learn more about the context of the app and its purpose, or learn anything else that would help you in the future, please write it to [CLAUDE.md](mdc:CLAUDE.md).
 </learn>

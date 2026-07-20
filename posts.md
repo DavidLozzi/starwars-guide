@@ -34,6 +34,9 @@ social-desc: "All Star Wars blog posts and updates from StarWars.Guide"
                 {{ post.title | upcase }}
               </h3>
             </div>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="text-white opacity-60 text-xs uppercase tracking-wide">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </time>
           </div>
           <p class="news-summary relative z-10">
             {% if post.excerpt %}

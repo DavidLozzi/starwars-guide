@@ -9,6 +9,11 @@ theme: jekyll-theme-so-simple
 remote-theme: jekyll-theme-so-simple
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+logo: /assets/social.png
+author:
+  name: AurebeshFiles
+  url: https://starwars.guide
 footer_links:
   - title: Twitter
     url: https://twitter.com/aurebeshfiles

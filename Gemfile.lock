@@ -130,6 +130,7 @@ DEPENDENCIES
   jekyll (~> 4.3.2)
   jekyll-admin (~> 0.11.1)
   jekyll-feed (~> 0.12)
+  jekyll-sitemap (~> 1.4)
   jekyll-theme-so-simple
   logger (~> 1.4)
   minima (~> 2.5)

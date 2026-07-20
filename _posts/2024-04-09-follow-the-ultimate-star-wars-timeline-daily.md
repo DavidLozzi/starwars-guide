@@ -8,6 +8,9 @@ categories:
 tags:
   - Timeline
   - Twitter
+social-desc: >-
+  The Ultimate Star Wars Timeline now posts daily. Follow @UltStarWarsTime for a character, movie, or TV show from the Star Wars chronology every day.
+social-image: /assets/posts/chewie_timeline.png
 ---
 
 We are now Tweeting out our entire [Ultimate Star Wars Timeline](https://timeline.starwars.guide/) daily! Follow [@UltStarWarsTime](https://twitter.com/UltStarWarsTime) to get a tweet daily about a character or movie/tv show from our timeline!

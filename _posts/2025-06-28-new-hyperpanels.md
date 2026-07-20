@@ -9,6 +9,9 @@ tags:
   - Comics
   - Social
   - Meme
+social-desc: >-
+  HyperPanels is Giphy for Star Wars fans: search real Star Wars comic panels and drop the perfect reaction into any conversation.
+social-image: /assets/cards/hyperpanels_web.png
 ---
 
 Your go-to for instant Star Wars reactions!
