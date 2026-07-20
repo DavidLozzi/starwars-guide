@@ -2,7 +2,7 @@
 title: Sheev Palpatine's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.625Z
+last_modified_at: 2026-07-20T20:36:38.202Z
 social-desc: Sheev Palpatine (Darth Sidious)  | Star Wars
 social-image: /assets/characters/palpatine.png
 ---

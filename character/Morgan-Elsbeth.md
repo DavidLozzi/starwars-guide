@@ -2,7 +2,7 @@
 title: Morgan Elsbeth's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.619Z
+last_modified_at: 2026-07-20T20:36:38.196Z
 social-desc: Morgan Elsbeth  | Star Wars
 social-image: /assets/characters/elsbeth.png
 ---

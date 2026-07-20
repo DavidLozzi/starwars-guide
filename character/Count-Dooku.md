@@ -2,7 +2,7 @@
 title: Count Dooku's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.609Z
+last_modified_at: 2026-07-20T20:36:38.186Z
 social-desc: Count Dooku (Darth Tyranus)  | Star Wars
 social-image: /assets/characters/dooku.png
 ---

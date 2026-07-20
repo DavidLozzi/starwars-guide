@@ -2,7 +2,7 @@
 title: Rex's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.623Z
+last_modified_at: 2026-07-20T20:36:38.200Z
 social-desc: Rex (CT-7567)  | Star Wars
 social-image: /assets/characters/rex.png
 ---

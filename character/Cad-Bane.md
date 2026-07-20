@@ -2,7 +2,7 @@
 title: Cad Bane's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.608Z
+last_modified_at: 2026-07-20T20:36:38.184Z
 social-desc: Cad Bane  | Star Wars
 social-image: /assets/characters/bane.png
 ---

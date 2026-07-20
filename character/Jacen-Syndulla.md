@@ -2,7 +2,7 @@
 title: Jacen Syndulla's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.614Z
+last_modified_at: 2026-07-20T20:36:38.191Z
 social-desc: Jacen Syndulla  | Star Wars
 social-image: /assets/characters/jacen-young.png
 ---

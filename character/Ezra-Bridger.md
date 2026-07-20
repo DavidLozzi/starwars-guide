@@ -2,7 +2,7 @@
 title: Ezra Bridger's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.610Z
+last_modified_at: 2026-07-20T20:36:38.186Z
 social-desc: Ezra Bridger  | Star Wars
 social-image: /assets/characters/ezra-old.png
 ---

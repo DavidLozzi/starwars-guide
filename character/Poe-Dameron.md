@@ -2,7 +2,7 @@
 title: Poe Dameron's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.621Z
+last_modified_at: 2026-07-20T20:36:38.198Z
 social-desc: Poe Dameron  | Star Wars
 social-image: /assets/characters/dameron.png
 ---

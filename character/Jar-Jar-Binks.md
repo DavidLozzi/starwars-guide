@@ -2,7 +2,7 @@
 title: Jar Jar Binks's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T20:19:12.615Z
+last_modified_at: 2026-07-20T20:36:38.191Z
 social-desc: Jar Jar Binks  | Star Wars
 social-image: /assets/characters/jarjar.png
 ---
