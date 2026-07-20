@@ -8,6 +8,29 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A fan-created Star Wars website (https://starwars.guide) built with Jekyll and hosted on Netlify. The site is the hub for AurebeshFiles content: it promotes three interactive apps on separate subdomains (Ultimate Star Wars Timeline, HyperPanels comics, SWordle word game), hosts character profile pages, blog posts, and static informational pages.
 
+**This repo is the primary landing page for the whole Star Wars brand.** Everything else is a satellite app on a subdomain; this site is where they are introduced, cross-linked, and indexed. Branding, nav, SEO, and cross-app links are decided here.
+
+## Brand ecosystem — sibling repos
+
+All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLAUDE.md`; read it before working there. Only two of them write content back into this repo (see "Generated content" below).
+
+| Repo (local path) | GitHub | What it is | Live at | Writes into this repo? |
+|---|---|---|---|---|
+| `starwars-guide` (this) | `DavidLozzi/starwars-guide` | Jekyll hub site | starwars.guide (Netlify) | — |
+| `starwars-timeline` | `DavidLozzi/starwars-timeline` | React interactive timeline | timeline.starwars.guide (GH Pages from `docs/`) | **yes** — `character/*.md` + images |
+| `swordle-data` | `DavidLozzi/swordle-data` | Word-list source of truth + build scripts (Node) | — | **yes** — `swordle-word-list.md` |
+| `swordle` | `DavidLozzi/swordle` | React Wordle game FE | wordle.starwars.guide (S3 + CloudFront) | no |
+| `hyperpanels/search` | `DavidLozzi/sw-panels-search` | Next.js 15 comic-panel search FE + admin | hyperpanels.starwars.guide (Vercel; Amplify Gen2 auth/S3) | no |
+| `hyperpanels/data` | `DavidLozzi/sw-panels-data` | Python ingestion: comic panels → OpenAI Vision → S3 + DynamoDB → Typesense | — | no |
+| `hyperpanels/keyboard` | `DavidLozzi/sw-panels-keyboard` | iOS app + custom keyboard over the same Typesense catalog | App Store target | no |
+| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **not launched yet**; PRD says it ships into a **subdirectory of this repo** | not yet |
+
+Notes:
+- `hyperpanels/` is not itself a repo — it's a folder holding three sibling repos. HyperPanels shares one Typesense `comics` collection across the web FE, the ingestion pipeline, and the iOS client.
+- `canonverse` also sits in `/Volumes/T9/git/` — unrelated, ignore it.
+- `clone-defense` is the next launch. When it ships, it needs: a home-page app card in `index.markdown`, a landing page like `star-wars-timeline.md`, a nav entry in `_data/navigation.yml`, and sitemap/SEO front matter. It's static and self-contained with relative paths, so it can be dropped in as a subdirectory here (Netlify serving it directly) rather than getting its own subdomain — confirm with the owner before wiring it up.
+- The home page app cards in `index.markdown` are the canonical list of launched apps; keep the table above in sync with them.
+
 ## Commands
 
 - **First-time setup:** `bundle install` (or `npm run bundle_install`, which also runs `bundle lock --add-platform x86_64-linux` for CI)
