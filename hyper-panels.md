@@ -7,7 +7,11 @@ social-desc: HyperPanels is the platform that enriches your world with Star
   expressive, and more you.
 social-title: HyperPanels
 date: 2026-06-28 12:00:00
-last_modified_at: 2026-06-28 12:00:00
+last_modified_at: 2026-07-20 12:00:00
+app:
+  name: HyperPanels
+  url: https://hyperpanels.starwars.guide
+  category: ReferenceApplication
 ---
 Respond to that last Text, Tweet, Thread, Slack, Email or any other conversation with Star Wars style!
 
@@ -24,3 +28,9 @@ Search for conversation bubbles, character names, movie names, and more.
 Click on an image to see it in full size.
 
 Click the share menu to copy the link to the image, or download, and share it!
+
+## More free Star Wars tools from AurebeshFiles
+
+- <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character">timeline pages for 80+ characters</a>.
+- <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
+- <a href="{{ 'about' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.

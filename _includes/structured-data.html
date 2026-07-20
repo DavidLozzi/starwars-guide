@@ -4,7 +4,50 @@ need no front-matter changes.
 {%- endcomment -%}
 {%- assign sd_desc = page.social-desc | default: site.description | strip | replace: '  ', ' ' -%}
 {%- assign sd_image = page.social-image | default: '/assets/social.png' | absolute_url -%}
-{%- if page.layout == 'home' -%}
+{%- if page.app -%}
+{%- comment -%}
+App landing pages opt in with an `app:` block in front matter (name, url,
+category, os). Emits WebApplication + BreadcrumbList so the three products are
+eligible for rich results in their own right.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "{{ page.url | absolute_url }}#app",
+      "name": {{ page.app.name | jsonify }},
+      "url": "{{ page.app.url }}",
+      "description": {{ sd_desc | jsonify }},
+      "image": "{{ sd_image }}",
+      "applicationCategory": {{ page.app.category | default: 'GameApplication' | jsonify }},
+      "operatingSystem": {{ page.app.os | default: 'Any (web browser)' | jsonify }},
+      "browserRequirements": "Requires JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": { "@type": "Organization", "name": "AurebeshFiles", "url": "{{ site.url }}/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AurebeshFiles",
+        "logo": { "@type": "ImageObject", "url": "{{ '/assets/social.png' | absolute_url }}" }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": {{ page.app.name | jsonify }}, "item": "{{ page.url | absolute_url }}" }
+      ]
+    }
+  ]
+}
+</script>
+{%- elsif page.layout == 'home' -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -27,9 +70,12 @@ need no front-matter changes.
         "url": "{{ '/assets/social.png' | absolute_url }}"
       },
       "sameAs": [
-        "https://twitter.com/aurebeshfiles",
-        "https://www.instagram.com/aurebeshfiles/",
-        "https://www.youtube.com/@aurebeshfiles6312"
+        "https://threads.net/@starwars_77_af",
+        "https://bsky.app/profile/starwars77af.bsky.social",
+        "https://instagram.com/starwars_77_af",
+        "https://youtube.com/@starwars_77_af",
+        "https://www.reddit.com/user/aurebeshFiles/",
+        "https://twitter.com/aurebeshfiles"
       ]
     }
   ]

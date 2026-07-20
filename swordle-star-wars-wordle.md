@@ -6,7 +6,11 @@ social-title: SWordle - Wordle for Star Wars
 social-desc: Play the best Wordle in the galaxy! 5 letters to guess names, planets,
   sayings, etc.
 date: 2023-06-28 12:00:00
-last_modified_at: 2026-06-28 12:00:00
+last_modified_at: 2026-07-20 12:00:00
+app:
+  name: SWordle
+  url: https://wordle.starwars.guide
+  category: GameApplication
 ---
 
 SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!
@@ -46,3 +50,9 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 </ul>
 </div>
 </div>
+
+## More free Star Wars tools from AurebeshFiles
+
+- <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character">timeline pages for 80+ characters</a>.
+- <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ 'about' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.
