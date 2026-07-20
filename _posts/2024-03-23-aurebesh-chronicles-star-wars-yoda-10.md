@@ -5,10 +5,13 @@ date: 2024-03-23 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 tags:
   - YouTube
-  - Comcis
+  - Comics
   - Yoda
 categories:
   - youtube
+social-desc: >-
+  Aurebesh Chronicles wraps the Star Wars: Yoda comic series with book 10, The Cave. Yoda faces the Dark Side and the nightmares waiting inside it.
+social-image: /comics/star%20wars%20yoda/star_wars_yoda10.jpg
 ---
 
 Our fourth episode is out, and wraps up the Star Wars: Yoda comicbooks series with book 10!
@@ -21,8 +24,8 @@ In this story arc, **The Cave**, we see a little horror as Yoda explores the Dar
 
 **Show Links**
 * [Watch on YouTube](https://youtu.be/tUUq5x-Xhyk)
-* <a href="/2023/10/12/aurebesh-chronicles-star-wars-yoda-1-3.html">Yoda 1-3 with Bree</a>
-* <a href="/2023/10/23/aurebesh-chronicles-star-wars-yoda-4-6.html">Yoda 4-6 with Dooku</a>
+* <a href="/youtube/2023/10/12/aurebesh-chronicles-star-wars-yoda-1-3.html">Yoda 1-3 with Bree</a>
+* <a href="/youtube/2023/10/23/aurebesh-chronicles-star-wars-yoda-4-6.html">Yoda 4-6 with Dooku</a>
 * Yoda on [The Ultimate Star Wars Timeline](https://timeline.starwars.guide/character/Yoda?year=0).
 
 Follow along, buy your copies on Amazon or visit your local comicbook store!
@@ -35,7 +38,7 @@ Follow along, buy your copies on Amazon or visit your local comicbook store!
 <a href="https://ebay.us/l6Xkm0" target="_blank">eBay</a>
 
 Check out the entire Yoda series:
-* <a href="/2023/10/12/aurebesh-chronicles-star-wars-yoda-1-3.html">Yoda 1-3</a>
-* <a href="/2023/10/23/aurebesh-chronicles-star-wars-yoda-4-6.html">Yoda 4-6</a>
-* <a href="/2023/12/16/aurebesh-chronicles-star-wars-yoda-7-9.html">Yoda 7-9</a>
-* <a href="/2024/03/23/aurebesh-chronicles-star-wars-yoda-10.html">Yoda 10</a>
+* <a href="/youtube/2023/10/12/aurebesh-chronicles-star-wars-yoda-1-3.html">Yoda 1-3</a>
+* <a href="/youtube/2023/10/23/aurebesh-chronicles-star-wars-yoda-4-6.html">Yoda 4-6</a>
+* <a href="/youtube/2023/12/16/aurebesh-chronicles-star-wars-yoda-7-9.html">Yoda 7-9</a>
+* <a href="/youtube/2024/03/23/aurebesh-chronicles-star-wars-yoda-10.html">Yoda 10</a>

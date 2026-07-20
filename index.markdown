@@ -1,20 +1,36 @@
 ---
 layout: home
+title: Star Wars Guide
+social-desc: 'Star Wars fan site from AurebeshFiles: the Ultimate Star Wars Timeline of every canon event, SWordle the daily Star Wars word game, HyperPanels comic reactions, and character timelines.'
 date: 2023-06-28 12:00:00
-last_modified_at: 2026-06-28 12:00:00
+last_modified_at: 2026-07-19 12:00:00
 ---
 
 <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
 
   <!-- Main Content -->
   <main class="max-w-6xl mx-auto p-6 relative home-main-flex">
+    <!-- Intro -->
+    <section class="mb-10">
+      <h1 class="text-4xl font-black text-white mb-4 border-l-8 border-yellow-400 pl-4 uppercase">
+        Star Wars Timeline, SWordle &amp; Comics
+      </h1>
+      <p class="text-white opacity-70 text-sm uppercase tracking-wide pl-4">
+        Free Star Wars tools and fan content from AurebeshFiles &mdash; explore the
+        <a href="{{ 'star-wars-timeline' | relative_url }}" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
+        play <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="text-red-400">SWordle</a>,
+        react with <a href="{{ 'hyper-panels' | relative_url }}" class="text-blue-400">HyperPanels</a> comics,
+        and browse <a href="/character" class="text-green-400">character timelines</a>.
+      </p>
+    </section>
+
     <!-- Apps Section -->
     <section class="mb-16">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- Timeline Card -->
         <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/timeline.png" alt="Timeline Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
+            <img src="/assets/cards/timeline.png" alt="The Ultimate Star Wars Timeline app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
           </div>
           <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Explore the complete Star Wars chronology
@@ -34,7 +50,7 @@ last_modified_at: 2026-06-28 12:00:00
         <!-- HyperPanels Card -->
         <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://hyperpanels.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
+            <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Star Wars comic reaction app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
           </div>
           <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Respond using the Force! with a witty Star Wars comic.
@@ -54,7 +70,7 @@ last_modified_at: 2026-06-28 12:00:00
         <!-- SWordle Card -->
         <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/swordle.png" alt="SWordle Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
+            <img src="/assets/cards/swordle.png" alt="SWordle, the daily Star Wars word game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
           </div>
           <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
             Wordle for the real Star Wars fan

@@ -5,11 +5,14 @@ date: 2025-09-29 12:00:00
 last_modified_at: 2025-09-29 12:00:00
 tags:
   - YouTube
-  - Comcis
+  - Comics
   - Kylo Ren
   - Darth Vader
 categories:
   - youtube
+social-desc: >-
+  Aurebesh Chronicles reviews Star Wars: Legacy of Vader book 1. Kylo Ren wrestles with who he is and sets out to destroy his past, starting with his grandfather Darth Vader.
+social-image: /assets/cards/hyperpanels_web.png
 ---
 
 Join the fun on our [YouTube Channel](https://youtu.be/cShcZ-8l8WA)! We dive into the first book of the Star Wars: Legacy of Vader comic series. We know who the legacy is, that cry baby Kylo Ren...
