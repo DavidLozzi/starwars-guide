@@ -2,7 +2,7 @@
 title: Reva's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.806Z
+last_modified_at: 2026-07-20T19:26:20.889Z
 social-desc: Reva (Third Sister)  | Star Wars
 social-image: /assets/characters/reva-young.png
 ---

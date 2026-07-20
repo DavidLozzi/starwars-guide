@@ -2,7 +2,7 @@
 title: Fennec Shand's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.793Z
+last_modified_at: 2026-07-20T19:26:20.876Z
 social-desc: Fennec Shand  | Star Wars
 social-image: /assets/characters/shand.png
 ---

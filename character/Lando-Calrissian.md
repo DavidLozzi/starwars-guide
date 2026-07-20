@@ -2,7 +2,7 @@
 title: Lando Calrissian's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.800Z
+last_modified_at: 2026-07-20T19:26:20.882Z
 social-desc: Lando Calrissian  | Star Wars
 social-image: /assets/characters/lando-og.png
 ---

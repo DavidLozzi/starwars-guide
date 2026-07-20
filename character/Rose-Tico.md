@@ -2,7 +2,7 @@
 title: Rose Tico's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.807Z
+last_modified_at: 2026-07-20T19:26:20.890Z
 social-desc: Rose Tico  | Star Wars
 social-image: /assets/characters/tico.png
 ---

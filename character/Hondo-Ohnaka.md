@@ -2,7 +2,7 @@
 title: Hondo Ohnaka's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.796Z
+last_modified_at: 2026-07-20T19:26:20.879Z
 social-desc: Hondo Ohnaka  | Star Wars
 social-image: /assets/characters/hondo.png
 ---

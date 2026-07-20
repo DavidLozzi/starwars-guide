@@ -2,7 +2,7 @@
 title: Mon Mothma's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.802Z
+last_modified_at: 2026-07-20T19:26:20.885Z
 social-desc: Mon Mothma  | Star Wars
 social-image: /assets/characters/mothma.png
 ---

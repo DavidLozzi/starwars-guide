@@ -2,7 +2,7 @@
 title: Luke Skywalker's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T19:25:03.800Z
+last_modified_at: 2026-07-20T19:26:20.883Z
 social-desc: Luke Skywalker  | Star Wars
 social-image: /assets/characters/skywalker-farmboy.jpg
 ---
