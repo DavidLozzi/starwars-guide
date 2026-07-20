@@ -2,7 +2,7 @@
 title: Boba Fett's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:49:02.209Z
+last_modified_at: 2026-07-20T19:25:03.790Z
 social-desc: Boba Fett  | Star Wars
 social-image: /assets/characters/boba-og.png
 ---

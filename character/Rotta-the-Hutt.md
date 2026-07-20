@@ -2,7 +2,7 @@
 title: Rotta the Hutt's Timeline
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:49:02.229Z
+last_modified_at: 2026-07-20T19:25:03.808Z
 social-desc: Rotta the Hutt  | Star Wars
 social-image: /assets/characters/rotta.png
 ---
