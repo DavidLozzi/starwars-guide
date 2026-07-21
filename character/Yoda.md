@@ -1,10 +1,31 @@
 ---
-title: Yoda's Timeline
+title: "Yoda's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:49:02.231Z
-social-desc: Yoda  | Star Wars
+last_modified_at: 2026-07-20T21:33:13.044Z
+social-title: "Yoda — Star Wars Timeline & Story"
+social-desc: "Yoda is a legendary Jedi Master of an ancient and mysterious species who served the Galactic Republic for over eight centuries."
 social-image: /assets/characters/yoda.png
+character:
+  name: "Yoda"
+  species: "Yoda's Species"
+  homeworld: "Unknown"
+  birth_year: "896 BBY"
+  death_year: "4 ABY"
+  wookieepedia: https://starwars.fandom.com/wiki/Yoda
+  appearances:
+    - "Star Wars: Young Jedi Adventures"
+    - "The Acolyte"
+    - "Episode I: The Phantom Menace"
+    - "Episode II: Attack of the Clones"
+    - "The Clone Wars (movie)"
+    - "The Clone Wars (TV series)"
+    - "Episode III: Revenge of the Sith"
+    - "Star Wars Rebels"
+    - "Episode IV: A New Hope"
+    - "Episode V: The Empire Strikes Back"
+    - "Episode VI: Return of the Jedi"
+    - "Episode VIII: The Last Jedi"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +50,7 @@ social-image: /assets/characters/yoda.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~896 BBY - Birth</h4><p>Born on a remote world to a mysterious species whose home and origins remain unknown.</p><h4>~840 BBY - Jedi Training</h4><p>Enters the Jedi Order as a young Initiate at the Jedi Temple on Coruscant.</p><h4>~700 BBY - Jedi Knight</h4><p>Completes training and is elevated to the rank of Jedi Knight, beginning a long career of service.</p><h4>~500 BBY - Jedi Council Member</h4><p>Appointed to the Jedi High Council, helping shape policy and guide the Order.</p><h4>~430 BBY - Grand Master</h4><p>Elevated to Grand Master, becoming the esteemed leader and spiritual head of the Jedi Order.</p><h4>~32 BBY - Battle of Naboo</h4><p>Confronts the Sith apprentice Darth Maul during the Trade Federation’s invasion of Naboo.</p><h4>~22 BBY - Clone Wars</h4><p>Leads Republic forces at the Battle of Geonosis and oversees Jedi strategies throughout the galaxy-wide conflict.</p><h4>~19 BBY - Exile on Dagobah</h4><p>After the rise of the Galactic Empire and execution of Order 66, retreats into self-imposed exile on the swamp planet Dagobah.</p><h4>~4 ABY - Passing into the Force</h4><p>Dies peacefully on Dagobah at around 900 years old and manifests later as a Force spirit to guide future generations of Jedi.</p></div>
+    <div class="timeline"><h3>~896 BBY - Birth</h3><p>Born on a remote world to a mysterious species whose home and origins remain unknown.</p><h3>~840 BBY - Jedi Training</h3><p>Enters the Jedi Order as a young Initiate at the Jedi Temple on Coruscant.</p><h3>~700 BBY - Jedi Knight</h3><p>Completes training and is elevated to the rank of Jedi Knight, beginning a long career of service.</p><h3>~500 BBY - Jedi Council Member</h3><p>Appointed to the Jedi High Council, helping shape policy and guide the Order.</p><h3>~430 BBY - Grand Master</h3><p>Elevated to Grand Master, becoming the esteemed leader and spiritual head of the Jedi Order.</p><h3>~32 BBY - Battle of Naboo</h3><p>Confronts the Sith apprentice Darth Maul during the Trade Federation’s invasion of Naboo.</p><h3>~22 BBY - Clone Wars</h3><p>Leads Republic forces at the Battle of Geonosis and oversees Jedi strategies throughout the galaxy-wide conflict.</p><h3>~19 BBY - Exile on Dagobah</h3><p>After the rise of the Galactic Empire and execution of Order 66, retreats into self-imposed exile on the swamp planet Dagobah.</p><h3>~4 ABY - Passing into the Force</h3><p>Dies peacefully on Dagobah at around 900 years old and manifests later as a Force spirit to guide future generations of Jedi.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Yoda in our timeline:</h3>
@@ -57,8 +78,8 @@ social-image: /assets/characters/yoda.png
     <a href="/character" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
-    <img src="https://timeline.starwars.guide//images/yoda.png" alt="Yoda" />
-    <img src="https://timeline.starwars.guide//images/yoda-young.png" alt="Yoda" />
+    <img src="https://timeline.starwars.guide/images/yoda.png" alt="Yoda" />
+    <img src="https://timeline.starwars.guide/images/yoda-young.png" alt="Yoda" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

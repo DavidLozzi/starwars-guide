@@ -2,7 +2,10 @@
 title: Star Wars Characters on the Timeline
 layout: page
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:49:02.231Z
+last_modified_at: 2026-07-20T20:43:19.998Z
+social-title: "All Star Wars Character Timelines"
+social-desc: "Browse timelines for 78 Star Wars characters — birth and death years, species, homeworlds, and every movie and series they appear in."
+social-image: /assets/social.png
 ---
 
 Explore all of the characters from the <a href="https://timeline.starwars.guide" target="_blank">Ultimate Star Wars Timeline</a>.

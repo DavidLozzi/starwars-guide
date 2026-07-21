@@ -1,10 +1,29 @@
 ---
-title: Chewbacca's Timeline
+title: "Chewbacca's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:49:02.211Z
-social-desc: Chewbacca (Chewie)  | Star Wars
+last_modified_at: 2026-07-20T21:33:12.909Z
+social-title: "Chewbacca — Star Wars Timeline & Story"
+social-desc: "Chewbacca is a Wookiee warrior and engineer from the forest world Kashyyyk, famed as the towering co-pilot of the Millennium Falcon and lifelong companion of…"
 social-image: /assets/characters/chewie.png
+character:
+  name: "Chewbacca"
+  also_known_as: "Chewie"
+  species: "Wookie"
+  homeworld: "Kashyyyk"
+  birth_year: "200 BBY"
+  wookieepedia: https://starwars.fandom.com/wiki/Chewbacca
+  appearances:
+    - "The Clone Wars (TV series)"
+    - "Episode III: Revenge of the Sith"
+    - "Solo: A Star Wars Story"
+    - "Episode IV: A New Hope"
+    - "Episode V: The Empire Strikes Back"
+    - "Episode VI: Return of the Jedi"
+    - "Episode VII: The Force Awakens"
+    - "Episode VIII: The Last Jedi"
+    - "Galaxy's Edge"
+    - "Episode IX: The Rise of Skywalker"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -29,7 +48,7 @@ social-image: /assets/characters/chewie.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~200 BBY - Birth on Kashyyyk</h4><p>Chewbacca is born in a Wookiee village on the forest moon of Kashyyyk, beginning his life immersed in his people’s culture and traditions.</p><h4>~22 BBY - Clone Wars Service</h4><p>Responds to the Galactic Senate’s call to arms, fighting alongside clone troopers and honing his combat and technical skills.</p><h4>~19 BBY - Siege of Kashyyyk</h4><p>Defends his homeworld from Separatist droid armies, playing a key role in repelling the invasion.</p><h4>~19 BBY - Liberation and First Meeting with Han Solo</h4><p>After Imperial slavers capture him, Chewbacca is rescued by smuggler Han Solo, forging their lifelong partnership and joining him as co-pilot of the Millennium Falcon.</p><h4>0 BBY - Battle of Yavin</h4><p>As co-pilot of the Falcon, participates in the daring mission that leads to the destruction of the first Death Star.</p><h4>3 ABY - Battle of Hoth</h4><p>Helps evacuate the Rebel base from Hoth, battling probes and towing the Falcon through the icy planet’s atmosphere to escape Imperial forces.</p><h4>4 ABY - Battle of Endor</h4><p>Fights on the forest moon alongside rebels and Ewoks, aiding in the destruction of the second Death Star and the fall of the Empire.</p><h4>34 ABY - The Force Awakens</h4><p>Reunites with Han Solo and new allies, confronts Kylo Ren and assists in the destruction of Starkiller Base.</p><h4>35 ABY - The Last Jedi</h4><p>Supports Rey’s training on Ahch-To and helps the Resistance make a stand on Crait against overwhelming First Order forces.</p><h4>35 ABY - The Rise of Skywalker</h4><p>Joins the final assault on the Sith Eternal fleet at Exegol, aiding in the defeat of Emperor Palpatine and the restoration of peace to the galaxy.</p></div>
+    <div class="timeline"><h3>~200 BBY - Birth on Kashyyyk</h3><p>Chewbacca is born in a Wookiee village on the forest moon of Kashyyyk, beginning his life immersed in his people’s culture and traditions.</p><h3>~22 BBY - Clone Wars Service</h3><p>Responds to the Galactic Senate’s call to arms, fighting alongside clone troopers and honing his combat and technical skills.</p><h3>~19 BBY - Siege of Kashyyyk</h3><p>Defends his homeworld from Separatist droid armies, playing a key role in repelling the invasion.</p><h3>~19 BBY - Liberation and First Meeting with Han Solo</h3><p>After Imperial slavers capture him, Chewbacca is rescued by smuggler Han Solo, forging their lifelong partnership and joining him as co-pilot of the Millennium Falcon.</p><h3>0 BBY - Battle of Yavin</h3><p>As co-pilot of the Falcon, participates in the daring mission that leads to the destruction of the first Death Star.</p><h3>3 ABY - Battle of Hoth</h3><p>Helps evacuate the Rebel base from Hoth, battling probes and towing the Falcon through the icy planet’s atmosphere to escape Imperial forces.</p><h3>4 ABY - Battle of Endor</h3><p>Fights on the forest moon alongside rebels and Ewoks, aiding in the destruction of the second Death Star and the fall of the Empire.</p><h3>34 ABY - The Force Awakens</h3><p>Reunites with Han Solo and new allies, confronts Kylo Ren and assists in the destruction of Starkiller Base.</p><h3>35 ABY - The Last Jedi</h3><p>Supports Rey’s training on Ahch-To and helps the Resistance make a stand on Crait against overwhelming First Order forces.</p><h3>35 ABY - The Rise of Skywalker</h3><p>Joins the final assault on the Sith Eternal fleet at Exegol, aiding in the defeat of Emperor Palpatine and the restoration of peace to the galaxy.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Chewbacca in our timeline:</h3>
@@ -56,7 +75,7 @@ social-image: /assets/characters/chewie.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/chewie.png" alt="Chewbacca" />
+    <img src="https://timeline.starwars.guide/images/chewie.png" alt="Chewbacca" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->

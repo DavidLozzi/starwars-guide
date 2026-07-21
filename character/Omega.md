@@ -1,10 +1,18 @@
 ---
-title: Omega's Timeline
+title: "Omega's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T18:49:02.224Z
-social-desc: Omega  | Star Wars
+last_modified_at: 2026-07-20T21:33:13.003Z
+social-title: "Omega — Star Wars Timeline & Story"
+social-desc: "Omega is the first unaltered female clone of Jango Fett, genetically engineered on Kamino and raised in secret laboratories during the Clone Wars."
 social-image: /assets/characters/omega.png
+character:
+  name: "Omega"
+  species: "Human"
+  homeworld: "Kamino"
+  wookieepedia: https://starwars.fandom.com/wiki/Omega
+  appearances:
+    - "The Bad Batch"
 ---
 <a href="/character" class="smaller">Back to All Characters</a>
 
@@ -32,7 +40,7 @@ social-image: /assets/characters/omega.png
       </div>
       </div>
 
-    <div class="timeline"><h4>~41 BBY - Conception on Kamino</h4><p>Omega is created as the first fully unmodified female clone of Jango Fett in Tipoca City’s covert laboratories.</p><h4>~19 BBY - Discovery and Rescue</h4><p>Clone Force 99 infiltrates a Kamino facility during the Clone Wars’ final days and frees Omega from her secured containment.</p><h4>~19 BBY - Defense of Ferrix</h4><p>Omega helps the Bad Batch defend Wrecker’s home colony of Ferrix from scavenger attack, demonstrating quick thinking and resourcefulness.</p><h4>~19 BBY - Engineering Role on Bracca</h4><p>Stranded on the starship graveyard Bracca, Omega assists in repairing the Havoc Marauder and forges ties with Cid’s syndicate.</p><h4>~19 BBY - Return to Kamino and Liberation</h4><p>During a covert mission back to Kamino, Omega aids in liberating dozens of undeveloped clones from their cloning tubes.</p><h4>~19 BBY - Evacuation Mission on Ryloth</h4><p>Omega contributes to the rescue of civilians and friendly forces on Ryloth, reinforcing her commitment to protect the innocent.</p><h4>~19 BBY - Onderon Rebellion</h4><p>Omega participates in underground operations that spark and support a rebellion against Imperial occupation on Onderon.</p><h4>~19 BBY - Abduction by Crosshair</h4><p>Captured by her genetically enhanced brother Crosshair, Omega is taken to Polis Massa for secret Imperial experiments.</p><h4>~19 BBY - Escape from Polis Massa</h4><p>Using her ingenuity and help from the Bad Batch, Omega escapes her captors and destroys the facility’s research data.</p><h4>~19 BBY - Support for Emerging Rebellion</h4><p>Omega continues to join the Bad Batch on clandestine missions, laying the groundwork for the Rebel Alliance’s fight against the Empire.</p></div>
+    <div class="timeline"><h3>~41 BBY - Conception on Kamino</h3><p>Omega is created as the first fully unmodified female clone of Jango Fett in Tipoca City’s covert laboratories.</p><h3>~19 BBY - Discovery and Rescue</h3><p>Clone Force 99 infiltrates a Kamino facility during the Clone Wars’ final days and frees Omega from her secured containment.</p><h3>~19 BBY - Defense of Ferrix</h3><p>Omega helps the Bad Batch defend Wrecker’s home colony of Ferrix from scavenger attack, demonstrating quick thinking and resourcefulness.</p><h3>~19 BBY - Engineering Role on Bracca</h3><p>Stranded on the starship graveyard Bracca, Omega assists in repairing the Havoc Marauder and forges ties with Cid’s syndicate.</p><h3>~19 BBY - Return to Kamino and Liberation</h3><p>During a covert mission back to Kamino, Omega aids in liberating dozens of undeveloped clones from their cloning tubes.</p><h3>~19 BBY - Evacuation Mission on Ryloth</h3><p>Omega contributes to the rescue of civilians and friendly forces on Ryloth, reinforcing her commitment to protect the innocent.</p><h3>~19 BBY - Onderon Rebellion</h3><p>Omega participates in underground operations that spark and support a rebellion against Imperial occupation on Onderon.</p><h3>~19 BBY - Abduction by Crosshair</h3><p>Captured by her genetically enhanced brother Crosshair, Omega is taken to Polis Massa for secret Imperial experiments.</p><h3>~19 BBY - Escape from Polis Massa</h3><p>Using her ingenuity and help from the Bad Batch, Omega escapes her captors and destroys the facility’s research data.</p><h3>~19 BBY - Support for Emerging Rebellion</h3><p>Omega continues to join the Bad Batch on clandestine missions, laying the groundwork for the Rebel Alliance’s fight against the Empire.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Omega in our timeline:</h3>
@@ -50,7 +58,7 @@ social-image: /assets/characters/omega.png
   </div>
   <div class="character_image col-2">
     
-    <img src="https://timeline.starwars.guide//images/omega.png" alt="Omega" />
+    <img src="https://timeline.starwars.guide/images/omega.png" alt="Omega" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
         crossorigin="anonymous"></script>
     <!-- starwars character -->
