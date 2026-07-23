@@ -2,9 +2,9 @@
 title: "Kaydel Ko Connix's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.129Z
+last_modified_at: 2026-07-23T15:09:18.202Z
 social-title: "Kaydel Ko Connix — Star Wars Timeline & Story"
-social-desc: "Kaydel Ko Connix, commonly known as Connix, is a former New Republic Senate security aide turned Resistance officer and starfighter pilot."
+social-desc: "Kaydel Ko Connix was a human female who served the Resistance during its war against the First Order."
 social-image: /assets/characters/connix.png
 character:
   name: "Kaydel Ko Connix"
@@ -25,7 +25,7 @@ character:
     Kaydel Ko Connix             was born in <a href="https://timeline.starwars.guide/character/Kaydel%20Ko%20Connix?year=13" target="_blank">13 ABY</a>.
     </p>
 
-    <p><p>Kaydel Ko Connix, commonly known as Connix, is a former New Republic Senate security aide turned Resistance officer and starfighter pilot. Renowned for capturing General Leia Organa’s rallying speech on Takodana, she distinguished herself in key missions including the Battle of Starkiller Base, the evacuation of D’Qar, the extraction operation on Canto Bight, and the defense of Crait. A trusted lieutenant to Leia and Poe Dameron, Connix ultimately gave her life leading troops in the final assault on Exegol, solidifying her legacy as a heroic leader and symbol of hope in the Resistance.</p></p>
+    <p><p>Kaydel Ko Connix was a human female who served the Resistance during its war against the First Order. Born on Dulathia around 13 ABY, she joined the Resistance and became an operations controller in Fleet Command, working under General Leia Organa at the base on D'Qar. She coordinated communications during the assault on Starkiller Base, after which she was promoted to lieutenant. During the subsequent Resistance evacuation she helped organize the withdrawal from D'Qar, served aboard the flagship <em>Raddus</em>, and joined Poe Dameron's mutiny against Vice Admiral Amilyn Holdo before surviving the Battle of Crait. By the time of the war's climax she had risen to the rank of commander and took part in the final campaign against the Sith Eternal at the Battle of Exegol, which she survived. She is remembered as one of the dedicated officers of Leia Organa's command staff who helped keep the Resistance alive through its darkest years.</p></p>
     
     <div class='metadata'>
       <div>
@@ -40,7 +40,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~5 ABY – Aide to Senator Leia Organa</h3><p>Joins the New Republic Senate security bureau and becomes a personal aide to Senator Leia Organa.</p><h3>~28 ABY – Founding of the Resistance</h3><p>Following the dissolution of the New Republic Senate, remains with Organa’s staff and helps establish the Resistance.</p><h3>~34 ABY – Rally on Takodana</h3><p>Captured by First Order forces during Leia’s speech and films the rally before being rescued by Poe Dameron.</p><h3>~34 ABY – Battle of Starkiller Base</h3><p>Serves aboard the Raddus and supports the assault on the First Order’s Starkiller Base superweapon.</p><h3>~34 ABY – Evacuation of D’Qar</h3><p>Leads a squadron of T-70 X-wings during the First Order’s bombardment of the Resistance base and helps organize the retreat.</p><h3>~34 ABY – Canto Bight Operation</h3><p>Assists in the extraction of Finn and Rose Tico from the casino city of Canto Bight to rejoin the Resistance.</p><h3>~34 ABY – Battle of Crait</h3><p>Acts as a gunner in the defense of the Crait salt flats, operating turbolasers and covering the final evacuation.</p><h3>~35 ABY – Battle of Exegol and Death</h3><p>Participates in the final assault on Exegol and is killed by Sith troopers during the evacuation.</p></div>
+    <div class="timeline"><h3>~13 ABY - Birth on Dulathia</h3><p>Kaydel Ko Connix is born on the planet Dulathia. Her birth year is derived from her stated age of twenty-two during 35 ABY, not from a directly recorded date.</p><h3>~34 ABY - Serving in Fleet Command on D'Qar</h3><p>Connix serves as an operations controller in Fleet Command at the Resistance's D'Qar headquarters, working under General Leia Organa.</p><h3>34 ABY - Coordinating the Starkiller Base raid</h3><p>During the war with the First Order, Connix coordinates communications for the Resistance assault on Starkiller Base. Her service leads to a promotion to lieutenant.</p><h3>34 ABY - Evacuation of D'Qar and the Holdo mutiny</h3><p>Connix helps organize the evacuation of D'Qar ahead of the First Order and serves aboard the flagship Raddus. During the pursuit she joins Poe Dameron's mutiny against Vice Admiral Amilyn Holdo, and afterward survives the Battle of Crait.</p><h3>35 ABY - Battle of Exegol</h3><p>Now holding the rank of commander, Connix takes part in the Resistance's final campaign against the First Order and the Sith Eternal at the Battle of Exegol, which the Resistance wins. She survives the battle.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Kaydel Ko Connix in our timeline:</h3>

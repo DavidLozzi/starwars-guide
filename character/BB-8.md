@@ -2,9 +2,9 @@
 title: "BB-8's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.113Z
+last_modified_at: 2026-07-23T15:09:18.184Z
 social-title: "BB-8 — Star Wars Timeline & Story"
-social-desc: "BB-8 is a spherical astromech droid active during the sequel trilogy of the Star Wars saga."
+social-desc: "BB-8, sometimes spelled Beebee-Ate and nicknamed BB, was a spherical BB-series astromech droid built in 29 ABY on Hosnian Prime."
 social-image: /assets/characters/bb8.png
 character:
   name: "BB-8"
@@ -27,7 +27,7 @@ character:
     BB-8             was born in <a href="https://timeline.starwars.guide/character/BB-8?year=29" target="_blank">29 ABY</a>.
     </p>
 
-    <p><p>BB-8 is a spherical astromech droid active during the sequel trilogy of the Star Wars saga. Known for its distinctive rolling design and unwavering loyalty to Resistance pilot Poe Dameron, BB-8 plays a pivotal role in the fight against the First Order. Introduced in 34 ABY during reconnaissance missions on Jakku, BB-8 aids in protecting secret maps leading to Luke Skywalker, survives the destruction of Starkiller Base, assists Rey in her training, participates in the Battle of Crait, and ultimately helps reunite scattered Resistance forces in the final confrontation on Exegol. Throughout its service, BB-8 establishes itself as a resourceful and courageous companion, vital to the Resistance's victories.</p></p>
+    <p><p>BB-8, sometimes spelled Beebee-Ate and nicknamed BB, was a spherical BB-series astromech droid built in 29 ABY on Hosnian Prime. Distinguished by a free-rolling ball body topped with a domed head reminiscent of an R2-series unit, BB-8 was primarily white with orange and silver accents and a single black photoreceptor. He became the loyal companion of Resistance pilot Poe Dameron, accompanying him aboard his T-70 X-wing starfighter. BB-8 is best known for safeguarding a fragment of the map leading to the exiled Luke Skywalker after Poe entrusted it to him on Jakku, setting in motion the events of the war between the Resistance and the First Order. Plucky, resourceful, and fiercely loyal, he aided Rey, Finn, and the Resistance across the campaigns against the First Order and the resurrected Emperor Palpatine, surviving the conflict as one of the era's most beloved droids.</p></p>
     
     <div class='metadata'>
       <div>
@@ -42,7 +42,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~30 ABY - Construction of BB-8</h3><p>Built on Niima Outpost by an independent technician for a Resistance pilot's reconnaissance needs.</p><h3>~32 ABY - Assignment to Poe Dameron</h3><p>Delivered to pilot Poe Dameron and begins mapping First Order activity.</p><h3>~34 ABY - Jakku Mission</h3><p>Accompanies Poe to Jakku, survives crash, and meets scavenger Rey while carrying a map to Luke Skywalker.</p><h3>~34 ABY - Delivery of the Skywalker Map</h3><p>Escapes the First Order aboard the Millennium Falcon and delivers the map fragment to General Leia Organa on D'Qar.</p><h3>~34 ABY - Battle of Starkiller Base</h3><p>Assists the Resistance strike team that destroys Starkiller Base.</p><h3>~34 ABY - Battle of Crait</h3><p>Provides technical support during the Resistance's defensive stand on Crait.</p><h3>~35 ABY - Pasaana Infiltration</h3><p>Joins the quest for a Sith wayfinder on Pasaana and helps evade the First Order.</p><h3>~35 ABY - Battle of Exegol</h3><p>Participates in the final battle against the resurrected Emperor Palpatine aboard Exegol.</p><h3>~36 ABY - Continuing Service</h3><p>Remains an active member of the New Republic's droid corps, aiding in exploration and defense missions.</p></div>
+    <div class="timeline"><h3>29 ABY - Construction on Hosnian Prime</h3><p>BB-8 is built as a BB-series astromech droid on Hosnian Prime and eventually enters the service of the Resistance.</p><h3>~30s ABY - Companion to Poe Dameron</h3><p>BB-8 becomes the astromech partner of Resistance pilot Poe Dameron, riding aboard his T-70 X-wing and serving alongside him during missions depicted in Star Wars Resistance.</p><h3>34 ABY - The Search for Luke Skywalker</h3><p>On Jakku, Poe entrusts BB-8 with a fragment of the map to the exiled Luke Skywalker. BB-8 escapes the First Order, encounters the scavenger Rey and the defector Finn, and helps deliver the map to the Resistance, playing a key role in the events of The Force Awakens.</p><h3>34 ABY - The War Against the First Order</h3><p>BB-8 accompanies the Resistance through its desperate flight from the First Order fleet and the stand on Crait, assisting Poe, Rey, and Finn during the events of The Last Jedi.</p><h3>35 ABY - The Fall of the Final Order</h3><p>BB-8 joins the final campaign against the resurrected Emperor Palpatine and the Sith Eternal fleet at Exegol, surviving the Resistance's victory during the events of The Rise of Skywalker.</p></div>
     
     <p>&nbsp;</p>
     <h3>View BB-8 in our timeline:</h3>

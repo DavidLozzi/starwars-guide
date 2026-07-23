@@ -2,9 +2,9 @@
 title: "Babu Frik's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.114Z
+last_modified_at: 2026-07-23T15:09:18.184Z
 social-title: "Babu Frik — Star Wars Timeline & Story"
-social-desc: "Babu Frik is an Anzellan droidsmith and tech savant from the mountainous world of Kijimi, renowned for his diminutive stature, quick wit and unparalleled…"
+social-desc: "Babu Frik was an Anzellan male droidsmith who lived during the New Republic Era and the war between the First Order and the Resistance."
 social-image: /assets/characters/frik.png
 character:
   name: "Babu Frik"
@@ -23,7 +23,7 @@ character:
     Babu Frik             was born in <a href="https://timeline.starwars.guide/character/Babu%20Frik?year=-50" target="_blank">50 BBY</a>.
     </p>
 
-    <p><p>Babu Frik is an Anzellan droidsmith and tech savant from the mountainous world of Kijimi, renowned for his diminutive stature, quick wit and unparalleled expertise in reprogramming and translating droid software. He earned his reputation by crafting microcircuit modifications for local crime syndicates and maintaining a bustling workshop in Suod, where he honed his skill at extracting and rewriting droid memory. His most famous achievement came in 35 ABY when he aided Rey, Finn and Poe in decoding the inscription on a Sith dagger by resetting C-3PO’s memory banks under severe time pressure and later restoring the protocol droid’s original persona. This pivotal service solidified his status as a clandestine hero of the Resistance and a galaxy-wide expert on droid lore.</p></p>
+    <p><p>Babu Frik was an Anzellan male droidsmith who lived during the New Republic Era and the war between the First Order and the Resistance. Tiny in stature and highly accented in his speech, he maintained a workshop in the mountain city of Kijimi, where he worked as a black-market droidsmith among the Spice Runners of Kijimi. Renowned as one of the finest droidsmiths in the galaxy, he could reprogram or modify virtually any droid regardless of the security measures protecting its systems. He is best known for his role in the search for Emperor Palpatine, when the Resistance brought the protocol droid C-3PO to him so he could bypass the droid's programming restrictions and translate a forbidden inscription in the Sith language, a procedure that wiped C-3PO's memory. A fan-favorite introduced in Star Wars: Episode IX The Rise of Skywalker, Babu Frik became emblematic of his species, the Anzellans.</p></p>
     
     <div class='metadata'>
       <div>
@@ -38,7 +38,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~10 BBY – Birth on Kijimi</h3><p>Babu Frik was born into a family of tinkerers on the mountainous world of Kijimi, displaying an early aptitude for droid mechanics.</p><h3>~5 BBY – Droidsmith Apprenticeship</h3><p>He apprenticed under a local engineer, mastering microcircuit design and basic programming across various droid models.</p><h3>~1 BBY – Independent Workshop Established</h3><p>Frik opened his own droid repair shop in Suod, gaining renown for his quick fixes and innovative custom modifications.</p><h3>~30 ABY – Unwilling Service to Crime Syndicates</h3><p>Pressed into servicing local gangs, he developed advanced security and concealment systems for illicit droid operations.</p><h3>~35 ABY – Encounter on Pasaana</h3><p>While scavenging on the desert world of Pasaana, he first crossed paths with Resistance fighters Rey, Finn and Poe.</p><h3>~35 ABY – Summons to Suod</h3><p>Recruited to his Suod workshop by the Resistance, Frik was tasked with translating the ancient Sith dagger’s inscription.</p><h3>~35 ABY – C-3PO Reprogramming</h3><p>Under a tight deadline, he deftly reset and reprogrammed C-3PO’s memory to decode the Sith text.</p><h3>~35 ABY – Memory Restoration</h3><p>After the decoding, he assisted in recovering and restoring C-3PO’s original memories, preserving his personality and knowledge.</p><h3>~35 ABY and Beyond – Continued Droidsmith Renown</h3><p>Following his Resistance exploits, Frik returned to his workshop, his reputation as a master droidsmith cemented across the galaxy.</p></div>
+    <div class="timeline"><h3>~50 BBY - Birth</h3><p>Babu Frik, an Anzellan, is born. His exact birth year is not stated in canon; it is derived from a reference-book statement that he was 85 years old during the events of The Rise of Skywalker (35 ABY).</p><h3>By 35 ABY - Droidsmith of Kijimi</h3><p>Babu Frik establishes himself as a black-market droidsmith with a workshop in the city of Kijimi, working among the Spice Runners of Kijimi and earning a reputation for being able to modify or reprogram nearly any droid.</p><h3>35 ABY - Reprogramming C-3PO</h3><p>During the Resistance's search for the Sith wayfinder, Poe Dameron leads Rey and the others to Babu Frik on Kijimi. Because C-3PO is forbidden by his programming to translate the Sith text held in his memory bank, Babu Frik bypasses those restrictions to read the inscription aloud, an act that erases the protocol droid's memory.</p><h3>35 ABY - Survival on Kijimi</h3><p>After aiding the Resistance, Babu Frik survives the events surrounding the final campaign against the Sith Eternal. Canon records no death for him.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Babu Frik in our timeline:</h3>

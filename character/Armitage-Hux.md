@@ -2,9 +2,9 @@
 title: "Armitage Hux's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.112Z
+last_modified_at: 2026-07-23T15:09:18.183Z
 social-title: "Armitage Hux — Star Wars Timeline & Story"
-social-desc: "Armitage Hux is a high-ranking First Order general renowned for his ruthless ambition, icy demeanor and fiery oratory that rallies troops to crush the…"
+social-desc: "Armitage Hux was a human male general in the military forces of the First Order during the New Republic Era."
 social-image: /assets/characters/hux.png
 character:
   name: "Armitage Hux"
@@ -27,7 +27,7 @@ character:
     Armitage Hux     was born in <a href="https://timeline.starwars.guide/character/Armitage%20Hux?year=0" target="_blank">0 BBY</a> and died in <a href="https://timeline.starwars.guide/character/Armitage%20Hux?year=35" target="_blank">35 ABY</a>.        
     </p>
 
-    <p><p>Armitage Hux is a high-ranking First Order general renowned for his ruthless ambition, icy demeanor and fiery oratory that rallies troops to crush the Resistance. The son of Imperial Remnant commander Brendol Hux, he rapidly rose through the First Order’s ranks to oversee the construction and activation of the planet-destroying Starkiller Base. He ordered the annihilation of the Hosnian star system and led subsequent campaigns to hunt down the Resistance, including at Crait. In the aftermath of Supreme Leader Snoke’s fall he briefly seized control of the First Order before being betrayed and executed by Emperor Palpatine on Exegol. His legacy is defined by his cruelty, his rivalry with Kylo Ren and his role in the galaxy’s final conflict.</p></p>
+    <p><p>Armitage Hux was a human male general in the military forces of the First Order during the New Republic Era. The illegitimate son of Imperial Commander Brendol Hux and a kitchen worker on Arkanis, he was raised among the Imperial remnants that fled to the Unknown Regions and grew into a fanatical, ambitious officer. With the backing of Supreme Leader Snoke, Hux took command of the planet-killing Starkiller Base and championed technology that allowed the First Order to track ships through hyperspace. He is best known for his zealous oratory, his bitter power struggle with Kylo Ren, and his ultimate downfall: after Snoke's death and Ren's rise to Supreme Leader, a resentful Hux secretly leaked intelligence to the Resistance as their mole before being exposed and executed by Allegiant General Pryde during the First Order's final campaign.</p></p>
     
     <div class='metadata'>
       <div>
@@ -42,7 +42,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~5 BBY - Birth</h3><p>Armitage Hux is born on the planet Arkanis to Brendol Hux, a commander in the Imperial Remnant.</p><h3>~29 ABY - First Order Commission</h3><p>Hux is commissioned as an officer in the newly formed First Order, quickly rising through the ranks due to his zeal and strategic acumen.</p><h3>~34 ABY - Command of Starkiller Base</h3><p>Promoted to General, he oversees the final construction and activation of the Starkiller Base, a superweapon capable of destroying entire star systems.</p><h3>~34 ABY - Destruction of the Hosnian System</h3><p>He orders the annihilation of the Hosnian star system, eliminating the New Republic’s seat of government and demonstrating the First Order’s devastating power.</p><h3>~34 ABY - Starkiller Base Destruction</h3><p>Resistance forces infiltrate and destroy Starkiller Base; Hux narrowly escapes and retains command of First Order military operations.</p><h3>~34 ABY - Battle of Crait</h3><p>Leading the pursuit of the Resistance, he directs ground assaults on the old Rebel base at Crait but fails to crush the surviving fighters.</p><h3>~35 ABY - Exegol Coup Attempt</h3><p>In the power vacuum following Supreme Leader Snoke’s death, Hux stages a coup against Kylo Ren, briefly seizing control of the First Order.</p><h3>~35 ABY - Death</h3><p>Emperor Palpatine, resurrected on Exegol, executes Hux after reclaiming ultimate authority over the First Order.</p></div>
+    <div class="timeline"><h3>~1 BBY - Birth on Arkanis</h3><p>Armitage Hux is born on Arkanis, the illegitimate son of Imperial Commander Brendol Hux and a kitchen worker, around the time of the Battle of Yavin.</p><h3>~5 ABY - Flight to the Unknown Regions</h3><p>As the Galactic Empire collapses, the young Hux is taken by his father and other Imperial loyalists into the Unknown Regions, where the survivors lay the foundations of the First Order.</p><h3>~34 ABY - General of the First Order</h3><p>Hux rises to the rank of general, commanding Starkiller Base and promoting the hyperspace-tracking technology intended to hunt down the Resistance.</p><h3>34 ABY - Destruction of the Hosnian system</h3><p>Hux delivers a fiery address and orders Starkiller Base to fire on the New Republic capital in the Hosnian system, before the Resistance destroys the superweapon during their assault.</p><h3>34 ABY - Snoke's death and Ren's ascension</h3><p>Aboard the Supremacy, Snoke is killed by Kylo Ren, who seizes the title of Supreme Leader, derailing Hux's ambitions and deepening his resentment toward his rival.</p><h3>35 ABY - Resistance mole</h3><p>Sidelined under Ren's rule, Hux secretly begins feeding intelligence to the Resistance, aiding the escape of captured heroes to spite the new Supreme Leader.</p><h3>35 ABY - Death by execution</h3><p>Exposed as the First Order's mole, Hux is shot and killed by Allegiant General Pryde aboard a Star Destroyer during the events of the Battle of Exegol campaign.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Armitage Hux in our timeline:</h3>

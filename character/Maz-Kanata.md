@@ -2,9 +2,9 @@
 title: "Maz Kanata's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.134Z
+last_modified_at: 2026-07-23T15:09:18.206Z
 social-title: "Maz Kanata — Star Wars Timeline & Story"
-social-desc: "Maz Kanata is a centuries-old, Force-sensitive smuggler, pirate leader, treasure hunter and tavern keeper celebrated for her wide-ranging experiences and deep…"
+social-desc: "Maz Kanata is a diminutive, orange-skinned Force-sensitive alien of an undefined species and one of the galaxy's oldest known individuals, born roughly a…"
 social-image: /assets/characters/kanata.png
 character:
   name: "Maz Kanata"
@@ -24,7 +24,7 @@ character:
     Maz Kanata             was born in <a href="https://timeline.starwars.guide/character/Maz%20Kanata?year=-300" target="_blank">973 BBY</a>.
     </p>
 
-    <p><p>Maz Kanata is a centuries-old, Force-sensitive smuggler, pirate leader, treasure hunter and tavern keeper celebrated for her wide-ranging experiences and deep insight. Having studied under a Jedi master on Yavin 4 in her youth, she spent millennia traversing the galaxy as a notorious pirate queen before settling on Takodana, where she founded her famed castle and built a secret intelligence network. In the sequel era she played a vital role in aiding the Resistance—sheltering Han Solo and BB-8, guiding Rey to Luke Skywalker’s lightsaber—and later used her Force perception and contacts to help locate Emperor Palpatine and secure the final victory over the Sith.</p></p>
+    <p><p>Maz Kanata is a diminutive, orange-skinned Force-sensitive alien of an undefined species and one of the galaxy's oldest known individuals, born roughly a thousand years before the war between the First Order and the Resistance. For much of her extraordinarily long life she ran a castle on the forest world of Takodana, earning a reputation as a &quot;pirate queen&quot; by offering safe harbor to smugglers, travelers, and rogues of all allegiances — provided they respected her house rules forbidding politics and war under her roof. A collector of antiques and relics, she came to possess the lightsaber built by Anakin Skywalker and later wielded by Luke Skywalker, which she offered to Rey in 34 ABY as the young scavenger's destiny began to unfold. After the First Order destroyed her castle, Maz allied herself with the Resistance, lending her wisdom and combat experience through the final campaign against the Sith Eternal, and she survived the war.</p></p>
     
     <div class='metadata'>
       <div>
@@ -39,7 +39,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~32,000 BBY - Birth</h3><p>Maz Kanata is born on an unnamed world. From early on she demonstrates Force sensitivity and a keen intellect.</p><h3>~25,000 BBY - Jedi tutelage</h3><p>Under the guidance of Jedi Master Tolja on Yavin 4, she hones her Force insight and learns advanced perception techniques.</p><h3>~20,000 BBY to ~0 BBY - Pirate and smuggler</h3><p>Over thousands of years she rises to prominence as a pirate queen and treasure hunter, commanding ships, crews and a vast network of contacts.</p><h3>~0 BBY - Establishes Maz’s Castle</h3><p>She settles on the forested moon of Takodana, converting an ancient fortress into Maz’s Castle, a neutral haven for travelers, scoundrels and spies.</p><h3>~34 ABY - The Force Awakens</h3><p>Maz aids the Resistance by sheltering Han Solo, Chewbacca and the droid BB-8; she encourages Rey’s destiny by presenting her with Luke Skywalker’s old lightsaber and senses the awakening of the Force in a new generation.</p><h3>~35 ABY - The Rise of Skywalker</h3><p>Leveraging her hidden network and Force perception, Maz helps pinpoint the return of Emperor Palpatine and rejoices in the final defeat of the Sith and the dawn of a new Jedi era.</p></div>
+    <div class="timeline"><h3>973 BBY - Birth</h3><p>Maz Kanata is born, a member of a species that remains undefined in canon. The Rise of Skywalker Visual Dictionary later gives her age as 1007, consistent with this birth year.</p><h3>~973 BBY–34 ABY - Centuries as Takodana's Pirate Queen</h3><p>Over roughly a millennium, Maz establishes and maintains her castle on Takodana, welcoming smugglers and travelers while enforcing strict prohibitions against politics and war, and amassing a vast collection of relics and antiques.</p><h3>~19 BBY–34 ABY - Keeper of the Skywalker Lightsaber</h3><p>At some point Maz comes into possession of the lightsaber Anakin Skywalker built during the Clone Wars and later passed to his son Luke. She keeps it stored in her castle's vaults, deflecting questions about how she acquired it.</p><h3>34 ABY - Han Solo, Rey and Finn Visit Takodana</h3><p>Maz receives Han Solo, Rey, Finn, and BB-8. Sensing Rey's potential, she offers her the Skywalker lightsaber, urging her to embrace the call of the Force.</p><h3>34 ABY - Destruction of Maz's Castle</h3><p>The First Order attacks Takodana in pursuit of BB-8 and the map to Luke Skywalker, destroying Maz's ancient castle. Maz survives and afterward aligns herself with the Resistance.</p><h3>35 ABY - Aiding the Resistance Against the Final Order</h3><p>Maz supports the Resistance from its base on Ajan Kloss during the campaign against Emperor Palpatine's returned Sith forces, and is present among the survivors celebrating the victory at the Battle of Exegol.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Maz Kanata in our timeline:</h3>

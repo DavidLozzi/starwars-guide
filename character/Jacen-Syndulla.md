@@ -2,9 +2,9 @@
 title: "Jacen Syndulla's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.128Z
+last_modified_at: 2026-07-23T15:09:18.199Z
 social-title: "Jacen Syndulla — Star Wars Timeline & Story"
-social-desc: "Jacen Syndulla, the son of Rebel icons Hera Syndulla and Kanan Jarrus, is a Force-sensitive individual born aboard the Ghost II during the Galactic Civil War."
+social-desc: "Jacen Syndulla is a Force-sensitive human/Twi'lek hybrid, the son of the rebel General Hera Syndulla and the late Jedi Knight Kanan Jarrus, and the grandson of…"
 social-image: /assets/characters/jacen-young.png
 character:
   name: "Jacen Syndulla"
@@ -24,7 +24,7 @@ character:
     Jacen Syndulla             was born in <a href="https://timeline.starwars.guide/character/Jacen%20Syndulla?year=-4" target="_blank">1 BBY</a>.
     </p>
 
-    <p><p>Jacen Syndulla, the son of Rebel icons Hera Syndulla and Kanan Jarrus, is a Force-sensitive individual born aboard the Ghost II during the Galactic Civil War. Known for his legacy as one of the earliest Jedi children in the New Republic era, Jacen demonstrated latent Force abilities in his youth before being selected by Luke Skywalker to train at the restored Jedi Temple. His journey includes his birth amidst high-stakes Rebel missions, glimpsed appearances as an infant and toddler in the aftermath of the Empire’s fall, formal induction as a Jedi Padawan, pivotal diplomatic assignments, successful completion of Jedi trials to attain Knight status, and his evolution into a respected Jedi Master guiding new generations of Force users.</p></p>
+    <p><p>Jacen Syndulla is a Force-sensitive human/Twi'lek hybrid, the son of the rebel General Hera Syndulla and the late Jedi Knight Kanan Jarrus, and the grandson of the Twi'lek resistance leader Cham Syndulla. Born during the Galactic Civil War shortly after his father's sacrifice, he first appeared as an infant and toddler in the epilogue of Star Wars Rebels, glimpsed alongside his mother in the years following the Battle of Endor. He made his live-action debut as a boy in the Disney+ series Ahsoka, where he expressed a wish to become a Jedi like his father, hinting at inherited Force potential. Named by creator Dave Filoni as a nod to Jacen Solo of the old Expanded Universe, he represents the next generation of the Syndulla and Jarrus legacy.</p></p>
     
     <div class='metadata'>
       <div>
@@ -39,7 +39,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~2 BBY - Birth</h3><p>Born aboard the Ghost II to Hera Syndulla and Kanan Jarrus during a Rebel mission</p><h3>~2 BBY - Infant appearances</h3><p>First seen as an infant during multiple Rebel operations in the Outer Rim</p><h3>~1 BBY - Toddler glimpses</h3><p>Appears as a toddler during early New Republic stabilization efforts</p><h3>~4 ABY - Begins Jedi training</h3><p>Invited by Luke Skywalker to train at the fledgling Jedi Temple on Yavin 4</p><h3>~9 ABY - Padawan induction</h3><p>Accepted as an official Padawan and assigned his first mentor</p><h3>~9 ABY - Diplomatic mission</h3><p>Joins a New Republic diplomatic mission to the planet Cartao</p><h3>~10 ABY - Jedi trials</h3><p>Undergoes formal trials to achieve the rank of Jedi Knight</p><h3>~11 ABY - Jedi Knighthood</h3><p>Celebrated as a newly minted Jedi Knight serving the New Republic</p><h3>~35 ABY - Jedi Master</h3><p>Leads training at the Jedi Temple and mentors the next generation of Jedi</p></div>
+    <div class="timeline"><h3>1 BBY - Birth</h3><p>Jacen Syndulla is born to Hera Syndulla and Kanan Jarrus during the Galactic Civil War, shortly after Kanan's death; he never knew his father, who sacrificed himself to save the Spectres.</p><h3>~5 ABY - Seen in the Rebels epilogue</h3><p>Following the Battle of Endor and the liberation of Lothal, a young Jacen is shown with his mother Hera as Sabine Wren departs to help find Ezra Bridger, marking his first appearance.</p><h3>~9 ABY - Live-action debut in Ahsoka</h3><p>Now a boy living with his mother, Jacen appears in the series Ahsoka, showing curiosity about the Jedi and Ezra Bridger and telling Hera he wants to become a Jedi—an early hint of his Force sensitivity.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Jacen Syndulla in our timeline:</h3>

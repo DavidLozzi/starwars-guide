@@ -2,9 +2,9 @@
 title: "Huyang's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-20T21:57:09.127Z
+last_modified_at: 2026-07-23T15:09:18.198Z
 social-title: "Huyang — Star Wars Timeline & Story"
-social-desc: "Huyang is an ancient architectural and technical droid who served the Jedi Order for over seven thousand years, renowned for his expertise in designing and…"
+social-desc: "Huyang was a Mark IV architect droid and Jedi Order professor who, for over a thousand generations, instructed younglings in the construction of their…"
 social-image: /assets/characters/huyang.png
 character:
   name: "Huyang"
@@ -23,7 +23,7 @@ character:
     Huyang             was born in <a href="https://timeline.starwars.guide/character/Huyang?year=-300" target="_blank">25020 BBY</a>.
     </p>
 
-    <p><p>Huyang is an ancient architectural and technical droid who served the Jedi Order for over seven thousand years, renowned for his expertise in designing and constructing lightsabers and his role as a guide and mentor to generations of Jedi younglings. He assisted younglings in forging their first lightsabers on Ilum during the Clone Wars, providing instruction and testing their resolve in the trials of the Kyber crystal. Vanishing after the fall of the Republic, he later reappears in the Outer Rim on Lothal, where he aids Sabine Wren as she embraces the Way of the Jedi and forges her own saber, continuing his legacy as a custodian of Jedi lore and tradition.</p></p>
+    <p><p>Huyang was a Mark IV architect droid and Jedi Order professor who, for over a thousand generations, instructed younglings in the construction of their lightsabers following the Gathering — the rite in which each initiate retrieved a kyber crystal. Operating for millennia aboard the Jedi training vessel Crucible, he claimed to have overseen the lightsaber construction of nearly every Jedi in the Order's history, including Grand Master Yoda and Mace Windu. During the Clone Wars he worked alongside Padawan Ahsoka Tano while escorting a group of younglings to Ilum, and after the fall of the Jedi Order he became Ahsoka's longtime companion and pilot aboard her T-6 shuttle. Decades later, during the New Republic era, he aided Ahsoka, Sabine Wren, and Hera Syndulla in their search for the missing Ezra Bridger and Grand Admiral Thrawn, remaining a steadfast repository of Jedi knowledge and one of the few living links to the Order's ancient past.</p></p>
     
     <div class='metadata'>
       <div>
@@ -35,7 +35,7 @@ character:
       </div>
       </div>
 
-    <div class="timeline"><h3>~7000 BBY - Activation</h3><p>Huyang is activated by the Jedi Order as an architectural and technical droid, beginning his lightsaber construction service across the galaxy.</p><h3>~7000 to ~22 BBY - Centuries of Service</h3><p>Over the next millennia, Huyang assists Jedi in crafting thousands of lightsabers, becoming a repository of wisdom and tradition.</p><h3>22 BBY - The Gathering on Ilum</h3><p>Assigned to guide younglings on Ilum, Huyang oversees their lightsaber assembly and evaluates candidates during their crystal-seeking trials.</p><h3>22 BBY - A Test of Strength</h3><p>Continues instruction by transporting younglings to Mortis to test their determination in retrieving kyber crystals from the World Between Worlds.</p><h3>19 BBY - Disappearance</h3><p>Following Order 66, Huyang vanishes from Jedi records, his whereabouts unknown as the Empire rises.</p><h3>~9 ABY - Teachings on Lothal</h3><p>Reemerges in the Jedi Temple on Lothal to train Sabine Wren in lightsaber construction and the rituals of the Jedi path.</p></div>
+    <div class="timeline"><h3>25020 BBY - Manufacture</h3><p>Huyang is constructed as a Mark IV architect droid a few years after the founding of the Jedi Order, tasked with guiding younglings in building their lightsabers.</p><h3>25020 BBY–20 BBY - A Thousand Generations of Teaching</h3><p>For over a thousand generations Huyang serves aboard the Jedi vessel Crucible, overseeing the lightsaber construction of countless initiates, including future Masters Yoda and Mace Windu.</p><h3>~20 BBY - The Gathering on Ilum</h3><p>During the Clone Wars, Huyang accompanies Ahsoka Tano and a group of younglings to the ice caves of Ilum for the Gathering, where each youngling retrieves a kyber crystal.</p><h3>~20 BBY - Building Lightsabers Aboard the Crucible</h3><p>Huyang instructs the younglings in assembling their first lightsabers as they journey home, before the Crucible is attacked by the pirate Hondo Ohnaka's gang.</p><h3>~20 BBY - Captured and Rescued</h3><p>Damaged and dismantled during the pirate raid, Huyang is later reassembled and helps Ahsoka and the younglings escape, reaffirming his bond with them.</p><h3>19 BBY - Companion to Ahsoka</h3><p>Sometime after the end of the Clone Wars, Huyang joins Ahsoka Tano aboard her T-6 shuttle, becoming her enduring traveling companion.</p><h3>9 ABY - Searching for Ezra and Thrawn</h3><p>During the New Republic era, Huyang assists Ahsoka, Sabine Wren, and Hera Syndulla in their quest to locate the lost Ezra Bridger and prevent the return of Grand Admiral Thrawn, surviving the campaign that carries them to the distant galaxy of Peridea.</p></div>
     
     <p>&nbsp;</p>
     <h3>View Huyang in our timeline:</h3>
