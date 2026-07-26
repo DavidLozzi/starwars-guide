@@ -23,7 +23,7 @@ All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLA
 | `hyperpanels/search` | `DavidLozzi/sw-panels-search` | Next.js 15 comic-panel search FE + admin | hyperpanels.starwars.guide (Vercel; Amplify Gen2 auth/S3) | no |
 | `hyperpanels/data` | `DavidLozzi/sw-panels-data` | Python ingestion: comic panels → OpenAI Vision → S3 + DynamoDB → Typesense | — | no |
 | `hyperpanels/keyboard` | `DavidLozzi/sw-panels-keyboard` | iOS app + custom keyboard over the same Typesense catalog | App Store target | no |
-| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **not launched yet**; PRD says it ships into a **subdirectory of this repo** | not yet |
+| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **launching soon**; confirmed to ship as a **subdirectory of this repo** (`starwars.guide/clone-defense/`, Netlify-served, no subdomain) | not yet |
 
 Notes:
 - `hyperpanels/` is not itself a repo — it's a folder holding three sibling repos. HyperPanels shares one Typesense `comics` collection across the web FE, the ingestion pipeline, and the iOS client.
