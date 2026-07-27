@@ -9,7 +9,7 @@
 - title: Games
   children:
     - title: Clone Defense
-      url: /clone-defense
+      url: /clone-defense/
     - title: SWordle
       url: /swordle-star-wars-wordle
 - title: Characters

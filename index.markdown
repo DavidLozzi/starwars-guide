@@ -83,7 +83,7 @@ last_modified_at: 2026-07-19 12:00:00
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
         <!-- Clone Defense Card -->
-        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ 'clone-defense' | relative_url }}'">
+        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/clone-defense/play/' | relative_url }}'">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/clone-defense.png" alt="Clone Defense Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
           </div>
@@ -95,7 +95,7 @@ last_modified_at: 2026-07-19 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'clone-defense' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ '/clone-defense/' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
