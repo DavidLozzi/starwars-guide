@@ -21,6 +21,15 @@
   d=o.createElement(u);d.async=1;d.src=n;n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)})
   (window,document,'script','https://www.datadoghq-browser-agent.com/us1/v6/datadog-rum.js','DD_RUM')
 </script>
+<!-- Google Analytics loader (same measurement id as the hub's _includes/head.html; same reason
+     as the two loaders above: no bundler, so the CDN snippet lives here). Like Datadog, this
+     only creates the dataLayer/gtag queue stub + injects the library — the config-driven
+     gtag('config', …) lives in src/telemetry/ga.js, reading globals.ga. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JYWS72F9R1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+</script>
 </head>
 <body>
 <div class="device" id="device">
