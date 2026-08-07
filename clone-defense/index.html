@@ -80,7 +80,7 @@
       <div class="dim" id="title-best">NO RECORD YET</div>
       <button class="obtn" id="btn-deploy" type="button">DEPLOY</button>
       <button class="obtn alt" id="btn-collections" type="button">COLLECTIONS</button>
-      <button class="obtn alt" id="btn-howto" type="button">HOW TO PLAY</button>
+      <a class="obtn alt" id="btn-howto" href="https://starwars.guide/clone-defense/#how-to-play-clone-defense" target="_blank" rel="noopener">HOW TO PLAY</a>
     </section>
 
     <!-- BREATHER — wave/planet clear beat (PRD §8). HUD powers stay tappable below. -->
@@ -175,48 +175,6 @@
       <button class="obtn alt" id="btn-settings-close" type="button">DONE</button>
     </section>
 
-    <!-- HOW TO PLAY — full-screen field manual, opened from the title (in-world console voice) -->
-    <section class="screen" id="screen-howto">
-      <button class="howto-x" id="btn-howto-x" type="button" aria-label="Close">✕</button>
-      <h2>FIELD MANUAL</h2>
-      <div class="howto-body">
-        <div class="howto-block">
-          <div class="howto-h">OBJECTIVE</div>
-          <div class="dim">The Separatist droid line rains blaster fire on your clone
-            troopers. Hold the line. If every clone falls, you lost the war.</div>
-        </div>
-        <div class="howto-block">
-          <div class="howto-h">COMMAND THE JEDI</div>
-          <div class="dim">Drag anywhere to guide the Jedi across the field. The saber
-            deflects any bolt that comes near, sending it back into the droids to cut
-            them down.</div>
-        </div>
-        <div class="howto-block">
-          <div class="howto-h">THE FORCE</div>
-          <div class="dim">The Force gauge charges as you deflect bolts, fell droids,
-            and clear waves. As it climbs, abilities come online in order — PUSH, then
-            BLOCK, then CRUSH, then HEAL (see ABILITIES below). Tap an unlocked ability,
-            drag over the target, and confirm with GO (CANCEL to stand down). Tap the "?"
-            on any ability for its own field note.</div>
-        </div>
-        <div class="howto-block">
-          <div class="howto-h">ABILITIES</div>
-          <div class="dim">PUSH — shove a droid cluster back and stall their fire.</div>
-          <div class="dim">BLOCK — raise a Force wall to protect your clones; they shoot through it.</div>
-          <div class="dim">CRUSH — kill one droid outright, whatever its armor.</div>
-          <div class="dim">HEAL — restore a wounded clone and top up its neighbors.</div>
-        </div>
-        <div class="howto-block">
-          <div class="howto-h">BETWEEN WAVES &amp; WORLDS</div>
-          <div class="dim">Clear a wave and the front falls quiet for a breather — your
-            abilities stay live, and the clones still standing hold their ground into the
-            next wave. Clear an entire world and you advance to the next front, where a
-            fresh clone garrison musters at full strength to relieve the line.</div>
-        </div>
-      </div>
-      <button class="obtn alt" id="btn-howto-close" type="button">CLOSE</button>
-    </section>
-
     <!-- HELPER — first-ever power use gate, re-openable via "?" (PRD §7) -->
     <section class="screen" id="helper-overlay">
       <div class="panel">
@@ -255,6 +213,8 @@
       <span class="hud-planet" id="hud-planet">—</span>
       <span>CLONES <b id="hud-clones">—</b></span>
     </div>
+    <!-- Active power-up buffs; chips are built once by src/ui/hud.js and shown on demand. -->
+    <div class="buffs" id="buffs"></div>
     <div class="force-wrap">
       <div class="force-ticks" id="force-ticks"></div>
       <div class="force-bar" id="force-bar"></div>
