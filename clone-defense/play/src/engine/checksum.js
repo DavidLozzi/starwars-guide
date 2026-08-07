@@ -1,0 +1,1 @@
+export function h32(r){let t=2166136261;for(let e=0;e<r.length;e++)t^=r.charCodeAt(e),t=Math.imul(t,16777619)>>>0;return t>>>0}export function blend(r,t){return Math.imul(r^t,656542357)>>>0}export function stream(r,t){let e=r>>>0;const o=new Uint8Array(t);for(let n=0;n<t;n++)e=Math.imul(e,1664525)+1013904223>>>0,o[n]=e>>>24&255;return o}
