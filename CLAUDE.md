@@ -23,12 +23,16 @@ All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLA
 | `hyperpanels/search` | `DavidLozzi/sw-panels-search` | Next.js 15 comic-panel search FE + admin | hyperpanels.starwars.guide (Vercel; Amplify Gen2 auth/S3) | no |
 | `hyperpanels/data` | `DavidLozzi/sw-panels-data` | Python ingestion: comic panels → OpenAI Vision → S3 + DynamoDB → Typesense | — | no |
 | `hyperpanels/keyboard` | `DavidLozzi/sw-panels-keyboard` | iOS app + custom keyboard over the same Typesense catalog | App Store target | no |
-| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **launching soon**; confirmed to ship as a **subdirectory of this repo** (`starwars.guide/clone-defense/`, Netlify-served, no subdomain) | not yet |
+| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **launching soon**; ships as a **subdirectory of this repo** (`starwars.guide/clone-defense/play/`, Netlify-served, no subdomain) | **yes** — `clone-defense/play/` |
 
 Notes:
 - `hyperpanels/` is not itself a repo — it's a folder holding three sibling repos. HyperPanels shares one Typesense `comics` collection across the web FE, the ingestion pipeline, and the iOS client.
 - `canonverse` also sits in `/Volumes/T9/git/` — unrelated, ignore it.
-- `clone-defense` is the next launch. When it ships, it needs: a home-page app card in `index.markdown`, a landing page like `star-wars-timeline.md`, a nav entry in `_data/navigation.yml`, and sitemap/SEO front matter. It's static and self-contained with relative paths, so it can be dropped in as a subdirectory here (Netlify serving it directly) rather than getting its own subdomain — confirm with the owner before wiring it up.
+- `clone-defense` is the next launch, and the only app that lives *inside* this repo rather than on a subdomain. **Two URLs, and they must not be confused:**
+  - `/clone-defense/` — the Jekyll landing page (`clone-defense.md`, which sets an explicit `permalink: /clone-defense/`). This is the indexable, SEO-bearing page; nav and the home card's READ button point here.
+  - `/clone-defense/play/` — the game itself, a synced static build. The home card's LAUNCH button and the in-page "Play" links point here, as does the `app.url` in the landing page's front matter.
+
+  The landing page needs the explicit permalink because without it Jekyll emits `/clone-defense.html`, which Netlify resolves ambiguously against the `clone-defense/` directory — the game would win and the landing page would be unreachable. The game is a bare app shell (no meta description, no canonical) and is kept out of `sitemap.xml` by a `sitemap: false` default in `_config.yml` so it can't cannibalise the landing page in search. Don't add a `permalink` to any *other* page just to copy this — it's a workaround for the directory collision, not a convention.
 - The home page app cards in `index.markdown` are the canonical list of launched apps; keep the table above in sync with them.
 
 ## Commands

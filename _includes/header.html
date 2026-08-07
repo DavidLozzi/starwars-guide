@@ -25,9 +25,9 @@
       <nav class="desktop-nav hamburger-hidden items-center flex-wrap">
         {% for item in site.data.navigation %}
           {% if item.children %}
-            <div class="relative group px-3" id="apps-group">
-              <button id="apps-btn" class="text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
-              <div id="apps-dropdown" class="absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <div class="relative group px-3 dropdown-group" id="apps-group-{{ forloop.index }}">
+              <button class="dropdown-btn text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
+              <div class="dropdown-menu absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 {% for child in item.children %}
                   <a href="{{ child.url | relative_url }}" class="block text-white hover:text-yellow-400 uppercase tracking-wide mb-2">{{ child.title }}</a>
                 {% endfor %}
@@ -74,34 +74,35 @@
         });
       });
     }
-    var appsBtn = document.getElementById('apps-btn');
-    var appsDropdown = document.getElementById('apps-dropdown');
-    if (appsBtn && appsDropdown) {
-      appsBtn.addEventListener('click', function(e) {
+    document.querySelectorAll('.dropdown-group').forEach(function(group) {
+      var btn = group.querySelector('.dropdown-btn');
+      var dropdown = group.querySelector('.dropdown-menu');
+      if (!btn || !dropdown) return;
+      btn.addEventListener('click', function(e) {
         // Only enable toggle for mobile (width < 1000px)
         if (window.innerWidth < 1000) {
           e.preventDefault();
-          var isOpen = appsDropdown.classList.contains('open');
+          var isOpen = dropdown.classList.contains('open');
           if (isOpen) {
-            appsDropdown.classList.remove('open');
-            appsDropdown.classList.add('opacity-0', 'invisible');
-            appsDropdown.classList.remove('opacity-100', 'visible');
+            dropdown.classList.remove('open');
+            dropdown.classList.add('opacity-0', 'invisible');
+            dropdown.classList.remove('opacity-100', 'visible');
           } else {
-            appsDropdown.classList.add('open');
-            appsDropdown.classList.remove('opacity-0', 'invisible');
-            appsDropdown.classList.add('opacity-100', 'visible');
+            dropdown.classList.add('open');
+            dropdown.classList.remove('opacity-0', 'invisible');
+            dropdown.classList.add('opacity-100', 'visible');
           }
         }
       });
       // Optional: close dropdown when clicking outside
       document.addEventListener('click', function(e) {
-        if (window.innerWidth < 1000 && !appsBtn.contains(e.target) && !appsDropdown.contains(e.target)) {
-          appsDropdown.classList.remove('open');
-          appsDropdown.classList.add('opacity-0', 'invisible');
-          appsDropdown.classList.remove('opacity-100', 'visible');
+        if (window.innerWidth < 1000 && !btn.contains(e.target) && !dropdown.contains(e.target)) {
+          dropdown.classList.remove('open');
+          dropdown.classList.add('opacity-0', 'invisible');
+          dropdown.classList.remove('opacity-100', 'visible');
         }
       });
-    }
+    });
     var mobileAppsBtn = document.getElementById('mobile-apps-btn');
     var mobileAppsDropdown = document.getElementById('mobile-apps-dropdown');
     if (mobileAppsBtn && mobileAppsDropdown) {

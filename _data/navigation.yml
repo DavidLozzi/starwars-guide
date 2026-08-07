@@ -6,6 +6,10 @@
       url: /star-wars-timeline
     - title: HyperPanels
       url: /hyper-panels
+- title: Games
+  children:
+    - title: Clone Defense
+      url: /clone-defense/
     - title: SWordle
       url: /swordle-star-wars-wordle
 - title: Characters
