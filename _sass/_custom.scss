@@ -2,6 +2,16 @@ h1 {
   font-size: 2rem !important;
 }
 
+/* Bold text. Nothing styled `strong`/`b` before this, so bold fell to the browser default of
+   700 against a 400 body — the only difference between them, at the same size and the same
+   pure white, on a monospace face over black. Mono glyphs are near-uniform in stroke width
+   and light-on-dark blooms, so that 300-step reads as almost nothing.
+   JetBrains Mono already ships 900 to this site (the @import at the top of _new-design.scss
+   requests 400;700;900) and body copy never used it, so the jump is free. */
+strong, b {
+  font-weight: 900;
+}
+
 hr.spacer {
   margin-top: 100px;
 }
@@ -164,6 +174,80 @@ $grid-gutter-width: 20px;
 .desktop-nav .group .absolute[style] a:hover {
   color: #facc15 !important;
   background: #222;
+}
+
+/* Clone Defense sprites — the game's own pixel art, rendered from its MAPS/PALETTES by
+   scripts that import the game's sprites.js directly. `pixelated` is mandatory: these are
+   12-14px source maps upscaled 12x, and smoothing turns them to mush. Sized by height so the
+   14-wide Yoda pickup lines up with the 12-wide rest.
+   Selectors are `.prose`-qualified to beat `.prose img`, which forces a white border,
+   `height: auto` and a 1rem block margin on every image inside page content. */
+.prose img.sprite {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  height: 3rem;
+  width: auto;
+  /* `.prose img` sets max-width: 100%, which in a narrow table cell crushes the sprite
+     horizontally while the fixed height holds — the squish. Height drives, width follows. */
+  max-width: none;
+  border: 0;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* Sprite lists — power-ups, droids and Jedi all use this: sprite in a fixed gutter, copy
+   beside it. Not an inline image in the paragraph, which drags the line box open and strands
+   the trailing sentence below the icon; and not a table, which forces a header row and
+   horizontal scroll on a phone for what is really a labelled list. */
+.prose .sprite-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.prose .sprite-row p {
+  margin: 0;
+}
+
+/* Fixed-width gutter so every name in a list starts on the same left edge regardless of
+   how wide its sprite is (the Yoda pickup is 14 cells, the rest are 12). */
+.prose .sprite-row img.sprite {
+  width: 2.5rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Power-up pickups sit near their in-game size: 12 field units against a 400-unit field in
+   the 440px shell lands around 13px in play. Nudged up to stay legible in body copy. */
+.prose .powerup img.sprite {
+  height: 2rem;
+}
+
+/* Droids and Jedi are taller maps (15 rows vs 12) and carry the detail that sells them —
+   MagnaGuard electrostaffs, saber colours — so they get more room. */
+.prose .roster img.sprite {
+  height: 3rem;
+}
+
+/* HUD capture — capped to the width of the game itself, whose shell is
+   `width: min(440px, 100vw)` in clone-defense/play/styles.css. Shown any wider and the
+   phone-sized UI reads as a blown-up screenshot rather than the real thing. Below that
+   cap it is fluid, so it still fits the narrowest phone. */
+.prose img.game-shot {
+  display: block;
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+@media (max-width: 768px) {
+  .prose img.sprite { height: 2.25rem; }
+  .prose .sprite-row { gap: 0.75rem; }
+  .prose .sprite-row img.sprite { width: 2rem; }
+  .prose .powerup img.sprite { height: 1.75rem; }
+  .prose .roster img.sprite { height: 2.5rem; }
 }
 
 /* Raffle Promo Mobile Reorder */

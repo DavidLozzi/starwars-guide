@@ -1,1 +1,36 @@
-export default{id:"mandalore",name:"MANDALORE",floorSeed:2718,deflectAccuracy:.65,deflectMultiplier:1.4,deflectJitterDeg:2.2,palette:{bgGradient:["#0b1723","#000000"],terrain:"#2B5D8C",accent:"#C7CDD1"},artOverlay:[],roster:{scuba:12},clones:{scuba:{hp:4.5,damage:1.3,accuracy:.46,fireRate:.6,jitter:.25}},droids:{stap:{hp:1.5,boltSpeed:150,damage:.75,accuracy:.42,fireRate:1,jitter:.25,archetype:"battle"},b00m:{hp:4,boltSpeed:150,damage:1.5,accuracy:.6,fireRate:.7,jitter:.2,archetype:"battle"},commando:{hp:6.875,boltSpeed:165,damage:2.2,accuracy:.62,fireRate:.55,jitter:.15,archetype:"super"},pdroideka:{hp:4.375,boltSpeed:190,damage:2.5,accuracy:.86,fireRate:.3,jitter:.1,archetype:"sniper"},dwarf:{hp:13.75,boltSpeed:140,damage:3,accuracy:.62,fireRate:.25,jitter:.15,archetype:"spider"}},waves:[{stap:13,b00m:2},{stap:13,b00m:2},{stap:14,b00m:2,commando:2,pdroideka:2},{stap:14,b00m:2,commando:2,pdroideka:2},{stap:20,b00m:4,commando:4,pdroideka:4,dwarf:2},{stap:16,b00m:4,commando:2,pdroideka:2,dwarf:2},{stap:16,b00m:4,commando:2,pdroideka:2,dwarf:2},{stap:16,b00m:4,commando:2,pdroideka:2,dwarf:2},{stap:18,b00m:4,commando:2,pdroideka:2,dwarf:2},{stap:20,b00m:4,commando:4,pdroideka:4,dwarf:2}]};
+// Planet 9 — Mandalore (PRD §16). Feel: pressure under the domes — quick stap sprayers screened by commandos and an sdk4 drill tank.
+export default {
+  id: 'mandalore', name: 'MANDALORE',
+  floorSeed: 2718,
+  deflectAccuracy: 0.65,
+  deflectMultiplier: 1.40,
+  deflectJitterDeg: 2.20,
+  palette: { bgGradient: ['#0b1723', '#000000'], terrain: '#2B5D8C', accent: '#C7CDD1' },
+  artOverlay: [],
+  roster: { scuba: 12 },
+  clones: { scuba: { hp: 4.5, damage: 1.3, accuracy: 0.46, fireRate: 0.6, jitter: 0.25 } },
+  droids: {
+    stap: { hp: 1.5, boltSpeed: 150, damage: 0.75, accuracy: 0.42, fireRate: 1, jitter: 0.25, archetype: 'battle' },
+    b00m: { hp: 4, boltSpeed: 150, damage: 1.5, accuracy: 0.6, fireRate: 0.7, jitter: 0.2, archetype: 'battle' },
+    commando: { hp: 6.875, boltSpeed: 165, damage: 2.2, accuracy: 0.62, fireRate: 0.55, jitter: 0.15, archetype: 'super' },
+    pdroideka: { hp: 4.375, boltSpeed: 190, damage: 2.5, accuracy: 0.86, fireRate: 0.3, jitter: 0.1, archetype: 'sniper' },
+    dwarf: { hp: 13.75, boltSpeed: 140, damage: 3, accuracy: 0.62, fireRate: 0.25, jitter: 0.15, archetype: 'spider' },
+  },
+  waves: [
+    { stap: 13, b00m: 2 },
+    { stap: 13, b00m: 2 },
+    { stap: 14, b00m: 2, commando: 2, pdroideka: 2 },
+    { stap: 14, b00m: 2, commando: 2, pdroideka: 2 },
+    { stap: 20, b00m: 4, commando: 4, pdroideka: 4, dwarf: 2 },
+    { stap: 16, b00m: 4, commando: 2, pdroideka: 2, dwarf: 2 },
+    { stap: 16, b00m: 4, commando: 2, pdroideka: 2, dwarf: 2 },
+    { stap: 16, b00m: 4, commando: 2, pdroideka: 2, dwarf: 2 },
+    { stap: 18, b00m: 4, commando: 2, pdroideka: 2, dwarf: 2 },
+    { stap: 20, b00m: 4, commando: 4, pdroideka: 4, dwarf: 2 },
+  ],
+  powerups: [
+    { wave: 3, kill: 2, type: 'empower', droidType: 'pdroideka' },
+    { wave: 5, kill: 4, type: 'ultimate', droidType: 'b00m' },
+    { wave: 10, kill: 2, type: 'badBatch', droidType: 'dwarf' },
+  ],
+};

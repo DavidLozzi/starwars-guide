@@ -1,1 +1,368 @@
-import{EVT as L}from"../engine/events.js";import{bakeJedi as G}from"../render/sprites.js";import{APP_VERSION as Q}from"../version.js";import{track as N}from"../telemetry/rum.js";import{TE as x}from"../telemetry/events.js";function Y(E,h){!h||typeof h.then!="function"||h.then(r=>N(x.SHARE_RESULT,{surface:E,outcome:r||"unknown"}),r=>N(x.SHARE_RESULT,{surface:E,outcome:"failed",error:String(r)}))}const J=["screen-title","screen-breather","screen-over","screen-collections","screen-settings","screen-howto","helper-overlay"],X={push:["PUSH","Shoves a droid and its neighbors back and stalls their fire for a few seconds.","Drag over a droid cluster \xB7 GO to confirm"],block:["BLOCK","Conjures a Force wall in front of your clones. It soaks fire until its HP is gone; clones shoot through it.","Drag in front of clones under fire"],crush:["CRUSH","Instantly kills one droid outright, whatever its health.","Drag over the deadliest droid"],heal:["HEAL","Restores a clone to full and tops up its neighbors. It cannot revive the dead.","Drag over a wounded clone"]};export function createScreens(E,{emitter:h,meta:r,config:R}){const g=E.state,m=R.planets,e=t=>document.getElementById(t);function f(){for(const t of J)e(t).classList.remove("show")}function o(t){e(t).classList.add("show")}function _(t){e("screen-breather").classList.toggle("stealth",t)}function k(){const t=r.profile.best;if(!t.planet){e("title-best").textContent="NO RECORD YET";return}const n=m[t.planet-1]&&m[t.planet-1].name||"UNKNOWN";e("title-best").innerHTML=`<span class="best-h">YOUR BEST</span>${n} (${t.planet}) - Wave ${t.wave}<br>Score: ${t.score.toLocaleString("en-US")}`}k(),e("btn-deploy").addEventListener("click",()=>E.startRun()),e("btn-redeploy").addEventListener("click",()=>E.startRun()),e("btn-retreat").addEventListener("click",()=>{f(),o("screen-title"),k()}),e("btn-ready").addEventListener("click",()=>E.readyFromBreather()),e("btn-collections").addEventListener("click",()=>{T("skins"),o("screen-collections")}),e("btn-collections-close").addEventListener("click",()=>{f(),o("screen-title"),k()}),e("app-version").textContent="v"+Q;function C(){e("reset-confirm-1").hidden=!0,e("reset-confirm-2").hidden=!0,e("helpers-reset-note").hidden=!0,e("btn-reset-data").hidden=!1}e("btn-settings").addEventListener("click",()=>{C(),f(),o("screen-settings")}),e("btn-settings-close").addEventListener("click",()=>{C(),f(),o("screen-title"),k()}),e("btn-reset-helpers").addEventListener("click",()=>{r.resetHelpers(),e("helpers-reset-note").hidden=!1}),e("btn-reset-data").addEventListener("click",()=>{e("btn-reset-data").hidden=!0,e("reset-confirm-1").hidden=!1}),e("reset-cancel-1").addEventListener("click",C),e("reset-continue").addEventListener("click",()=>{e("reset-confirm-1").hidden=!0,e("reset-confirm-2").hidden=!1}),e("reset-cancel-2").addEventListener("click",C),e("reset-erase").addEventListener("click",()=>{N(x.DATA_RESET,{badgesErased:Object.keys(r.profile.badges).length,skinsErased:r.profile.skins.unlocked.length,runsErased:r.profile.runs.length}),r.resetAllData(),location.reload()}),e("btn-howto").addEventListener("click",()=>o("screen-howto"));const I=()=>{f(),o("screen-title"),k()};e("btn-howto-close").addEventListener("click",I),e("btn-howto-x").addEventListener("click",I),e("tab-skins").addEventListener("click",()=>T("skins")),e("tab-badges").addEventListener("click",()=>T("badges"));function T(t){e("tab-skins").classList.toggle("active",t==="skins"),e("tab-badges").classList.toggle("active",t==="badges");const n=e("collections-body");if(n.innerHTML="",t==="skins")D(n,{onEquip:()=>T("skins")});else{const a=document.createElement("div");a.className="badge-grid";for(const c of r.catalogs.badges){const i=!!r.profile.badges[c.id],s=document.createElement("div");s.className="badge-cell"+(i?" unlocked":""),s.innerHTML=`<span class="badge-glyph">${i?c.glyph||"\u2605":"?"}</span><span>${i?c.name:"LOCKED"}</span><span class="badge-desc">${c.desc||""}</span>`,s.setAttribute("role","button"),s.setAttribute("tabindex","0"),s.dataset.badgeId=c.id,s.dataset.unlocked=i?"1":"0",s.addEventListener("click",()=>s.classList.toggle("show-desc")),s.addEventListener("keydown",d=>{(d.key==="Enter"||d.key===" ")&&(d.preventDefault(),s.classList.toggle("show-desc"))}),a.appendChild(s)}n.appendChild(a)}}function P(t){return t.type==="planet"?"PLANET "+t.value:t.type==="score"?t.value+" PTS":"LOCKED"}function D(t,{newIds:n=[],onEquip:a,onSelect:c,selectedId:i}={}){const s=!!c;t.innerHTML="";const d=document.createElement("div");d.className="skin-grid";for(const l of r.catalogs.skins){const u=r.profile.skins.unlocked.includes(l.id),w=r.profile.skins.active===l.id,y=n.includes(l.id),O=s&&i===l.id,p=document.createElement("div");p.className="skin-card"+(u?"":" locked")+(w?" active":"")+(y?" is-new":"")+(O?" selected":"");const M=G(3,l.palette,l.map);M.className="skin-cv";const A=document.createElement("span");A.className="skin-name",A.textContent=l.name;const S=document.createElement("span");S.className="skin-state",s?S.textContent=O?"SELECTED":w?"CURRENT":y?"NEW":u?"":P(l.unlock):S.textContent=w?"ACTIVE":y?"NEW \xB7 EQUIP":u?"EQUIP":P(l.unlock),p.append(M,A,S),p.dataset.skinId=l.id,p.dataset.unlocked=u?"1":"0",p.dataset.surface=s?"planet_clear":"collections",u&&(s?p.addEventListener("click",()=>c(l.id)):w||p.addEventListener("click",()=>{r.setActiveSkin(l.id,"collections"),a&&a()})),d.appendChild(p)}t.appendChild(d)}document.documentElement.style.setProperty("--breather-fade",R.globals.breatherFadeMs+"ms");let H=null;h.on(L.WAVE_CLEARED,t=>{H=t}),h.on(L.BREATHER_STARTED,t=>{const n=H||{survivors:0,deflects:0,bKills:0,forceGained:0,flawless:!1},a=t.nextIsPlanet&&g.pendingPlanetIndex!=null;a?e("breather-title").innerHTML='PLANET CLEARED<br><span class="bt-planet">'+m[g.planetIndex].name+"</span>":e("breather-title").textContent="WAVE "+g.waveIndex+" CLEAR",e("breather-stats").textContent=`SURVIVORS ${n.survivors} \xB7 DEFLECTS ${n.deflects} \xB7 KILLS ${n.bKills}`,e("breather-flawless").hidden=!n.flawless,e("breather-force").textContent=`FORCE +${n.forceGained} \u2192 ${Math.round(g.force)}`,e("screen-breather").classList.toggle("planet",a),e("breather-count").hidden=a,e("breather-planet").hidden=!a,a&&K(),f(),o("screen-breather"),W(a)});let b=null;function W(t){const n=e("screen-breather");b&&(clearTimeout(b),b=null),n.classList.remove("revealed"),n.classList.toggle("staged",t),t&&(b=setTimeout(()=>{b=null,n.classList.add("revealed")},R.globals.planetClearRevealMs))}function K(){const t=r.badgesEarnedThisPlanet(),n=e("breather-earned-wrap"),a=e("breather-earned");if(a.innerHTML="",t.length){const c=Object.fromEntries(r.catalogs.badges.map(i=>[i.id,i]));for(const i of t){const s=document.createElement("span");s.className="bp-chip",s.textContent="\u2605 "+(c[i]&&c[i].name||i),a.appendChild(s)}n.hidden=!1}else n.hidden=!0;e("breather-newjedi-h").hidden=r.skinsUnlockedThisPlanet().length===0,U()}let v=null;function $(){D(e("breather-skins"),{newIds:r.skinsUnlockedThisPlanet(),selectedId:v,onSelect:t=>{v=t,$()}})}function V(){v=r.profile.skins.active,e("btn-change-knight").hidden=!0,e("breather-skins-panel").hidden=!1,$()}function B(){v&&r.setActiveSkin(v,"planet_clear"),U()}function U(){v=null,e("breather-skins-panel").hidden=!0,e("btn-change-knight").hidden=!1}e("btn-change-knight").addEventListener("click",V),e("btn-apply-knight").addEventListener("click",B),h.on(L.WAVE_STARTED,()=>{const t=e("screen-breather");b&&(clearTimeout(b),b=null),t.classList.remove("show"),t.classList.remove("planet","staged","revealed")}),h.on(L.RUN_ENDED,t=>{if(t.cause!=="death")return;const n=m[t.planetIndex];e("over-result").textContent=`${n.name} \xB7 WAVE ${t.waveIndex+1} \xB7 SCORE ${t.score}`;const a=r.profile.best;e("over-best").textContent=`BEST \xB7 PLANET ${a.planet} \xB7 WAVE ${a.wave} \xB7 ${a.score}`;const c=r.badgesEarnedThisRun(),i=e("over-badges");if(i.innerHTML="",c.length){const d=Object.fromEntries(r.catalogs.badges.map(l=>[l.id,l]));for(const l of c){const u=document.createElement("div");u.className="badge-earned",u.textContent="\u2605 "+(d[l]&&d[l].name||l),i.appendChild(u)}i.hidden=!1}else i.hidden=!0;const s=e("btn-share");r.shareCard?(s.hidden=!1,s.onclick=()=>Y("game_over",r.shareCard({planet:t.planetIndex+1,wave:t.waveIndex+1,score:t.score,cause:t.cause,planetName:n.name},n))):s.hidden=!0,f(),o("screen-over")}),h.on(L.RUN_STARTED,f);function j(){g.mode==="breather"&&g.pendingPlanetIndex==null&&(e("breather-count").textContent="NEXT WAVE IN "+Math.max(0,Math.ceil(g.breatherT)))}return{update:j,hideAll:f,stealthBreather:_,showHelper:F,refreshTitleBest:k};function F(t,n){const[a,c,i]=X[t];e("helper-title").textContent=a,e("helper-body").textContent=c,e("helper-hint").textContent=i,o("helper-overlay");const s=e("btn-helper-ok");s.dataset.power=t,s.dataset.gate=n?"1":"0",s.onclick=()=>{e("helper-overlay").classList.remove("show"),n&&n()}}}
+// Screen overlays — title, breather, game-over, collections + helper gate.
+// Reacts to EVT + sim state (CONTRACTS "UI"). PRD §8, §11, §17.
+
+import { EVT } from '../engine/events.js';
+import { bakeJedi } from '../render/sprites.js';
+import { APP_VERSION } from '../version.js';
+import { track } from '../telemetry/track.js';
+import { TE } from '../telemetry/events.js';
+
+/** Report how a share card actually left the device (see meta/sharecard.js return values). */
+function trackShareOutcome(surface, promise) {
+  if (!promise || typeof promise.then !== 'function') return;
+  promise.then(
+    (outcome) => track(TE.SHARE_RESULT, { surface, outcome: outcome || 'unknown' }),
+    (err) => track(TE.SHARE_RESULT, { surface, outcome: 'failed', error: String(err) }),
+  );
+}
+
+const SCREENS = ['screen-title', 'screen-breather', 'screen-over', 'screen-collections', 'screen-settings', 'screen-howto', 'helper-overlay'];
+
+const POWER_HELP = {
+  push: ['PUSH', 'Shoves a droid and its neighbors back and stalls their fire for a few seconds.', 'Drag over a droid cluster · GO to confirm'],
+  block: ['BLOCK', 'Conjures a Force wall in front of your clones. It soaks fire until its HP is gone; clones shoot through it.', 'Drag in front of clones under fire'],
+  crush: ['CRUSH', 'Instantly kills one droid outright, whatever its health.', 'Drag over the deadliest droid'],
+  heal: ['HEAL', 'Restores a clone to full and tops up its neighbors. It cannot revive the dead.', 'Drag over a wounded clone'],
+};
+
+// First-catch explainers for power-ups (PRD §19). Keys are src/config/powerups.js. Shown
+// once per type, ever. [title, body] only — unlike POWER_HELP these carry no hint line: the
+// card appears AFTER the effect has already fired, so there is no decision left to coach.
+const POWERUP_HELP = {
+  forceFull: ['FORCE SURGE', 'Your Force bar floods to full in a heartbeat. It keeps until you spend it.'],
+  forceHalf: ['FORCE FLOW', 'Half a Force bar, poured in at once. It keeps until you spend it.'],
+  healAll: ['FIELD MEDIC', 'Every living clone is restored to full health. The fallen stay fallen.'],
+  empower: ['BATTLE MEDITATION', 'For a few seconds your deflections aim truer and hit far harder. You will glow while it lasts.'],
+  secondYoda: ['MASTER YODA', 'Master Yoda fights at your side for a while, mirroring your movement with a saber of his own.'],
+  ultimate: ['THE HIGH GROUND', 'Every droid on the field is thrown back and stunned — and a quarter of them are crushed outright.'],
+  badBatch: ['BAD BATCH', 'A hardened squad drops in and draws every droid\'s fire. They cannot be killed, but they will not stay long — and they cannot save you if your own clones fall.'],
+};
+
+export function createScreens(game, { emitter, meta, config }) {
+  const state = game.state;
+  const planets = config.planets;
+  const el = (id) => document.getElementById(id);
+
+  function hideAll() { for (const s of SCREENS) el(s).classList.remove('show'); }
+  function show(id) { el(id).classList.add('show'); }
+  function stealthBreather(on) { el('screen-breather').classList.toggle('stealth', on); }
+
+  // ---- title ----
+  function refreshTitleBest() {
+    const b = meta.profile.best;
+    if (!b.planet) { el('title-best').textContent = 'NO RECORD YET'; return; }
+    const name = (planets[b.planet - 1] && planets[b.planet - 1].name) || 'UNKNOWN';
+    el('title-best').innerHTML = `<span class="best-h">YOUR BEST</span>`
+      + `${name} (${b.planet}) - Wave ${b.wave}<br>`
+      + `Score: ${b.score.toLocaleString('en-US')}`;
+  }
+  refreshTitleBest();
+
+  el('btn-deploy').addEventListener('click', () => game.startRun());
+  el('btn-redeploy').addEventListener('click', () => game.startRun());
+  el('btn-retreat').addEventListener('click', () => { hideAll(); show('screen-title'); refreshTitleBest(); });
+  el('btn-ready').addEventListener('click', () => game.readyFromBreather());
+
+  // ---- collections ----
+  el('btn-collections').addEventListener('click', () => { renderCollections('skins'); show('screen-collections'); });
+  el('btn-collections-close').addEventListener('click', () => { hideAll(); show('screen-title'); refreshTitleBest(); });
+
+  // ---- settings ----
+  el('app-version').textContent = 'v' + APP_VERSION;
+  function resetSettingsUI() {
+    el('reset-confirm-1').hidden = true;
+    el('reset-confirm-2').hidden = true;
+    el('helpers-reset-note').hidden = true;
+    el('btn-reset-data').hidden = false;
+  }
+  el('btn-settings').addEventListener('click', () => { resetSettingsUI(); hideAll(); show('screen-settings'); });
+  el('btn-settings-close').addEventListener('click', () => { resetSettingsUI(); hideAll(); show('screen-title'); refreshTitleBest(); });
+  el('btn-reset-helpers').addEventListener('click', () => { meta.resetHelpers(); el('helpers-reset-note').hidden = false; });
+  // Reset My Data — two-step confirmation.
+  el('btn-reset-data').addEventListener('click', () => { el('btn-reset-data').hidden = true; el('reset-confirm-1').hidden = false; });
+  el('reset-cancel-1').addEventListener('click', resetSettingsUI);
+  el('reset-continue').addEventListener('click', () => { el('reset-confirm-1').hidden = true; el('reset-confirm-2').hidden = false; });
+  el('reset-cancel-2').addEventListener('click', resetSettingsUI);
+  el('reset-erase').addEventListener('click', () => {
+    // Report what was lost BEFORE the wipe + reload — nothing survives the next line.
+    track(TE.DATA_RESET, {
+      badgesErased: Object.keys(meta.profile.badges).length,
+      skinsErased: meta.profile.skins.unlocked.length,
+      runsErased: meta.profile.runs.length,
+    });
+    meta.resetAllData();
+    location.reload();
+  });
+
+  // ---- how to play ----
+  el('btn-howto').addEventListener('click', () => show('screen-howto'));
+  const closeHowto = () => { hideAll(); show('screen-title'); refreshTitleBest(); };
+  el('btn-howto-close').addEventListener('click', closeHowto);
+  el('btn-howto-x').addEventListener('click', closeHowto);
+  el('tab-skins').addEventListener('click', () => renderCollections('skins'));
+  el('tab-badges').addEventListener('click', () => renderCollections('badges'));
+
+  function renderCollections(tab) {
+    el('tab-skins').classList.toggle('active', tab === 'skins');
+    el('tab-badges').classList.toggle('active', tab === 'badges');
+    const body = el('collections-body');
+    body.innerHTML = '';
+    if (tab === 'skins') {
+      renderSkinList(body, { onEquip: () => renderCollections('skins') });
+    } else {
+      const grid = document.createElement('div');
+      grid.className = 'badge-grid';
+      for (const badge of meta.catalogs.badges) {
+        const got = !!meta.profile.badges[badge.id];
+        const cell = document.createElement('div');
+        cell.className = 'badge-cell' + (got ? ' unlocked' : '');
+        // Tap a badge to read how it's earned (badge.desc = the criteria).
+        cell.innerHTML = `<span class="badge-glyph">${got ? (badge.glyph || '★') : '?'}</span>`
+          + `<span>${got ? badge.name : 'LOCKED'}</span>`
+          + `<span class="badge-desc">${badge.desc || ''}</span>`;
+        cell.setAttribute('role', 'button');
+        cell.setAttribute('tabindex', '0');
+        cell.dataset.badgeId = badge.id;          // read by the telemetry click delegate
+        cell.dataset.unlocked = got ? '1' : '0';
+        cell.addEventListener('click', () => cell.classList.toggle('show-desc'));
+        cell.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cell.classList.toggle('show-desc'); }
+        });
+        grid.appendChild(cell);
+      }
+      body.appendChild(grid);
+    }
+  }
+  function unlockLabel(u) {
+    if (u.type === 'planet') return 'PLANET ' + u.value;
+    if (u.type === 'score') return u.value + ' PTS';
+    return 'LOCKED';
+  }
+
+  // Shared skin picker — used by the collections screen and the planet-clear breather.
+  // Two modes:
+  //   collections: onEquip — clicking an unlocked row equips immediately, then re-renders.
+  //   select (planet-clear): onSelect + selectedId — clicking sets a pending choice (any
+  //     unlocked row, incl. the current one); nothing persists until APPLY. newIds flag NEW.
+  // Card grid: each knight shows its own baked sprite + name + state. Locked cards render a
+  // dimmed silhouette (see styles.css .skin-card.locked). Used by collections + planet-clear.
+  function renderSkinList(container, { newIds = [], onEquip, onSelect, selectedId } = {}) {
+    const selectMode = !!onSelect;
+    container.innerHTML = '';
+    const grid = document.createElement('div');
+    grid.className = 'skin-grid';
+    for (const skin of meta.catalogs.skins) {
+      const unlocked = meta.profile.skins.unlocked.includes(skin.id);
+      const active = meta.profile.skins.active === skin.id;
+      const isNew = newIds.includes(skin.id);
+      const selected = selectMode && selectedId === skin.id;
+      const card = document.createElement('div');
+      card.className = 'skin-card' + (unlocked ? '' : ' locked') + (active ? ' active' : '')
+        + (isNew ? ' is-new' : '') + (selected ? ' selected' : '');
+      const cv = bakeJedi(3, skin.palette, skin.map);
+      cv.className = 'skin-cv';
+      const name = document.createElement('span');
+      name.className = 'skin-name';
+      name.textContent = skin.name;
+      const st = document.createElement('span');
+      st.className = 'skin-state';
+      if (selectMode) {
+        st.textContent = selected ? 'SELECTED' : active ? 'CURRENT' : isNew ? 'NEW' : unlocked ? '' : unlockLabel(skin.unlock);
+      } else {
+        st.textContent = active ? 'ACTIVE' : isNew ? 'NEW · EQUIP' : unlocked ? 'EQUIP' : unlockLabel(skin.unlock);
+      }
+      card.append(cv, name, st);
+      card.dataset.skinId = skin.id;              // read by the telemetry click delegate
+      card.dataset.unlocked = unlocked ? '1' : '0';
+      card.dataset.surface = selectMode ? 'planet_clear' : 'collections';
+      if (unlocked) {
+        if (selectMode) card.addEventListener('click', () => onSelect(skin.id));
+        else if (!active) card.addEventListener('click', () => { meta.setActiveSkin(skin.id, 'collections'); if (onEquip) onEquip(); });
+      }
+      grid.appendChild(card);
+    }
+    container.appendChild(grid);
+  }
+
+  // ---- breather ----
+  // Timings live in globals; CSS reads them off this custom property so there is one source.
+  document.documentElement.style.setProperty('--breather-fade', config.globals.breatherFadeMs + 'ms');
+  let lastWave = null;
+  emitter.on(EVT.WAVE_CLEARED, (p) => { lastWave = p; });
+  emitter.on(EVT.BREATHER_STARTED, (info) => {
+    const p = lastWave || { survivors: 0, deflects: 0, bKills: 0, forceGained: 0, flawless: false };
+    const isPlanet = info.nextIsPlanet && state.pendingPlanetIndex != null;
+    if (isPlanet) {
+      el('breather-title').innerHTML = 'PLANET CLEARED<br><span class="bt-planet">' + planets[state.planetIndex].name + '</span>';
+    } else {
+      // waveIndex was already incremented by waveClear(); it now equals the 1-based cleared wave.
+      el('breather-title').textContent = 'WAVE ' + state.waveIndex + ' CLEAR';
+    }
+    el('breather-stats').textContent = `SURVIVORS ${p.survivors} · DEFLECTS ${p.deflects} · KILLS ${p.bKills}`;
+    el('breather-flawless').hidden = !p.flawless;
+    el('breather-force').textContent = `FORCE +${p.forceGained} → ${Math.round(state.force)}`;
+
+    // Planet-clear gets the full treatment: no countdown, recovered badges, inline skin picker.
+    el('screen-breather').classList.toggle('planet', isPlanet);
+    el('breather-count').hidden = isPlanet;
+    el('breather-planet').hidden = !isPlanet;
+    if (isPlanet) renderPlanetClear();
+
+    hideAll();
+    show('screen-breather');
+    stagePlanetClear(isPlanet);
+  });
+
+  // Planet-clear lands in two beats: CLEARED + the world's name, then everything else fades
+  // in planetClearRevealMs later. Between-wave breathers show whole (the .show fade covers them).
+  let stageTimer = null;
+  function stagePlanetClear(isPlanet) {
+    const b = el('screen-breather');
+    if (stageTimer) { clearTimeout(stageTimer); stageTimer = null; }
+    b.classList.remove('revealed');
+    b.classList.toggle('staged', isPlanet);
+    if (!isPlanet) return;
+    stageTimer = setTimeout(() => {
+      stageTimer = null;
+      b.classList.add('revealed');
+    }, config.globals.planetClearRevealMs);
+  }
+  // Populate the planet-clear extras: badges recovered this world + the knight skin picker.
+  function renderPlanetClear() {
+    const earned = meta.badgesEarnedThisPlanet();
+    const wrap = el('breather-earned-wrap');
+    const list = el('breather-earned');
+    list.innerHTML = '';
+    if (earned.length) {
+      const byId = Object.fromEntries(meta.catalogs.badges.map((x) => [x.id, x]));
+      for (const id of earned) {
+        const chip = document.createElement('span');
+        chip.className = 'bp-chip';
+        chip.textContent = '★ ' + ((byId[id] && byId[id].name) || id);
+        list.appendChild(chip);
+      }
+      wrap.hidden = false;
+    } else wrap.hidden = true;
+    // NEW JEDI header only when a knight was unlocked on this planet.
+    el('breather-newjedi-h').hidden = meta.skinsUnlockedThisPlanet().length === 0;
+    closeKnightPicker(); // start collapsed each planet-clear: button visible, picker hidden
+  }
+
+  // ---- planet-clear knight picker: CHANGE KNIGHT button → list + APPLY (no cancel) ----
+  let pendingSkin = null; // selected-but-not-yet-applied skin id
+  function renderKnightList() {
+    renderSkinList(el('breather-skins'), {
+      newIds: meta.skinsUnlockedThisPlanet(),
+      selectedId: pendingSkin,
+      onSelect: (id) => { pendingSkin = id; renderKnightList(); },
+    });
+  }
+  function openKnightPicker() {
+    pendingSkin = meta.profile.skins.active; // default selection = current knight
+    el('btn-change-knight').hidden = true;
+    el('breather-skins-panel').hidden = false;
+    renderKnightList();
+  }
+  function applyKnight() {
+    if (pendingSkin) meta.setActiveSkin(pendingSkin, 'planet_clear'); // refuses locked; pending is always an unlocked row
+    closeKnightPicker();
+  }
+  function closeKnightPicker() {
+    pendingSkin = null;
+    el('breather-skins-panel').hidden = true;
+    el('btn-change-knight').hidden = false;
+  }
+  el('btn-change-knight').addEventListener('click', openKnightPicker);
+  el('btn-apply-knight').addEventListener('click', applyKnight);
+
+  // Proceeding (auto-countdown or READY) starts the next wave — dismiss the breather so
+  // play resumes on-screen. Covers both between-wave and between-planet transitions.
+  emitter.on(EVT.WAVE_STARTED, () => {
+    const b = el('screen-breather');
+    if (stageTimer) { clearTimeout(stageTimer); stageTimer = null; }
+    b.classList.remove('show');
+    // reset so the overlay is clean for the next use
+    b.classList.remove('planet', 'staged', 'revealed');
+  });
+
+  // ---- game over (death only; finale is finale.js) ----
+  emitter.on(EVT.RUN_ENDED, (p) => {
+    if (p.cause !== 'death') return;
+    const planet = planets[p.planetIndex];
+    el('over-result').textContent = `${planet.name} · WAVE ${p.waveIndex + 1} · SCORE ${p.score}`;
+    const b = meta.profile.best;
+    el('over-best').textContent = `BEST · PLANET ${b.planet} · WAVE ${b.wave} · ${b.score}`;
+
+    const earned = meta.badgesEarnedThisRun();
+    const list = el('over-badges');
+    list.innerHTML = '';
+    if (earned.length) {
+      const byId = Object.fromEntries(meta.catalogs.badges.map((x) => [x.id, x]));
+      for (const id of earned) {
+        const d = document.createElement('div');
+        d.className = 'badge-earned';
+        d.textContent = '★ ' + ((byId[id] && byId[id].name) || id);
+        list.appendChild(d);
+      }
+      list.hidden = false;
+    } else list.hidden = true;
+
+    const shareBtn = el('btn-share');
+    if (meta.shareCard) {
+      shareBtn.hidden = false;
+      // The click itself is logged by the telemetry delegate; this reports the outcome.
+      shareBtn.onclick = () => trackShareOutcome('game_over', meta.shareCard(
+        { planet: p.planetIndex + 1, wave: p.waveIndex + 1, score: p.score, cause: p.cause, planetName: planet.name },
+        planet,
+      ));
+    } else shareBtn.hidden = true;
+
+    hideAll();
+    show('screen-over');
+  });
+
+  // enter play → clear overlays
+  emitter.on(EVT.RUN_STARTED, hideAll);
+
+  function update() {
+    // Planet-clear has no countdown (READY only); only the between-wave breather ticks.
+    if (state.mode === 'breather' && state.pendingPlanetIndex == null) {
+      el('breather-count').textContent = 'NEXT WAVE IN ' + Math.max(0, Math.ceil(state.breatherT));
+    }
+  }
+
+  return { update, hideAll, stealthBreather, showHelper, showPowerupHelp, refreshTitleBest };
+
+  // ---- helper overlay (shared with powerflow) ----
+  function showHelper(power, onOk) {
+    const [title, body, hint] = POWER_HELP[power];
+    el('helper-title').textContent = title;
+    el('helper-body').textContent = body;
+    el('helper-hint').textContent = hint;
+    el('helper-hint').style.display = ''; // a hintless power-up card may have collapsed it
+    show('helper-overlay');
+    const ok = el('btn-helper-ok');
+    ok.dataset.power = power;                     // read by the telemetry click delegate
+    ok.dataset.gate = onOk ? '1' : '0';           // first-use gate vs a voluntary "?" re-read
+    ok.onclick = () => { el('helper-overlay').classList.remove('show'); if (onOk) onOk(); };
+  }
+
+  // ---- first-catch power-up explainer (ui/pickups.js) ----
+  // Same overlay, different copy table. The effect has ALREADY applied by the time this
+  // shows — the card explains what just happened, it is not a confirmation.
+  function showPowerupHelp(type, onOk) {
+    const copy = POWERUP_HELP[type];
+    if (!copy) { if (onOk) onOk(); return; }
+    const [title, body] = copy;
+    el('helper-title').textContent = title;
+    el('helper-body').textContent = body;
+    // No hint line on power-up cards — collapse the shared element rather than blanking it,
+    // so the card does not carry an empty row. showHelper re-shows it for the powers.
+    el('helper-hint').style.display = 'none';
+    show('helper-overlay');
+    const ok = el('btn-helper-ok');
+    ok.dataset.power = type;
+    ok.dataset.gate = '1';
+    ok.onclick = () => { el('helper-overlay').classList.remove('show'); if (onOk) onOk(); };
+  }
+}

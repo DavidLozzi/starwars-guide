@@ -1,1 +1,40 @@
-export default{id:"ryloth",name:"RYLOTH",floorSeed:2653,deflectAccuracy:.57,deflectMultiplier:1.2,deflectJitterDeg:1.6,palette:{bgGradient:["#1b110a","#000000"],terrain:"#6B4226",accent:"#C87137"},artOverlay:[],roster:{trooper:12,arc:1,veteran:2},clones:{trooper:{hp:3.5,damage:1,accuracy:.4,fireRate:.55,jitter:.25},arc:{hp:6.5,damage:1.8,accuracy:.6,fireRate:.68,jitter:.2},veteran:{hp:6,damage:1.7,accuracy:.55,fireRate:.62,jitter:.2}},droids:{stap:{hp:1.5,boltSpeed:150,damage:.75,accuracy:.42,fireRate:1,jitter:.25,archetype:"battle"},B2:{hp:5.625,boltSpeed:165,damage:2,accuracy:.58,fireRate:.52,jitter:.15,archetype:"super"},commando:{hp:6.875,boltSpeed:165,damage:2.2,accuracy:.62,fireRate:.55,jitter:.15,archetype:"super"},pdroideka:{hp:4.375,boltSpeed:190,damage:2.5,accuracy:.86,fireRate:.3,jitter:.1,archetype:"sniper"},dwarf:{hp:13.75,boltSpeed:140,damage:3,accuracy:.62,fireRate:.25,jitter:.15,archetype:"spider"}},waves:[{stap:8},{stap:8},{stap:9,commando:1,pdroideka:1},{stap:9,commando:1,pdroideka:1},{stap:13,B2:1,commando:4,pdroideka:4,dwarf:1},{stap:11,B2:1,commando:3,pdroideka:3,dwarf:1},{stap:11,B2:1,commando:3,pdroideka:3,dwarf:1},{stap:11,B2:1,commando:3,pdroideka:3,dwarf:1},{stap:12,B2:1,commando:3,pdroideka:3,dwarf:1},{stap:13,B2:1,commando:4,pdroideka:4,dwarf:1}]};
+// Planet 5 — Ryloth (PRD §16). Feel: snipers dug into the canyons — first triage decision: body-block the marksman or hold the line.
+export default {
+  id: 'ryloth', name: 'RYLOTH',
+  floorSeed: 2653,
+  deflectAccuracy: 0.57,
+  deflectMultiplier: 1.20,
+  deflectJitterDeg: 1.60,
+  palette: { bgGradient: ['#1b110a', '#000000'], terrain: '#6B4226', accent: '#C87137' },
+  artOverlay: [],
+  roster: { trooper: 12, arc: 1, veteran: 2 },
+  clones: {
+    trooper: { hp: 3.5, damage: 1, accuracy: 0.4, fireRate: 0.55, jitter: 0.25 },
+    arc: { hp: 6.5, damage: 1.8, accuracy: 0.6, fireRate: 0.68, jitter: 0.2 },
+    veteran: { hp: 6, damage: 1.7, accuracy: 0.55, fireRate: 0.62, jitter: 0.2 },
+  },
+  droids: {
+    stap: { hp: 1.5, boltSpeed: 150, damage: 0.75, accuracy: 0.42, fireRate: 1, jitter: 0.25, archetype: 'battle' },
+    B2: { hp: 5.625, boltSpeed: 165, damage: 2, accuracy: 0.58, fireRate: 0.52, jitter: 0.15, archetype: 'super' },
+    commando: { hp: 6.875, boltSpeed: 165, damage: 2.2, accuracy: 0.62, fireRate: 0.55, jitter: 0.15, archetype: 'super' },
+    pdroideka: { hp: 4.375, boltSpeed: 190, damage: 2.5, accuracy: 0.86, fireRate: 0.3, jitter: 0.1, archetype: 'sniper' },
+    dwarf: { hp: 13.75, boltSpeed: 140, damage: 3, accuracy: 0.62, fireRate: 0.25, jitter: 0.15, archetype: 'spider' },
+  },
+  waves: [
+    { stap: 8 },
+    { stap: 8 },
+    { stap: 9, commando: 1, pdroideka: 1 },
+    { stap: 9, commando: 1, pdroideka: 1 },
+    { stap: 13, B2: 1, commando: 4, pdroideka: 4, dwarf: 1 },
+    { stap: 11, B2: 1, commando: 3, pdroideka: 3, dwarf: 1 },
+    { stap: 11, B2: 1, commando: 3, pdroideka: 3, dwarf: 1 },
+    { stap: 11, B2: 1, commando: 3, pdroideka: 3, dwarf: 1 },
+    { stap: 12, B2: 1, commando: 3, pdroideka: 3, dwarf: 1 },
+    { stap: 13, B2: 1, commando: 4, pdroideka: 4, dwarf: 1 },
+  ],
+  powerups: [
+    { wave: 3, kill: 1, type: 'empower', droidType: 'pdroideka' },
+    { wave: 5, kill: 4, type: 'ultimate', droidType: 'commando' },
+    { wave: 8, kill: 10, type: 'healAll' },
+  ],
+};

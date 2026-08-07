@@ -4,164 +4,259 @@ layout: page
 permalink: /clone-defense/
 social-image: "/assets/cards/clone-defense.png"
 social-title: Clone Defense
-social-desc: One Jedi. Fifteen worlds. An endless droid assault. How long can you hold the line?
+social-desc: One Jedi. An endless droid assault. How long can you hold the line?
 date: 2026-07-16 12:00:00
-last_modified_at: 2026-07-26 12:00:00
+last_modified_at: 2026-08-07 18:20:00
 app:
   name: Clone Defense
   url: https://starwars.guide/clone-defense/play/
   category: GameApplication
 ---
 
-You are the Jedi. A Separatist droid line rains blaster fire on your clone troopers, and the only thing between them is you and your lightsaber. Deflect what you can, spend the Force on what you can't, and push the war across fifteen worlds. It's free, there's nothing to install, and it plays in your phone's browser.
+You are the Jedi. A Separatist droid line rains blaster fire on your clone troopers, and the only thing between them is you and your lightsaber. Deflect what you can, use the Force on what you can't, and push the war across various worlds.
 
-<a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense</a> — free, no sign-up, works on phone and desktop.
+<a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense</a> — it's free, no sign-up, phone or desktop.
 
 <a href="{{ '/clone-defense/play/' | relative_url }}"><img src="{{ 'assets/cards/clone-defense.png' | relative_url }}" alt="Clone Defense" /></a>
 
-## How to play
+## How to play Clone Defense
 
-Drag anywhere on the field to guide the Jedi. On a phone the Jedi rides a little above your finger so your thumb never covers the action. There's no jump button, no attack button — moving *is* the whole control scheme.
-
-Your saber deflects on its own. Any bolt that comes near the blade gets sent back into the droid line, and a returned bolt is what kills droids. So playing well means reading which lane the next bolt is coming down and being standing in it.
+Drag anywhere on the field to guide the Jedi. Your saber deflects most bolts that reach it and returns fire back to the droids.
 
 A few things worth knowing before your first run:
 
-- **The saber is good, not perfect.** It blocks about 82% of bolts that reach it, and it can only handle four bolts in any 200-millisecond window. Park in front of a big cluster and the overflow starts leaking past you. You have to keep moving.
-- **You can't reach the droids.** A dashed line across the field marks how far up the Jedi can go. Everything above it is theirs.
-- **Your clones are your life bar.** The Jedi has no health. A wave ends when every droid on it is dead, and a run ends when the last clone falls.
-- **Clones don't heal on their own.** Within a world it's pure attrition. Reach the next world and a fresh garrison musters at full strength — surviving *is* the healing.
-- **Ten seconds between waves.** Survivors, score, and Force earned are shown; hit Ready to skip the breather.
-- **Death sends you back to world one.** No checkpoints. The game remembers your furthest world and best score, not your progress.
+- **Your blocking skills are good, not perfect.** You block many of the bolts that reach you. However you're not perfect, bolts will sneak past you to your clones.
+- **Your clones are your life bar.** Your Jedi has no health. When all of your clones die, game over.
+- **Clones don't heal on their own.** You may use the force to heal your clones, unfortuantely you cannot revive dead clones. You get a new clone army when starting each new world.
+- **Death sends you back to the start.** No checkpoints. The game remembers your furthest world, skins, badges, and best score, in your current browser.
 
 ## The Force
 
-A gauge across the top fills as you fight, up to 1000. You earn it by:
+Your force gauge across the bottom fills as you fight. You earn it by:
 
-- Deflecting a bolt — **+1.4**
-- Killing a droid with a deflected bolt — **+5**
-- Clearing a wave — **+10**, plus **+1.2** for every clone still standing
+- Deflecting a bolt
+- Killing a droid with a deflected bolt
+- Clearing a wave, extra for every clone still standing
 
-When a clone dies, the Force recoils: earning stalls for two seconds. Long stretches of losing troopers cost you powers as well as bodies.
+When a clone dies, the force recoils: you slow down earning new force for a moment.
 
-The gauge carries across worlds — only dying wipes it. Powers unlock at fixed thresholds and stay unlocked once you've touched that number, so spending never re-locks anything. And each tier you unlock above a power makes that power 5% cheaper, so a late-run Push costs noticeably less than an early one.
+Your earned force carries across worlds.
 
-## Force powers
+### Force powers
 
-Four powers, always unlocked in the same order.
+<img src="{{ 'assets/forcebar.png' | relative_url }}" alt="The Clone Defense HUD: the Force gauge above the PUSH, BLOCK, CRUSH and HEAL power buttons, each showing its current cost" class="game-shot" />
 
-**PUSH** — unlocks at 150 Force, costs 150.
-Shoves every droid in a wide radius backward and stuns them for a full ten seconds. It doesn't kill anything; it buys you time. Best used on the cluster that's about to bury one flank.
+You earn a total of 1,000 force units (no, we're not calling it mitochondria)
 
-**BLOCK** — unlocks at 400 Force, costs 300.
-Raises a Force wall in front of your clones. It soaks incoming fire until its 30 health is gone, and your clones shoot straight through it. This is the power that saves troopers you were about to lose.
+- **PUSH:** unlocks at 150 units earned, costs 150.
+Shoves every droid in a wide radius backward and stuns them for a period of time. It doesn't kill anything; it buys you time.
+- **BLOCK:** unlocks at 400 units earned, costs 300.
+Raises a Force wall in front of your clones. It soaks incoming fire until its health is gone, and your clones shoot straight through it.
+- **CRUSH:** unlocks at 600 units earned, costs 500.
+Kills every droid caught inside the circle outright, whatever their health.
+- **HEAL:** unlocks at 800 units earned, costs 650.
+Restores one clone to full and tops up its neighbors by a quarter of their health. It cannot revive the dead.
 
-**CRUSH** — unlocks at 600 Force, costs 500.
-Kills one droid outright, whatever its health. Save it for the thing you cannot chew through — the spider tanks near the end of the campaign have seventeen health and shrug off deflections all day.
+### Using the force
 
-**HEAL** — unlocks at 800 Force, costs 650.
-Restores one clone to full and tops up its neighbors by a quarter of their health. It **cannot revive the dead** — heal the wounded before the wave that kills them, not after.
+Breathe. Reach out with your feelings.
 
-Casting is deliberate: tap the power, the game pauses, drag the selector onto your target, then confirm with GO or back out with CANCEL. Cancelling costs nothing.
+Tap the power, the game pauses. Drag the selector onto your target(s), then confirm with GO or back out with CANCEL.
 
-## The fifteen worlds
+## Power-ups
 
-Every world runs ten waves, and every world has its own palette — the terrain, the sky, and even the ceiling line are recolored, so you always know where you are.
+Some droids drop power-ups when they die. It'll fall from the top of the field, and you have to go and get it before it's gone!
 
-1. **Christophsis** — crystalline blue-green over near-black. Plain battle droid lines in the crystal city: the war's opening ground battle.
-2. **Tatooine** — sand-gold over rust. The super battle droid arrives over the dunes, and you get your first taste of a bolt that really hurts.
-3. **Coruscant** — gold city-glow on slate. A skylane raid: flimsy harassers spray fast and die fast around a heavier core.
-4. **Kamino** — rain-white on ocean blue-grey. The cloning spires under siege, and the point where supers stop being a surprise and become furniture.
-5. **Ryloth** — burnt ochre canyons. Snipers dig in, and you get your first real triage decision: body-block the marksman, or hold the line.
-6. **Naboo** — cream stone over green hills. A swarm across the lake country. Every bolt is cheap and there are hundreds of them.
-7. **Felucia** — acid green glow over magenta growth. Commando droids stalk the fungal jungle while snipers work the back line.
-8. **Geonosis** — foundry rust and desert tan. The first true tank grinds out of the foundry, soaking your deflections while snipers pick at your flanks.
-9. **Mandalore** — cold steel over deep blue. Pressure under the domes: quick sprayers screened by commandos and a drill tank.
-10. **Nal Hutta** — sickly olive over mud brown. Hutt swampland, and the campaign's mid-point gear change.
-11. **Dathomir** — crimson mist over near-black. Fixed snipers rake the ground while heavy battle droids press forward.
-12. **Mortis** — bone-white against a void. The whole war at once in a place that shouldn't have one — all four droid classes on the field together for the first time.
-13. **Mon Cala** — teal over deep blue. Few units, all brutal. Every kill is a duel and the tri-droid is the anchor.
-14. **Umbara** — cyan glow against total black. Elite fire out of the dark: fast, accurate bolts from every body on the field.
-15. **Oba Diah** — dusty stone over cold slate. The finale. Everything at once on the Pyke world.
 
-You get better as the war gets worse. Your deflect accuracy climbs from 47% on Christophsis to 82% on Oba Diah, and the damage a returned bolt does nearly doubles across the same span.
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/force-flow.png' | relative_url }}" alt="Force Flow pickup" class="sprite" />
+  <p><strong>FORCE FLOW:</strong> fills half of your force bar.</p>
+</div>
 
-## The droid line
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/force-surge.png' | relative_url }}" alt="Force Surge pickup" class="sprite" />
+  <p><strong>FORCE SURGE:</strong> fills the whole force bar.</p>
+</div>
 
-Thirteen droid types across four families. A type's stats never change from world to world — worlds get harder by fielding *tougher types, in greater numbers*.
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/field-medic.png' | relative_url }}" alt="Field Medic pickup" class="sprite" />
+  <p><strong>FIELD MEDIC:</strong> heals the living. Every clone still standing goes back to full health. It does <strong>not</strong> revive the dead.</p>
+</div>
 
-### Battle droids — cheap, fast, endless
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/battle-meditation.png' | relative_url }}" alt="Battle Meditation pickup" class="sprite" />
+  <p><strong>BATTLE MEDITATION:</strong> a few seconds of everything landing. Your deflected bolts hit more accurately and harder. Your earned force is slightly reduced.</p>
+</div>
 
-| Droid | Health | Damage | First seen |
-|---|---|---|---|
-| STAP rider | 1.5 | 0.75 | Kamino |
-| B1 battle droid | 2.5 | 1 | Christophsis |
-| B1 rocket droid | 4 | 1.5 | Geonosis |
-| B1 heavy rocket droid | 5 | 2 | Dathomir |
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/master-yoda.png' | relative_url }}" alt="Master Yoda pickup" class="sprite" />
+  <p><strong>MASTER YODA:</strong> Yoda drops in beside you for a while, mirroring your movement with a saber of his own.</p>
+</div>
 
-### Super battle droids — bruisers that take a beating
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/ultimate-power.png' | relative_url }}" alt="Ultimate Power pickup" class="sprite" />
+  <p><strong>ULTIMATE POWER:</strong> one field-wide hit. Throws back and stuns every droid on the field, then crushes a quarter of them outright. This completely depletes your earned force.</p>
+</div>
 
-| Droid | Health | Damage | First seen |
-|---|---|---|---|
-| B2 super battle droid | 5.6 | 2 | Tatooine |
-| BX-series droid commando | 6.9 | 2.2 | Ryloth |
-| IG-100 MagnaGuard | 8.1 | 2.5 | Nal Hutta |
+<div class="sprite-row powerup">
+  <img src="{{ 'assets/clone-defense/icons/powerups/bad-batch.png' | relative_url }}" alt="Bad Batch pickup" class="sprite" />
+  <p><strong>BAD BATCH:</strong> a squad that soaks the whole line. Hardened clones drop in and pull the entire droid line's fire for a few moments.</p>
+</div>
 
-### Snipers — few, but they almost never miss
+## The Separatist Army
 
-Roughly 90% accurate, with the fastest bolts on the field. These are the ones that punish you for standing still.
+Thirteen droid types across four families. Within each family below, they are listed in order of difficulty.
 
-| Droid | Health | Damage | First seen |
-|---|---|---|---|
-| Droideka | 4.4 | 2.5 | Ryloth |
-| Droideka Mark II | 5.6 | 3 | Nal Hutta |
-| IG-86 sentinel droid | 5.6 | 3 | Felucia |
+### Battle droids
 
-### Spider droids — tanks
+We all love them: cheap, fast, endless. Roger, roger.
 
-Slowest bolts, hardest hits, and enough health that deflections alone won't do it. This is what Crush is for.
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/stap-rider.png' | relative_url }}" alt="STAP rider" class="sprite" />
+  <p><strong>STAP rider</strong></p>
+</div>
 
-| Droid | Health | Damage | First seen |
-|---|---|---|---|
-| DSD1 dwarf spider droid | 13.8 | 3 | Ryloth |
-| OG-9 homing spider droid | 15 | 3.5 | Mon Cala |
-| Octuptarra tri-droid | 17.5 | 4 | Mon Cala |
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/b1-battle-droid.png' | relative_url }}" alt="B1 battle droid" class="sprite" />
+  <p><strong>B1 battle droid</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/b1-rocket-droid.png' | relative_url }}" alt="B1 rocket droid" class="sprite" />
+  <p><strong>B1 rocket droid</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/b1-heavy-rocket-droid.png' | relative_url }}" alt="B1 heavy rocket droid" class="sprite" />
+  <p><strong>B1 heavy rocket droid</strong></p>
+</div>
+
+### Super battle droids
+
+Bruisers that take a beating.
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/b2-super-battle-droid.png' | relative_url }}" alt="B2 super battle droid" class="sprite" />
+  <p><strong>B2 super battle droid</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/bx-commando.png' | relative_url }}" alt="BX-series droid commando" class="sprite" />
+  <p><strong>BX-series droid commando</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/ig-100-magnaguard.png' | relative_url }}" alt="IG-100 MagnaGuard" class="sprite" />
+  <p><strong>IG-100 MagnaGuard</strong></p>
+</div>
+
+### Snipers
+
+They almost never miss, deadly accuracy.
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/droideka.png' | relative_url }}" alt="Droideka" class="sprite" />
+  <p><strong>Droideka</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/droideka-mark-ii.png' | relative_url }}" alt="Droideka Mark II" class="sprite" />
+  <p><strong>Droideka Mark II</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/ig-86-sentinel.png' | relative_url }}" alt="IG-86 sentinel droid" class="sprite" />
+  <p><strong>IG-86 sentinel droid</strong></p>
+</div>
+
+### Spider droids
+
+Slowest bolts, hardest hits, and strong.
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/dsd1-dwarf-spider-droid.png' | relative_url }}" alt="DSD1 dwarf spider droid" class="sprite" />
+  <p><strong>DSD1 dwarf spider droid</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/og-9-homing-spider-droid.png' | relative_url }}" alt="OG-9 homing spider droid" class="sprite" />
+  <p><strong>OG-9 homing spider droid</strong></p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/droids/octuptarra-tri-droid.png' | relative_url }}" alt="Octuptarra tri-droid" class="sprite" />
+  <p><strong>Octuptarra tri-droid</strong></p>
+</div>
 
 ## Jedi skins
 
-Eleven Jedi to play as, each with their own silhouette, robes, and blade color. Skins are **cosmetic only** — swapping one changes how you look, never how you play.
+The Jedis you can play as.
 
-| Jedi | Saber | Unlock |
-|---|---|---|
-| Padawan | Blue | Free starter |
-| Luminara Unduli | Green | Play your first world |
-| Plo Koon | Cyan | Reach world 4 — Kamino |
-| Shaak Ti | Blue | Score 40,000 |
-| Qui-Gon Jinn | Bright green | Reach world 6 — Naboo |
-| Kit Fisto | Green | Score 80,000 |
-| Ahsoka Tano | White | Reach world 8 — Geonosis |
-| Obi-Wan Kenobi | Pale blue | Reach world 10 — Nal Hutta |
-| Anakin Skywalker | Blue | Score 120,000 |
-| Mace Windu | Purple | Reach world 12 — Mortis |
-| Yoda | Yellow-green | Score 250,000 |
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/default.png' | relative_url }}" alt="Padawan" class="sprite" />
+  <p><strong>Padawan</strong> — Free starter</p>
+</div>
 
-Unlocks are permanent and measured against your best run, so a great attempt that ends badly still counts.
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/luminara.png' | relative_url }}" alt="Luminara Unduli" class="sprite" />
+  <p><strong>Luminara Unduli</strong> — Play your first world</p>
+</div>
 
-## Reach the fifteenth world
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/plo-koon.png' | relative_url }}" alt="Plo Koon" class="sprite" />
+  <p><strong>Plo Koon</strong> — Reach world 4 — Kamino</p>
+</div>
 
-There is no victory screen at the end of Clone Defense.
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/shaak-ti.png' | relative_url }}" alt="Shaak Ti" class="sprite" />
+  <p><strong>Shaak Ti</strong> — Score 40,000</p>
+</div>
 
-Clear all ten waves on Oba Diah and the game does something else entirely — something it has been quietly setting up since the first bolt on Christophsis. We're not going to tell you what. This war only ends one way, and the only way to see it is to get there.
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/qui-gon.png' | relative_url }}" alt="Qui-Gon Jinn" class="sprite" />
+  <p><strong>Qui-Gon Jinn</strong> — Reach world 6 — Naboo</p>
+</div>
 
-Most players won't. Hold the line long enough and you will.
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/kit-fisto.png' | relative_url }}" alt="Kit Fisto" class="sprite" />
+  <p><strong>Kit Fisto</strong> — Score 80,000</p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/ahsoka.png' | relative_url }}" alt="Ahsoka Tano" class="sprite" />
+  <p><strong>Ahsoka Tano</strong> — Reach world 8 — Geonosis</p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/obi-wan.png' | relative_url }}" alt="Obi-Wan Kenobi" class="sprite" />
+  <p><strong>Obi-Wan Kenobi</strong> — Reach world 10 — Nal Hutta</p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/anakin.png' | relative_url }}" alt="Anakin Skywalker" class="sprite" />
+  <p><strong>Anakin Skywalker</strong> — Score 120,000</p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/mace-windu.png' | relative_url }}" alt="Mace Windu" class="sprite" />
+  <p><strong>Mace Windu</strong> — Reach world 12 — Mortis</p>
+</div>
+
+<div class="sprite-row roster">
+  <img src="{{ 'assets/clone-defense/icons/jedi/yoda.png' | relative_url }}" alt="Yoda" class="sprite" />
+  <p><strong>Yoda</strong> — Score 250,000</p>
+</div>
+
+Unlocks are permanent and measured against your best run.
+
+## Go Play!
 
 <a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense</a>
 
 *Clone Defense is a free fan-made game. It is not affiliated with, endorsed by, or sponsored by Lucasfilm Ltd. or The Walt Disney Company. Star Wars and all related properties are trademarks of Lucasfilm Ltd.*
 
-## More free Star Wars tools from AurebeshFiles
+## More free Star Wars apps from AurebeshFiles
 
-- <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character">timeline pages for 80+ characters</a>.
+- <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show with voer 80 characters.
 - <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
 - <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
-- <a href="{{ 'about' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.

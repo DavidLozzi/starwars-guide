@@ -1,1 +1,37 @@
-export default{id:"mon-cala",name:"MON CALA",floorSeed:6660,deflectAccuracy:.73,deflectMultiplier:1.6,deflectJitterDeg:2.8,palette:{bgGradient:["#051923","#000000"],terrain:"#12628C",accent:"#3FA9A0"},artOverlay:[],roster:{cguard:12},clones:{cguard:{hp:5,damage:1.5,accuracy:.5,fireRate:.65,jitter:.25}},droids:{b00m2:{hp:5,boltSpeed:150,damage:2,accuracy:.67,fireRate:.8,jitter:.2,archetype:"battle"},ig100:{hp:8.125,boltSpeed:165,damage:2.5,accuracy:.67,fireRate:.6,jitter:.15,archetype:"super"},qdroideka:{hp:5.625,boltSpeed:190,damage:3,accuracy:.88,fireRate:.32,jitter:.1,archetype:"sniper"},sdk4:{hp:15,boltSpeed:140,damage:3.5,accuracy:.65,fireRate:.24,jitter:.15,archetype:"spider"},octuptarra:{hp:17.5,boltSpeed:140,damage:4,accuracy:.7,fireRate:.26,jitter:.15,archetype:"spider"}},waves:[{b00m2:15},{b00m2:15},{b00m2:17,ig100:2,qdroideka:2},{b00m2:17,ig100:2,qdroideka:2,octuptarra:2},{b00m2:24,ig100:7,qdroideka:7,sdk4:2,octuptarra:5},{b00m2:19,ig100:5,qdroideka:5,sdk4:2,octuptarra:2},{b00m2:19,ig100:5,qdroideka:5,sdk4:2,octuptarra:2},{b00m2:19,ig100:5,qdroideka:5,sdk4:2,octuptarra:2},{b00m2:22,ig100:5,qdroideka:5,sdk4:2,octuptarra:2},{b00m2:24,ig100:7,qdroideka:7,sdk4:2,octuptarra:5}]};
+// Planet 13 — Mon Cala (PRD §16). FEEL PLANET: few brutal units in the deep — waves of 6-14, every kill a duel. Commando supers + octuptarra tank; no buffed types, the octuptarra is the anchor.
+export default {
+  id: 'mon-cala', name: 'MON CALA',
+  floorSeed: 6660,
+  deflectAccuracy: 0.73,
+  deflectMultiplier: 1.60,
+  deflectJitterDeg: 2.80,
+  palette: { bgGradient: ['#051923', '#000000'], terrain: '#12628C', accent: '#3FA9A0' },
+  artOverlay: [],
+  roster: { cguard: 12 },
+  clones: { cguard: { hp: 5, damage: 1.5, accuracy: 0.5, fireRate: 0.65, jitter: 0.25 } },
+  droids: {
+    b00m2: { hp: 5, boltSpeed: 150, damage: 2, accuracy: 0.67, fireRate: 0.8, jitter: 0.2, archetype: 'battle' },
+    ig100: { hp: 8.125, boltSpeed: 165, damage: 2.5, accuracy: 0.67, fireRate: 0.6, jitter: 0.15, archetype: 'super' },
+    qdroideka: { hp: 5.625, boltSpeed: 190, damage: 3, accuracy: 0.88, fireRate: 0.32, jitter: 0.1, archetype: 'sniper' },
+    sdk4: { hp: 15, boltSpeed: 140, damage: 3.5, accuracy: 0.65, fireRate: 0.24, jitter: 0.15, archetype: 'spider' },
+    octuptarra: { hp: 17.5, boltSpeed: 140, damage: 4, accuracy: 0.7, fireRate: 0.26, jitter: 0.15, archetype: 'spider' },
+  },
+  waves: [
+    { b00m2: 15 },
+    { b00m2: 15 },
+    { b00m2: 17, ig100: 2, qdroideka: 2 },
+    { b00m2: 17, ig100: 2, qdroideka: 2, octuptarra: 2 },
+    { b00m2: 24, ig100: 7, qdroideka: 7, sdk4: 2, octuptarra: 5 },
+    { b00m2: 19, ig100: 5, qdroideka: 5, sdk4: 2, octuptarra: 2 },
+    { b00m2: 19, ig100: 5, qdroideka: 5, sdk4: 2, octuptarra: 2 },
+    { b00m2: 19, ig100: 5, qdroideka: 5, sdk4: 2, octuptarra: 2 },
+    { b00m2: 22, ig100: 5, qdroideka: 5, sdk4: 2, octuptarra: 2 },
+    { b00m2: 24, ig100: 7, qdroideka: 7, sdk4: 2, octuptarra: 5 },
+  ],
+  powerups: [
+    { wave: 3, kill: 2, type: 'forceFull', droidType: 'ig100' },
+    { wave: 5, kill: 5, type: 'badBatch', droidType: 'octuptarra' },
+    { wave: 8, kill: 2, type: 'ultimate', droidType: 'sdk4' },
+    { wave: 10, kill: 7, type: 'secondYoda', droidType: 'qdroideka' },
+  ],
+};

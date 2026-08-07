@@ -1,1 +1,167 @@
-import{FIELD_W as f,FIELD_H as p}from"../engine/field.js";import{EVT as _}from"../engine/events.js";import{createState as E}from"./state.js";import{stepCombat as F}from"./combat.js";import{applyPower as k}from"./powers.js";import{canUse as H,costOf as O,spend as C,refreshUnlocks as G}from"./force.js";import{startPlanet as M,waveClear as I,proceedFromBreather as y,gameOver as R}from"./wave.js";import{stepOrder66 as W}from"./order66.js";export function createGame(l,s){const t=l.globals,a=l.planets,e=E(),c=[],d=[];function T(r=l.jumpPlanet??0,o=l.jumpWave??0){e.score=0,e.force=0,e.highestForce=0,e._unlocked={},e._clock=0,e._forcePauseUntil=0,e._boltSpeed=t.boltSpeed,e.runStats={startedAtMs:Date.now(),deaths:0,powersUsed:0},s.emit(_.RUN_STARTED,{}),M(e,t,a,r,s,o)}function b(r){if(e.mode!=="play"&&e.mode!=="order66")return;if(e._powerGraceT>0){e._powerGraceT-=r;return}e._clock+=r;const o=e.jedi;if(o.alive){const n=Math.min(1,r*t.jedi.followLerp);o.x+=(o.tx-o.x)*n,o.y+=(o.ty-o.y)*n,o.x=o.x<14?14:o.x>f-14?f-14:o.x;const w=t.zones.jediCeiling*p+16,v=p-22;o.y=o.y<w?w:o.y>v?v:o.y}if(e.mode==="order66"){W(e,t,s,r);return}e._waveT+=r,c.length=0,d.length=0;for(let n=0;n<e.clones.length;n++)e.clones[n].alive&&c.push(e.clones[n]);for(let n=0;n<e.droids.length;n++)e.droids[n].alive&&d.push(e.droids[n]);if(c.length===0){R(e,s);return}F(e,t,a[e.planetIndex],s,r,c,d);let i=0;for(let n=0;n<e.droids.length;n++)e.droids[n].alive&&i++;(t.waveEnd==="timer"?e._waveT>=t.waveTimerSec:i===0)&&(e._clearHoldT<=0&&(e._clearHoldT=t.waveClearHoldSec),e._clearHoldT-=r,e._clearHoldT<=0&&I(e,t,a,s))}function P(r){e.mode!=="breather"||e.breatherPaused||e.pendingPlanetIndex==null&&(e.breatherT-=r,e.breatherT<=0&&y(e,t,a,s))}function x(){e.mode==="breather"&&y(e,t,a,s)}function g(r,o){e.jedi.tx=r,e.jedi.ty=o}const u=r=>H(e,t,r),m=r=>O(e,t,r);function S(r){if(e.mode!=="play"&&e.mode!=="breather"||!u(r))return!1;e.mode==="breather"&&(e.breatherPaused=!0),e.prevMode=e.mode,e.mode="power";const o=r==="push"||r==="crush";return e.selector={power:r,x:f/2,y:(o?.18:.8)*p},!0}function U(r,o){e.mode==="power"&&e.selector&&(e.selector.x=r,e.selector.y=o)}function j(){if(e.mode!=="power"||!e.selector)return;const r=e.selector.power,o=m(r);C(e,o),G(e,t,s),k(e,t,r,e.selector.x,e.selector.y),e.runStats.powersUsed++,s.emit(_.POWER_USED,{power:r,cost:o});const i=e.prevMode==="play";h(),i&&(e._powerGraceT=t.postPowerGraceSec)}function D(){e.mode==="power"&&h()}function h(){e.mode=e.prevMode,e.breatherPaused=!1,e.selector=null}return{state:e,startRun:T,step:b,tickBreather:P,readyFromBreather:x,setJediTarget:g,canUse:u,costOf:m,beginPower:S,moveSelector:U,confirmPower:j,cancelPower:D}}
+// Simulation facade — the public API in docs/CONTRACTS.md "Sim public API".
+// Headless: no window/document/canvas. Orchestrates step order and mode transitions.
+
+import { FIELD_W, FIELD_H } from '../engine/field.js';
+import { EVT } from '../engine/events.js';
+import { createState } from './state.js';
+import { stepCombat } from './combat.js';
+import { applyPower } from './powers.js';
+import { stepDrops, stepBuffs } from './powerups.js';
+import { canUse as canUseF, costOf as costOfF, spend, refreshUnlocks } from './force.js';
+import { startPlanet, startWave, waveClear, proceedFromBreather, gameOver } from './wave.js';
+import { stepOrder66 } from './order66.js';
+
+export function createGame(config, emitter) {
+  const globals = config.globals;
+  const planets = config.planets;
+  const state = createState();
+  const liveC = [];
+  const liveD = [];
+
+  function startRun(planetIndex = config.jumpPlanet ?? 0, waveIndex = config.jumpWave ?? 0) {
+    state.score = 0;
+    state.force = 0;
+    state.highestForce = 0;
+    state._forceRampRemain = 0; // a run starts empty even if the last one ended mid-drip
+    state._forceRampRate = 0;
+    state._unlocked = {};
+    state._clock = 0;
+    state._forcePauseUntil = 0;
+    state._boltSpeed = globals.boltSpeed; // clone/fallback speed, so fireBolt is valid before the first step
+    state.runStats = { startedAtMs: Date.now(), deaths: 0, powersUsed: 0 };
+    emitter.emit(EVT.RUN_STARTED, {});
+    startPlanet(state, globals, planets, planetIndex, emitter, waveIndex);
+  }
+
+  function step(dt) {
+    // 'order66' runs the finale volley on the live map: same jedi movement, no combat.
+    if (state.mode !== 'play' && state.mode !== 'order66') return;
+    // Post-power grace: freeze the sim briefly so the player can move their thumb
+    // back to the jedi before combat resumes (set in confirmPower).
+    if (state._powerGraceT > 0) { state._powerGraceT -= dt; return; }
+    state._clock += dt;
+
+    // jedi follows the pointer, clamped to the roam zone below the ceiling (PRD §2)
+    const j = state.jedi;
+    if (j.alive) {
+      const k = Math.min(1, dt * globals.jedi.followLerp);
+      j.x += (j.tx - j.x) * k;
+      j.y += (j.ty - j.y) * k;
+      j.x = j.x < 14 ? 14 : j.x > FIELD_W - 14 ? FIELD_W - 14 : j.x;
+      const ceil = globals.zones.jediCeiling * FIELD_H + 16;
+      const floor = FIELD_H - 22;
+      j.y = j.y < ceil ? ceil : j.y > floor ? floor : j.y;
+
+      // The ally jedi shadows the same drag, offset to the jedi's left (§19).
+      const a = state.jedi2;
+      if (a.active) {
+        a.tx = j.tx - globals.powerups.types.secondYoda.offsetX;
+        a.ty = j.ty;
+        a.x += (a.tx - a.x) * k;
+        a.y += (a.ty - a.y) * k;
+        a.x = a.x < 14 ? 14 : a.x > FIELD_W - 14 ? FIELD_W - 14 : a.x;
+        a.y = a.y < ceil ? ceil : a.y > floor ? floor : a.y;
+      }
+    }
+
+    if (state.mode === 'order66') { stepOrder66(state, globals, emitter, dt); return; }
+    state._waveT += dt;
+
+    // live lists (reused scratch arrays — no per-frame allocation)
+    liveC.length = 0;
+    liveD.length = 0;
+    for (let i = 0; i < state.clones.length; i++) if (state.clones[i].alive) liveC.push(state.clones[i]);
+    for (let i = 0; i < state.droids.length; i++) if (state.droids[i].alive) liveD.push(state.droids[i]);
+
+    // The clone roster is the life pool. Bad Batch are borrowed bodies (temp) — they soak
+    // fire but can never keep a run alive past the last real clone (§19).
+    let liveReal = 0;
+    for (let i = 0; i < liveC.length; i++) if (!liveC[i].temp) liveReal++;
+    if (liveReal === 0) { gameOver(state, emitter); return; }
+
+    stepCombat(state, globals, planets[state.planetIndex], emitter, dt, liveC, liveD);
+    stepBuffs(state, globals, emitter, dt);
+    stepDrops(state, globals, emitter, dt);
+
+    // wave end
+    let liveDroids = 0;
+    for (let i = 0; i < state.droids.length; i++) if (state.droids[i].alive) liveDroids++;
+    const cleared = globals.waveEnd === 'timer'
+      ? state._waveT >= globals.waveTimerSec
+      : liveDroids === 0;
+    // Hold the wave open for a beat after the last droid falls so bolts in flight land and
+    // the kill FX play out, instead of cutting straight to the breather (PRD §8). `cleared`
+    // stays true every frame from here, so the timer is only armed on the first one.
+    if (cleared) {
+      if (state._clearHoldT <= 0) state._clearHoldT = globals.waveClearHoldSec;
+      state._clearHoldT -= dt;
+      if (state._clearHoldT <= 0) waveClear(state, globals, planets, emitter);
+    }
+  }
+
+  function tickBreather(dt) {
+    if (state.mode !== 'breather' || state.breatherPaused) return;
+    if (state.pendingPlanetIndex != null) return; // planet-clear waits for READY (no countdown)
+    state.breatherT -= dt;
+    if (state.breatherT <= 0) proceedFromBreather(state, globals, planets, emitter);
+  }
+
+  function readyFromBreather() {
+    if (state.mode === 'breather') proceedFromBreather(state, globals, planets, emitter);
+  }
+
+  function setJediTarget(x, y) {
+    state.jedi.tx = x;
+    state.jedi.ty = y;
+  }
+
+  // ---- powers (PRD §7 flow) ----
+  const canUse = (power) => canUseF(state, globals, power);
+  const costOf = (power) => costOfF(state, globals, power);
+
+  function beginPower(power) {
+    if (state.mode !== 'play' && state.mode !== 'breather') return false;
+    if (!canUse(power)) return false;
+    if (state.mode === 'breather') state.breatherPaused = true;
+    state.prevMode = state.mode;
+    state.mode = 'power';
+    const top = power === 'push' || power === 'crush';
+    state.selector = { power, x: FIELD_W / 2, y: (top ? 0.18 : 0.8) * FIELD_H };
+    return true;
+  }
+
+  function moveSelector(x, y) {
+    if (state.mode === 'power' && state.selector) { state.selector.x = x; state.selector.y = y; }
+  }
+
+  function confirmPower() {
+    if (state.mode !== 'power' || !state.selector) return;
+    const power = state.selector.power;
+    const cost = costOf(power);
+    spend(state, cost);
+    refreshUnlocks(state, globals, emitter);
+    applyPower(state, globals, power, state.selector.x, state.selector.y, emitter);
+    state.runStats.powersUsed++;
+    emitter.emit(EVT.POWER_USED, { power, cost });
+    const resumingPlay = state.prevMode === 'play';
+    endPower();
+    if (resumingPlay) state._powerGraceT = globals.postPowerGraceSec; // thumb-return grace (globals)
+  }
+
+  function cancelPower() {
+    if (state.mode !== 'power') return;
+    endPower();
+  }
+
+  function endPower() {
+    state.mode = state.prevMode;
+    state.breatherPaused = false;
+    state.selector = null;
+  }
+
+  return {
+    state,
+    startRun, step, tickBreather, readyFromBreather, setJediTarget,
+    canUse, costOf, beginPower, moveSelector, confirmPower, cancelPower,
+  };
+}
