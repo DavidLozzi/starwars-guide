@@ -1,1 +1,0 @@
-export const POWERUP_KEYS=["forceFull","forceHalf","healAll","empower","secondYoda","ultimate","badBatch"],POWERUP_LABELS={forceFull:"FORCE SURGE",forceHalf:"FORCE FLOW",healAll:"FIELD MEDIC",empower:"BATTLE MEDITATION",secondYoda:"MASTER YODA",ultimate:"THE HIGH GROUND",badBatch:"BAD BATCH"};
