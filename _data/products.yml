@@ -1,0 +1,45 @@
+# Display metadata for the one news stream (/news/ = _data/news.json + _posts).
+# NOT a per-product list — one list, this maps an item's `product` label to its
+# badge/chip name, icon, color, and landing page. Items and posts without a
+# `product` fall back to `site`.
+#
+# `color` is this site's SCSS token; `hex` is the same color as a literal, for
+# the satellite apps that read this out of /news-feed.json and have no access to
+# our stylesheet. Keep the two in sync with _sass/_new-design.scss.
+- key: site
+  name: General
+  icon: fas fa-star
+  color: yellow-400
+  hex: "#facc15"
+  url: /
+# Comics has no landing page of its own — the badge links back to its filter.
+- key: comics
+  name: Comics
+  icon: fas fa-book-open
+  color: purple-400
+  hex: "#c084fc"
+  url: /news/?product=comics
+- key: timeline
+  name: Ultimate Star Wars Timeline
+  icon: fas fa-clock
+  color: blue-400
+  hex: "#60a5fa"
+  url: /star-wars-timeline
+- key: hyperpanels
+  name: HyperPanels
+  icon: fas fa-book
+  color: red-400
+  hex: "#f87171"
+  url: /hyper-panels
+- key: swordle
+  name: SWordle
+  icon: fas fa-table-cells
+  color: green-400
+  hex: "#4ade80"
+  url: /swordle-star-wars-wordle
+- key: clone-defense
+  name: Clone Defense
+  icon: fas fa-shield-halved
+  color: red-400
+  hex: "#f87171"
+  url: /clone-defense/

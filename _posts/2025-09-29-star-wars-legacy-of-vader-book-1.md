@@ -1,6 +1,7 @@
 ---
 title: 'Star Wars: Legacy of Vader Book 1'
 layout: posts
+product: comics
 date: 2025-09-29 12:00:00
 last_modified_at: 2025-09-29 12:00:00
 tags:

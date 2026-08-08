@@ -187,68 +187,92 @@ last_modified_at: 2026-07-19 12:00:00
       <div class="separator-line bg-blue-400"></div>
     </div>
 
-    <!-- News Section -->
+    <!-- News Section — the one stream: _data/news.json blurbs + _posts, newest 3 -->
     <section class="mb-16">
       <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-red-400 pl-4 uppercase flex items-center">
         <i class="fas fa-bolt mr-4 text-red-400"></i>
-        recent posts
+        latest news
         <div class="ml-4 flex space-x-1">
           <div class="w-2 h-2 bg-red-400 animate-pulse"></div>
           <div class="w-2 h-2 bg-yellow-400 animate-pulse" style="animation-delay: 0.2s;"></div>
           <div class="w-2 h-2 bg-blue-400 animate-pulse" style="animation-delay: 0.4s;"></div>
         </div>
       </h2>
-      
+
+      {%- comment -%}
+      Same sortable-index merge as news.md — Liquid can't sort a mixed array of
+      Documents and hashes, so index them as "YYYY-MM-DD~type~index" strings.
+      {%- endcomment -%}
+      {%- comment -%}
+      A blurb whose `url` points at one of our posts stands in for that post — skip
+      the post itself so the stream doesn't show the same update twice. Match on the
+      post's path, not its absolute URL: `jekyll serve` rewrites site.url to
+      localhost, which would break an absolute-URL comparison in dev only.
+      {%- endcomment -%}
+      {%- assign linked = "" -%}
+      {%- for item in site.data.news -%}
+        {%- if item.url -%}{%- capture linked %}{{ linked }}{{ item.url }},{% endcapture -%}{%- endif -%}
+      {%- endfor -%}
+      {%- assign rowlist = "" -%}
+      {%- for post in site.posts -%}
+        {%- unless linked contains post.url -%}
+          {%- capture rowlist %}{{ rowlist }}{{ post.date | date: "%Y-%m-%d" }}~post~{{ forloop.index0 }},{% endcapture -%}
+        {%- endunless -%}
+      {%- endfor -%}
+      {%- for item in site.data.news -%}
+        {%- capture rowlist %}{{ rowlist }}{{ item.date }}~news~{{ forloop.index0 }},{% endcapture -%}
+      {%- endfor -%}
+      {%- assign rows = rowlist | split: "," | sort | reverse -%}
+
       <div class="space-y-4">
-        {% for post in site.posts limit:3 %}
-        <a href="{{ post.url | relative_url }}" class="news-item">
-          <!-- Background Pattern -->
-          <div class="absolute top-0 right-0 opacity-5">
-            {% if post.tags contains 'YouTube' %}
-              <i class="fas fa-tv" style="font-size: 120px;"></i>
-            {% elsif post.tags contains 'Comicbook' %}
-              <i class="fas fa-book" style="font-size: 120px;"></i>
-            {% else %}
-              <i class="fas fa-star" style="font-size: 120px;"></i>
-            {% endif %}
-          </div>
-          
-          <div class="mb-2 relative z-10">
-            <div class="flex items-center">
-              <div class="news-icon">
-                {% if post.tags contains 'YouTube' %}
-                  <i class="fas fa-tv text-yellow-400"></i>
-                {% elsif post.tags contains 'Comicbook' %}
-                  <i class="fas fa-book text-yellow-400"></i>
-                {% else %}
-                  <i class="fas fa-star text-yellow-400"></i>
-                {% endif %}
-              </div>
-              <h3 class="news-title">
-                {{ post.title | upcase }}
-              </h3>
+        {% for row in rows limit:3 %}
+          {% assign parts = row | split: "~" %}
+          {% assign idx = parts[2] | plus: 0 %}
+          {% if parts[1] == "post" %}
+            {% assign entry = site.posts[idx] %}
+            {% assign body = entry.social-desc | default: entry.excerpt | strip_html | truncatewords: 20 %}
+            {% assign target = entry.url %}
+          {% else %}
+            {% assign entry = site.data.news[idx] %}
+            {% assign body = entry.message | strip_html | truncatewords: 20 %}
+            {% capture fallback %}/news/#{{ entry.id }}{% endcapture %}
+            {% assign target = entry.url | default: fallback %}
+          {% endif %}
+          {% assign key = entry.product | default: "site" %}
+          {% assign product = site.data.products | where: "key", key | first %}
+
+          <a href="{{ target }}" class="news-item">
+            <!-- Background Pattern -->
+            <div class="absolute top-0 right-0 opacity-5">
+              <i class="{{ product.icon | default: 'fas fa-star' }}" style="font-size: 120px;"></i>
             </div>
-          </div>
-          <p class="news-summary relative z-10">
-            {% if post.excerpt %}
-              {{ post.excerpt | strip_html | truncatewords: 20 }}
-            {% else %}
-              {{ post.content | strip_html | truncatewords: 20 }}
-            {% endif %}
-          </p>
-          <div class="mt-3 relative z-10">
-            <span class="text-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
-              <i class="fas fa-arrow-right mr-1"></i>
-              READ MORE
-            </span>
-          </div>
-        </a>
+
+            <div class="mb-2 relative z-10">
+              <div class="flex items-center">
+                <div class="news-icon">
+                  <i class="{{ product.icon | default: 'fas fa-star' }} text-{{ product.color | default: 'yellow-400' }}"></i>
+                </div>
+                <h3 class="news-title">
+                  {{ entry.title | upcase }}
+                </h3>
+              </div>
+            </div>
+            <p class="news-summary relative z-10">
+              {{ body }}
+            </p>
+            <div class="mt-3 relative z-10">
+              <span class="text-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
+                <i class="fas fa-arrow-right mr-1"></i>
+                READ MORE
+              </span>
+            </div>
+          </a>
         {% endfor %}
       </div>
-      
-      <a href="{{ '/posts' | relative_url }}" class="btn mt-6 bg-transparent border-4 border-white text-white hover:bg-white hover:text-black font-black uppercase tracking-wider text-lg px-8 py-4">
+
+      <a href="{{ '/news/' | relative_url }}" class="btn mt-6 bg-transparent border-4 border-white text-white hover:bg-white hover:text-black font-black uppercase tracking-wider text-lg px-8 py-4">
         <i class="fas fa-external-link-alt mr-2"></i>
-        VIEW ALL POSTS
+        VIEW ALL NEWS
       </a>
     </section>
 

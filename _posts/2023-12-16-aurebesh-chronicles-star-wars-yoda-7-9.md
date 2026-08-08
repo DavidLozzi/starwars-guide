@@ -1,6 +1,7 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 7-9'
 layout: posts
+product: comics
 date: 2023-12-16 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 tags:

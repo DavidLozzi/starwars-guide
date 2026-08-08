@@ -3,6 +3,7 @@ title: 'Aurebesh Chronicles: Star Wars: Yoda 4-6'
 date: 2023-10-23 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 layout: posts
+product: comics
 tags:
   - YouTube
   - Comics

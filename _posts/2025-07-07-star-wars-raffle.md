@@ -1,5 +1,6 @@
 ---
 layout: posts
+product: site
 title: "Star Wars: The Force Box Set Raffle"
 date: 2025-07-07 08:00:00
 last_modified_at: 2025-07-07 08:00:00

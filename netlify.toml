@@ -18,4 +18,12 @@
   status = 301
 
 [build.environment]
-  JEKYLL_ENV = "production" 
+  JEKYLL_ENV = "production"
+
+# The satellite apps (wordle./timeline./hyperpanels.starwars.guide) fetch the
+# centralized news feed cross-origin.
+[[headers]]
+  for = "/news-feed.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300" 

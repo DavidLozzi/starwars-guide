@@ -1,0 +1,75 @@
+---
+layout: null
+permalink: /news-feed.json
+sitemap: false
+---
+{%- comment -%}
+Machine-readable copy of the one news stream (_data/news.json + _posts) for the
+satellite apps to fetch. One shared list — `product` classifies an item, it does
+not scope it to one app. Same sortable-index trick as news.md, since Liquid
+can't sort a mixed array of Documents and hashes. Served with CORS headers via
+netlify.toml.
+{%- endcomment -%}
+{%- comment -%}
+A blurb whose `url` points at one of our posts stands in for that post — skip
+the post itself so the stream doesn't show the same update twice. Match on the
+post's path, not its absolute URL: `jekyll serve` rewrites site.url to
+localhost, which would break an absolute-URL comparison in dev only.
+{%- endcomment -%}
+{%- assign linked = "" -%}
+{%- for item in site.data.news -%}
+  {%- if item.url -%}{%- capture linked %}{{ linked }}{{ item.url }},{% endcapture -%}{%- endif -%}
+{%- endfor -%}
+{%- assign rowlist = "" -%}
+{%- for post in site.posts -%}
+  {%- unless linked contains post.url -%}
+    {%- capture rowlist %}{{ rowlist }}{{ post.date | date: "%Y-%m-%d" }}~post~{{ forloop.index0 }},{% endcapture -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- for item in site.data.news -%}
+  {%- capture rowlist %}{{ rowlist }}{{ item.date }}~news~{{ forloop.index0 }},{% endcapture -%}
+{%- endfor -%}
+{%- assign rows = rowlist | split: "," | sort | reverse -%}
+{
+  "updated": "{{ site.time | date_to_xmlschema }}",
+  "icons": {
+    "provider": "font-awesome-6",
+    "kit": "https://kit.fontawesome.com/13cabfa89d.js"
+  },
+  "products": {
+    {%- for product in site.data.products %}
+    {{ product.key | jsonify }}: {
+      "name": {{ product.name | jsonify }},
+      "icon": {{ product.icon | jsonify }},
+      "hex": {{ product.hex | jsonify }},
+      "url": "{{ product.url | absolute_url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  },
+  "items": [
+    {%- for row in rows -%}
+    {%- assign parts = row | split: "~" -%}
+    {%- assign idx = parts[2] | plus: 0 -%}
+    {%- if parts[1] == "post" -%}
+      {%- assign entry = site.posts[idx] -%}
+      {%- assign anchor = entry.slug -%}
+      {%- assign body = entry.social-desc | default: entry.excerpt | strip_html | normalize_whitespace | truncatewords: 40 -%}
+      {%- assign read_url = entry.url | absolute_url -%}
+    {%- else -%}
+      {%- assign entry = site.data.news[idx] -%}
+      {%- assign anchor = entry.id -%}
+      {%- assign body = entry.message -%}
+      {%- assign read_url = entry.url -%}
+    {%- endif %}
+    {
+      "id": {{ anchor | jsonify }},
+      "date": {{ parts[0] | jsonify }},
+      "product": {{ entry.product | default: "site" | jsonify }},
+      "title": {{ entry.title | jsonify }},
+      "message": {{ body | jsonify }},
+      "url": {{ read_url | default: nil | jsonify }},
+      "link": "{{ site.url }}/news/#{{ anchor }}"
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}

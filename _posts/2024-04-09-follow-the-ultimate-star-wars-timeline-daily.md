@@ -1,6 +1,7 @@
 ---
 title: Follow the Ultimate Star Wars Timeline daily!
 layout: posts
+product: timeline
 date: 2024-04-09 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 categories:

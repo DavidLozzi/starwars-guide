@@ -14,7 +14,9 @@
       url: /swordle-star-wars-wordle
 - title: Characters
   url: /character
-- title: Updates
-  url: /posts
+# One list. /posts still exists and is indexed, but is deliberately not linked
+# from the nav — /news/ is the single stream (blurbs + posts).
+- title: News
+  url: /news/
 - title: About
   url: /about

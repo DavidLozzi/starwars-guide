@@ -4,6 +4,7 @@ date: 2023-10-12 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 Comicbook Series: 'Star Wars: Yoda'
 layout: posts
+product: comics
 categories:
   - youtube
 tags:

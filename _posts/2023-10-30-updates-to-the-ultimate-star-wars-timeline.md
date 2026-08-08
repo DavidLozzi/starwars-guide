@@ -1,6 +1,7 @@
 ---
 title: Updates to The Ultimate Star Wars Timeline
 layout: posts
+product: timeline
 date: 2023-10-30 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 categories:

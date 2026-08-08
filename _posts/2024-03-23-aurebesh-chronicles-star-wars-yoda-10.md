@@ -1,6 +1,7 @@
 ---
 title: 'Aurebesh Chronicles: Star Wars: Yoda 10'
 layout: posts
+product: comics
 date: 2024-03-23 12:00:00
 last_modified_at: 2025-06-28 12:00:00
 tags:
