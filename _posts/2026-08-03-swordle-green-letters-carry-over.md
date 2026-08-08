@@ -34,6 +34,20 @@ Type that same letter back in and it turns green again. Nothing is locked. The b
 
 This is on by default. If you'd rather do it the old-fashioned way, open **Settings** and switch it off — SWordle will go back to an empty row every guess.
 
+<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280"
+    crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="ca-pub-6056590143595280"
+    data-ad-slot="9648066402"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 ## Why we did it
 
 The most common thing we heard about SWordle was that retyping known letters felt like busywork, not puzzle. It's the part of the game where nothing is being decided. The hard part is the letters you *don't* know yet, and now that's the only part you type.
