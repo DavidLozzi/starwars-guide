@@ -1,5 +1,13 @@
 [
   {
+    "id": "hyperpanels-sort",
+    "date": "2026-08-08",
+    "product": "hyperpanels",
+    "title": "Sort the Comics!",
+    "message": "You can now see the latest HyperPanels OR the most popular panels! See options at the top of the comic list.",
+    "url": "https://hyperpanels.starwars.guide"
+  },
+  {
     "id": "swordle-green-carryover",
     "date": "2026-08-03",
     "product": "swordle",
