@@ -31,6 +31,7 @@ CORS is open (`Access-Control-Allow-Origin: *`) and it's cached 5 minutes, so fe
       "title": "Your focus determines your reality",
       "message": "Green letters now carry over to your next guess…",
       "url": "https://starwars.guide/games/2026/08/03/swordle-green-letters-carry-over.html",
+      "link_text": "Read more",
       "link": "https://starwars.guide/news/#swordle-green-carryover"
     }
   ]
@@ -47,6 +48,7 @@ CORS is open (`Access-Control-Allow-Origin: *`) and it's cached 5 minutes, so fe
 | `title` | Plain text. |
 | `message` | **May contain HTML** — currently `<a>` and `<strong>`. Render it as HTML (`dangerouslySetInnerHTML` or equivalent) or strip tags; do not print it raw. |
 | `url` | Optional. Present when there's a full article to read. Absolute. Open in a new tab/browser — it leaves your app. |
+| `link_text` | Always present, defaults to `"Read more"`. The label for the `url` link, authored per item — a launch says `"Play Now"`, a word list says `"See the word list"`. Use it verbatim; don't hardcode your own label. Ignore it when there's no `url`. |
 | `link` | Always present. Deep link to that item on `starwars.guide/news/`. Use it for "see all news" or a share target. |
 
 ### `products{}`
@@ -83,7 +85,7 @@ These are the parts that must look the same everywhere. Everything else — plac
 3. **Every app shows every item.** Do not filter to your own product. A SWordle update is news for Clone Defense players too — that's the point of one feed. If you want your own product's items visually first, sort within the same list; don't drop the rest.
 4. **Order** is newest first, by `date`.
 5. **Future dates:** items dated later than today are scheduled — filter them out (`new Date(item.date) <= new Date()`). This is how we stage an announcement ahead of a launch.
-6. **"Read more"** renders only when `url` exists.
+6. **The link** renders only when `url` exists, and its label is `item.link_text` — always present, defaulting to `"Read more"`. Don't hardcode "Read more": some items point at a game or an app, not an article, and say so. Styling the label (uppercase, a trailing glyph, your own type scale) is yours; the words are not.
 7. **Unread badge:** compare the newest visible `date` against a per-user stored timestamp. SWordle already does this with `lastNewsItemDate`; keep that pattern.
 8. **Failure is silent.** If the fetch fails, render nothing and move on — news is never blocking. Cache the last good response if your platform makes that easy.
 
@@ -108,7 +110,7 @@ visible.forEach(item => {
   const product = products[item.product] ?? products.site;
   // product.name, product.icon, product.hex → the chip
   // item.title, item.message → the body
-  // item.url → optional "Read more"
+  // item.url → optional link, labelled with item.link_text
 });
 ```
 
@@ -116,7 +118,7 @@ visible.forEach(item => {
 
 Don't add items in your app's repo. They go in `starwars-guide`:
 
-- One-liner → an entry in `_data/news.json`. `url` must be an absolute `https://starwars.guide/...` link, since it renders on your origin.
-- Needs a real article → a post in `_posts/` with a `product:` front-matter key. It joins the same stream automatically.
+- One-liner → an entry in `_data/news.json`. `url` must be an absolute `https://starwars.guide/...` link, since it renders on your origin. Add `link_text` when "Read more" is the wrong words for where the link goes.
+- Needs a real article → a post in `_posts/` with a `product:` front-matter key (and optionally `link_text:`). It joins the same stream automatically.
 
 Full detail in that repo's `CLAUDE.md`, "Centralized news feed".

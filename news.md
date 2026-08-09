@@ -75,6 +75,7 @@ localhost, which would break an absolute-URL comparison in dev only.
       {% assign body = entry.message %}
       {% assign read_url = entry.url %}
     {% endif %}
+    {% assign read_label = entry.link_text | default: "Read more" %}
     {% assign product = site.data.products | where: "key", key | first %}
 
     <article class="news-item news-entry" data-product="{{ key }}" id="{{ anchor }}">
@@ -94,7 +95,7 @@ localhost, which would break an absolute-URL comparison in dev only.
         <span class="opacity-60 text-sm ml-3">{{ parts[0] | date: "%b %-d, %Y" }}</span>
         {% if read_url %}
           <a href="{{ read_url }}" class="text-yellow-400 text-sm uppercase tracking-wide font-bold ml-3">
-            <i class="fas fa-arrow-right mr-1"></i>Read more
+            <i class="fas fa-arrow-right mr-1"></i>{{ read_label }}
           </a>
         {% endif %}
       </div>

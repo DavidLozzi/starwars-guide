@@ -20,7 +20,7 @@ last_modified_at: 2026-07-19 12:00:00
         <a href="{{ 'star-wars-timeline' | relative_url }}" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
         play <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="text-red-400">SWordle</a>,
         react with <a href="{{ 'hyper-panels' | relative_url }}" class="text-blue-400">HyperPanels</a> comics,
-        and browse <a href="/character" class="text-green-400">character timelines</a>.
+        and hold the line in <a href="{{ '/clone-defense/' | relative_url }}" class="text-green-400">Clone Defense</a>.
       </p>
     </section>
 
@@ -228,16 +228,28 @@ last_modified_at: 2026-07-19 12:00:00
         {% for row in rows limit:3 %}
           {% assign parts = row | split: "~" %}
           {% assign idx = parts[2] | plus: 0 %}
+          {%- comment -%}
+          A blurb with no `url` still gets a clickable card (its /news/ anchor),
+          but no call-to-action label — there's nothing further to read.
+          {%- endcomment -%}
           {% if parts[1] == "post" %}
             {% assign entry = site.posts[idx] %}
             {% assign body = entry.social-desc | default: entry.excerpt | strip_html | truncatewords: 20 %}
             {% assign target = entry.url %}
+            {% assign has_link = true %}
           {% else %}
             {% assign entry = site.data.news[idx] %}
-            {% assign body = entry.message | strip_html | truncatewords: 20 %}
+            {%- comment -%}
+            Blurbs run in full — they're authored short. Tags are still stripped
+            because the whole card is an <a>, and a nested <a> from `message`
+            would be invalid markup.
+            {%- endcomment -%}
+            {% assign body = entry.message | strip_html %}
             {% capture fallback %}/news/#{{ entry.id }}{% endcapture %}
             {% assign target = entry.url | default: fallback %}
+            {% if entry.url %}{% assign has_link = true %}{% else %}{% assign has_link = false %}{% endif %}
           {% endif %}
+          {% assign read_label = entry.link_text | default: "Read more" %}
           {% assign key = entry.product | default: "site" %}
           {% assign product = site.data.products | where: "key", key | first %}
 
@@ -260,12 +272,14 @@ last_modified_at: 2026-07-19 12:00:00
             <p class="news-summary relative z-10">
               {{ body }}
             </p>
-            <div class="mt-3 relative z-10">
-              <span class="text-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
-                <i class="fas fa-arrow-right mr-1"></i>
-                READ MORE
-              </span>
-            </div>
+            {% if has_link %}
+              <div class="mt-3 relative z-10">
+                <span class="text-yellow-400 hover:text-yellow-300 text-sm uppercase tracking-wide font-bold">
+                  <i class="fas fa-arrow-right mr-1"></i>
+                  {{ read_label }}
+                </span>
+              </div>
+            {% endif %}
           </a>
         {% endfor %}
       </div>

@@ -60,7 +60,12 @@ localhost, which would break an absolute-URL comparison in dev only.
       {%- assign anchor = entry.id -%}
       {%- assign body = entry.message -%}
       {%- assign read_url = entry.url -%}
-    {%- endif %}
+    {%- endif -%}
+    {%- comment -%}
+    Always emitted so consumers can render `item.link_text` with no fallback of
+    their own. Casing is the consuming app's call — the feed does not upcase.
+    {%- endcomment -%}
+    {%- assign read_label = entry.link_text | default: "Read more" %}
     {
       "id": {{ anchor | jsonify }},
       "date": {{ parts[0] | jsonify }},
@@ -68,6 +73,7 @@ localhost, which would break an absolute-URL comparison in dev only.
       "title": {{ entry.title | jsonify }},
       "message": {{ body | jsonify }},
       "url": {{ read_url | default: nil | jsonify }},
+      "link_text": {{ read_label | jsonify }},
       "link": "{{ site.url }}/news/#{{ anchor }}"
     }{% unless forloop.last %},{% endunless %}
     {%- endfor %}
