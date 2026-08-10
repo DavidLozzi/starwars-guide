@@ -2,7 +2,7 @@
 title: "Ahsoka Tano's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.181Z
+last_modified_at: 2026-08-10T18:12:43.663Z
 social-title: "Ahsoka Tano — Star Wars Timeline & Story"
 social-desc: "Ahsoka Tano is a Togruta former Jedi and one of the most prominent figures spanning the fall of the Republic and the rise of the New Republic era."
 social-image: /assets/characters/ahsoka.png
@@ -19,7 +19,7 @@ character:
     - "The Mandalorian"
     - "The Book of Boba Fett"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -60,7 +60,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Ahsoka_Tano" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/ahsoka.png" alt="Ahsoka Tano" />

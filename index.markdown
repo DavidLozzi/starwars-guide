@@ -17,9 +17,9 @@ last_modified_at: 2026-07-19 12:00:00
       </h1>
       <p class="text-white opacity-70 text-sm uppercase tracking-wide pl-4">
         Free Star Wars tools and fan content from AurebeshFiles &mdash; explore the
-        <a href="{{ 'star-wars-timeline' | relative_url }}" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
-        play <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="text-red-400">SWordle</a>,
-        react with <a href="{{ 'hyper-panels' | relative_url }}" class="text-blue-400">HyperPanels</a> comics,
+        <a href="{{ '/star-wars-timeline/' | relative_url }}" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
+        play <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="text-red-400">SWordle</a>,
+        react with <a href="{{ '/hyper-panels/' | relative_url }}" class="text-blue-400">HyperPanels</a> comics,
         and hold the line in <a href="{{ '/clone-defense/' | relative_url }}" class="text-green-400">Clone Defense</a>.
       </p>
     </section>
@@ -45,7 +45,7 @@ last_modified_at: 2026-07-19 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'star-wars-timeline' | relative_url }}" class="btn flex-1 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ '/star-wars-timeline/' | relative_url }}" class="btn flex-1 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
@@ -65,7 +65,7 @@ last_modified_at: 2026-07-19 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'hyper-panels' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ '/hyper-panels/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
@@ -116,7 +116,7 @@ last_modified_at: 2026-07-19 12:00:00
               <i class="fas fa-rocket mr-2"></i>
               LAUNCH
             </div>
-            <a href="{{ 'swordle-star-wars-wordle' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
+            <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>

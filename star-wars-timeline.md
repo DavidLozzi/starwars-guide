@@ -1,6 +1,7 @@
 ---
 title: The Ultimate Star Wars Timeline
 layout: page
+permalink: /star-wars-timeline/
 social-image: "/assets/cards/timeline.png"
 social-desc: Explore all Star Wars TV Shows, Movies, and characters!
 social-title: The Ultimate Star Wars Timeline
@@ -28,6 +29,6 @@ Follow <a href="https://twitter.com/UltStarWarsTime" target="_blank">The Ultimat
 
 ## More free Star Wars tools from AurebeshFiles
 
-- <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
-- <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
-- <a href="{{ 'about' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.
+- <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
+- <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ '/about/' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.

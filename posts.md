@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /posts/
 title: "BLOG POSTS"
 social-desc: "All Star Wars blog posts and updates from StarWars.Guide"
 ---

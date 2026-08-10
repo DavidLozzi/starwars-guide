@@ -2,7 +2,7 @@
 title: "Jabba Desilijic Tiure's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.199Z
+last_modified_at: 2026-08-10T18:12:43.749Z
 social-title: "Jabba Desilijic Tiure — Star Wars Timeline & Story"
 social-desc: "Jabba Desilijic Tiure, better known as Jabba the Hutt, was a Hutt gangster and crime lord who ran a vast criminal empire from his palace on the Outer Rim desert…"
 social-image: /assets/characters/jabba.png
@@ -22,7 +22,7 @@ character:
     - "Episode V: The Empire Strikes Back"
     - "Episode VI: Return of the Jedi"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -64,7 +64,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Jabba_Desilijic_Tiure" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

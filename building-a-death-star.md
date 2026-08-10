@@ -1,6 +1,7 @@
 ---
 title: Constructing the Death Star
 layout: page
+permalink: /building-a-death-star/
 social-image: "/assets/cards/deathstar.png"
 social-desc: What it would take to build the Death Star today
 social-title: Full Debrief - Constructing the Death Star

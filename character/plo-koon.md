@@ -2,7 +2,7 @@
 title: "Plo Koon's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.210Z
+last_modified_at: 2026-08-10T18:12:43.807Z
 social-title: "Plo Koon — Star Wars Timeline & Story"
 social-desc: "\" Plo Koon was a male Kel Dor Jedi Master from the planet Dorin who served on the Jedi High Council through the final decades of the Galactic Republic."
 social-image: /assets/characters/plo.png
@@ -19,7 +19,7 @@ character:
     - "The Clone Wars (movie)"
     - "Episode III: Revenge of the Sith"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -60,7 +60,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Plo_Koon" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

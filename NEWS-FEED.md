@@ -20,7 +20,7 @@ CORS is open (`Access-Control-Allow-Origin: *`) and it's cached 5 minutes, so fe
       "name": "SWordle",
       "icon": "fas fa-table-cells",
       "hex": "#4ade80",
-      "url": "https://starwars.guide/swordle-star-wars-wordle"
+      "url": "https://starwars.guide/swordle-star-wars-wordle/"
     }
   },
   "items": [

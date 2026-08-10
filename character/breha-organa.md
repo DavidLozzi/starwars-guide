@@ -2,7 +2,7 @@
 title: "Breha Organa's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.188Z
+last_modified_at: 2026-08-10T18:12:43.699Z
 social-title: "Breha Organa — Star Wars Timeline & Story"
 social-desc: "Breha Organa was a human female of Alderaan who reigned as queen of that world during the final decades of the Galactic Republic and the early years of the…"
 social-image: /assets/characters/brehaorgana.png
@@ -16,7 +16,7 @@ character:
     - "Episode III: Revenge of the Sith"
     - "Obi-Wan Kenobi"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Breha_Organa" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

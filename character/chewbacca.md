@@ -2,7 +2,7 @@
 title: "Chewbacca's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.191Z
+last_modified_at: 2026-08-10T18:12:43.712Z
 social-title: "Chewbacca — Star Wars Timeline & Story"
 social-desc: "Chewbacca, affectionately called Chewie, was a Wookiee warrior, smuggler, mechanic, pilot, and resistance fighter from the forest planet Kashyyyk."
 social-image: /assets/characters/chewie.png
@@ -25,7 +25,7 @@ character:
     - "Galaxy's Edge"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -71,7 +71,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Chewbacca" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

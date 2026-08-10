@@ -2,7 +2,7 @@
 title: "Maz Kanata's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.206Z
+last_modified_at: 2026-08-10T18:12:43.787Z
 social-title: "Maz Kanata — Star Wars Timeline & Story"
 social-desc: "Maz Kanata is a diminutive, orange-skinned Force-sensitive alien of an undefined species and one of the galaxy's oldest known individuals, born roughly a…"
 social-image: /assets/characters/kanata.png
@@ -16,7 +16,7 @@ character:
     - "Episode VII: The Force Awakens"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Maz_Kanata" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

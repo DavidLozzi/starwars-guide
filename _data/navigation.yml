@@ -3,20 +3,20 @@
 - title: Apps
   children:
     - title: Timeline
-      url: /star-wars-timeline
+      url: /star-wars-timeline/
     - title: HyperPanels
-      url: /hyper-panels
+      url: /hyper-panels/
 - title: Games
   children:
     - title: Clone Defense
       url: /clone-defense/
     - title: SWordle
-      url: /swordle-star-wars-wordle
+      url: /swordle-star-wars-wordle/
 - title: Characters
-  url: /character
+  url: /character/
 # One list. /posts still exists and is indexed, but is deliberately not linked
 # from the nav — /news/ is the single stream (blurbs + posts).
 - title: News
   url: /news/
 - title: About
-  url: /about
+  url: /about/

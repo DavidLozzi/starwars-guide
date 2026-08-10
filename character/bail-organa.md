@@ -2,7 +2,7 @@
 title: "Bail Organa's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.185Z
+last_modified_at: 2026-08-10T18:12:43.681Z
 social-title: "Bail Organa — Star Wars Timeline & Story"
 social-desc: "Bail Prestor Organa was a human male from Alderaan who served as his world's senator, Viceroy and First Chairman, and became one of the founding architects of…"
 social-image: /assets/characters/bailorgana.png
@@ -20,7 +20,7 @@ character:
     - "Star Wars Rebels"
     - "Rogue One: A Star Wars Story"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -62,7 +62,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Bail_Prestor_Organa" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

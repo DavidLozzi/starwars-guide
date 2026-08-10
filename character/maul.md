@@ -2,7 +2,7 @@
 title: "Maul's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.206Z
+last_modified_at: 2026-08-10T18:12:43.782Z
 social-title: "Maul — Star Wars Timeline & Story"
 social-desc: "Maul, originally styled Darth Maul, was a Force-sensitive Dathomirian Zabrak male who rose from a Nightbrother of Dathomir to become the secret Sith apprentice…"
 social-image: /assets/characters/maul-shadow-lord.png
@@ -21,7 +21,7 @@ character:
     - "Solo: A Star Wars Story"
     - "Star Wars Rebels"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -62,7 +62,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Maul" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/maul-shadow-lord.png" alt="Maul" />

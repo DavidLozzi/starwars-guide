@@ -2,7 +2,7 @@
 title: "Babu Frik's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.184Z
+last_modified_at: 2026-08-10T18:12:43.679Z
 social-title: "Babu Frik — Star Wars Timeline & Story"
 social-desc: "Babu Frik was an Anzellan male droidsmith who lived during the New Republic Era and the war between the First Order and the Resistance."
 social-image: /assets/characters/frik.png
@@ -15,7 +15,7 @@ character:
   appearances:
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -52,7 +52,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Babu_Frik" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

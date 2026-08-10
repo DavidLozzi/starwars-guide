@@ -2,7 +2,7 @@
 title: "Nute Gunray's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.208Z
+last_modified_at: 2026-08-10T18:12:43.792Z
 social-title: "Nute Gunray — Star Wars Timeline & Story"
 social-desc: "Nute Gunray was a Neimoidian male business executive and politician who rose to become Viceroy of the Trade Federation and, later, one of the most visible…"
 social-image: /assets/characters/gunray.png
@@ -20,7 +20,7 @@ character:
     - "The Clone Wars (TV series)"
     - "Episode III: Revenge of the Sith"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -61,7 +61,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Nute_Gunray" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

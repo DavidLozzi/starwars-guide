@@ -2,7 +2,7 @@
 title: "Ezra Bridger's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.192Z
+last_modified_at: 2026-08-10T18:12:43.719Z
 social-title: "Ezra Bridger — Star Wars Timeline & Story"
 social-desc: "Ezra Bridger is a human Force-sensitive from the planet Lothal who became a Jedi Padawan, con artist turned freedom fighter, and revolutionary leader in the…"
 social-image: /assets/characters/ezra-old.png
@@ -16,7 +16,7 @@ character:
     - "Star Wars Rebels"
     - "Ahsoka"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Ezra_Bridger" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/ezra-old.png" alt="Ezra Bridger" />

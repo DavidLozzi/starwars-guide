@@ -17,6 +17,56 @@
   to = "/admin/"
   status = 301
 
+# The top-level static pages moved from /page.html to /page/ (2026-08-10). Both
+# forms used to serve 200, so Google indexed the .html URL while every internal
+# link pointed at the extensionless one — Search Console filed the linked URLs as
+# "Alternate page with proper canonical tag". These 301s hand the old indexed
+# URLs to the new canonical. Keep them; they are the only path from the old URLs.
+[[redirects]]
+  from = "/about.html"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/building-a-death-star.html"
+  to = "/building-a-death-star/"
+  status = 301
+
+[[redirects]]
+  from = "/hyper-panels.html"
+  to = "/hyper-panels/"
+  status = 301
+
+[[redirects]]
+  from = "/posts.html"
+  to = "/posts/"
+  status = 301
+
+[[redirects]]
+  from = "/star-wars-timeline.html"
+  to = "/star-wars-timeline/"
+  status = 301
+
+[[redirects]]
+  from = "/support-aurebesh-files.html"
+  to = "/support-aurebesh-files/"
+  status = 301
+
+[[redirects]]
+  from = "/swordle-star-wars-wordle.html"
+  to = "/swordle-star-wars-wordle/"
+  status = 301
+
+[[redirects]]
+  from = "/swordle-word-list.html"
+  to = "/swordle-word-list/"
+  status = 301
+
+[[redirects]]
+  from = "/the-original-swordle.html"
+  to = "/the-original-swordle/"
+  status = 301
+
 [build.environment]
   JEKYLL_ENV = "production"
 

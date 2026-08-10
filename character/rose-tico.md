@@ -2,7 +2,7 @@
 title: "Rose Tico's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.214Z
+last_modified_at: 2026-08-10T18:12:43.825Z
 social-title: "Rose Tico — Star Wars Timeline & Story"
 social-desc: "Rose Tico is a human woman born in 11 ABY on the Otomok-system world of Hays Minor, whose people were exploited and brutalized by the First Order — an…"
 social-image: /assets/characters/tico.png
@@ -16,7 +16,7 @@ character:
     - "Episode VIII: The Last Jedi"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Rose_Tico" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

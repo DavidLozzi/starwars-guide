@@ -2,7 +2,7 @@
 title: "Bo-Katan Kryze's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.187Z
+last_modified_at: 2026-08-10T18:12:43.694Z
 social-title: "Bo-Katan Kryze — Star Wars Timeline & Story"
 social-desc: "Bo-Katan Kryze was a human female Mandalorian warrior of Clan Kryze and the younger sister of Duchess Satine Kryze, who rose from insurgent to Mand'alor and…"
 social-image: /assets/characters/bokatan.png
@@ -16,7 +16,7 @@ character:
     - "Star Wars Rebels"
     - "The Mandalorian"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -55,7 +55,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Bo-Katan_Kryze" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

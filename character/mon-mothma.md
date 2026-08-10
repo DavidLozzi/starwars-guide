@@ -2,7 +2,7 @@
 title: "Mon Mothma's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.207Z
+last_modified_at: 2026-08-10T18:12:43.788Z
 social-title: "Mon Mothma — Star Wars Timeline & Story"
 social-desc: "Mon Mothma is a human politician from Chandrila who rose from the Galactic Senate to become the founding leader of the Alliance to Restore the Republic and the…"
 social-image: /assets/characters/mothma.png
@@ -21,7 +21,7 @@ character:
     - "Episode VI: Return of the Jedi"
     - "Ahsoka"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -64,7 +64,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Mon_Mothma" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

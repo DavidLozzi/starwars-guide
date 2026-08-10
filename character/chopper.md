@@ -2,7 +2,7 @@
 title: "Chopper's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.191Z
+last_modified_at: 2026-08-10T18:12:43.715Z
 social-title: "Chopper — Star Wars Timeline & Story"
 social-desc: "C1-10P, better known as \"Chopper\" or simply \"Chop,\" is a cantankerous masculine C1-series astromech droid built by Industrial Automaton and one of the…"
 social-image: /assets/characters/chopper.png
@@ -18,7 +18,7 @@ character:
     - "Rogue One: A Star Wars Story"
     - "Ahsoka"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -58,7 +58,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/C1-10P" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

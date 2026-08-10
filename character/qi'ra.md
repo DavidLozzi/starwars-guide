@@ -2,7 +2,7 @@
 title: "Qi'ra's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.211Z
+last_modified_at: 2026-08-10T18:12:43.811Z
 social-title: "Qi'ra — Star Wars Timeline & Story"
 social-desc: "Qi'ra is a human woman born on Corellia who rose from the streets of Coronet City to become one of the most powerful crime lords in the galaxy."
 social-image: /assets/characters/qira.png
@@ -15,7 +15,7 @@ character:
   appearances:
     - "Solo: A Star Wars Story"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -52,7 +52,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Qi%27ra" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

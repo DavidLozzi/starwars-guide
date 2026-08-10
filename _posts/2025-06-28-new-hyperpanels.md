@@ -21,4 +21,4 @@ Like Giphy, but for Star Wars, HyperPanels lets you find the right response, usi
 
 <a href="https://hyperpanels.starwars.guide" target="_blank">Search for your response now!</a>
 
-<a href="{{ 'hyper-panels' | relative_url }}">Learn more here</a>
+<a href="{{ '/hyper-panels/' | relative_url }}">Learn more here</a>

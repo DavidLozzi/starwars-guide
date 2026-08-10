@@ -2,7 +2,7 @@
 title: "Rotta the Hutt's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.214Z
+last_modified_at: 2026-08-10T18:12:43.829Z
 social-title: "Rotta the Hutt — Star Wars Timeline & Story"
 social-desc: "Rotta, commonly called Rotta the Hutt and nicknamed \"Pedunkee Mufkin\" by his father and \"Stinky\" by Ahsoka Tano, is a male Hutt and the son of the Tatooine…"
 social-image: /assets/characters/rotta.png
@@ -17,7 +17,7 @@ character:
     - "The Clone Wars (movie)"
     - "The Mandalorian and Grogu"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -56,7 +56,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Rotta" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/rotta.png" alt="Rotta the Hutt" />

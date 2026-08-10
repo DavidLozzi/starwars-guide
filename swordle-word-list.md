@@ -1,6 +1,7 @@
 ---
 title: Word List for SWordle
 layout: page
+permalink: /swordle-word-list/
 social-title: SWordle Word List
 social-desc: >-
   Every Star Wars word used in SWordle, the daily Star Wars word game. Browse

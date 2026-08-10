@@ -1,6 +1,7 @@
 ---
 title: About AurebeshFiles
 layout: page
+permalink: /about/
 social-title: About AurebeshFiles
 social-desc: AurebeshFiles is a fan-run studio building free Star Wars tools — the
   Ultimate Star Wars Timeline, Clone Defense, SWordle, and HyperPanels. Here's who
@@ -16,9 +17,9 @@ Everything here is free, ad-supported, and built because we wanted it to exist a
 
 ## What we build
 
-### <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a>
+### <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a>
 
-An interactive chronology of the entire canon. Drag through the years and watch 80+ characters age across 25 movies and TV shows. Every character also gets a <a href="/character">standalone timeline page</a> listing their canon appearances by year.
+An interactive chronology of the entire canon. Drag through the years and watch 80+ characters age across 25 movies and TV shows. Every character also gets a <a href="/character/">standalone timeline page</a> listing their canon appearances by year.
 
 <a href="https://timeline.starwars.guide" target="_blank">Open the Timeline &rarr;</a>
 
@@ -28,13 +29,13 @@ One Jedi against an endless droid assault. Deflect blaster bolts with your saber
 
 <a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense &rarr;</a>
 
-### <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a>
+### <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a>
 
-Wordle for real Star Wars fans. Numbers and dashes count, so AT-AT and R2-D2 are fair game. Over 29,000 possible answers — the <a href="{{ 'swordle-word-list' | relative_url }}">full word list is public</a>.
+Wordle for real Star Wars fans. Numbers and dashes count, so AT-AT and R2-D2 are fair game. Over 29,000 possible answers — the <a href="{{ '/swordle-word-list/' | relative_url }}">full word list is public</a>.
 
 <a href="https://wordle.starwars.guide" target="_blank">Play SWordle &rarr;</a>
 
-### <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a>
+### <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a>
 
 A searchable database of Star Wars comic panels, so you can answer any text, email, or thread with the Force. Search by dialogue, character, or story.
 
@@ -56,7 +57,7 @@ Questions, corrections, or a character we missed? Email <a href="mailto:aurebesh
 
 ## Supporting the site
 
-Hosting a timeline, a tower-defense game, a word game, and a comic-panel search engine costs real credits. If you get something out of these, <a href="{{ 'support-aurebesh-files' | relative_url }}">you can throw us a few bucks</a>. Entirely optional — everything stays free either way.
+Hosting a timeline, a tower-defense game, a word game, and a comic-panel search engine costs real credits. If you get something out of these, <a href="{{ '/support-aurebesh-files/' | relative_url }}">you can throw us a few bucks</a>. Entirely optional — everything stays free either way.
 
 ## The legal bit
 

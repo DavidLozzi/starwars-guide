@@ -2,7 +2,7 @@
 title: "Sabine Wren's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.215Z
+last_modified_at: 2026-08-10T18:12:43.831Z
 social-title: "Sabine Wren — Star Wars Timeline & Story"
 social-desc: "Sabine Wren is a human Mandalorian warrior, artist, and revolutionary from Clan Wren of House Vizsla, born in 21 BBY."
 social-image: /assets/characters/wren-old.png
@@ -16,7 +16,7 @@ character:
     - "Star Wars Rebels"
     - "Ahsoka"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Sabine_Wren" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/wren-old.png" alt="Sabine Wren" />

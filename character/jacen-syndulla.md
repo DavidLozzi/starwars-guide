@@ -2,7 +2,7 @@
 title: "Jacen Syndulla's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.199Z
+last_modified_at: 2026-08-10T18:12:43.751Z
 social-title: "Jacen Syndulla — Star Wars Timeline & Story"
 social-desc: "Jacen Syndulla is a Force-sensitive human/Twi'lek hybrid, the son of the rebel General Hera Syndulla and the late Jedi Knight Kanan Jarrus, and the grandson of…"
 social-image: /assets/characters/jacen-young.png
@@ -16,7 +16,7 @@ character:
     - "Star Wars Rebels"
     - "Ahsoka"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Jacen_Syndulla" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/jacen-young.png" alt="Jacen Syndulla" />

@@ -2,7 +2,7 @@
 title: "Finn's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.193Z
+last_modified_at: 2026-08-10T18:12:43.723Z
 social-title: "Finn — Star Wars Timeline & Story"
 social-desc: "Finn, formerly designated FN-2187 (\"Eight-Seven\"), is a Force-sensitive human male and former First Order stormtrooper who deserted and defected to the…"
 social-image: /assets/characters/finn.png
@@ -19,7 +19,7 @@ character:
     - "Galaxy's Edge"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -59,7 +59,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Finn" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

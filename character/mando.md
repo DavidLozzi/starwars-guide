@@ -2,7 +2,7 @@
 title: "Mando's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.205Z
+last_modified_at: 2026-08-10T18:12:43.777Z
 social-title: "Mando — Star Wars Timeline & Story"
 social-desc: "Din Djarin, known to most simply as \"the Mandalorian\" or \"Mando,\" was a human bounty hunter of the New Republic Era, recognizable by his beskar armor, IB-94…"
 social-image: /assets/characters/mando.png
@@ -17,7 +17,7 @@ character:
     - "The Book of Boba Fett"
     - "The Mandalorian and Grogu"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -56,7 +56,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Din_Djarin" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

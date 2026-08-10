@@ -1,6 +1,7 @@
 ---
 title: SWordle - Wordle for Star Wars
 layout: page
+permalink: /swordle-star-wars-wordle/
 social-image: "/assets/cards/swordle.png"
 social-title: SWordle - Wordle for Star Wars
 social-desc: Play the best Wordle in the galaxy! 5 letters to guess names, planets,
@@ -15,7 +16,7 @@ app:
 
 SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!
 
-<a href="https://wordle.starwars.guide" target="_blank">Play SWordle</a> and check out the <a href="{{ 'swordle-word-list' | absolute_url}}">list of over 29,000 possible words</a>!
+<a href="https://wordle.starwars.guide" target="_blank">Play SWordle</a> and check out the <a href="{{ '/swordle-word-list/' | absolute_url }}">list of over 29,000 possible words</a>!
 
 
 <div class="separator">
@@ -26,7 +27,7 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 
 ## How to play SWordle
 <div class="screenshot">
-<div class="description">	It's super simple, just type in a word and press the red target button to apply the word. If the word is on our <a href="{{ 'swordle-word-list' | absolute_url}}">list of over 29,000 words</a>, then it'll stick and show you which letters are:
+<div class="description">	It's super simple, just type in a word and press the red target button to apply the word. If the word is on our <a href="{{ '/swordle-word-list/' | absolute_url }}">list of over 29,000 words</a>, then it'll stick and show you which letters are:
 	<ul>
 		<li>The right letter in the right place, will be green</li>
 		<li>The letter is in the word but the wrong place, will be yellow</li>
@@ -53,6 +54,6 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 
 ## More free Star Wars tools from AurebeshFiles
 
-- <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character">timeline pages for 80+ characters</a>.
-- <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
-- <a href="{{ 'about' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.
+- <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character/">timeline pages for 80+ characters</a>.
+- <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ '/about/' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.

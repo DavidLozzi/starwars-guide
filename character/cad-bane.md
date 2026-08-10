@@ -2,7 +2,7 @@
 title: "Cad Bane's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.190Z
+last_modified_at: 2026-08-10T18:12:43.705Z
 social-title: "Cad Bane — Star Wars Timeline & Story"
 social-desc: "Cad Bane was a ruthless Duros bounty hunter from the planet Duro, widely regarded as the best and most feared bounty hunter of the Clone Wars era following the…"
 social-image: /assets/characters/bane.png
@@ -19,7 +19,7 @@ character:
     - "Star Wars Rebels"
     - "The Book of Boba Fett"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -59,7 +59,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Cad_Bane" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

@@ -2,7 +2,7 @@
 title: "Ben Solo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.185Z
+last_modified_at: 2026-08-10T18:12:43.685Z
 social-title: "Ben Solo — Star Wars Timeline & Story"
 social-desc: "Ben Solo, better known as the dark warrior Kylo Ren, was a human male Force-sensitive who served as master of the Knights of Ren and, ultimately, Supreme Leader…"
 social-image: /assets/characters/bensolo.png
@@ -20,7 +20,7 @@ character:
     - "Galaxy's Edge"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -60,7 +60,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Ben_Solo" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

@@ -11,9 +11,9 @@ last_modified_at: 2026-08-08
 ---
 
 <p class="text-white opacity-80 mb-8">
-  Everything new across the apps — <a href="/swordle-star-wars-wordle" class="text-yellow-400">SWordle</a>,
-  the <a href="/star-wars-timeline" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
-  <a href="/hyper-panels" class="text-yellow-400">HyperPanels</a>, and
+  Everything new across the apps — <a href="/swordle-star-wars-wordle/" class="text-yellow-400">SWordle</a>,
+  the <a href="/star-wars-timeline/" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
+  <a href="/hyper-panels/" class="text-yellow-400">HyperPanels</a>, and
   <a href="/clone-defense/" class="text-yellow-400">Clone Defense</a>.
 </p>
 

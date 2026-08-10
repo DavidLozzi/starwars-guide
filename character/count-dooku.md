@@ -2,7 +2,7 @@
 title: "Count Dooku's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.192Z
+last_modified_at: 2026-08-10T18:12:43.717Z
 social-title: "Count Dooku — Star Wars Timeline & Story"
 social-desc: "Count Dooku, also known by his Sith title Darth Tyranus, was a Force-sensitive human male born into the noble ruling family of Serenno."
 social-image: /assets/characters/dooku.png
@@ -20,7 +20,7 @@ character:
     - "The Clone Wars (TV series)"
     - "Episode III: Revenge of the Sith"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -60,7 +60,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Dooku" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

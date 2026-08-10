@@ -2,7 +2,7 @@
 title: "Sheev Palpatine's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.216Z
+last_modified_at: 2026-08-10T18:12:43.834Z
 social-title: "Sheev Palpatine — Star Wars Timeline & Story"
 social-desc: "Sheev Palpatine, secretly the Sith Lord Darth Sidious, was a human politician from Naboo who rose to become Supreme Chancellor of the Galactic Republic and…"
 social-image: /assets/characters/palpatine.png
@@ -24,7 +24,7 @@ character:
     - "Episode VI: Return of the Jedi"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -68,7 +68,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Darth_Sidious" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/palpatine.png" alt="Sheev Palpatine" />

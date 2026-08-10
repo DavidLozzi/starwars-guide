@@ -2,7 +2,7 @@
 title: "Qui-Gon Jinn's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.211Z
+last_modified_at: 2026-08-10T18:12:43.813Z
 social-title: "Qui-Gon Jinn — Star Wars Timeline & Story"
 social-desc: "Qui-Gon Jinn was a Force-sensitive human male Jedi Master who lived during the final decades of the Galactic Republic."
 social-image: /assets/characters/quigon.png
@@ -16,7 +16,7 @@ character:
   appearances:
     - "Episode I: The Phantom Menace"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -53,7 +53,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Qui-Gon_Jinn" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

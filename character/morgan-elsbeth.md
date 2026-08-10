@@ -2,7 +2,7 @@
 title: "Morgan Elsbeth's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.207Z
+last_modified_at: 2026-08-10T18:12:43.790Z
 social-title: "Morgan Elsbeth — Star Wars Timeline & Story"
 social-desc: "Morgan Elsbeth was a Force-sensitive human female Nightsister of Dathomir who rose from the ashes of her clan's destruction to become one of the Galactic…"
 social-image: /assets/characters/elsbeth.png
@@ -16,7 +16,7 @@ character:
     - "Ahsoka"
     - "The Mandalorian"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -54,7 +54,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Morgan_Elsbeth" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

@@ -257,6 +257,6 @@ Unlocks are permanent and measured against your best run.
 
 ## More free Star Wars apps from AurebeshFiles
 
-- <a href="{{ 'star-wars-timeline' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show with voer 80 characters.
-- <a href="{{ 'swordle-star-wars-wordle' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
-- <a href="{{ 'hyper-panels' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show with voer 80 characters.
+- <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
+- <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.

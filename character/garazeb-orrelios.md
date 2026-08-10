@@ -2,7 +2,7 @@
 title: "Garazeb Orrelios's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.194Z
+last_modified_at: 2026-08-10T18:12:43.725Z
 social-title: "Garazeb Orrelios — Star Wars Timeline & Story"
 social-desc: "Garazeb \"Zeb\" Orrelios was a male Lasat who served as a Captain of the Lasan Honor Guard before becoming a founding member of the Spectres, the Lothal-based…"
 social-image: /assets/characters/orrelios.png
@@ -18,7 +18,7 @@ character:
     - "The Mandalorian"
     - "The Mandalorian and Grogu"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -57,7 +57,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Garazeb_Orrelios" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     <img src="https://timeline.starwars.guide/images/orrelios.png" alt="Garazeb Orrelios" />

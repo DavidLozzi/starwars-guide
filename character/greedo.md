@@ -2,7 +2,7 @@
 title: "Greedo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.195Z
+last_modified_at: 2026-08-10T18:12:43.732Z
 social-title: "Greedo — Star Wars Timeline & Story"
 social-desc: "Greedo was a male Rodian bounty hunter and mercenary, most infamous for his fatal encounter with the smuggler Han Solo in the Mos Eisley cantina."
 social-image: /assets/characters/greedo.png
@@ -17,7 +17,7 @@ character:
     - "The Clone Wars (TV series)"
     - "Episode IV: A New Hope"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -55,7 +55,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Greedo" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

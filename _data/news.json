@@ -47,7 +47,7 @@
     "product": "swordle",
     "title": "The honor!",
     "message": "A couple of other sites have ripped off SWordle, and it's such an honor. (Good Jedi answer, amiright?) The original lives at <a href='https://wordle.starwars.guide' title='The Original SWordle'>wordle.starwars.guide</a> — make sure that's where you're playing.",
-    "url": "https://starwars.guide/the-original-swordle"
+    "url": "https://starwars.guide/the-original-swordle/"
   },
   {
     "id": "swordle-more-words-2022",
@@ -68,8 +68,8 @@
     "date": "2022-02-28",
     "product": "swordle",
     "title": "View the word list",
-    "message": "The entire word list is now available for you to review, and search. Go to <a href='https://starwars.guide/swordle-word-list' title='go to the word list'>the word list here</a>.",
-    "url": "https://starwars.guide/swordle-word-list",
+    "message": "The entire word list is now available for you to review, and search. Go to <a href='https://starwars.guide/swordle-word-list/' title='go to the word list'>the word list here</a>.",
+    "url": "https://starwars.guide/swordle-word-list/",
     "link_text": "See the word list"
   }
 ]

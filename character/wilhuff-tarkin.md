@@ -2,7 +2,7 @@
 title: "Wilhuff Tarkin's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.218Z
+last_modified_at: 2026-08-10T18:12:43.842Z
 social-title: "Wilhuff Tarkin — Star Wars Timeline & Story"
 social-desc: "Wilhuff Tarkin was an Eriaduan bureaucrat, military officer, and politician whose career bridged the final decades of the Galactic Republic and the rise of the…"
 social-image: /assets/characters/tarkin.png
@@ -22,7 +22,7 @@ character:
     - "Rogue One: A Star Wars Story"
     - "Episode IV: A New Hope"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -64,7 +64,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Wilhuff_Tarkin" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     

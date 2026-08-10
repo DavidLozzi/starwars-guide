@@ -56,4 +56,4 @@ Your stats, streaks, and hints all work exactly the same.
 
 <a href="https://wordle.starwars.guide" target="_blank">Go play SWordle</a> and try it out.
 
-Want to see everything the game can throw at you? The full <a href="{{ 'swordle-word-list' | absolute_url }}">SWordle word list</a> is public and searchable.
+Want to see everything the game can throw at you? The full <a href="{{ '/swordle-word-list/' | absolute_url }}">SWordle word list</a> is public and searchable.

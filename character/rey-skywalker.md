@@ -2,7 +2,7 @@
 title: "Rey Skywalker's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-07-23T15:09:18.213Z
+last_modified_at: 2026-08-10T18:12:43.823Z
 social-title: "Rey Skywalker — Star Wars Timeline & Story"
 social-desc: "Rey Skywalker was a human female scavenger from the desert world of Jakku who rose to become one of the last and most powerful Jedi of her era, fighting for the…"
 social-image: /assets/characters/rey.png
@@ -18,7 +18,7 @@ character:
     - "Galaxy's Edge"
     - "Episode IX: The Rise of Skywalker"
 ---
-<a href="/character" class="smaller">Back to All Characters</a>
+<a href="/character/" class="smaller">Back to All Characters</a>
 
 <div class="character-profile container">
   <div class="col-10">
@@ -58,7 +58,7 @@ character:
     <a href="https://starwars.fandom.com/wiki/Rey_Skywalker" target="_blank">Learn more on Wookiepedia.com</a>
 
     <p>&nbsp;</p>
-    <a href="/character" class="smaller">Back to All Characters</a>
+    <a href="/character/" class="smaller">Back to All Characters</a>
   </div>
   <div class="character_image col-2">
     
