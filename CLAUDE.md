@@ -119,6 +119,7 @@ If you are corrected, or learn context about the app that would help future sess
 - Don't explain everything, just focus on completing the work.
 - Media is committed straight into `assets/` with no build-time image pipeline, so oversized files ship as-is. A 2026-07-19 pass cut `assets/` from 99MB to 25MB (video recompressed to 720p, GIFs converted to looping mp4, `assets/death-star/` PNGs converted to JPEG). Compress before committing new media; `ffmpeg` is the tool on hand (this machine's build has no webp encoder).
 - Character page headings still skip h2→h4 because the generator emits `<h4>` for each timeline event. Fixing that belongs in `starwars-timeline/build_scripts/website.js`, along with real per-character `social-desc` text (it currently emits `"Name  | Star Wars"`).
+- **Keep every URL lowercase.** Netlify 301s any request path containing an uppercase letter to its lowercase form (`/character/Chewbacca.html` → `/character/chewbacca`). Character pages were named `Chewbacca.md`, so the sitemap and the `canonical` tag both pointed at a redirect — Search Console filed all ~79 of them under "Page with redirect, not indexed" (found 2026-08-10). Fixed by lowercasing the filenames here and the `slug()` helper in `starwars-timeline/build_scripts/website.js` that writes them. Percent-encoded bytes are untouched by the rule (`padm%C3%A9-…` stays valid), and a lowercase `.html` URL serves 200, so the `.html` suffix itself is fine. Never add a page with a capital letter in its filename.
 
 ## Agent Context
 
