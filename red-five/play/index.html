@@ -1,0 +1,98 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<!-- No-cache: iOS Safari caches ES modules hard, and dev/serve.mjs sends no-store to match. -->
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="theme-color" content="#05070c">
+<title>RED FIVE</title>
+<link rel="stylesheet" href="styles.css">
+
+<div class="device" id="device">
+
+  <!-- Topbar: lives, score, best. Built once; only text and classes change. -->
+  <header class="topbar" id="topbar">
+    <div class="lives" id="lives" aria-label="Lives"></div>
+    <div class="score" id="score">0</div>
+    <div class="best" id="best">BEST 0</div>
+  </header>
+
+  <!-- Scanner strip (Defender radar): upcoming towers, pickups, Vader warning. -->
+  <canvas class="scanner" id="scanner" aria-hidden="true"></canvas>
+
+  <!-- Play area: renderer owns #field-canvas; all pointer input lands on #fieldwrap. -->
+  <div id="fieldwrap">
+    <canvas id="field-canvas"></canvas>
+
+    <!-- Buff chips, created once and toggled. -->
+    <div class="buffs" id="buffs" aria-hidden="true"></div>
+
+    <!-- Countdown overlay: not a .screen, it must not dim the field. -->
+    <div class="countdown" id="countdown" aria-hidden="true">
+      <div class="cd-label">START TAPPING IN</div>
+      <div class="cd-n" id="cd-n">3</div>
+    </div>
+
+    <!-- Bonus-round control prompt. The trench is tap-only and the bonus round is
+         drag-to-steer, so the new verb has to be taught before the run starts. -->
+    <div class="prompt" id="bonus-prompt" aria-hidden="true">
+      <div class="prompt-box">
+        <div class="prompt-title">DRAG TO STEER</div>
+        <div class="prompt-hand" aria-hidden="true">&#9678;</div>
+      </div>
+    </div>
+
+    <!-- Vader duel callouts. -->
+    <div class="callout warn" id="vader-warn" aria-hidden="true">INCOMING &middot; TIE ADVANCED</div>
+    <div class="callout yahoo" id="yahoo" aria-hidden="true">YA&#8209;HOO!</div>
+    <div class="callout evaded" id="vader-evaded" aria-hidden="true">VADER EVADED &middot; +150</div>
+
+    <!-- Bonus-round score readout. -->
+    <!-- One wrapping span: as direct flex children these become anonymous flex items and
+         the whitespace between them is stripped, rendering "6RINGS". -->
+    <div class="bonus-hud" id="bonus-hud" aria-hidden="true">
+      <span><span id="bonus-rings">0</span> RINGS &middot; <span id="bonus-points">0</span></span>
+    </div>
+
+    <!-- Arcade cabinet: marquee / bezelled screen / control deck. The three bands are a
+         flex column, marquee and deck locked to the same height so the screen is centered. -->
+    <section class="screen show cabinet" id="screen-title">
+      <div class="marquee" id="marquee"></div>
+
+      <!-- Transparent on purpose: the live approach scene (Death Star, X-Wing) is the
+           canvas behind, and this band is the glass it shows through. -->
+      <div class="cab-screen">
+        <div class="cab-glass">
+          <h1 class="logo">RED FIVE</h1>
+          <p class="sub">standing by&hellip;</p>
+
+          <!-- House board, filled from globals.leaderboard. Rows are built once. -->
+          <ol class="board" id="board"></ol>
+
+          <p class="score-line" id="title-best"></p>
+          <p class="runs-line" id="title-runs"></p>
+        </div>
+      </div>
+
+      <!-- The whole deck IS the button: the art carries the call to action. -->
+      <button class="deck" id="btn-begin" type="button" aria-label="Begin approach"></button>
+    </section>
+
+    <section class="screen" id="screen-over">
+      <h2>YOU LOST</h2>
+      <div class="final" id="final-score">0</div>
+      <p class="dim" id="final-detail"></p>
+      <p class="newbest" id="newbest" hidden>NEW BEST</p>
+      <button class="btn primary" id="btn-again" type="button">TRY AGAIN</button>
+      <button class="btn ghost" id="btn-share" type="button">SHARE SCORE</button>
+      <button class="btn ghost" id="btn-title" type="button">BACK TO START</button>
+    </section>
+
+    <section class="screen" id="screen-pause">
+      <h2>PAUSED</h2>
+      <button class="btn primary" id="btn-resume" type="button">RESUME</button>
+    </section>
+  </div>
+</div>
+
+<script type="module" src="src/main.js"></script>

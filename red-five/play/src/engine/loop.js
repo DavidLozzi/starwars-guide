@@ -1,0 +1,1 @@
+const c=.05;export function createLoop(a){let t=0,e=0,n=!1;function i(r){if(!n)return;const u=t?Math.min(.05,(r-t)/1e3):0;t=r,a(u),e=requestAnimationFrame(i)}function o(){n||(n=!0,t=0,e=requestAnimationFrame(i))}function f(){n=!1,e&&cancelAnimationFrame(e),e=0}return typeof document<"u"&&document.addEventListener("visibilitychange",()=>{t=0}),{start:o,stop:f}}
