@@ -97,11 +97,15 @@
           <h1 class="logo">RED FIVE</h1>
           <p class="sub">standing by&hellip;</p>
 
-          <!-- House board, filled from globals.leaderboard. Rows are built once. -->
+          <!-- House board with the player merged in, rebuilt by ui/screens.js whenever
+               the title screen is shown. The rule lives in src/meta/board.js. -->
           <ol class="board" id="board"></ol>
 
           <p class="score-line" id="title-best"></p>
           <p class="runs-line" id="title-runs"></p>
+
+          <!-- Revealed once a score exists: sharing should not require dying first. -->
+          <button class="btn ghost btn-share-title" id="btn-share-title" type="button" hidden>SHARE</button>
         </div>
       </div>
 
@@ -114,6 +118,15 @@
       <div class="final" id="final-score">0</div>
       <p class="dim" id="final-detail"></p>
       <p class="newbest" id="newbest" hidden>NEW BEST</p>
+
+      <!-- Arcade initials. Shown every run, prefilled with what is stored, so it doubles
+           as the way to change them — there is no other screen that owns this. -->
+      <label class="initials" for="initials-in">ENTER INITIALS
+        <input id="initials-in" class="initials-in" type="text" maxlength="3"
+               inputmode="latin" autocapitalize="characters" autocomplete="off"
+               spellcheck="false" placeholder="AAA" aria-label="Your three-letter initials">
+      </label>
+
       <button class="btn primary" id="btn-again" type="button">TRY AGAIN</button>
       <button class="btn ghost" id="btn-share" type="button">SHARE SCORE</button>
       <button class="btn ghost" id="btn-title" type="button">BACK TO START</button>
@@ -126,11 +139,12 @@
   </div>
 </div>
 
-<!-- Analytics loaders. These are the ONE sanctioned exception to "zero dependencies": there
-     is no bundler, and dev/build.mjs rejects a bare `import` outright, so a CDN tag is the
-     only way in. Both snippets do nothing but create a queue stub and inject the library —
-     the config-driven init() lives in src/telemetry/{rum,ga}.js, reading globals.rum/.ga.
-     They sit here rather than in <head> because neither blocks first paint and the game's
+<!-- Third-party loaders. These three tags are the ONE sanctioned exception to "zero
+     dependencies": there is no bundler, and dev/build.mjs rejects a bare `import` outright,
+     so a CDN tag is the only way in. Every snippet does nothing but create a queue stub and
+     inject the library — the config-driven init() lives in src/telemetry/{rum,ga}.js and
+     src/ui/ads.js, reading globals.rum/.ga/.ads.
+     They sit here rather than in <head> because none blocks first paint and the game's
      own module is what actually starts a session. -->
 <script>
   (function(h,o,u,n,d){h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
@@ -142,5 +156,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
 </script>
+<!-- AdSense. No <ins> here on purpose: the unit is built by src/ui/ads.js, which skips
+     AdSense entirely on a dev host and draws a white placeholder box instead. -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280" crossorigin="anonymous"></script>
 
 <script type="module" src="src/main.js"></script>
