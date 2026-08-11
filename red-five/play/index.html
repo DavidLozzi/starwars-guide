@@ -126,4 +126,21 @@
   </div>
 </div>
 
+<!-- Analytics loaders. These are the ONE sanctioned exception to "zero dependencies": there
+     is no bundler, and dev/build.mjs rejects a bare `import` outright, so a CDN tag is the
+     only way in. Both snippets do nothing but create a queue stub and inject the library —
+     the config-driven init() lives in src/telemetry/{rum,ga}.js, reading globals.rum/.ga.
+     They sit here rather than in <head> because neither blocks first paint and the game's
+     own module is what actually starts a session. -->
+<script>
+  (function(h,o,u,n,d){h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+  d=o.createElement(u);d.async=1;d.src=n;n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)})
+  (window,document,'script','https://www.datadoghq-browser-agent.com/us1/v6/datadog-rum.js','DD_RUM')
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JYWS72F9R1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+</script>
+
 <script type="module" src="src/main.js"></script>
