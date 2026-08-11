@@ -32,11 +32,15 @@ footer_links:
     icon: fas fa-rss
 copyright: '&copy; 2023 AurebeshFiles, anything not mine is theirs.<br/><a href="/support-aurebesh-files/">Support AurebeshFiles</a>'
 
-# The Clone Defense game is a synced static build (see CLAUDE.md) — a bare app
-# shell with no description or canonical. Keep it out of the sitemap so it can't
-# cannibalise /clone-defense/, the real landing page, in search.
+# The games under */play/ are synced static builds (see CLAUDE.md) — bare app
+# shells with no description or canonical. Keep them out of the sitemap so they
+# can't cannibalise the real landing pages in search.
 defaults:
   - scope:
       path: "clone-defense/play"
+    values:
+      sitemap: false
+  - scope:
+      path: "red-five/play"
     values:
       sitemap: false

@@ -43,3 +43,9 @@
   color: red-400
   hex: "#f87171"
   url: /clone-defense/
+- key: red-five
+  name: Red Five
+  icon: fas fa-jet-fighter
+  color: orange-400
+  hex: "#fb923c"
+  url: /red-five/

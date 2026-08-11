@@ -24,15 +24,21 @@ All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLA
 | `hyperpanels/data` | `DavidLozzi/sw-panels-data` | Python ingestion: comic panels → OpenAI Vision → S3 + DynamoDB → Typesense | — | no |
 | `hyperpanels/keyboard` | `DavidLozzi/sw-panels-keyboard` | iOS app + custom keyboard over the same Typesense catalog | App Store target | no |
 | `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **launching soon**; ships as a **subdirectory of this repo** (`starwars.guide/clone-defense/play/`, Netlify-served, no subdomain) | **yes** — `clone-defense/play/` |
+| `flappy-x-wing` | `DavidLozzi/flappy-x-wing` | "Red Five" — Death Star trench run, Flappy-Bird mechanics, vanilla Canvas 2D, zero deps, no build step | **in development**; ships as a **subdirectory of this repo** (`starwars.guide/red-five/play/`, Netlify-served, no subdomain) | **planned** — `red-five/play/` |
 
 Notes:
 - `hyperpanels/` is not itself a repo — it's a folder holding three sibling repos. HyperPanels shares one Typesense `comics` collection across the web FE, the ingestion pipeline, and the iOS client.
 - `canonverse` also sits in `/Volumes/T9/git/` — unrelated, ignore it.
-- `clone-defense` is the next launch, and the only app that lives *inside* this repo rather than on a subdomain. **Two URLs, and they must not be confused:**
+- **Two apps ship as subdirectories of this repo instead of subdomains**: `clone-defense` (launching) and `flappy-x-wing`/Red Five (in development). Both are static, dependency-free and use relative paths, so Netlify serves them straight out of this repo. Everything below about `/clone-defense/` vs `/clone-defense/play/` applies verbatim to `/red-five/` vs `/red-five/play/` — the directory-collision permalink rule especially.
+- `clone-defense` is the next launch, and the first app that lives *inside* this repo rather than on a subdomain. **Two URLs, and they must not be confused:**
   - `/clone-defense/` — the Jekyll landing page (`clone-defense.md`, which sets an explicit `permalink: /clone-defense/`). This is the indexable, SEO-bearing page; nav and the home card's READ button point here.
   - `/clone-defense/play/` — the game itself, a synced static build. The home card's LAUNCH button and the in-page "Play" links point here, as does the `app.url` in the landing page's front matter.
 
   The landing page needs the explicit permalink because without it Jekyll emits `/clone-defense.html`, which Netlify resolves ambiguously against the `clone-defense/` directory — the game would win and the landing page would be unreachable. The game is a bare app shell (no meta description, no canonical) and is kept out of `sitemap.xml` by a `sitemap: false` default in `_config.yml` so it can't cannibalise the landing page in search. (As of 2026-08-10 every top-level page carries a trailing-slash permalink — see "Every top-level page sets a trailing-slash `permalink`" under Conventions — so this is no longer the odd one out, but the *reason* here is the directory collision, not just URL style.)
+- `flappy-x-wing` is the newest app (added 2026-08-11) and is **still in development**. **The local folder is `flappy-x-wing` but the game is named Red Five**, and the public URL uses the game name, not the folder name. Hub-side state as of 2026-08-11:
+  - **Done:** `red-five.md` landing page (`permalink: /red-five/`, `app:` block → `https://starwars.guide/red-five/play/`), `assets/cards/red-five.png`, `assets/red-five/icons/` sprites, a `red-five` row in `_data/products.yml` (orange-400 — the `--orange-400` variable and `.text-orange-400` class were added to `_sass/_new-design.scss` for it), and a `red-five/play` `sitemap: false` default in `_config.yml`.
+  - **Still missing, all launch-day:** `red-five/play/` itself (**so every Play link on the landing page 404s until the game syncs**), a sync workflow in the game repo, the nav entry under Games, the home-page card in `index.markdown`, the About page entry, a news item, and the reciprocal cross-links from the other four app landing pages back to `/red-five/`.
+  - The landing page **is already in `sitemap.xml`**. Either hold it out of a deploy or set `sitemap: false` on it until the game ships, or Google indexes a page whose primary call to action is a 404.
 - The home page app cards in `index.markdown` are the canonical list of launched apps; keep the table above in sync with them.
 
 ## Commands

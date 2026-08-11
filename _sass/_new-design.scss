@@ -21,6 +21,7 @@
   --blue-400: #60a5fa;
   --green-400: #4ade80;
   --purple-400: #c084fc;
+  --orange-400: #fb923c;
   --white: #ffffff;
   --black: #000000;
 }
@@ -195,6 +196,10 @@ a:active {
 
 .text-purple-400 {
   color: var(--purple-400);
+}
+
+.text-orange-400 {
+  color: var(--orange-400);
 }
 
 // Background colors
