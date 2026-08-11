@@ -106,6 +106,11 @@
 
           <!-- Revealed once a score exists: sharing should not require dying first. -->
           <button class="btn ghost btn-share-title" id="btn-share-title" type="button" hidden>SHARE</button>
+
+          <!-- Build tag. CI sed-stamps src/version.js per deploy, so this is how a player
+               reporting a bug tells you which build they were on. Empty until JS fills it:
+               a stale hardcoded placeholder would be worse than no version at all. -->
+          <span class="app-version" id="app-version"></span>
         </div>
       </div>
 
