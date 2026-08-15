@@ -10,6 +10,8 @@
   children:
     - title: Clone Defense
       url: /clone-defense/
+    - title: Red Five
+      url: /red-five/
     - title: SWordle
       url: /swordle-star-wars-wordle/
 - title: Characters

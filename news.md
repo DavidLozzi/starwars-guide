@@ -2,7 +2,7 @@
 layout: page
 title: News & Updates
 permalink: /news/
-description: "Every update across the Star Wars Guide apps — SWordle, the Ultimate Star Wars Timeline, HyperPanels, and Clone Defense — in one place."
+description: "Every update across the Star Wars Guide apps — SWordle, the Ultimate Star Wars Timeline, HyperPanels, Clone Defense, and Red Five — in one place."
 social-desc: "Every update across the Star Wars Guide apps in one place"
 social-title: "Star Wars Guide — News & Updates"
 social-image: /assets/social.png
@@ -13,8 +13,9 @@ last_modified_at: 2026-08-08
 <p class="text-white opacity-80 mb-8">
   Everything new across the apps — <a href="/swordle-star-wars-wordle/" class="text-yellow-400">SWordle</a>,
   the <a href="/star-wars-timeline/" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
-  <a href="/hyper-panels/" class="text-yellow-400">HyperPanels</a>, and
-  <a href="/clone-defense/" class="text-yellow-400">Clone Defense</a>.
+  <a href="/hyper-panels/" class="text-yellow-400">HyperPanels</a>,
+  <a href="/clone-defense/" class="text-yellow-400">Clone Defense</a>, and
+  <a href="/red-five/" class="text-yellow-400">Red Five</a>.
 </p>
 
 {%- comment -%}

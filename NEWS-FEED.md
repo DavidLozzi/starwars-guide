@@ -63,6 +63,7 @@ Keyed by the `product` value on an item. Every key you'll see in `items` exists 
 | `hyperpanels` | HyperPanels | `fas fa-book` | `#f87171` |
 | `swordle` | SWordle | `fas fa-table-cells` | `#4ade80` |
 | `clone-defense` | Clone Defense | `fas fa-shield-halved` | `#f87171` |
+| `red-five` | Red Five | `fas fa-jet-fighter` | `#facc15` |
 
 **Read this table from the feed at runtime, don't hardcode it.** It's here so you can see what you're dealing with. New products get added centrally and your app should pick them up without a release.
 

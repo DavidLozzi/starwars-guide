@@ -46,6 +46,6 @@
 - key: red-five
   name: Red Five
   icon: fas fa-jet-fighter
-  color: orange-400
-  hex: "#fb923c"
+  color: yellow-400
+  hex: "#facc15"
   url: /red-five/

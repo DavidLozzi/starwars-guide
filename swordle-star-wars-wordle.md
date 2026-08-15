@@ -7,7 +7,7 @@ social-title: SWordle - Wordle for Star Wars
 social-desc: Play the best Wordle in the galaxy! 5 letters to guess names, planets,
   sayings, etc.
 date: 2023-06-28 12:00:00
-last_modified_at: 2026-07-20 12:00:00
+last_modified_at: 2026-08-11 12:00:00
 app:
   name: SWordle
   url: https://wordle.starwars.guide
@@ -56,4 +56,6 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 
 - <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character/">timeline pages for 80+ characters</a>.
 - <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ '/clone-defense/' | relative_url }}">Clone Defense</a> — hold the line against endless waves of droids in this browser tower-defense game.
+- <a href="{{ '/red-five/' | relative_url }}">Red Five</a> — fly the Death Star trench run, one tap at a time, and see how far you get.
 - <a href="{{ '/about/' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.
