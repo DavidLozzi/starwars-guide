@@ -95,7 +95,7 @@ Some droids drop power-ups when they die. It'll fall from the top of the field, 
 
 <div class="sprite-row powerup">
   <img src="{{ 'assets/clone-defense/icons/powerups/ultimate-power.png' | relative_url }}" alt="Ultimate Power pickup" class="sprite" />
-  <p><strong>ULTIMATE POWER:</strong> one field-wide hit. Throws back and stuns every droid on the field, then crushes a quarter of them outright. This completely depletes your earned force.</p>
+  <p><strong>ULTIMATE POWER:</strong> one field-wide hit. Throws back and stuns every droid on the field, then crushes some outright. This completely depletes your earned force.</p>
 </div>
 
 <div class="sprite-row powerup">
