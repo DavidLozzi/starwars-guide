@@ -25,55 +25,6 @@ last_modified_at: 2026-08-11 12:00:00
       </p>
     </section>
 
-    <!-- Apps Section -->
-    <section class="mb-16">
-      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-yellow-400 pl-4 uppercase flex items-center">
-        <i class="fas fa-rocket mr-4 text-yellow-400"></i>
-        apps
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-        <!-- Timeline Card -->
-        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
-          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/timeline.png" alt="The Ultimate Star Wars Timeline app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
-          </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
-            Explore the complete Star Wars chronology
-          </p>
-          <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1 bg-yellow-400">
-              <i class="fas fa-rocket mr-2"></i>
-              LAUNCH
-            </div>
-            <a href="{{ '/star-wars-timeline/' | relative_url }}" class="btn flex-1 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black" onclick="event.stopPropagation()">
-              <i class="fas fa-book mr-2"></i>
-              READ
-            </a>
-          </div>
-        </div>
-
-        <!-- HyperPanels Card -->
-        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://hyperpanels.starwars.guide', '_blank')">
-          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Star Wars comic reaction app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
-          </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
-            Respond using the Force! with a witty Star Wars comic.
-          </p>
-          <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1 bg-blue-400">
-              <i class="fas fa-rocket mr-2"></i>
-              LAUNCH
-            </div>
-            <a href="{{ '/hyper-panels/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
-              <i class="fas fa-book mr-2"></i>
-              READ
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Games Section -->
     <section class="mb-16">
@@ -138,6 +89,56 @@ last_modified_at: 2026-08-11 12:00:00
               LAUNCH
             </div>
             <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Apps Section -->
+    <section class="mb-16">
+      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-yellow-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-rocket mr-4 text-yellow-400"></i>
+        apps
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Timeline Card -->
+        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/timeline.png" alt="The Ultimate Star Wars Timeline app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            Explore the complete Star Wars chronology
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-yellow-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ '/star-wars-timeline/' | relative_url }}" class="btn flex-1 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
+
+        <!-- HyperPanels Card -->
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://hyperpanels.starwars.guide', '_blank')">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Star Wars comic reaction app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            Respond using the Force! with a witty Star Wars comic.
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-blue-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ '/hyper-panels/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>
