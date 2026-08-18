@@ -13,7 +13,7 @@
 | Instagram | @starwars_77_af | Visual: panels, clips, carousels |
 | YouTube | @starwars_77_af | Shorts + occasional long-form |
 | Reddit | u/aurebeshFiles | Community participation, not broadcasting |
-| X | @aurebeshfiles | Low-effort mirror; @UltStarWarsTime also exists for the Timeline |
+| X | @starwars_77_af | Low-effort mirror; @UltStarWarsTime also exists for the Timeline |
 
 Every bio: one-line brand promise + "unofficial fan project" + link to starwars.guide (the hub, never a subdomain — let the hub route them).
 

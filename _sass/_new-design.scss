@@ -1145,6 +1145,23 @@ a.news-item:hover {
   z-index: 10;
 }
 
+.footer-links {
+  text-align: center;
+  margin-top: 0.75rem;
+
+  a {
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
 .footer-text {
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;

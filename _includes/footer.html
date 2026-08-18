@@ -39,5 +39,12 @@
       © {{ 'now' | date: '%Y' }} STARWARS.GUIDE // UNOFFICIAL FAN SITE // NOT AFFILIATED WITH DISNEY OR LUCASFILM
       <i class="fas fa-star ml-2 text-yellow-400"></i>
     </p>
+    <!-- Footer Text Links -->
+    {% assign ai_post = site.posts | where: "slug", "ai-is-not-inherently-slop" | first %}
+    {% if ai_post %}
+    <p class="footer-links">
+      <a href="{{ ai_post.url | relative_url }}">AI Use</a>
+    </p>
+    {% endif %}
   </div>
 </footer> 
