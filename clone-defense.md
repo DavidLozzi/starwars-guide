@@ -261,3 +261,4 @@ Unlocks are permanent and measured against your best run.
 - <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
 - <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
 - <a href="{{ '/red-five/' | relative_url }}">Red Five</a> — fly the Death Star trench run, one tap at a time, and see how far you get.
+- <a href="{{ '/games/' | relative_url }}">All Star Wars Games</a> — every free game we make, in one place.

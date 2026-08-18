@@ -1838,3 +1838,193 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 } 
+// ============================================================
+// Games springboard (/games/)
+// One DOM per game: a small icon button and a panel holding the card.
+// Desktop shows the panels as a static card grid and hides the icons;
+// mobile shows the icons and opens a panel as a modal window.
+// ============================================================
+
+.games-springboard {
+  display: none;
+}
+
+.games-panels {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.game-panel {
+  background-color: var(--black);
+  border-width: 4px;
+  border-style: solid;
+  border-color: var(--white);
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.game-panel:hover {
+  transform: scale(1.05);
+}
+
+.game-panel.border-yellow-400 {
+  border-color: var(--yellow-400);
+}
+
+.game-panel.border-blue-400 {
+  border-color: var(--blue-400);
+}
+
+.game-panel.border-red-400 {
+  border-color: var(--red-400);
+}
+
+.game-panel.border-yellow-400:hover {
+  background-color: rgba(250, 204, 21, 0.1);
+}
+
+.game-panel.border-blue-400:hover {
+  background-color: rgba(96, 165, 250, 0.1);
+}
+
+.game-panel.border-red-400:hover {
+  background-color: rgba(248, 113, 113, 0.1);
+}
+
+// `.prose div a` (line ~1827) underlines every anchor in the page layout's
+// prose wrapper with !important; two classes here outweigh it.
+.prose .game-panel a,
+.game-panel a {
+  text-decoration: none !important;
+}
+
+// `.prose h2` gives every h2 a blue left bar and yellow text; two classes
+// here outweigh it so the title matches the game's color and stays centered.
+.game-panel .game-panel-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  border-left: none;
+  padding-left: 0;
+  margin: 0 0 0.5rem;
+}
+
+.game-panel .game-panel-title.text-red-400 {
+  color: var(--red-400);
+}
+
+.game-panel .game-panel-title.text-yellow-400 {
+  color: var(--yellow-400);
+}
+
+.game-panel .game-panel-title.text-blue-400 {
+  color: var(--blue-400);
+}
+
+.game-panel-close {
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.games-backdrop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .games-springboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 8rem;
+  }
+
+  .game-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .game-icon-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.75rem;
+    background-color: var(--black);
+  }
+
+  .game-icon-name {
+    color: var(--white);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  // Panels stop being a grid and become modal windows.
+  .games-panels {
+    display: contents;
+  }
+
+  .game-panel {
+    display: none;
+  }
+
+  .game-panel:hover {
+    transform: none;
+  }
+
+  .game-panel.is-open {
+    display: flex;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 85vh;
+    overflow-y: auto;
+    z-index: 60;
+  }
+
+  .game-panel-close {
+    display: block;
+  }
+
+  // Above the mobile nav (z-40) and hamburger (z-50).
+  .games-backdrop:not([hidden]) {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 55;
+  }
+}

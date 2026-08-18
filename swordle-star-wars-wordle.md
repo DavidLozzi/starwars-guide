@@ -59,3 +59,4 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 - <a href="{{ '/clone-defense/' | relative_url }}">Clone Defense</a> — hold the line against endless waves of droids in this browser tower-defense game.
 - <a href="{{ '/red-five/' | relative_url }}">Red Five</a> — fly the Death Star trench run, one tap at a time, and see how far you get.
 - <a href="{{ '/about/' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.
+- <a href="{{ '/games/' | relative_url }}">All Star Wars Games</a> — every free game we make, in one place.

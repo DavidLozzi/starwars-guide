@@ -1,0 +1,40 @@
+# Games shown on /games/ (games.md).
+#
+# Drives both the mobile springboard icons and the desktop cards from one list.
+# `color` must be one of the .card/.btn variants that exist in
+# _sass/_new-design.scss: red-400 | yellow-400 | blue-400. These deliberately
+# match the home-page cards in index.markdown, not the badge colors in
+# products.yml (SWordle is green-400 there, and no green card/btn variant exists).
+#
+# `icon_image` is the small square springboard icon; it currently points at the
+# wide card art, cropped by CSS. Swap the path here when real square icons land.
+
+- key: clone-defense
+  name: Clone Defense
+  tagline: Defend your clones, jedi!
+  color: red-400
+  card: /assets/cards/clone-defense.png
+  icon_image: /assets/icons/clone-defense.png
+  play: /clone-defense/play/
+  read: /clone-defense/
+  external: false
+
+- key: red-five
+  name: Red Five
+  tagline: Stay on target! Fly the Death Star trench
+  color: yellow-400
+  card: /assets/cards/red-five.png
+  icon_image: /assets/icons/red-five.png
+  play: /red-five/play/
+  read: /red-five/
+  external: false
+
+- key: swordle
+  name: SWordle
+  tagline: Wordle for the real Star Wars fan
+  color: blue-400
+  card: /assets/cards/swordle.png
+  icon_image: /assets/icons/swordle.png
+  play: https://wordle.starwars.guide
+  read: /swordle-star-wars-wordle/
+  external: true

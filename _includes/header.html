@@ -26,7 +26,11 @@
         {% for item in site.data.navigation %}
           {% if item.children %}
             <div class="relative group px-3 dropdown-group" id="apps-group-{{ forloop.index }}">
-              <button class="dropdown-btn text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
+              {% if item.url %}
+                <a href="{{ item.url | relative_url }}" class="dropdown-btn text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</a>
+              {% else %}
+                <button class="dropdown-btn text-white hover:text-yellow-400 uppercase tracking-wide font-bold transition-colors text-sm lg:text-base">{{ item.title | upcase }}</button>
+              {% endif %}
               <div class="dropdown-menu absolute top-full left-0 mt-2 bg-black border-2 border-white p-4 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 {% for child in item.children %}
                   <a href="{{ child.url | relative_url }}" class="block text-white hover:text-yellow-400 uppercase tracking-wide mb-2">{{ child.title }}</a>
@@ -44,6 +48,9 @@
   <nav id="mobile-nav" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 flex-col items-center justify-center space-y-8 text-2xl text-yellow-400 uppercase font-bold tracking-wide hidden z-40">
     {% for item in site.data.navigation %}
       {% if item.children %}
+        {% if item.url %}
+          <a href="{{ item.url | relative_url }}">{{ item.title | upcase }}</a>
+        {% endif %}
         {% for child in item.children %}
           <a href="{{ child.url | relative_url }}">{{ child.title | upcase }}</a>
         {% endfor %}
