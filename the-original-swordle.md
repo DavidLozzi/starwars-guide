@@ -24,7 +24,7 @@ But we'd rather you played the real one.
 - Over **29,000** possible words, pulled from Wookieepedia and curated by hand — names, planets, ships, sayings, and Star Wars oddities like AT-AT and R2-D2 that a normal Wordle can't handle.
 - The full <a href="{{ '/swordle-word-list/' | absolute_url }}">word list is public</a>. We publish it. The copies don't.
 - Hints after your third guess, tracked stats, and streaks that stay yours.
-- It's part of a whole Star Wars ecosystem — the <a href="/star-wars-timeline/">Ultimate Star Wars Timeline</a>, <a href="/hyper-panels/">HyperPanels</a>, and <a href="/clone-defense/">Clone Defense</a> — not a one-off clone.
+- It's part of a whole Star Wars ecosystem — the <a href="/star-wars-timeline/">Ultimate Star Wars Timeline</a>, <a href="/hyper-panels/">HyperPanels</a>, <a href="/clone-defense/">Clone Defense</a>, and <a href="/red-five/">Red Five</a> — not a one-off clone.
 
 ## Why it matters
 

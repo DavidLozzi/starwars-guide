@@ -8,7 +8,7 @@ social-desc: HyperPanels is the platform that enriches your world with Star
   expressive, and more you.
 social-title: HyperPanels
 date: 2026-06-28 12:00:00
-last_modified_at: 2026-07-20 12:00:00
+last_modified_at: 2026-08-11 12:00:00
 app:
   name: HyperPanels
   url: https://hyperpanels.starwars.guide
@@ -34,4 +34,6 @@ Click the share menu to copy the link to the image, or download, and share it!
 
 - <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show, with <a href="/character/">timeline pages for 80+ characters</a>.
 - <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
+- <a href="{{ '/clone-defense/' | relative_url }}">Clone Defense</a> — hold the line against endless waves of droids in this browser tower-defense game.
+- <a href="{{ '/red-five/' | relative_url }}">Red Five</a> — fly the Death Star trench run, one tap at a time, and see how far you get.
 - <a href="{{ '/about/' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.

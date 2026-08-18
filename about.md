@@ -4,11 +4,11 @@ layout: page
 permalink: /about/
 social-title: About AurebeshFiles
 social-desc: AurebeshFiles is a fan-run studio building free Star Wars tools — the
-  Ultimate Star Wars Timeline, Clone Defense, SWordle, and HyperPanels. Here's who
-  we are and why we build them.
+  Ultimate Star Wars Timeline, Clone Defense, Red Five, SWordle, and HyperPanels.
+  Here's who we are and why we build them.
 social-image: "/assets/social.png"
 date: 2026-07-20 12:00:00
-last_modified_at: 2026-08-10 12:00:00
+last_modified_at: 2026-08-11 12:00:00
 ---
 
 We are a couple of Star Wars nerds geeking out and building fun stuff. AurebeshFiles is the name.
@@ -28,6 +28,12 @@ An interactive chronology of the entire canon. Drag through the years and watch 
 One Jedi against an endless droid assault. Deflect blaster bolts with your saber, use the Force on what you can't block, and keep your clone troopers alive across a war that spans worlds. No sign-up, phone or desktop.
 
 <a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense &rarr;</a>
+
+### <a href="{{ '/red-five/' | relative_url }}">Red Five</a>
+
+Stay on target. Fly the Death Star trench run with one-tap Flappy-Bird controls — thread the gaps, dodge the surface, and see how far down the trench you get. No sign-up, phone or desktop.
+
+<a href="{{ '/red-five/play/' | relative_url }}">Play Red Five &rarr;</a>
 
 ### <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a>
 

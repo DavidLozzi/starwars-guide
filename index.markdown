@@ -3,7 +3,7 @@ layout: home
 title: Star Wars Guide
 social-desc: 'Star Wars fan site from AurebeshFiles: the Ultimate Star Wars Timeline of every canon event, SWordle the daily Star Wars word game, HyperPanels comic reactions, and character timelines.'
 date: 2023-06-28 12:00:00
-last_modified_at: 2026-07-19 12:00:00
+last_modified_at: 2026-08-11 12:00:00
 ---
 
 <div class="min-h-screen bg-black text-white font-mono relative overflow-hidden">
@@ -20,10 +20,83 @@ last_modified_at: 2026-07-19 12:00:00
         <a href="{{ '/star-wars-timeline/' | relative_url }}" class="text-yellow-400">Ultimate Star Wars Timeline</a>,
         play <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="text-red-400">SWordle</a>,
         react with <a href="{{ '/hyper-panels/' | relative_url }}" class="text-blue-400">HyperPanels</a> comics,
-        and hold the line in <a href="{{ '/clone-defense/' | relative_url }}" class="text-green-400">Clone Defense</a>.
+        hold the line in <a href="{{ '/clone-defense/' | relative_url }}" class="text-green-400">Clone Defense</a>,
+        and fly the trench in <a href="{{ '/red-five/' | relative_url }}" class="text-yellow-400">Red Five</a>.
       </p>
     </section>
 
+
+    <!-- Games Section -->
+    <section class="mb-16">
+      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-red-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-gamepad mr-4 text-red-400"></i>
+        games
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Clone Defense Card -->
+        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/clone-defense/play/' | relative_url }}'">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/clone-defense.png" alt="Clone Defense Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            Defend your clones, jedi!
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-red-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ '/clone-defense/' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
+
+        <!-- Red Five Card -->
+        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/red-five/play/' | relative_url }}'">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/red-five.png" alt="Red Five, the Death Star trench run game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            Stay on target! Fly the Death Star trench
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-yellow-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ '/red-five/' | relative_url }}" class="btn flex-1 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
+
+        <!-- SWordle Card -->
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/swordle.png" alt="SWordle, the daily Star Wars word game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
+
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            Wordle for the real Star Wars fan
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-blue-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- Apps Section -->
     <section class="mb-16">
       <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-yellow-400 pl-4 uppercase flex items-center">
@@ -66,57 +139,6 @@ last_modified_at: 2026-07-19 12:00:00
               LAUNCH
             </div>
             <a href="{{ '/hyper-panels/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
-              <i class="fas fa-book mr-2"></i>
-              READ
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Games Section -->
-    <section class="mb-16">
-      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-red-400 pl-4 uppercase flex items-center">
-        <i class="fas fa-gamepad mr-4 text-red-400"></i>
-        games
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-        <!-- Clone Defense Card -->
-        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/clone-defense/play/' | relative_url }}'">
-          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/clone-defense.png" alt="Clone Defense Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
-          </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
-            Defend your clones, jedi!
-          </p>
-          <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1 bg-red-400">
-              <i class="fas fa-rocket mr-2"></i>
-              LAUNCH
-            </div>
-            <a href="{{ '/clone-defense/' | relative_url }}" class="btn flex-1 border-red-400 text-red-400 hover:bg-red-400 hover:text-black" onclick="event.stopPropagation()">
-              <i class="fas fa-book mr-2"></i>
-              READ
-            </a>
-          </div>
-        </div>
-
-        <!-- SWordle Card -->
-        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
-          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
-            <img src="/assets/cards/swordle.png" alt="SWordle, the daily Star Wars word game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
-
-          </div>
-          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
-            Wordle for the real Star Wars fan
-          </p>
-          <div class="flex gap-2 mt-4 w-full">
-            <div class="btn flex-1 bg-blue-400">
-              <i class="fas fa-rocket mr-2"></i>
-              LAUNCH
-            </div>
-            <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>

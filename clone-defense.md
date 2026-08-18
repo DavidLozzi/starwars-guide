@@ -6,7 +6,7 @@ social-image: "/assets/cards/clone-defense.png"
 social-title: Clone Defense
 social-desc: One Jedi. An endless droid assault. How long can you hold the line?
 date: 2026-07-16 12:00:00
-last_modified_at: 2026-08-07 18:20:00
+last_modified_at: 2026-08-11 12:00:00
 app:
   name: Clone Defense
   url: https://starwars.guide/clone-defense/play/
@@ -260,3 +260,4 @@ Unlocks are permanent and measured against your best run.
 - <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show with voer 80 characters.
 - <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
 - <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ '/red-five/' | relative_url }}">Red Five</a> — fly the Death Star trench run, one tap at a time, and see how far you get.

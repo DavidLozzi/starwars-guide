@@ -1,5 +1,14 @@
 [
   {
+    "id": "red-five-launch",
+    "date": "2026-08-18",
+    "product": "red-five",
+    "title": "Introducing Red Five!",
+    "message": "Stay on target. Fly the Death Star trench, thread the gaps, and see how far you get!",
+    "url": "https://starwars.guide/red-five/play",
+    "link_text": "Play now!"
+  },
+  {
     "id": "rebel-crossbones-decal",
     "date": "2026-08-15",
     "product": "site",
@@ -14,8 +23,8 @@
     "product": "clone-defense",
     "title": "Introducing Clone Defense",
     "message": "One Jedi. An endless droid assault. Deflect blaster fire with your saber, spend the Force to hold the line, and push the war across worlds.",
-    "url": "https://starwars.guide/clone-defense/",
-    "link_text": "Learn more and Play Now!"
+    "url": "https://starwars.guide/clone-defense/play",
+    "link_text": "Play Now!"
   },
   {
     "id": "hyperpanels-sort",
