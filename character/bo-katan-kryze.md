@@ -2,7 +2,7 @@
 title: "Bo-Katan Kryze's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.694Z
+last_modified_at: 2026-08-26T10:50:03.385Z
 social-title: "Bo-Katan Kryze — Star Wars Timeline & Story"
 social-desc: "Bo-Katan Kryze was a human female Mandalorian warrior of Clan Kryze and the younger sister of Duchess Satine Kryze, who rose from insurgent to Mand'alor and…"
 social-image: /assets/characters/bokatan.png
@@ -45,9 +45,9 @@ character:
     <h3>View Bo-Katan Kryze in our timeline:</h3>
 
     <ul>
-      <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (33 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=-5" target="_blank">Star Wars Rebels, 5 BBY (50 years old)</a></li>
-  <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=9" target="_blank">The Mandalorian, 9 ABY (64 years old)</a></li>
+      <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=-22" target="_blank">The Clone Wars (TV series), 22 BBY (14 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=-5" target="_blank">Star Wars Rebels, 5 BBY (31 years old)</a></li>
+  <li><a href="https://timeline.starwars.guide/character/Bo-Katan%20Kryze?year=9" target="_blank">The Mandalorian, 9 ABY (45 years old)</a></li>
     </ul>
 
     <p>&nbsp;</p>
