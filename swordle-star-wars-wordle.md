@@ -1,20 +1,20 @@
 ---
-title: SWordle - Wordle for Star Wars
+title: SWordle - the Daily Star Wars Wordle
 layout: page
 permalink: /swordle-star-wars-wordle/
 social-image: "/assets/cards/swordle.png"
-social-title: SWordle - Wordle for Star Wars
-social-desc: Play the best Wordle in the galaxy! 5 letters to guess names, planets,
-  sayings, etc.
+social-title: SWordle - the Daily Star Wars Wordle
+social-desc: The daily Star Wars word game. Five letters to guess a character,
+  planet, ship or saying - free, no sign-up, new word every day.
 date: 2023-06-28 12:00:00
-last_modified_at: 2026-08-11 12:00:00
+last_modified_at: 2026-09-08 12:00:00
 app:
   name: SWordle
   url: https://wordle.starwars.guide
   category: GameApplication
 ---
 
-SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!
+SWordle is the daily Star Wars word game — a Star Wars Wordle for the REAL fan. Five letters, one new word every day, and you can guess not only 5 letter words but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!
 
 <a href="https://wordle.starwars.guide" target="_blank" data-launch-app="swordle" data-launch-surface="landing">Play SWordle</a> and check out the <a href="{{ '/swordle-word-list/' | absolute_url }}">list of over 29,000 possible words</a>!
 
@@ -24,6 +24,12 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 <i class="fas fa-star separator-icon"></i>
 <div class="separator-line bg-blue-400"></div>
 </div>
+
+## What is SWordle?
+
+SWordle is a free Star Wars guessing game you play in your browser — no app, no account, no cost. If you came here looking for a Star Wars Wordle, a Star Wars word game, or a daily Star Wars guessing game, this is it. One puzzle a day, and a streak to keep alive.
+
+The name is a mash-up of "Star Wars" and "Wordle", and it plays the way you'd expect: five letters, six guesses, green for right letter in the right spot. What makes it ours is the word list — over 29,000 Star Wars words including droids, planets, ships and species, with numbers and dashes allowed so AT-AT and R2-D2 are fair game.
 
 ## How to play SWordle
 <div class="screenshot">
