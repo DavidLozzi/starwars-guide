@@ -2,9 +2,9 @@
 title: "Greedo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.732Z
+last_modified_at: 2026-09-08T12:32:03.773Z
 social-title: "Greedo — Star Wars Timeline & Story"
-social-desc: "Greedo was a male Rodian bounty hunter and mercenary, most infamous for his fatal encounter with the smuggler Han Solo in the Mos Eisley cantina."
+social-desc: "Greedo was Jabba the Hutt's inept Rodian bounty hunter, sent to collect Han Solo's debt in Mos Eisley, only to be shot dead before he could fire first."
 social-image: /assets/characters/greedo.png
 character:
   name: "Greedo"

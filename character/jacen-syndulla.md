@@ -2,9 +2,9 @@
 title: "Jacen Syndulla's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.751Z
+last_modified_at: 2026-09-08T12:32:03.776Z
 social-title: "Jacen Syndulla — Star Wars Timeline & Story"
-social-desc: "Jacen Syndulla is a Force-sensitive human/Twi'lek hybrid, the son of the rebel General Hera Syndulla and the late Jedi Knight Kanan Jarrus, and the grandson of…"
+social-desc: "Jacen Syndulla, son of Hera Syndulla and Kanan Jarrus, is a Force-sensitive boy from Ahsoka who hopes to follow his late father's path as a Jedi."
 social-image: /assets/characters/jacen-young.png
 character:
   name: "Jacen Syndulla"

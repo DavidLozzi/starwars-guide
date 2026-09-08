@@ -2,9 +2,9 @@
 title: "Gial Ackbar's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.730Z
+last_modified_at: 2026-09-08T12:32:03.772Z
 social-title: "Gial Ackbar — Star Wars Timeline & Story"
-social-desc: "Gial Ackbar was a male Mon Calamari from the ocean world of Mon Cala who became one of the most celebrated military commanders in galactic history, serving…"
+social-desc: "Gial Ackbar, Mon Calamari admiral, commanded the Rebel fleet at Endor and later advised the Resistance before dying aboard the Raddus in 34 ABY."
 social-image: /assets/characters/ackbar.png
 character:
   name: "Gial Ackbar"

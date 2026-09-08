@@ -2,9 +2,9 @@
 title: "Rotta the Hutt's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.829Z
+last_modified_at: 2026-09-08T12:32:03.791Z
 social-title: "Rotta the Hutt — Star Wars Timeline & Story"
-social-desc: "Rotta, commonly called Rotta the Hutt and nicknamed \"Pedunkee Mufkin\" by his father and \"Stinky\" by Ahsoka Tano, is a male Hutt and the son of the Tatooine…"
+social-desc: "Rotta the Hutt, Jabba's infant son kidnapped during the Clone Wars and saved by Ahsoka Tano, later became an arena gladiator rescued by Din Djarin."
 social-image: /assets/characters/rotta.png
 character:
   name: "Rotta the Hutt"

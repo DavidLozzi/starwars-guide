@@ -2,9 +2,9 @@
 title: "Rose Tico's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.825Z
+last_modified_at: 2026-09-08T12:32:03.791Z
 social-title: "Rose Tico — Star Wars Timeline & Story"
-social-desc: "Rose Tico is a human woman born in 11 ABY on the Otomok-system world of Hays Minor, whose people were exploited and brutalized by the First Order — an…"
+social-desc: "Rose Tico was a Resistance engineer whose Canto Bight mission with Finn and heroics at Crait helped turn the tide against the First Order, surviving the war."
 social-image: /assets/characters/tico.png
 character:
   name: "Rose Tico"

@@ -2,9 +2,9 @@
 title: "Morgan Elsbeth's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.790Z
+last_modified_at: 2026-09-08T12:32:03.784Z
 social-title: "Morgan Elsbeth — Star Wars Timeline & Story"
-social-desc: "Morgan Elsbeth was a Force-sensitive human female Nightsister of Dathomir who rose from the ashes of her clan's destruction to become one of the Galactic…"
+social-desc: "Morgan Elsbeth built Imperial warships, ruled Corvus as a brutal magistrate, and gave her life on Peridea covering Grand Admiral Thrawn's escape."
 social-image: /assets/characters/elsbeth.png
 character:
   name: "Morgan Elsbeth"

@@ -2,9 +2,9 @@
 title: "Maz Kanata's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.787Z
+last_modified_at: 2026-09-08T12:32:03.784Z
 social-title: "Maz Kanata — Star Wars Timeline & Story"
-social-desc: "Maz Kanata is a diminutive, orange-skinned Force-sensitive alien of an undefined species and one of the galaxy's oldest known individuals, born roughly a…"
+social-desc: "Maz Kanata: pirate queen of Takodana, keeper of Anakin and Luke Skywalker's lightsaber, and Resistance ally who survived the war against the First Order."
 social-image: /assets/characters/kanata.png
 character:
   name: "Maz Kanata"

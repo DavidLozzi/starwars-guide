@@ -2,9 +2,9 @@
 title: "Omega's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.797Z
+last_modified_at: 2026-09-08T12:32:03.785Z
 social-title: "Omega — Star Wars Timeline & Story"
-social-desc: "Omega was a female human clone of the Mandalorian bounty hunter Jango Fett, one of only two unaltered, pure genetic replications of his template created on…"
+social-desc: "Omega is the youngest member of the Bad Batch, an unaltered Jango Fett clone who survived Mount Tantiss and later joined the Rebel Alliance as a pilot."
 social-image: /assets/characters/omega.png
 character:
   name: "Omega"

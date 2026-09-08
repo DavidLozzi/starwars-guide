@@ -2,9 +2,9 @@
 title: "Rey Skywalker's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.823Z
+last_modified_at: 2026-09-08T12:32:03.790Z
 social-title: "Rey Skywalker — Star Wars Timeline & Story"
-social-desc: "Rey Skywalker was a human female scavenger from the desert world of Jakku who rose to become one of the last and most powerful Jedi of her era, fighting for the…"
+social-desc: "Rey Skywalker: the Jakku scavenger turned Jedi who defeated Emperor Palpatine on Exegol and took the Skywalker name to rebuild the Jedi Order."
 social-image: /assets/characters/rey.png
 character:
   name: "Rey Skywalker"

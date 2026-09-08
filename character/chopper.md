@@ -2,9 +2,9 @@
 title: "Chopper's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.715Z
+last_modified_at: 2026-09-08T12:32:03.769Z
 social-title: "Chopper — Star Wars Timeline & Story"
-social-desc: "C1-10P, better known as \"Chopper\" or simply \"Chop,\" is a cantankerous masculine C1-series astromech droid built by Industrial Automaton and one of the…"
+social-desc: "Chopper is Hera Syndulla's salvaged astromech droid, a Ghost crew mainstay whose sabotage and grit carried the Spectres from Ryloth to the New Republic."
 social-image: /assets/characters/chopper.png
 character:
   name: "Chopper"

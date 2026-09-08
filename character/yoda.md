@@ -2,9 +2,9 @@
 title: "Yoda's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.849Z
+last_modified_at: 2026-09-08T12:32:03.829Z
 social-title: "Yoda — Star Wars Timeline & Story"
-social-desc: "Yoda was a diminutive, green-skinned member of an unnamed and mysterious species who became the most revered Jedi of the modern age, serving as Grand Master of…"
+social-desc: "Yoda led the Jedi Order as Grand Master, mentored Luke Skywalker after Order 66 forced him into Dagobah exile, and died in 4 ABY as a Force spirit."
 social-image: /assets/characters/yoda.png
 character:
   name: "Yoda"

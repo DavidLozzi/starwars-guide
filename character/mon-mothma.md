@@ -2,9 +2,9 @@
 title: "Mon Mothma's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.788Z
+last_modified_at: 2026-09-08T12:32:03.784Z
 social-title: "Mon Mothma — Star Wars Timeline & Story"
-social-desc: "Mon Mothma is a human politician from Chandrila who rose from the Galactic Senate to become the founding leader of the Alliance to Restore the Republic and the…"
+social-desc: "Mon Mothma turned Senate dissent into open rebellion, secretly bankrolling the Alliance that defeated Palpatine and became its first Chancellor."
 social-image: /assets/characters/mothma.png
 character:
   name: "Mon Mothma"

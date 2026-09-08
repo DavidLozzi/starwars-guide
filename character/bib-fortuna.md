@@ -2,9 +2,9 @@
 title: "Bib Fortuna's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.691Z
+last_modified_at: 2026-09-08T12:32:03.763Z
 social-title: "Bib Fortuna — Star Wars Timeline & Story"
-social-desc: "Bib Fortuna was a male Twi'lek from Ryloth who rose from the criminal underworld to become the majordomo and chief of staff of the Hutt crime lord Jabba…"
+social-desc: "Bib Fortuna, Jabba the Hutt's scheming majordomo who ran Tatooine's palace for decades before briefly ruling it himself until Boba Fett ended his reign."
 social-image: /assets/characters/fortuna-old.png
 character:
   name: "Bib Fortuna"

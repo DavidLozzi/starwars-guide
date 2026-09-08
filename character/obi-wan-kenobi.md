@@ -2,9 +2,9 @@
 title: "Obi-Wan Kenobi's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.795Z
+last_modified_at: 2026-09-08T12:32:03.785Z
 social-title: "Obi-Wan Kenobi — Star Wars Timeline & Story"
-social-desc: "Obi-Wan Kenobi, also known in his later years as Ben Kenobi, was a legendary human Jedi Master born in 57 BBY on Stewjon and taken to the Jedi Temple on…"
+social-desc: "Obi-Wan Kenobi, Jedi General turned exiled protector of Luke Skywalker, defeated Darth Vader on Mustafar before dying on the first Death Star in 0 BBY."
 social-image: /assets/characters/obi.png
 character:
   name: "Obi-Wan Kenobi"

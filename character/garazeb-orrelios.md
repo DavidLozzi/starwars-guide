@@ -2,9 +2,9 @@
 title: "Garazeb Orrelios's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.725Z
+last_modified_at: 2026-09-08T12:32:03.771Z
 social-title: "Garazeb Orrelios — Star Wars Timeline & Story"
-social-desc: "Garazeb \"Zeb\" Orrelios was a male Lasat who served as a Captain of the Lasan Honor Guard before becoming a founding member of the Spectres, the Lothal-based…"
+social-desc: "Zeb Orrelios, Lasan Honor Guard veteran turned Spectres rebel, fought the Empire alongside the Ghost crew and later found his people alive on Lira San."
 social-image: /assets/characters/orrelios.png
 character:
   name: "Garazeb Orrelios"

@@ -2,9 +2,9 @@
 title: "Sheev Palpatine's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.834Z
+last_modified_at: 2026-09-08T12:32:03.793Z
 social-title: "Sheev Palpatine — Star Wars Timeline & Story"
-social-desc: "Sheev Palpatine, secretly the Sith Lord Darth Sidious, was a human politician from Naboo who rose to become Supreme Chancellor of the Galactic Republic and…"
+social-desc: "Sheev Palpatine engineered the Republic's fall and ruled as its first Emperor, cast down at Endor in 4 ABY yet destroyed for good only on Exegol."
 social-image: /assets/characters/palpatine.png
 character:
   name: "Sheev Palpatine"

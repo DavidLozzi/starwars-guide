@@ -2,9 +2,9 @@
 title: "Jar Jar Binks's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.756Z
+last_modified_at: 2026-09-08T12:32:03.777Z
 social-title: "Jar Jar Binks — Star Wars Timeline & Story"
-social-desc: "Jar Jar Binks was a Gungan from the swamps of Naboo whose bumbling good intentions repeatedly placed him at the center of galactic history."
+social-desc: "Jar Jar Binks, the accident-prone Gungan senator whose vote for emergency powers doomed the Republic, later scraped by as a shunned Naboo street performer."
 social-image: /assets/characters/jarjar.png
 character:
   name: "Jar Jar Binks"

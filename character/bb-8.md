@@ -2,9 +2,9 @@
 title: "BB-8's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.676Z
+last_modified_at: 2026-09-08T12:32:03.760Z
 social-title: "BB-8 — Star Wars Timeline & Story"
-social-desc: "BB-8, sometimes spelled Beebee-Ate and nicknamed BB, was a spherical BB-series astromech droid built in 29 ABY on Hosnian Prime."
+social-desc: "BB-8 is the Resistance astromech droid who carried Luke Skywalker's map fragment for Poe Dameron and helped topple the First Order alongside Rey and Finn."
 social-image: /assets/characters/bb8.png
 character:
   name: "BB-8"

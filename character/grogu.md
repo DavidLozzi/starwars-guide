@@ -2,9 +2,9 @@
 title: "Grogu's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.735Z
+last_modified_at: 2026-09-08T12:32:03.773Z
 social-title: "Grogu — Star Wars Timeline & Story"
-social-desc: "Grogu, affectionately nicknamed \"Baby Yoda\" and known to many simply as \"the Child,\" is a Force-sensitive foundling belonging to the same mysterious species as…"
+social-desc: "Grogu is the Force-sensitive foundling of Yoda's species whose bond with Din Djarin reshaped the Mandalorian era, from Jedi Temple survivor to adopted son."
 social-image: /assets/characters/grogu.png
 character:
   name: "Grogu"

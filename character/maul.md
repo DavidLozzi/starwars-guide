@@ -2,9 +2,9 @@
 title: "Maul's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.782Z
+last_modified_at: 2026-09-08T12:32:03.783Z
 social-title: "Maul — Star Wars Timeline & Story"
-social-desc: "Maul, originally styled Darth Maul, was a Force-sensitive Dathomirian Zabrak male who rose from a Nightbrother of Dathomir to become the secret Sith apprentice…"
+social-desc: "Maul is the Sith assassin turned Shadow Collective warlord whose vendetta against Obi-Wan Kenobi spanned the Clone Wars to his death on Tatooine."
 social-image: /assets/characters/maul-shadow-lord.png
 character:
   name: "Maul"

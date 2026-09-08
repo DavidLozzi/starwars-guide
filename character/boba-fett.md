@@ -2,9 +2,9 @@
 title: "Boba Fett's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.697Z
+last_modified_at: 2026-09-08T12:32:03.765Z
 social-title: "Boba Fett — Star Wars Timeline & Story"
-social-desc: "Boba Fett is a legendary bounty hunter and one of the most feared figures in the galactic underworld."
+social-desc: "Boba Fett, Jango Fett's unaltered clone, hunted bounties for Vader and Jabba, captured Han Solo, survived the Sarlacc, and later ruled Mos Espa as Daimyo."
 social-image: /assets/characters/boba-og.png
 character:
   name: "Boba Fett"

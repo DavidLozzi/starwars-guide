@@ -2,9 +2,9 @@
 title: "Mando's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.777Z
+last_modified_at: 2026-09-08T12:32:03.782Z
 social-title: "Mando — Star Wars Timeline & Story"
-social-desc: "Din Djarin, known to most simply as \"the Mandalorian\" or \"Mando,\" was a human bounty hunter of the New Republic Era, recognizable by his beskar armor, IB-94…"
+social-desc: "Din Djarin is the beskar-armored bounty hunter turned New Republic marshal whose bond with Grogu led him to reunite Mandalore and wield the Darksaber."
 social-image: /assets/characters/mando.png
 character:
   name: "Mando"

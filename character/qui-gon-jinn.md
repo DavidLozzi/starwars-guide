@@ -2,9 +2,9 @@
 title: "Qui-Gon Jinn's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.813Z
+last_modified_at: 2026-09-08T12:32:03.788Z
 social-title: "Qui-Gon Jinn — Star Wars Timeline & Story"
-social-desc: "Qui-Gon Jinn was a Force-sensitive human male Jedi Master who lived during the final decades of the Galactic Republic."
+social-desc: "Qui-Gon Jinn, the rebellious Jedi Master who defied the Council, discovered Anakin Skywalker, and died on Naboo believing he'd found the Chosen One."
 social-image: /assets/characters/quigon.png
 character:
   name: "Qui-Gon Jinn"

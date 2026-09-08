@@ -2,9 +2,9 @@
 title: "Breha Organa's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.699Z
+last_modified_at: 2026-09-08T12:32:03.765Z
 social-title: "Breha Organa — Star Wars Timeline & Story"
-social-desc: "Breha Organa was a human female of Alderaan who reigned as queen of that world during the final decades of the Galactic Republic and the early years of the…"
+social-desc: "Breha Organa, adoptive mother of Leia and secret architect of the Rebel Alliance, ruled Alderaan as queen until the Death Star destroyed her world in 0 BBY."
 social-image: /assets/characters/brehaorgana.png
 character:
   name: "Breha Organa"

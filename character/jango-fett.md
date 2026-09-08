@@ -2,9 +2,9 @@
 title: "Jango Fett's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.754Z
+last_modified_at: 2026-09-08T12:32:03.777Z
 social-title: "Jango Fett — Star Wars Timeline & Story"
-social-desc: "Jango Fett was a human Mandalorian bounty hunter widely regarded as the best in the galaxy during the final years of the Galactic Republic."
+social-desc: "Jango Fett, legendary bounty hunter and unaltered template for the Republic's clone army, raised son Boba Fett before Mace Windu killed him at Geonosis."
 social-image: /assets/characters/jango.png
 character:
   name: "Jango Fett"

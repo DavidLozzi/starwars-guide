@@ -2,9 +2,9 @@
 title: "Hunter's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.745Z
+last_modified_at: 2026-09-08T12:32:03.775Z
 social-title: "Hunter — Star Wars Timeline & Story"
-social-desc: "Hunter was a clone commando sergeant of the Grand Army of the Republic and the commanding officer of Clone Force 99, the experimental squad of genetically…"
+social-desc: "Hunter led the Bad Batch through the Clone Wars and defied Order 66, becoming Omega's guardian and settling on Pabu after rescuing her from Mount Tantiss."
 social-image: /assets/characters/hunter.png
 character:
   name: "Hunter"

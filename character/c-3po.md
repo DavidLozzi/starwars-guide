@@ -2,9 +2,9 @@
 title: "C-3PO's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.702Z
+last_modified_at: 2026-09-08T12:32:03.766Z
 social-title: "C-3PO — Star Wars Timeline & Story"
-social-desc: "C-3PO, also spelled See-Threepio and usually called simply Threepio, is a 3PO-series protocol droid of Cybot Galactica design, programmed for etiquette and…"
+social-desc: "C-3PO, the fussy protocol droid built by Anakin Skywalker on Tatooine, served the Skywalkers, the Rebellion, and the New Republic, surviving every era."
 social-image: /assets/characters/c3po.png
 character:
   name: "C-3PO"

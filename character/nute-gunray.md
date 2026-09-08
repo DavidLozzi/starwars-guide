@@ -2,9 +2,9 @@
 title: "Nute Gunray's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.792Z
+last_modified_at: 2026-09-08T12:32:03.785Z
 social-title: "Nute Gunray — Star Wars Timeline & Story"
-social-desc: "Nute Gunray was a Neimoidian male business executive and politician who rose to become Viceroy of the Trade Federation and, later, one of the most visible…"
+social-desc: "Nute Gunray, Trade Federation Viceroy who staged the Naboo blockade for Darth Sidious, later joined the Separatist Council and died on Mustafar in 19 BBY."
 social-image: /assets/characters/gunray.png
 character:
   name: "Nute Gunray"

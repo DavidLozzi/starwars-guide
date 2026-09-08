@@ -2,9 +2,9 @@
 title: "Ahsoka Tano's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.663Z
+last_modified_at: 2026-09-08T12:32:03.758Z
 social-title: "Ahsoka Tano — Star Wars Timeline & Story"
-social-desc: "Ahsoka Tano is a Togruta former Jedi and one of the most prominent figures spanning the fall of the Republic and the rise of the New Republic era."
+social-desc: "Ahsoka Tano is the Togruta ex-Jedi and rebel spymaster Fulcrum who survived Order 66, faced Darth Vader, and hunted Thrawn for the New Republic."
 social-image: /assets/characters/ahsoka.png
 character:
   name: "Ahsoka Tano"

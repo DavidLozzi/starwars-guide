@@ -2,9 +2,9 @@
 title: "Chewbacca's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.712Z
+last_modified_at: 2026-09-08T12:32:03.768Z
 social-title: "Chewbacca — Star Wars Timeline & Story"
-social-desc: "Chewbacca, affectionately called Chewie, was a Wookiee warrior, smuggler, mechanic, pilot, and resistance fighter from the forest planet Kashyyyk."
+social-desc: "Chewbacca is the Wookiee co-pilot of the Millennium Falcon, bound to Han Solo by a life debt, who fought from the Clone Wars to the First Order's defeat."
 social-image: /assets/characters/chewie.png
 character:
   name: "Chewbacca"

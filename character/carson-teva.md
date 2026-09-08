@@ -2,9 +2,9 @@
 title: "Carson Teva's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.707Z
+last_modified_at: 2026-09-08T12:32:03.767Z
 social-title: "Carson Teva — Star Wars Timeline & Story"
-social-desc: "Carson Teva was a human male pilot and officer who fought for the Alliance to Restore the Republic during the Galactic Civil War and afterward served as a…"
+social-desc: "Carson Teva, New Republic X-wing captain of the Adelphi Rangers, tracked Imperial remnants across the Outer Rim and became an ally to Din Djarin."
 social-image: /assets/characters/teva.png
 character:
   name: "Carson Teva"

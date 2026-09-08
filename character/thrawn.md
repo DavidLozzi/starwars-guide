@@ -2,9 +2,9 @@
 title: "Thrawn's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.840Z
+last_modified_at: 2026-09-08T12:32:03.794Z
 social-title: "Thrawn — Star Wars Timeline & Story"
-social-desc: "Thrawn, born Kivu'raw'nuru with the core name Vurawn and known during his early Chiss military career as Mitth'raw'nuru, was a Chiss male officer of the Chiss…"
+social-desc: "Thrawn is the Chiss Grand Admiral whose ruthless tactical genius nearly crushed the Rebellion on Lothal before being stranded in Peridea by the purrgil."
 social-image: /assets/characters/thrawn-old.png
 character:
   name: "Thrawn"

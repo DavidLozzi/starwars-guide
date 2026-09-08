@@ -2,9 +2,9 @@
 title: "Poe Dameron's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.808Z
+last_modified_at: 2026-09-08T12:32:03.787Z
 social-title: "Poe Dameron — Star Wars Timeline & Story"
-social-desc: "Poe Dameron is a human pilot and military leader, widely regarded as the best starfighter pilot in the Resistance."
+social-desc: "Poe Dameron: Resistance ace pilot and General who led Black Squadron, then co-commanded the Resistance fleet that defeated Palpatine at Exegol."
 social-image: /assets/characters/dameron.png
 character:
   name: "Poe Dameron"

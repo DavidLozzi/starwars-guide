@@ -2,9 +2,9 @@
 title: "Marrok's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.779Z
+last_modified_at: 2026-09-08T12:32:03.782Z
 social-title: "Marrok — Star Wars Timeline & Story"
-social-desc: "Marrok was a mysterious, heavily armored Force-sensitive humanoid warrior who served the Galactic Empire's Inquisitorius — reportedly under the designation…"
+social-desc: "Marrok, the armored Inquisitor called First Brother, hunted Jedi survivors before serving Morgan Elsbeth as a mercenary and falling to Ahsoka Tano on Seatos."
 social-image: /assets/characters/marrok.png
 character:
   name: "Marrok"

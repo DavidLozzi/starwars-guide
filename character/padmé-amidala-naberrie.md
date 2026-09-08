@@ -2,9 +2,9 @@
 title: "Padmé Amidala Naberrie's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.802Z
+last_modified_at: 2026-09-08T12:32:03.786Z
 social-title: "Padmé Amidala Naberrie — Star Wars Timeline & Story"
-social-desc: "Padmé Amidala Naberrie was a human stateswoman from the planet Naboo who served her people during the final decades of the Galactic Republic."
+social-desc: "Padmé Amidala Naberrie, Naboo's queen-turned-senator, championed peace through the Clone Wars before dying in 19 BBY as mother to Luke and Leia."
 social-image: /assets/characters/padme.png
 character:
   name: "Padmé Amidala Naberrie"

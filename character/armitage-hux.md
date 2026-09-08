@@ -2,9 +2,9 @@
 title: "Armitage Hux's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.671Z
+last_modified_at: 2026-09-08T12:32:03.759Z
 social-title: "Armitage Hux — Star Wars Timeline & Story"
-social-desc: "Armitage Hux was a human male general in the military forces of the First Order during the New Republic Era."
+social-desc: "Armitage Hux rose to First Order general and Starkiller Base commander, then became a secret Resistance informant before Pryde had him executed."
 social-image: /assets/characters/hux.png
 character:
   name: "Armitage Hux"

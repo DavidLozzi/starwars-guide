@@ -2,9 +2,9 @@
 title: "Kanan Jarrus's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.759Z
+last_modified_at: 2026-09-08T12:32:03.779Z
 social-title: "Kanan Jarrus — Star Wars Timeline & Story"
-social-desc: "Kanan Jarrus, born Caleb Dume, was a Force-sensitive human male Jedi Knight who survived Order 66 and became a founding member of the rebellion against the…"
+social-desc: "Kanan Jarrus was a Jedi survivor of Order 66 who led the Ghost crew, mentored Ezra Bridger, and died on Lothal saving his rebel family."
 social-image: /assets/characters/kanan.png
 character:
   name: "Kanan Jarrus"

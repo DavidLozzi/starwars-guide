@@ -2,9 +2,9 @@
 title: "Babu Frik's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.679Z
+last_modified_at: 2026-09-08T12:32:03.761Z
 social-title: "Babu Frik — Star Wars Timeline & Story"
-social-desc: "Babu Frik was an Anzellan male droidsmith who lived during the New Republic Era and the war between the First Order and the Resistance."
+social-desc: "Babu Frik, Kijimi's black-market droid expert, gained fame for cracking C-3PO's memory lock to reveal a Sith clue in the hunt for Palpatine."
 social-image: /assets/characters/frik.png
 character:
   name: "Babu Frik"

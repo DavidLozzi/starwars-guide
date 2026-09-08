@@ -2,9 +2,9 @@
 title: "Hondo Ohnaka's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.742Z
+last_modified_at: 2026-09-08T12:32:03.774Z
 social-title: "Hondo Ohnaka — Star Wars Timeline & Story"
-social-desc: "Hondo Ohnaka is a Weequay pirate, smuggler and self-styled businessman whose decades-long career made him one of the galaxy's most persistently opportunistic…"
+social-desc: "Hondo Ohnaka, the Weequay pirate captain who ransomed Count Dooku, ran the Florrum gang, and later resurfaced as a smuggler and fence on Batuu decades on."
 social-image: /assets/characters/hondo.png
 character:
   name: "Hondo Ohnaka"

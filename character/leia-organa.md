@@ -2,9 +2,9 @@
 title: "Leia Organa's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.770Z
+last_modified_at: 2026-09-08T12:32:03.781Z
 social-title: "Leia Organa — Star Wars Timeline & Story"
-social-desc: "Leia Skywalker Organa Solo was a princess, senator, revolutionary, and military leader who became one of the most pivotal figures in the fight against tyranny…"
+social-desc: "Leia Organa, twin sister of Luke Skywalker, led the Rebel Alliance and later the Resistance as General, dying in 35 ABY after training Rey in the Force."
 social-image: /assets/characters/leia.png
 character:
   name: "Leia Organa"

@@ -2,9 +2,9 @@
 title: "General Grievous's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.728Z
+last_modified_at: 2026-09-08T12:32:03.772Z
 social-title: "General Grievous — Star Wars Timeline & Story"
-social-desc: "Grievous, born Qymaen jai Sheelal, was a Kaleesh male warlord from the Wild Space world of Kalee who became the cyborg Supreme Commander of the Droid Army of…"
+social-desc: "General Grievous led the Separatist droid army through the Clone Wars, hunted Jedi for their lightsabers, and fell to Obi-Wan Kenobi on Utapau."
 social-image: /assets/characters/grievous.png
 character:
   name: "General Grievous"

@@ -2,9 +2,9 @@
 title: "Bail Organa's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.681Z
+last_modified_at: 2026-09-08T12:32:03.762Z
 social-title: "Bail Organa — Star Wars Timeline & Story"
-social-desc: "Bail Prestor Organa was a human male from Alderaan who served as his world's senator, Viceroy and First Chairman, and became one of the founding architects of…"
+social-desc: "Bail Organa was Alderaan's senator and viceroy who helped found the Rebel Alliance, adopted Leia after Order 66, and died when Alderaan was destroyed."
 social-image: /assets/characters/bailorgana.png
 character:
   name: "Bail Organa"

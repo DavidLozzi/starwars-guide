@@ -2,9 +2,9 @@
 title: "Anakin Skywalker's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.668Z
+last_modified_at: 2026-09-08T12:32:03.759Z
 social-title: "Anakin Skywalker — Star Wars Timeline & Story"
-social-desc: "Anakin Skywalker was a Human Force-sensitive born into slavery on Tatooine, discovered by Jedi Master Qui-Gon Jinn and believed to be the Chosen One prophesied…"
+social-desc: "Anakin Skywalker: Jedi General turned Sith Lord Darth Vader, Chosen One who served the Empire for decades before dying redeemed saving his son Luke."
 social-image: /assets/characters/vadar.png
 character:
   name: "Anakin Skywalker"

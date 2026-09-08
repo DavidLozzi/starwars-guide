@@ -2,9 +2,9 @@
 title: "Plo Koon's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.807Z
+last_modified_at: 2026-09-08T12:32:03.787Z
 social-title: "Plo Koon — Star Wars Timeline & Story"
-social-desc: "\" Plo Koon was a male Kel Dor Jedi Master from the planet Dorin who served on the Jedi High Council through the final decades of the Galactic Republic."
+social-desc: "Plo Koon: Kel Dor Jedi Master and Council member who led the 104th \"Wolfpack,\" mentored young Ahsoka Tano, and died at Cato Neimoidia in Order 66."
 social-image: /assets/characters/plo.png
 character:
   name: "Plo Koon"

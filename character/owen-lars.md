@@ -2,9 +2,9 @@
 title: "Owen Lars's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.799Z
+last_modified_at: 2026-09-08T12:32:03.786Z
 social-title: "Owen Lars — Star Wars Timeline & Story"
-social-desc: "Owen Lars was a human male moisture farmer who worked the Lars homestead in the Great Chott salt flat on the desert world of Tatooine."
+social-desc: "Owen Lars was Luke Skywalker's guardian on Tatooine, sheltering Anakin's son from the Empire until Imperial stormtroopers killed him in 0 BBY."
 social-image: /assets/characters/owenlars-old.png
 character:
   name: "Owen Lars"

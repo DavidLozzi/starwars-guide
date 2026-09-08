@@ -2,9 +2,9 @@
 title: "Mace Windu's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.774Z
+last_modified_at: 2026-09-08T12:32:03.781Z
 social-title: "Mace Windu — Star Wars Timeline & Story"
-social-desc: "Mace Windu was a revered human Jedi Master and one of the most powerful members of the Jedi High Council during the final decades of the Galactic Republic."
+social-desc: "Mace Windu, the Jedi Order's greatest duelist and creator of Vaapad, nearly toppled Darth Sidious before Anakin's betrayal doomed him and the Jedi."
 social-image: /assets/characters/mace.png
 character:
   name: "Mace Windu"

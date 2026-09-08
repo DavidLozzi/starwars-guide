@@ -2,9 +2,9 @@
 title: "Ben Solo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.685Z
+last_modified_at: 2026-09-08T12:32:03.762Z
 social-title: "Ben Solo — Star Wars Timeline & Story"
-social-desc: "Ben Solo, better known as the dark warrior Kylo Ren, was a human male Force-sensitive who served as master of the Knights of Ren and, ultimately, Supreme Leader…"
+social-desc: "Kylo Ren, born Ben Solo, ruled the First Order as its Supreme Leader before rejecting the dark side and sacrificing himself to save Rey at the Battle of Exegol."
 social-image: /assets/characters/bensolo.png
 character:
   name: "Ben Solo"

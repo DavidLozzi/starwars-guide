@@ -2,9 +2,9 @@
 title: "Lando Calrissian's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.768Z
+last_modified_at: 2026-09-08T12:32:03.780Z
 social-title: "Lando Calrissian — Star Wars Timeline & Story"
-social-desc: "Landonis Balthazar \"Lando\" Calrissian is a human smuggler, gambler, entrepreneur, and sabacc player who rose to become Baron Administrator of Cloud City on…"
+social-desc: "Lando Calrissian, Cloud City's charming administrator-turned-Rebel general, whose gambling, betrayal, and redemption arc spans Endor to Exegol."
 social-image: /assets/characters/lando-og.png
 character:
   name: "Lando Calrissian"

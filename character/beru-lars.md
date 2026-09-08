@@ -2,9 +2,9 @@
 title: "Beru Lars's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.689Z
+last_modified_at: 2026-09-08T12:32:03.763Z
 social-title: "Beru Lars — Star Wars Timeline & Story"
-social-desc: "Beru Whitesun Lars was a human female moisture farmer from the desert world of Tatooine who, with her husband Owen Lars, raised Luke Skywalker as their own."
+social-desc: "Beru Lars was the Tatooine moisture farmer who secretly raised Luke Skywalker for two decades before Imperial stormtroopers killed her and Owen in 0 BBY."
 social-image: /assets/characters/berulars-old.png
 character:
   name: "Beru Lars"

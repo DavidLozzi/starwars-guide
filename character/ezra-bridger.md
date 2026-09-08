@@ -2,9 +2,9 @@
 title: "Ezra Bridger's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.719Z
+last_modified_at: 2026-09-08T12:32:03.770Z
 social-title: "Ezra Bridger — Star Wars Timeline & Story"
-social-desc: "Ezra Bridger is a human Force-sensitive from the planet Lothal who became a Jedi Padawan, con artist turned freedom fighter, and revolutionary leader in the…"
+social-desc: "Ezra Bridger rose from a Lothal street orphan to Jedi Padawan and rebel leader, vanishing into hyperspace to defeat Thrawn before resurfacing on Peridea."
 social-image: /assets/characters/ezra-old.png
 character:
   name: "Ezra Bridger"

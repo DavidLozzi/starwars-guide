@@ -2,9 +2,9 @@
 title: "Huyang's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.748Z
+last_modified_at: 2026-09-08T12:32:03.775Z
 social-title: "Huyang — Star Wars Timeline & Story"
-social-desc: "Huyang was a Mark IV architect droid and Jedi Order professor who, for over a thousand generations, instructed younglings in the construction of their…"
+social-desc: "Huyang, the ancient droid professor who built lightsabers for generations of Jedi, later became Ahsoka Tano's co-pilot and keeper of the Order's lost knowledge."
 social-image: /assets/characters/huyang.png
 character:
   name: "Huyang"

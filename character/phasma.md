@@ -2,9 +2,9 @@
 title: "Phasma's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.805Z
+last_modified_at: 2026-09-08T12:32:03.787Z
 social-title: "Phasma — Star Wars Timeline & Story"
-social-desc: "Phasma was a human warrior from the nuclear-ravaged world of Parnassos who rose to become a captain in the First Order and commander of its stormtrooper…"
+social-desc: "Phasma commanded the First Order's stormtroopers in gleaming chromium armor, rising from Parnassos's wastelands to die aboard the Supremacy at Crait."
 social-image: /assets/characters/phasma.png
 character:
   name: "Phasma"

@@ -2,9 +2,9 @@
 title: "Wilhuff Tarkin's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.842Z
+last_modified_at: 2026-09-08T12:32:03.794Z
 social-title: "Wilhuff Tarkin — Star Wars Timeline & Story"
-social-desc: "Wilhuff Tarkin was an Eriaduan bureaucrat, military officer, and politician whose career bridged the final decades of the Galactic Republic and the rise of the…"
+social-desc: "Wilhuff Tarkin rose from Eriadu's governor to the Empire's first Grand Moff, engineering the Death Star's destruction of Alderaan before dying at Yavin."
 social-image: /assets/characters/tarkin.png
 character:
   name: "Wilhuff Tarkin"

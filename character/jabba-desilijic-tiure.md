@@ -2,9 +2,9 @@
 title: "Jabba Desilijic Tiure's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.749Z
+last_modified_at: 2026-09-08T12:32:03.776Z
 social-title: "Jabba Desilijic Tiure — Star Wars Timeline & Story"
-social-desc: "Jabba Desilijic Tiure, better known as Jabba the Hutt, was a Hutt gangster and crime lord who ran a vast criminal empire from his palace on the Outer Rim desert…"
+social-desc: "Jabba the Hutt, Tatooine's ruthless crime lord and Desilijic clan boss, whose piracy and smuggling empire ended in death by Leia's chain aboard his sail barge."
 social-image: /assets/characters/jabba.png
 character:
   name: "Jabba Desilijic Tiure"

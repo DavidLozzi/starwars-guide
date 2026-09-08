@@ -2,9 +2,9 @@
 title: "Bo-Katan Kryze's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-26T10:50:03.385Z
+last_modified_at: 2026-09-08T12:32:03.764Z
 social-title: "Bo-Katan Kryze — Star Wars Timeline & Story"
-social-desc: "Bo-Katan Kryze was a human female Mandalorian warrior of Clan Kryze and the younger sister of Duchess Satine Kryze, who rose from insurgent to Mand'alor and…"
+social-desc: "Bo-Katan Kryze, Mandalorian warrior turned Mand'alor, fought Death Watch, Maul, and the Empire before uniting her people after the Great Purge."
 social-image: /assets/characters/bokatan.png
 character:
   name: "Bo-Katan Kryze"

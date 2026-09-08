@@ -2,9 +2,9 @@
 title: "Cad Bane's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.705Z
+last_modified_at: 2026-09-08T12:32:03.766Z
 social-title: "Cad Bane — Star Wars Timeline & Story"
-social-desc: "Cad Bane was a ruthless Duros bounty hunter from the planet Duro, widely regarded as the best and most feared bounty hunter of the Clone Wars era following the…"
+social-desc: "Cad Bane is the galaxy's deadliest gun-for-hire, a Duros mercenary who worked for Darth Sidious, clashed with Jedi, and later died at Boba Fett's hands."
 social-image: /assets/characters/bane.png
 character:
   name: "Cad Bane"

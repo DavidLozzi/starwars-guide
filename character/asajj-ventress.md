@@ -2,9 +2,9 @@
 title: "Asajj Ventress's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.673Z
+last_modified_at: 2026-09-08T12:32:03.760Z
 social-title: "Asajj Ventress — Star Wars Timeline & Story"
-social-desc: "Asajj Ventress was a Dathomirian warrior whose life spanned nearly every role the galaxy could offer: Nightsister, Jedi Padawan, Sith-trained assassin…"
+social-desc: "Asajj Ventress rose from Nightsister slave to Dooku's feared assassin, later renouncing the dark side to become a bounty hunter and redeemed hero."
 social-image: /assets/characters/asajj.png
 character:
   name: "Asajj Ventress"

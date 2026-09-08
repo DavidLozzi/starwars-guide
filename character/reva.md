@@ -2,9 +2,9 @@
 title: "Reva's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.819Z
+last_modified_at: 2026-09-08T12:32:03.790Z
 social-title: "Reva — Star Wars Timeline & Story"
-social-desc: "\" Reva Sevander, known as the Third Sister, was a Force-sensitive human female who served the Galactic Empire as a member of the Inquisitorius during the early…"
+social-desc: "Reva Sevander was the Third Sister of the Inquisitorius, an Order 66 survivor who hunted Jedi, tried to kill Vader, and chose mercy over vengeance."
 social-image: /assets/characters/reva-young.png
 character:
   name: "Reva"

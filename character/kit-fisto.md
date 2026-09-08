@@ -2,9 +2,9 @@
 title: "Kit Fisto's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.766Z
+last_modified_at: 2026-09-08T12:32:03.780Z
 social-title: "Kit Fisto — Star Wars Timeline & Story"
-social-desc: "Kit Fisto was a Force-sensitive Nautolan male from the ocean world of Glee Anselm who rose to the rank of Jedi Master and served on the Jedi High Council during…"
+social-desc: "Kit Fisto, Jedi Master and Council member famed as a lightsaber duelist, led Clone Wars campaigns before Darth Sidious killed him in 19 BBY."
 social-image: /assets/characters/fisto.png
 character:
   name: "Kit Fisto"

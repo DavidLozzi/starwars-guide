@@ -2,9 +2,9 @@
 title: "Hera Syndulla's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.740Z
+last_modified_at: 2026-09-08T12:32:03.774Z
 social-title: "Hera Syndulla — Star Wars Timeline & Story"
-social-desc: "Hera Syndulla is a Twi'lek revolutionary leader and ace pilot who became one of the founding figures of the rebellion against the Galactic Empire and the…"
+social-desc: "Hera Syndulla: Twi'lek ace pilot and Spectres commander who helped ignite rebellion on Lothal, rose to general, then searched for Ezra Bridger in Ahsoka."
 social-image: /assets/characters/hera-old.png
 character:
   name: "Hera Syndulla"

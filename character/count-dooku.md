@@ -2,9 +2,9 @@
 title: "Count Dooku's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.717Z
+last_modified_at: 2026-09-08T12:32:03.769Z
 social-title: "Count Dooku — Star Wars Timeline & Story"
-social-desc: "Count Dooku, also known by his Sith title Darth Tyranus, was a Force-sensitive human male born into the noble ruling family of Serenno."
+social-desc: "Count Dooku ruled Serenno as a Sith Lord, leading the Separatist war against the Republic before Anakin Skywalker killed him on Sidious's orders."
 social-image: /assets/characters/dooku.png
 character:
   name: "Count Dooku"

@@ -2,9 +2,9 @@
 title: "Han Solo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.738Z
+last_modified_at: 2026-09-08T12:32:03.773Z
 social-title: "Han Solo — Star Wars Timeline & Story"
-social-desc: "Han Solo was a human smuggler from the Core World of Corellia who rose to become a general and one of the most vital leaders of the Alliance to Restore the…"
+social-desc: "Han Solo, Corellian smuggler turned Rebel general, piloted the Millennium Falcon through the Galactic Civil War before dying at his son Kylo Ren's hand."
 social-image: /assets/characters/solo-og.png
 character:
   name: "Han Solo"

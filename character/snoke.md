@@ -2,9 +2,9 @@
 title: "Snoke's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.837Z
+last_modified_at: 2026-09-08T12:32:03.793Z
 social-title: "Snoke — Star Wars Timeline & Story"
-social-desc: "Snoke was a Force-sensitive humanoid male who reigned as the first Supreme Leader of the First Order during the New Republic era, commanding its military…"
+social-desc: "Snoke, the First Order's original Supreme Leader, mentored Kylo Ren toward the dark side and was exposed as a Sith-made clone before dying aboard the Supremacy."
 social-image: /assets/characters/snoke.png
 character:
   name: "Snoke"

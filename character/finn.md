@@ -2,9 +2,9 @@
 title: "Finn's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.723Z
+last_modified_at: 2026-09-08T12:32:03.771Z
 social-title: "Finn — Star Wars Timeline & Story"
-social-desc: "Finn, formerly designated FN-2187 (\"Eight-Seven\"), is a Force-sensitive human male and former First Order stormtrooper who deserted and defected to the…"
+social-desc: "Finn, once First Order trooper FN-2187, defected in a crisis of conscience and rose from deserter to Resistance general across the war against the First Order."
 social-image: /assets/characters/finn.png
 character:
   name: "Finn"

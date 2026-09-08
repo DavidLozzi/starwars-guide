@@ -2,9 +2,9 @@
 title: "Max Rebo's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.784Z
+last_modified_at: 2026-09-08T12:32:03.783Z
 social-title: "Max Rebo — Star Wars Timeline & Story"
-social-desc: "Maximilian \"Max\" Rebo was a male Ortolan from the cold world of Orto and one of the galaxy's best-known jizz-wailer musicians, famous as the leader of the Max…"
+social-desc: "Max Rebo was the Ortolan jizz-wailer who fronted Jabba the Hutt's house band in his Tatooine palace before later playing Mos Espa's Sanctuary cantina."
 social-image: /assets/characters/maxrebo.png
 character:
   name: "Max Rebo"

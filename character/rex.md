@@ -2,9 +2,9 @@
 title: "Rex's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.821Z
+last_modified_at: 2026-09-08T12:32:03.790Z
 social-title: "Rex — Star Wars Timeline & Story"
-social-desc: "Rex, born CT-7567, was a clone trooper of the Grand Army of the Republic, created on Kamino as a genetic replica of the bounty hunter Jango Fett."
+social-desc: "Rex was the battle-hardened clone captain who led the 501st Legion under Anakin Skywalker, survived Order 66, and fought on through the Rebellion to Endor."
 social-image: /assets/characters/rex.png
 character:
   name: "Rex"

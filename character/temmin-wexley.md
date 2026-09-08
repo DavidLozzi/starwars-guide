@@ -2,9 +2,9 @@
 title: "Temmin Wexley's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.839Z
+last_modified_at: 2026-09-08T12:32:03.794Z
 social-title: "Temmin Wexley — Star Wars Timeline & Story"
-social-desc: "Temmin \"Snap\" Wexley was a human male pilot born in the city of Myrra on the planet Akiva."
+social-desc: "Temmin \"Snap\" Wexley was a Resistance ace and Black Squadron pilot under Poe Dameron, an Akiva-born mechanic who died fighting at the Battle of Exegol."
 social-image: /assets/characters/wexley.png
 character:
   name: "Temmin Wexley"

@@ -2,9 +2,9 @@
 title: "Sabine Wren's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.831Z
+last_modified_at: 2026-09-08T12:32:03.792Z
 social-title: "Sabine Wren — Star Wars Timeline & Story"
-social-desc: "Sabine Wren is a human Mandalorian warrior, artist, and revolutionary from Clan Wren of House Vizsla, born in 21 BBY."
+social-desc: "Sabine Wren, Mandalorian defector turned Ghost crew demolitions expert, wielded the Darksaber and later trained as Ahsoka Tano's Padawan, stranded in Peridea."
 social-image: /assets/characters/wren-old.png
 character:
   name: "Sabine Wren"

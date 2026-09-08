@@ -2,9 +2,9 @@
 title: "Fennec Shand's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.722Z
+last_modified_at: 2026-09-08T12:32:03.770Z
 social-title: "Fennec Shand — Star Wars Timeline & Story"
-social-desc: "Fennec Shand is a human female bounty hunter, elite mercenary and master assassin who built a fearsome reputation working for the galaxy's top crime syndicates…"
+social-desc: "Fennec Shand is a former Hutt cartel sniper turned Boba Fett's right hand, a coldly efficient assassin who helped seize Mos Espa and rescue Grogu."
 social-image: /assets/characters/shand.png
 character:
   name: "Fennec Shand"

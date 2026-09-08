@@ -2,9 +2,9 @@
 title: "Cassian Andor's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.710Z
+last_modified_at: 2026-09-08T12:32:03.768Z
 social-title: "Cassian Andor — Star Wars Timeline & Story"
-social-desc: "Cassian Jeron Andor was a Rebel intelligence officer, spy, and pilot who became one of the most important operatives of the Alliance to Restore the Republic."
+social-desc: "Cassian Andor: former Alliance intelligence operative who led the Rogue One team that stole the Death Star plans, dying alongside Jyn Erso at Scarif."
 social-image: /assets/characters/andor.png
 character:
   name: "Cassian Andor"

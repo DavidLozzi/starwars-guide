@@ -2,9 +2,9 @@
 title: "Qi'ra's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.811Z
+last_modified_at: 2026-09-08T12:32:03.788Z
 social-title: "Qi'ra — Star Wars Timeline & Story"
-social-desc: "Qi'ra is a human woman born on Corellia who rose from the streets of Coronet City to become one of the most powerful crime lords in the galaxy."
+social-desc: "Qi'ra, the Corellian street survivor turned Crimson Dawn crime lord, betrayed Dryden Vos, served Maul, and vanished from the underworld she once ruled."
 social-image: /assets/characters/qira.png
 character:
   name: "Qi'ra"

@@ -2,9 +2,9 @@
 title: "Luke Skywalker's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.771Z
+last_modified_at: 2026-09-08T12:32:03.781Z
 social-title: "Luke Skywalker — Star Wars Timeline & Story"
-social-desc: "Luke Skywalker was a legendary human Jedi Master, hero of the Rebel Alliance, and a central figure in the Galactic Civil War against the Galactic Empire."
+social-desc: "Luke Skywalker: farm boy turned Jedi Master who destroyed the Death Star, redeemed Darth Vader, and became one with the Force defending the Resistance."
 social-image: /assets/characters/skywalker-farmboy.jpg
 character:
   name: "Luke Skywalker"

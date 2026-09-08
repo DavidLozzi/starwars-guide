@@ -2,9 +2,9 @@
 title: "Kaydel Ko Connix's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.762Z
+last_modified_at: 2026-09-08T12:32:03.779Z
 social-title: "Kaydel Ko Connix — Star Wars Timeline & Story"
-social-desc: "Kaydel Ko Connix was a human female who served the Resistance during its war against the First Order."
+social-desc: "Kaydel Ko Connix rose from D'Qar comms officer to Resistance commander, fighting at Starkiller Base, Crait, and the war-ending Battle of Exegol."
 social-image: /assets/characters/connix.png
 character:
   name: "Kaydel Ko Connix"

@@ -2,9 +2,9 @@
 title: "Saw Gerrera's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.833Z
+last_modified_at: 2026-09-08T12:32:03.792Z
 social-title: "Saw Gerrera — Star Wars Timeline & Story"
-social-desc: "Saw Gerrera was a human male freedom fighter from Onderon whose four-decade war against tyranny made him both a founding figure of the rebellion and its most…"
+social-desc: "Saw Gerrera, Onderon-born insurgent leader whose ruthless Partisans got him expelled from the Rebel Alliance; he raised Jyn Erso and died on Jedha."
 social-image: /assets/characters/saw.png
 character:
   name: "Saw Gerrera"

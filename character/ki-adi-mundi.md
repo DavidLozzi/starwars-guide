@@ -2,9 +2,9 @@
 title: "Ki-Adi-Mundi's Timeline"
 layout: character
 date: 2022-05-08
-last_modified_at: 2026-08-10T18:12:43.764Z
+last_modified_at: 2026-09-08T12:32:03.780Z
 social-title: "Ki-Adi-Mundi — Star Wars Timeline & Story"
-social-desc: "Ki-Adi-Mundi was a Cerean Jedi Master from the planet Cerea, distinguished by his species' towering binary brain and elongated cranium, who served on the Jedi…"
+social-desc: "Ki-Adi-Mundi sat on the Jedi Council for nearly a century, led Republic clone troops as a Jedi General in the Clone Wars, and died on Mygeeto in Order 66."
 social-image: /assets/characters/mundi.png
 character:
   name: "Ki-Adi-Mundi"
