@@ -15,9 +15,9 @@ app:
 
 You are the Jedi. A Separatist droid line rains blaster fire on your clone troopers, and the only thing between them is you and your lightsaber. Deflect what you can, use the Force on what you can't, and push the war across various worlds.
 
-<a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense</a> — it's free, no sign-up, phone or desktop.
+<a href="{{ '/clone-defense/play/' | relative_url }}" data-launch-app="clone-defense" data-launch-surface="landing">Play Clone Defense</a> — it's free, no sign-up, phone or desktop.
 
-<a href="{{ '/clone-defense/play/' | relative_url }}"><img src="{{ 'assets/cards/clone-defense.png' | relative_url }}" alt="Clone Defense" /></a>
+<a href="{{ '/clone-defense/play/' | relative_url }}" data-launch-app="clone-defense" data-launch-surface="landing"><img src="{{ 'assets/cards/clone-defense.png' | relative_url }}" alt="Clone Defense" /></a>
 
 ## How to play Clone Defense
 
@@ -251,7 +251,7 @@ Unlocks are permanent and measured against your best run.
 
 ## Go Play!
 
-<a href="{{ '/clone-defense/play/' | relative_url }}">Play Clone Defense</a>
+<a href="{{ '/clone-defense/play/' | relative_url }}" data-launch-app="clone-defense" data-launch-surface="landing">Play Clone Defense</a>
 
 *Clone Defense is a free fan-made game. It is not affiliated with, endorsed by, or sponsored by Lucasfilm Ltd. or The Walt Disney Company. Star Wars and all related properties are trademarks of Lucasfilm Ltd.*
 

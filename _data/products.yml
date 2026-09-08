@@ -21,6 +21,9 @@
   url: /news/?product=comics
 - key: timeline
   name: Ultimate Star Wars Timeline
+  # short_name is the footer "try another app" band label, where the full name
+  # is too long to sit beside four others. Falls back to `name` when unset.
+  short_name: Timeline
   icon: fas fa-clock
   color: blue-400
   hex: "#60a5fa"

@@ -1,14 +1,15 @@
 ---
-title: Word List for SWordle
+title: Star Wars Wordle Word List
 layout: page
 permalink: /swordle-word-list/
-social-title: SWordle Word List
+social-title: "SWordle Word List: Every Star Wars Wordle Word"
 social-desc: >-
-  Every Star Wars word used in SWordle, the daily Star Wars word game. Browse
-  the full five-letter answer list of characters, planets, ships, and species.
+  Browse every five-letter word SWordle accepts, sorted A to Z - characters,
+  planets, ships, droids and more. Every daily Star Wars Wordle answer lives
+  here.
 social-image: /assets/cards/swordle.png
 date: 2023-06-28 12:00:00
-last_modified_at: 2026-06-28 12:00:00
+last_modified_at: 2026-09-08 12:00:00
 ---
 
 Play at <a href="https://wordle.starwars.guide" target="_blank">wordle.starwars.guide</a>.

@@ -1,6 +1,6 @@
 # Clone Defense — Launch Plan
 
-*Target: late July 2026 (game ships "in a few days" as of 2026-07-21). This is the campaign's Arc 1 and the quarter's traffic spike.*
+*Target was late July 2026. **Clone Defense shipped 2026-08-09** at `starwars.guide/clone-defense/play/`; Red Five followed 2026-08-18 at `/red-five/play/`. This doc is kept as the launch template — the same day-by-day plan applies to the next game. Status as of 2026-09-05 is marked inline.*
 
 ## The pitch
 
@@ -16,10 +16,10 @@ Selling points, in order of punch:
 ## Pre-launch (now → ship day)
 
 - [x] **Owner decision:** subdirectory-of-hub deploy confirmed (2026-07-21) — game ships at `starwars.guide/clone-defense/`.
-- [ ] Complete site-updates.md P0 items (card, landing page, nav, cross-links, CLAUDE.md table) on a branch, ready to merge on ship day.
-- [ ] Capture assets: 60–90s gameplay trailer (vertical + landscape cuts), 6 planet screenshots, one share-card image, card art for `assets/cards/` (compress before commit — ffmpeg, no webp on this machine).
+- [x] Complete site-updates.md P0 items (card, landing page, nav, cross-links, CLAUDE.md table) — done for both games; a `/games/` hub page was added too.
+- [~] Capture assets: card art shipped (`assets/cards/`); trailer / planet screenshots / share card **not verified** — check before the next launch. Original ask: 60–90s gameplay trailer (vertical + landscape cuts), 6 planet screenshots, one share-card image, card art for `assets/cards/` (compress before commit — ffmpeg, no webp on this machine).
 - [ ] Verify the in-game share card renders a starwars.guide URL — it's the whole organic loop.
-- [ ] Write launch blog post in `_posts/`: the story ("I built a Star Wars tower defense with zero dependencies"), how to play, planet tease. Canonical link target for all social.
+- [ ] **Still open.** Launch blog post in `_posts/` — neither game got one; both shipped with only a `_data/news.json` blurb. The blog post is the canonical link target for social and the press pitch. The story ("I built a Star Wars tower defense with zero dependencies"), how to play, planet tease. Canonical link target for all social.
 - [ ] Draft all launch-day posts (below) so ship day is copy-paste.
 - [ ] Teaser posts T-2 and T-1 days: cropped screenshot, "something is coming to starwars.guide," planet-silhouette poll.
 

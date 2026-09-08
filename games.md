@@ -20,7 +20,7 @@ last_modified_at: 2026-08-18 12:00:00
 
 <div class="games-panels">
   {% for g in site.data.games %}
-  <div class="game-panel border-{{ g.color }}" id="panel-{{ g.key }}" role="dialog" aria-modal="true" aria-labelledby="panel-{{ g.key }}-title" data-play="{% if g.external %}{{ g.play }}{% else %}{{ g.play | relative_url }}{% endif %}" data-external="{{ g.external }}">
+  <div class="game-panel border-{{ g.color }}" id="panel-{{ g.key }}" data-game-key="{{ g.key }}" role="dialog" aria-modal="true" aria-labelledby="panel-{{ g.key }}-title" data-play="{% if g.external %}{{ g.play }}{% else %}{{ g.play | relative_url }}{% endif %}" data-external="{{ g.external }}">
     <button type="button" class="game-panel-close text-{{ g.color }}" aria-label="Close {{ g.name }}">
       &times;
     </button>
@@ -32,7 +32,7 @@ last_modified_at: 2026-08-18 12:00:00
       {{ g.tagline }}
     </p>
     <div class="flex gap-2 mt-4 w-full">
-      <a href="{% if g.external %}{{ g.play }}{% else %}{{ g.play | relative_url }}{% endif %}" class="btn flex-1 bg-{{ g.color }}"{% if g.external %} target="_blank" rel="noopener"{% endif %} onclick="event.stopPropagation()">
+      <a href="{% if g.external %}{{ g.play }}{% else %}{{ g.play | relative_url }}{% endif %}" class="btn flex-1 bg-{{ g.color }}"{% if g.external %} target="_blank" rel="noopener"{% endif %} data-launch-app="{{ g.key }}" onclick="event.stopPropagation()">
         <i class="fas fa-rocket mr-2"></i>
         LAUNCH
       </a>
@@ -85,12 +85,26 @@ last_modified_at: 2026-08-18 12:00:00
       icon.addEventListener('click', function() { open(icon); });
     });
 
+    // GA4 launch attribution. The buttons below call stopPropagation, so the
+    // site-wide delegated listener in footer.html never sees them; bind direct.
+    function trackLaunch(app, surface) {
+      if (typeof gtag !== 'function') return;
+      gtag('event', 'launch_app', { app: app, surface: surface });
+    }
+
+    document.querySelectorAll('.game-panel a[data-launch-app]').forEach(function(a) {
+      a.addEventListener('click', function() {
+        trackLaunch(a.getAttribute('data-launch-app'), 'games-hub-button');
+      });
+    });
+
     // Desktop cards launch the game on click, same as the home page cards.
     // Below 768px the panel is a modal instead, so a stray tap must not fire it.
     document.querySelectorAll('.game-panel').forEach(function(panel) {
       panel.addEventListener('click', function() {
         if (window.innerWidth <= 768) return;
         var play = panel.getAttribute('data-play');
+        trackLaunch(panel.getAttribute('data-game-key'), 'games-hub-card');
         if (panel.getAttribute('data-external') === 'true') {
           window.open(play, '_blank');
         } else {

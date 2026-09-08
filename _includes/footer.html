@@ -1,6 +1,18 @@
 <footer class="footer w-full p-0 m-0">
     <div class="w-full h-2 bg-gradient-to-r mb-4"></div>
   <div class="footer-content">
+    <!-- Try another app — every landing page, on every page of the site -->
+    <div class="footer-apps">
+      <p class="footer-apps-title">More free Star Wars tools</p>
+      <div class="footer-apps-list">
+        {% for product in site.data.products %}{% unless product.key == 'site' or product.key == 'comics' %}
+        <a href="{{ product.url | relative_url }}" class="footer-app text-{{ product.color }}" data-launch-app="{{ product.key }}" data-launch-surface="footer-band" title="{{ product.name }}">
+          <i class="{{ product.icon }}"></i>
+          <span>{{ product.short_name | default: product.name }}</span>
+        </a>
+        {% endunless %}{% endfor %}
+      </div>
+    </div>
     <!-- Footer Social Links -->
     <div class="flex flex-wrap justify-center gap-4 mb-4">
       <!-- Threads -->
@@ -47,4 +59,19 @@
     </p>
     {% endif %}
   </div>
-</footer> 
+</footer>
+
+<!-- GA4 outbound/launch attribution. Any element with data-launch-app fires one
+     launch_app event; data-launch-surface says which surface converted.
+     Bubble phase on purpose: nested READ links call event.stopPropagation(),
+     so they never reach here and never mis-attribute as a launch. -->
+<script>
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest && e.target.closest('[data-launch-app]');
+    if (!el || typeof gtag !== 'function') return;
+    gtag('event', 'launch_app', {
+      app: el.getAttribute('data-launch-app'),
+      surface: el.getAttribute('data-launch-surface') || 'page'
+    });
+  });
+</script> 

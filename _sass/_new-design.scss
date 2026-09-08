@@ -1145,6 +1145,60 @@ a.news-item:hover {
   z-index: 10;
 }
 
+// "Try another app" band — data-driven from _data/products.yml, rendered on
+// every page (all four layouts include footer.html), so generated character
+// pages pitch the portfolio for free.
+.footer-apps {
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+.footer-apps-title {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-apps-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+}
+
+.footer-apps .footer-app {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  opacity: 0.85;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  i {
+    font-size: 1rem;
+  }
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-apps-list {
+    gap: 0.5rem 0.9rem;
+  }
+
+  .footer-apps .footer-app span {
+    font-size: 0.65rem;
+  }
+}
+
 .footer-links {
   text-align: center;
   margin-top: 0.75rem;

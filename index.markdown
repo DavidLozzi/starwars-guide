@@ -35,7 +35,7 @@ last_modified_at: 2026-08-11 12:00:00
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
         <!-- Clone Defense Card -->
-        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/clone-defense/play/' | relative_url }}'">
+        <div class="card border-red-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/clone-defense/play/' | relative_url }}'" data-launch-app="clone-defense" data-launch-surface="home-card">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/clone-defense.png" alt="Clone Defense Logo" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-red-400">
           </div>
@@ -55,7 +55,7 @@ last_modified_at: 2026-08-11 12:00:00
         </div>
 
         <!-- Red Five Card -->
-        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/red-five/play/' | relative_url }}'">
+        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.location.href='{{ '/red-five/play/' | relative_url }}'" data-launch-app="red-five" data-launch-surface="home-card">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/red-five.png" alt="Red Five, the Death Star trench run game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
           </div>
@@ -75,7 +75,7 @@ last_modified_at: 2026-08-11 12:00:00
         </div>
 
         <!-- SWordle Card -->
-        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')">
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://wordle.starwars.guide', '_blank')" data-launch-app="swordle" data-launch-surface="home-card">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/swordle.png" alt="SWordle, the daily Star Wars word game" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
 
@@ -106,7 +106,7 @@ last_modified_at: 2026-08-11 12:00:00
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
         <!-- Timeline Card -->
-        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')">
+        <div class="card border-yellow-400 flex flex-col items-center justify-between" onclick="window.open('https://timeline.starwars.guide', '_blank')" data-launch-app="timeline" data-launch-surface="home-card">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/timeline.png" alt="The Ultimate Star Wars Timeline app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-yellow-400">
           </div>
@@ -126,7 +126,7 @@ last_modified_at: 2026-08-11 12:00:00
         </div>
 
         <!-- HyperPanels Card -->
-        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://hyperpanels.starwars.guide', '_blank')">
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://hyperpanels.starwars.guide', '_blank')" data-launch-app="hyperpanels" data-launch-surface="home-card">
           <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
             <img src="/assets/cards/hyperpanels_web.png" alt="HyperPanels Star Wars comic reaction app" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
           </div>

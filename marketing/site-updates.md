@@ -1,8 +1,10 @@
 # Proposed Site Updates — starwars.guide
 
-*Concrete, buildable changes to this Jekyll repo in support of the campaign. Ordered by impact. Drafted 2026-07-21.*
+*Concrete, buildable changes to this Jekyll repo in support of the campaign. Ordered by impact. Drafted 2026-07-21; status reviewed 2026-09-05.*
 
-## P0 — Clone Defense launch wiring (blocks launch)
+**Status at a glance (2026-09-05):** P0 is **done** — Clone Defense (2026-08-09) and Red Five (2026-08-18) both shipped as subdirectories, with cards, landing pages, nav, cross-links, news items and a `/games/` hub. P1 items 7–9 are **done** (footer follow icons, footer "try another app" band, GA4 `launch_app` events). Open next: item 10 (UTM discipline, process not code), then P2 — `/start-here` (11), character index upgrade (12), FAQ JSON-LD (14), and a launch blog post per game (15; neither game got one).
+
+## P0 — Clone Defense launch wiring (blocks launch) — ✅ DONE
 
 Per `clone-defense/CLAUDE.md` launch checklist — all in this repo. **Subdirectory deploy confirmed by owner 2026-07-21**: the game ships as a static folder in this repo, served by Netlify at `starwars.guide/clone-defense/`, no subdomain.
 
@@ -13,11 +15,11 @@ Per `clone-defense/CLAUDE.md` launch checklist — all in this repo. **Subdirect
 5. **Home-page grid**: `grid-cols-3` becomes 4 cards — verify the `md:grid-cols-3` layout still looks right or move to `md:grid-cols-2 xl:grid-cols-4`.
 6. Update the sibling-repo table in `CLAUDE.md` when it ships.
 
-## P1 — Conversion loops (make traffic compound)
+## P1 — Conversion loops (make traffic compound) — 7–9 ✅ DONE
 
-7. **Follow CTA everywhere.** The "follow us" block currently exists only on the home page. Add a compact follow strip (Threads, BlueSky, Instagram, YouTube icons + one-line hook like "Daily Star Wars from AurebeshFiles") to `_includes/footer.html` and to the blog post footer (`_layouts/posts.html`) and character page footer (`_layouts/character.html` — generated pages inherit it for free, per the "SEO defaults live in the layout" convention). Followers are the campaign's growth goal; this is the highest-leverage single addition.
-8. **"Try another app" footer band.** A small four-icon strip in `_includes/footer.html` linking the four landing pages, so every page on the site — including all generated character pages — pitches the portfolio. Directly serves the 2+ apps north-star metric.
-9. **GA4 outbound-click events** on the home app cards and landing-page launch links (`gtag('event', 'launch_app', {app: 'timeline'})`) so the campaign dashboard can attribute which surfaces convert.
+7. ✅ **Follow CTA everywhere.** The "follow us" block currently exists only on the home page. Add a compact follow strip (Threads, BlueSky, Instagram, YouTube icons + one-line hook like "Daily Star Wars from AurebeshFiles") to `_includes/footer.html` and to the blog post footer (`_layouts/posts.html`) and character page footer (`_layouts/character.html` — generated pages inherit it for free, per the "SEO defaults live in the layout" convention). Followers are the campaign's growth goal; this is the highest-leverage single addition.
+8. ✅ **"Try another app" footer band.** *Built 2026-09-05, data-driven from `_data/products.yml`.* A small four-icon strip in `_includes/footer.html` linking the four landing pages, so every page on the site — including all generated character pages — pitches the portfolio. Directly serves the 2+ apps north-star metric.
+9. ✅ **GA4 outbound-click events** *(built 2026-09-05: `data-launch-app` + delegated listener in `_includes/footer.html`; surfaces `home-card`, `landing`, `footer-band`, `games-hub-button`, `games-hub-card`).* on the home app cards and landing-page launch links (`gtag('event', 'launch_app', {app: 'timeline'})`) so the campaign dashboard can attribute which surfaces convert.
 10. **UTM discipline**: all campaign links into the site carry `utm_source`/`utm_campaign`; internal links never carry UTMs.
 
 ## P2 — SEO & content surfaces

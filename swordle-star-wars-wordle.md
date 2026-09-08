@@ -16,7 +16,7 @@ app:
 
 SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, but also numbers and dashes! Our words include AT-AT, R2-D2, and so much more!
 
-<a href="https://wordle.starwars.guide" target="_blank">Play SWordle</a> and check out the <a href="{{ '/swordle-word-list/' | absolute_url }}">list of over 29,000 possible words</a>!
+<a href="https://wordle.starwars.guide" target="_blank" data-launch-app="swordle" data-launch-surface="landing">Play SWordle</a> and check out the <a href="{{ '/swordle-word-list/' | absolute_url }}">list of over 29,000 possible words</a>!
 
 
 <div class="separator">
@@ -33,7 +33,7 @@ SWordle is for the REAL Star Wars fan. You can guess not only 5 letter words, bu
 		<li>The letter is in the word but the wrong place, will be yellow</li>
 		<li>The wrong letter, doesn't exist in the word, will be grey</li>
 	</ul>
-	Pretty simple right? <a href="https://wordle.starwars.guide" target="_blank">Go play!</a>
+	Pretty simple right? <a href="https://wordle.starwars.guide" target="_blank" data-launch-app="swordle" data-launch-surface="landing">Go play!</a>
 	</div>
 <img src="{{ 'assets/swordle win.png' | relative_url }}"  alt="screen shot of swordle win" />
 </div>

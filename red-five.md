@@ -15,9 +15,9 @@ app:
 
 You are Red Five. The Death Star trench runs ahead of you and it does not end. Towers rise from the floor, slabs hang from the superstructure, turbolaser turrets track you from both. The only question is how far you get before the trench takes you.
 
-<a href="{{ '/red-five/play/' | relative_url }}">Play Red Five</a> — it's free, no sign-up, phone or desktop.
+<a href="{{ '/red-five/play/' | relative_url }}" data-launch-app="red-five" data-launch-surface="landing">Play Red Five</a> — it's free, no sign-up, phone or desktop.
 
-<a href="{{ '/red-five/play/' | relative_url }}"><img src="{{ 'assets/cards/red-five.png' | relative_url }}" alt="Red Five" /></a>
+<a href="{{ '/red-five/play/' | relative_url }}" data-launch-app="red-five" data-launch-surface="landing"><img src="{{ 'assets/cards/red-five.png' | relative_url }}" alt="Red Five" /></a>
 
 ## How to play Red Five
 
@@ -110,7 +110,7 @@ How high can you go?
 
 ## Go Play!
 
-<a href="{{ '/red-five/play/' | relative_url }}">Play Red Five</a>
+<a href="{{ '/red-five/play/' | relative_url }}" data-launch-app="red-five" data-launch-surface="landing">Play Red Five</a>
 
 *Red Five is a free fan-made game. It is not affiliated with, endorsed by, or sponsored by Lucasfilm Ltd. or The Walt Disney Company. Star Wars and all related properties are trademarks of Lucasfilm Ltd.*
 
