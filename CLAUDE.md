@@ -12,7 +12,7 @@ A fan-created Star Wars website (https://starwars.guide) built with Jekyll and h
 
 ## Brand ecosystem — sibling repos
 
-All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLAUDE.md`; read it before working there. Only two of them write content back into this repo (see "Generated content" below).
+All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLAUDE.md`; read it before working there. **Four** of them write content back into this repo — `starwars-timeline`, `swordle-data`, `clone-defense`, `flappy-x-wing` (see "Generated content" below).
 
 | Repo (local path) | GitHub | What it is | Live at | Writes into this repo? |
 |---|---|---|---|---|
@@ -23,7 +23,7 @@ All checked out beside this repo under `/Volumes/T9/git/`. Each has its own `CLA
 | `hyperpanels/search` | `DavidLozzi/sw-panels-search` | Next.js 15 comic-panel search FE + admin | hyperpanels.starwars.guide (Vercel; Amplify Gen2 auth/S3) | no |
 | `hyperpanels/data` | `DavidLozzi/sw-panels-data` | Python ingestion: comic panels → OpenAI Vision → S3 + DynamoDB → Typesense | — | no |
 | `hyperpanels/keyboard` | `DavidLozzi/sw-panels-keyboard` | iOS app + custom keyboard over the same Typesense catalog | App Store target | no |
-| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **launching soon**; ships as a **subdirectory of this repo** (`starwars.guide/clone-defense/play/`, Netlify-served, no subdomain) | **yes** — `clone-defense/play/` |
+| `clone-defense` | `DavidLozzi/clone-defense` | "Jedi Defense" — vanilla Canvas 2D tower-defense game, zero deps, no build step | **live**; ships as a **subdirectory of this repo** (`starwars.guide/clone-defense/play/`, Netlify-served, no subdomain) | **yes** — `clone-defense/play/` |
 | `flappy-x-wing` | `DavidLozzi/flappy-x-wing` | "Red Five" — Death Star trench run, Flappy-Bird mechanics, vanilla Canvas 2D, zero deps, no build step | **live**; ships as a **subdirectory of this repo** (`starwars.guide/red-five/play/`, Netlify-served, no subdomain) | **yes** — `red-five/play/` |
 
 Notes:
@@ -49,7 +49,7 @@ Notes:
 
 ## Generated content — do not hand-edit
 
-Two content areas in this repo are written by scripts in *other* repos. Edits to them are overwritten on the next sync.
+Four content areas in this repo are written by CI in *other* repos. Edits to them are overwritten on the next sync. Shared conventions: a fine-grained PAT named `SYNC_REPOS_TOKEN` and a `github-actions[bot]` commit straight to this repo's `main`. The three workflows that push *into* here from outside (`starwars-timeline`, `clone-defense`, `flappy-x-wing`) each carry a `Verify cross-repo token access` step that fails loud if the PAT lost its grant, and each hold the PAT on their own repo with `starwars-guide` Contents read+write. The SWordle path is the exception: this repo does its own commit with its own `GITHUB_TOKEN`, so its `SYNC_REPOS_TOKEN` is read-only and used only for checkouts, and it has no verify step. Every such push fires the Netlify webhook and rebuilds the site (a `GITHUB_TOKEN` push suppresses downstream *GitHub Actions*, not third-party webhooks).
 
 ### `swordle-word-list.md` (SWordle three-repo pipeline)
 
@@ -59,7 +59,11 @@ This same overview is duplicated in each repo's agent doc so the picture is avai
 - **`swordle`** — React game frontend at wordle.starwars.guide (consumes `values.txt`).
 - **`starwars-guide`** (this repo) — Jekyll site; hosts the human-readable word-list page.
 
-When word lists change in swordle-data and land on its `main`, swordle-data's CI fires a `repository_dispatch` (`sync-swordle-wordlist`) at this repo. That triggers `.github/workflows/sync-swordle-wordlist.yml`, which checks out swordle-data + swordle, reruns `hashData.js` (linking this repo's markdown into place as the sibling it expects), and **commits the updated `swordle-word-list.md`** here. Jekyll then rebuilds the site.
+**Exactly when this repo's copy updates.** swordle-data's `sync-downstream.yml` is gated on `push` to `main` with `paths: [starwars.json, filler.json, hashData.js]` (plus manual `workflow_dispatch`) — any other commit to swordle-data, this repo never hears about; a `hashData.js`-only edit *does* fire it. That job pushes `values.txt` to the `swordle` repo, then fires a `repository_dispatch` (`sync-swordle-wordlist`) at this repo, then commits its own regenerated artifacts with `[skip ci]`.
+
+The dispatch triggers `.github/workflows/sync-swordle-wordlist.yml` here, which checks out **swordle-data pinned to `client_payload.swordle_data_sha`** (so the page matches the exact triggering commit) and **swordle at floating `main`** (only so `hashData.js`'s `../swordle/src/values.txt` write has a target — this repo never commits it), symlinks this repo's markdown to the `../starwars-guide/swordle-word-list.md` path `hashData.js:138` hardcodes, `git pull --rebase origin main`, reruns `hashData.js`, and **commits the updated `swordle-word-list.md`** here. Jekyll then rebuilds. End to end: two back-to-back CI runs, a few minutes.
+
+`hashData.js` runs twice against different content, and only the second run counts: swordle-data's run stubs the markdown to a bare `<a name="top"></a>` and discards the result, so this repo's hand-written intro survives because the rerun here reads the real file.
 
 ```
 swordle-data main (word list edit) ──► repository_dispatch "sync-swordle-wordlist"
@@ -68,11 +72,22 @@ swordle-data main (word list edit) ──► repository_dispatch "sync-swordle-w
 ```
 
 - Only the front matter / intro **above** the `<a name="top"></a>` anchor is safe to edit.
-- Auth: this repo needs the fine-grained PAT `SYNC_REPOS_TOKEN` (contents:read on swordle-data and swordle) for the sync workflow to check them out.
+- Auth: this repo needs the fine-grained PAT `SYNC_REPOS_TOKEN` (contents:read on swordle-data and swordle) for the sync workflow to check them out. swordle-data needs its own copy (write on `swordle`, read on `starwars-guide` for the dispatch).
+- **Known race (unfixed, found 2026-09-08):** `sync-swordle-wordlist.yml` has no `concurrency` group and no push retry, while swordle-data's side does (`group: sync-downstream`). If `starwars-timeline`'s character sync pushes to this repo's `main` in the window between this workflow's `git pull --rebase` and its `git push`, the push is rejected and the word list silently stays stale until the next word change. Fix is a `concurrency:` group plus a pull-rebase-retry loop around the push.
 
 ### `character/*.md`
 
-Generated by `starwars-timeline/build_scripts/website.js`, which reads `characters.json` + `character_descriptions.json` from that repo and writes the `.md` files + images straight into this repo (sibling checkout layout required). Historically run manually; as of 2026-07-19 a GitHub Actions workflow is being added in starwars-timeline to run it on build, similar to the SWordle pipeline above.
+Generated by `starwars-timeline/build_scripts/website.js`, which reads `characters.json` + `character_descriptions.json` from that repo and writes the `.md` files + images straight into this repo (sibling checkout layout required). Historically run manually; **automated since 2026-07-19 and live** — verified 2026-09-08.
+
+`starwars-timeline/.github/workflows/node.js.yml` (its main build) does the push, on `push` to `main` only, and only when `SYNC_REPOS_TOKEN` is set on *that* repo (fine-grained PAT, `DavidLozzi/starwars-guide` Contents **read and write**); without the secret the sync steps skip and the build still passes. Order matters there: the sync steps run *after* its `add-and-commit`, which stages `.` and would otherwise commit this repo's checkout as a gitlink. `website.js` writes to `../../starwars-guide` relative to `build_scripts/`, so CI symlinks the checkout to `$GITHUB_WORKSPACE/../starwars-guide`.
+
+It commits **`character/` and `assets/characters/`** with the message `chore: sync character pages from starwars-timeline (<repo>@<sha>)`.
+
+### `clone-defense/play/` and `red-five/play/`
+
+Both game repos (`clone-defense`, `flappy-x-wing`) run an identical `sync-to-hub.yml` on `push` to `main`: run tests, `node dev/build.mjs --clean --out dist`, stamp a version into the **dist copy only**, then minify with **per-file esbuild (no bundling)** so the ES-module graph and filenames survive and the relative imports in `index.html` keep working. Minification happens only in CI — the game repos themselves stay zero-dependency with no build step.
+
+The sync step does `rm -rf` then `cp -r dist/.` — a **wholesale replace**, because `cp` never deletes and renamed/removed files would otherwise linger forever. It is scoped to exactly `<game>/play/`; the parent `clone-defense/` and `red-five/` hold the hand-authored Jekyll landing pages and must never be touched by it. Sync steps are skipped on `pull_request` and when the PAT is absent, so forks still pass.
 
 ## Centralized news feed
 
@@ -88,7 +103,7 @@ This repo is the source of truth for news/updates (seeded 2026-08-08 from `sword
 - **`/news-feed.json`** (`news-feed.json`, `layout: null`) — machine-readable copy of the whole stream for the satellite apps; CORS + 5-min cache headers in `netlify.toml`, kept out of the sitemap via `sitemap: false`.
 - **Merge mechanics:** Liquid can't sort a mixed array of post Documents and data hashes, so `news.md`, `news-feed.json`, and `index.markdown` each build a sortable index of `"YYYY-MM-DD~type~index"` strings, sort that, then dereference back to the source collection. A post whose URL appears as some blurb's `url` is skipped, so a linked pair shows once. Those three copies must stay in sync.
 - **`/posts`** still exists and is indexed but is deliberately **not in the nav** — `/news/` is the one list users are pointed at.
-- Satellite apps should fetch `/news-feed.json` instead of shipping their own list. All four consumers do (`starwars-timeline`, `swordle`, `hyperpanels/search`, `clone-defense`); SWordle's bundled `src/news.json` was deleted 2026-08-08. Outstanding follow-up: all four still hardcode a "Read more" literal instead of reading `item.link_text`.
+- Satellite apps should fetch `/news-feed.json` instead of shipping their own list. All four consumers do (`starwars-timeline/src/hooks/useNewsFeed.js`, `swordle/src/components/news/useNewsFeed.js`, `hyperpanels/search/app/hooks/useNewsFeed.js`, `clone-defense/src/config/globals.js`); SWordle's bundled `src/news.json` was deleted 2026-08-08. **`flappy-x-wing`/Red Five does not consume the feed** — it is the one app with no news surface (gap, not a bug; verified 2026-09-08). Outstanding follow-up: all four consumers still hardcode a "Read more" literal instead of reading `item.link_text`.
 
 ## Architecture
 
