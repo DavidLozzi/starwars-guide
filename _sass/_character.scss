@@ -29,8 +29,128 @@ h2 {
   }
 }
 
-.character_list {
+// ============================================================
+// Character index (/character/) — metadata cards
+// Markup (from starwars-timeline/build_scripts/website.js):
+//   <ul class="character-index">
+//     <li class="character-index-card">
+//       <a class="character-index-thumb"><img></a>
+//       <div class="character-index-info">
+//         <a class="character-index-name">Name</a>
+//         <span class="character-index-alt">a.k.a. ...</span>          (optional)
+//         <span class="character-index-meta">Species &middot; Homeworld &middot; Force-sensitive</span>
+//         <span class="character-index-lifespan">Born/Died ...</span> (optional)
+//         <span class="character-index-appearances">Appears in ...</span>
+//         <a class="character-index-timeline">Name on the timeline &rarr;</a>
+//       </div>
+//     </li>
+//   </ul>
+// The page uses `layout: page`, which wraps content in `.prose.prose-invert`
+// (see _new-design.scss). Three `.prose` rules fight this block and are
+// beaten below with two-class selectors, same pattern as `.prose .game-panel a`:
+//   - `.prose ul, .prose li` (~1366-1373): list padding/margin
+//   - `.prose img` (~1375): forces `height: auto`, a white border, margin
+//   - `.prose a` (~1898): `text-decoration: underline !important; color: var(--blue-400) !important`
+// No grid-cols-*/gap-*/object-cover/etc. utility classes exist in this repo
+// (no Tailwind build step) — the grid and card layout are written here directly.
+// ============================================================
+
+.character-index {
   list-style: none;
+  padding-left: 0 !important; // cancels `.prose ul { padding-left: 2rem }`
+  margin: 1.5rem 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+// Flexbox, not CSS Grid: an earlier version made every text line its own
+// grid item (`grid-column: 2`, auto row) with the thumb spanning
+// `grid-row: 1 / -1`. Measured in a real render, that inflated row 1 (the
+// name's row) to ~80px against ~21px of actual text — the row-spanning image
+// and the auto-placed first row fight over row 1's sizing. Two flex
+// children (thumb, info) sidesteps the whole problem: the info column is one
+// item that stacks its own lines with normal block flow, and nothing spans
+// across rows for the browser to size.
+.character-index-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0 !important; // cancels `.prose li { margin-bottom: 0.5rem }`
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.character-index-thumb {
+  flex: 0 0 72px;
+}
+
+.character-index-info {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+// Two classes beat `.prose img` (~1375: max-width/height:auto/white border/margin)
+// without needing !important, since `.prose .character-index-card img` outranks
+// the single-class `.prose img`.
+.prose .character-index-card img {
+  display: block; // an inline img reserves descender space below itself (~8px here)
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin: 0;
+}
+
+// Two classes beat `.prose a` (~1898: underline + blue, both !important) —
+// same fight `.prose .game-panel a` already wins for the games hub.
+.prose .character-index-card a {
+  text-decoration: none !important;
+}
+
+.prose .character-index-card a:hover {
+  text-decoration: underline !important;
+}
+
+.character-index-name {
+  display: block;
+  color: var(--yellow-400) !important;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.character-index-alt,
+.character-index-meta,
+.character-index-lifespan,
+.character-index-appearances {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--white);
+  opacity: 0.75;
+}
+
+.character-index-timeline {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--blue-400) !important;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 400px) {
+  .character-index {
+    grid-template-columns: 1fr;
+  }
 }
 
 .character-profile {

@@ -1,0 +1,63 @@
+# Fixed, hand-curated set of character pages surfaced on the home page
+# (index.markdown, "characters" section).
+#
+# NOT randomized and NOT rotated at build time, on purpose. Jekyll builds
+# statically, and this repo redeploys on every character sync, swordle sync and
+# game sync — a `sample` filter would hand Google a different 8 URLs on every
+# crawl and no page would ever accumulate sustained signal. Rotate this list by
+# hand once the current 8 are indexed.
+#
+# Picked from a Google Search Console audit (6-month window, 2026-09-12): these
+# 8 already earn impressions on their legacy `.html` redirect URLs while the
+# canonical trailing-slash URL sits unindexed.
+#
+# `slug` is the URL segment only; the page URL is /character/<slug>/, from the
+# `permalink: /character/:basename/` default in _config.yml. Emit it as a plain
+# literal — never through `relative_url`, whose Addressable#normalize step can
+# rewrite percent-encoded bytes. Padmé's slug is stored percent-encoded so the
+# home page href matches the canonical _includes/head.html renders
+# (https://starwars.guide/character/padm%C3%A9-amidala-naberrie/) byte for byte.
+# Never put an uppercase letter in a slug: Netlify 301s any path containing one.
+#
+# `image` must be the real file under assets/characters/ — filenames do NOT
+# track the slug (ben-solo -> bensolo.png, r2-d2 -> r2d2.png, plo-koon -> plo.png).
+
+- slug: yoda
+  name: Yoda
+  image: /assets/characters/yoda.png
+  tagline: Grand Master of the Jedi Order
+
+- slug: ben-solo
+  name: Ben Solo
+  image: /assets/characters/bensolo.png
+  tagline: Kylo Ren, Supreme Leader
+
+- slug: padm%C3%A9-amidala-naberrie
+  name: Padmé Amidala
+  image: /assets/characters/padme.png
+  tagline: Queen and Senator of Naboo
+
+- slug: r2-d2
+  name: R2-D2
+  image: /assets/characters/r2d2.png
+  tagline: Astromech droid of Naboo
+
+- slug: qui-gon-jinn
+  name: Qui-Gon Jinn
+  image: /assets/characters/quigon.png
+  tagline: The Jedi who found Anakin
+
+- slug: poe-dameron
+  name: Poe Dameron
+  image: /assets/characters/dameron.png
+  tagline: Resistance ace pilot
+
+- slug: plo-koon
+  name: Plo Koon
+  image: /assets/characters/plo.png
+  tagline: Kel Dor Jedi Master
+
+- slug: count-dooku
+  name: Count Dooku
+  image: /assets/characters/dooku.png
+  tagline: Sith Lord of Serenno

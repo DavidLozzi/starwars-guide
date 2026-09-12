@@ -2099,3 +2099,103 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
     z-index: 55;
   }
 }
+
+// ============================================================
+// Featured character strip — home page (index.markdown)
+// Markup is hand-authored in index.markdown and driven by
+// _data/featured-characters.yml.
+//
+// `_layouts/home.html` is a bare `{{ content }}` with NO `.prose` wrapper, so
+// none of the `.prose a` / `.prose img` / `.prose ul` override fights
+// documented in _sass/_character.scss apply here. The only rules to beat are
+// the global `a { color: var(--yellow-400) }` and
+// `a:hover { color: var(--white); text-decoration: underline }` above (~41-50),
+// which a two-part `a.character-strip-card` selector outranks without
+// !important.
+//
+// There is no Tailwind build step, so the layout is written out here rather
+// than assembled from utilities: grid-cols-2, grid-cols-4, md:grid-cols-4,
+// gap-2, gap-3, object-cover, rounded-lg, truncate, min-w-0, flex-shrink-0,
+// block, p-3 and every hover:* class are all UNDEFINED in _sass/.
+//
+// 8 cards: 2 x 4 on phones, 4 x 2 from 768px up.
+// ============================================================
+
+.character-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .character-strip {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+.character-strip-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.4rem;
+  padding: 0.75rem;
+  min-width: 0; // lets a long name shrink the track instead of overflowing it
+  background-color: var(--black);
+  border: 2px solid var(--white);
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+// Same job as `a.news-item` above: the whole card is an anchor, so strip the
+// global link color and underline.
+a.character-strip-card,
+a.character-strip-card:visited {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a.character-strip-card:hover {
+  color: var(--white);
+  text-decoration: none;
+  border-color: var(--blue-400);
+  background-color: rgba(96, 165, 250, 0.1);
+}
+
+a.character-strip-card:hover .character-strip-name {
+  color: var(--blue-400);
+}
+
+.character-strip-img {
+  display: block; // an inline img reserves descender space beneath itself
+  width: 96px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover; // sources are 205-280px wide and not all square
+  border: 2px solid var(--blue-400);
+  background-color: var(--black);
+}
+
+.character-strip-name {
+  display: block;
+  width: 100%;
+  color: var(--yellow-400);
+  font-size: 0.9rem;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}
+
+.character-strip-role {
+  display: block;
+  width: 100%;
+  color: var(--white);
+  opacity: 0.7;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}

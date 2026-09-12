@@ -147,6 +147,39 @@ last_modified_at: 2026-08-11 12:00:00
       </div>
     </section>
 
+    <!-- Featured Characters Section
+         In-content links to 8 character pages plus the /character/ index.
+         The set is FIXED and hand-curated in _data/featured-characters.yml —
+         see that file for why it must never be randomized at build time.
+         Sits below games and apps on purpose: those are the conversion goal.
+         hrefs are plain literals, not `relative_url`: site.baseurl is empty, and
+         the filter's Addressable#normalize pass can rewrite the %C3%A9 in
+         Padmé's slug away from the canonical head.html emits. -->
+    <section class="mb-16">
+      <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-blue-400 pl-4 uppercase flex items-center">
+        <i class="fas fa-user-astronaut mr-4 text-blue-400"></i>
+        characters
+      </h2>
+      <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-8 pl-4">
+        Explore profile pages for every character in the Ultimate Star Wars Timeline.
+      </p>
+
+      <div class="character-strip">
+        {%- for c in site.data["featured-characters"] %}
+        <a class="character-strip-card" href="/character/{{ c.slug }}/">
+          <img class="character-strip-img" src="{{ c.image }}" alt="{{ c.name }}" width="96" height="96" loading="lazy" decoding="async">
+          <span class="character-strip-name">{{ c.name }}</span>
+          <span class="character-strip-role">{{ c.tagline }}</span>
+        </a>
+        {%- endfor %}
+      </div>
+
+      <a href="{{ '/character/' | relative_url }}" class="btn mt-6 border-4 border-blue-400 text-blue-400 font-black uppercase tracking-wider text-lg px-8 py-4">
+        <i class="fas fa-arrow-right mr-2"></i>
+        ALL CHARACTERS
+      </a>
+    </section>
+
     <!-- Follow Us Section -->
     <section class="mb-16">
       <h2 class="text-4xl font-black text-white mb-8 border-l-8 border-green-400 pl-4 uppercase flex items-center">
