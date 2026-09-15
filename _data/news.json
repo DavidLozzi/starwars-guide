@@ -1,5 +1,14 @@
 [
   {
+    "id": "hyperpanels-character-pages",
+    "date": "2026-09-14",
+    "product": "hyperpanels",
+    "title": "Find Panels by Character",
+    "message": "You can now browse comic panels for your favorite Star Wars characters!",
+    "url": "https://hyperpanels.starwars.guide/character",
+    "link_text": "Browse by Character"
+  },
+  {
     "id": "red-five-launch",
     "date": "2026-08-18",
     "product": "red-five",
