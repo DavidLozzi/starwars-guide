@@ -2050,6 +2050,31 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
     background-color: var(--black);
   }
 
+  // `.prose img` (~1375) puts `margin: 1rem 0` and a white `border` shorthand
+  // on every image in the page layout, and its two-part selector outranks the
+  // single-class `.game-icon-img` and `.border-*` utilities. Two consequences,
+  // both fixed here: the art tiles carried a stray 1rem above and below that
+  // the SVG cross-link tile (a <span>, not an <img>) did not, which knocked the
+  // springboard rows out of alignment; and every tile border came out white
+  // instead of the product color its data row asks for. The parent `.game-icon`
+  // sets `border: none`, which resets border-color to currentColor, so
+  // `inherit` is no help — each color needs naming.
+  .prose .game-icon-img {
+    margin: 0;
+  }
+
+  .prose .game-icon-img.border-red-400 {
+    border-color: var(--red-400);
+  }
+
+  .prose .game-icon-img.border-yellow-400 {
+    border-color: var(--yellow-400);
+  }
+
+  .prose .game-icon-img.border-blue-400 {
+    border-color: var(--blue-400);
+  }
+
   // Same box as .game-icon-img, but holding an inline SVG instead of card art
   // — used by the /games/ <-> /apps/ cross-link tile, which has no artwork of
   // its own. The SVG is inline rather than a FontAwesome <i> because the kit
