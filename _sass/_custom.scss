@@ -108,25 +108,89 @@ $grid-gutter-width: 20px;
   font-size: 14px;
 }
 
-// ASCII Art styles (consolidated)
-.ascii-art {
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
-  font-size: 0.75rem;
-  line-height: 1.2;
-  white-space: pre;
+// Site brand wordmark (header)
+@font-face {
+  font-family: 'A New Hope';
+  src: url('../fonts/ANewHope.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AurebeshAF';
+  src: url('../fonts/AurebeshAF-Canon.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.site-brand {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6em;
+  text-decoration: none;
+  line-height: 1;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.site-brand-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.site-brand-latin,
+.site-brand-aurebesh {
+  display: block;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+}
+
+.site-brand-latin {
+  font-family: 'A New Hope', 'Impact', sans-serif;
+  font-size: clamp(1.1rem, 3.2vw, 1.9rem);
+  color: var(--yellow-400);
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.site-brand-aurebesh {
+  font-family: 'AurebeshAF', sans-serif;
+  font-size: clamp(0.75rem, 2.1vw, 1.25rem);
+  color: #d1d5db;
+  text-align: left;
+  padding-top: 0.3em;
+}
+
+.site-brand:hover .site-brand-aurebesh {
   color: var(--yellow-400);
 }
 
 @media (max-width: 767px) {
-  .ascii-art {
-    font-size: 0.45rem;
-    line-height: 1.1;
-    word-break: break-all;
-    padding: 0;
-    margin: 0;
-    overflow-x: auto;
-    display: block;
-    text-shadow: 1px 1px 2px #000;
+  .site-brand {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15em;
+  }
+
+  .site-brand-latin,
+  .site-brand-aurebesh {
+    display: flex;
+    gap: 0.3em;
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .site-brand-latin {
+    font-size: 1.1rem;
+  }
+
+  .site-brand-aurebesh {
+    font-size: 0.85rem;
   }
 }
 
