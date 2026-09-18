@@ -114,7 +114,11 @@ $grid-gutter-width: 20px;
   src: url('../fonts/ANewHope.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  // block, not swap: both faces are preloaded in head.html and cached for a
+  // year, so they are ready before first paint. swap made the wordmark flash a
+  // fallback on every navigation — and the Aurebesh face has no sane fallback,
+  // it would render plain latin letters.
+  font-display: block;
 }
 
 @font-face {
@@ -122,7 +126,7 @@ $grid-gutter-width: 20px;
   src: url('../fonts/AurebeshAF-Canon.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .site-brand {

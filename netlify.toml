@@ -484,4 +484,14 @@
   for = "/news-feed.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Cache-Control = "public, max-age=300" 
+    Cache-Control = "public, max-age=300"
+
+# Brand webfonts. Netlify's default for these is a revalidation round-trip on
+# every page load, which is what made the header wordmark flash between pages.
+# The filenames are not content-hashed, so if a face is ever replaced, rename the
+# file (and update _sass/_custom.scss + the preloads in _includes/head.html)
+# rather than overwriting it in place.
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

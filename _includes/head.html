@@ -76,6 +76,12 @@ time rather than in the source files.
     <!-- AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6056590143595280" crossorigin="anonymous"></script>
 
+    <!-- Brand webfonts: preloaded so the header wordmark paints in the right
+         face on first render instead of flashing a fallback on every navigation.
+         Keep in sync with the @font-face blocks in _sass/_custom.scss. -->
+    <link rel="preload" as="font" type="font/woff2" href="{{ '/assets/fonts/ANewHope.woff2' | relative_url }}" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="{{ '/assets/fonts/AurebeshAF-Canon.woff2' | relative_url }}" crossorigin>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/lozzi.css' | relative_url }}">
 </head>
