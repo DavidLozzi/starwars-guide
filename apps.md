@@ -16,6 +16,10 @@ last_modified_at: 2026-09-18 12:00:00
     <span class="game-icon-name">{{ a.name }}</span>
   </button>
   {% endfor %}
+  <a href="{{ '/games/' | relative_url }}" class="game-icon border-white">
+    <span class="game-icon-glyph border-white text-white"><i class="fas fa-gamepad"></i></span>
+    <span class="game-icon-name">Games</span>
+  </a>
 </div>
 
 <div class="games-panels">
@@ -50,7 +54,7 @@ last_modified_at: 2026-09-18 12:00:00
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var backdrop = document.querySelector('.games-backdrop');
-    var icons = document.querySelectorAll('.game-icon');
+    var icons = document.querySelectorAll('.game-icon[aria-controls]');
     var openPanel = null;
     var openIcon = null;
 

@@ -2050,6 +2050,28 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
     background-color: var(--black);
   }
 
+  // Same box as .game-icon-img, but holding a FontAwesome glyph instead of
+  // card art — used by the /games/ <-> /apps/ cross-link tile, which has no
+  // artwork of its own. `.prose div a` underlines every anchor with
+  // !important, so the tile anchor has to strip that back explicitly.
+  .game-icon-glyph {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.25rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.75rem;
+    background-color: var(--black);
+  }
+
+  .prose a.game-icon,
+  a.game-icon {
+    text-decoration: none !important;
+  }
+
   .game-icon-name {
     color: var(--white);
     font-family: 'JetBrains Mono', 'Courier New', monospace;
