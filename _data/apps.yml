@@ -1,0 +1,38 @@
+# Apps shown on /apps/ (apps.md) — the two apps that aren't games:
+# Timeline and HyperPanels. Games live on their own hub, /games/, driven by
+# _data/games.yml; keep the two lists separate (mirrors the nav split between
+# the "Apps" and "Games" dropdowns in _data/navigation.yml).
+#
+# Reuses the .games-springboard / .game-icon / .game-panel component classes
+# from _sass/_new-design.scss as-is — same springboard-on-mobile,
+# card-grid-on-desktop pattern as /games/, just a different data source.
+#
+# `color` must be one of the .card/.btn variants that exist in
+# _sass/_new-design.scss: red-400 | yellow-400 | blue-400. These match the
+# home-page cards in index.markdown, not the badge colors in products.yml
+# (HyperPanels is red-400 there, but blue-400 on its home card).
+#
+# `icon_image` is the small square springboard icon; no square icon art
+# exists yet for either app, so this points at the wide card art, cropped by
+# CSS. Swap the path here when real square icon art lands (same gap as
+# games.yml).
+
+- key: timeline
+  name: Ultimate Star Wars Timeline
+  tagline: Explore the complete Star Wars chronology
+  color: yellow-400
+  card: /assets/cards/timeline.png
+  icon_image: /assets/cards/timeline.png
+  play: https://timeline.starwars.guide
+  read: /star-wars-timeline/
+  external: true
+
+- key: hyperpanels
+  name: HyperPanels
+  tagline: Respond using the Force! with a witty Star Wars comic.
+  color: blue-400
+  card: /assets/cards/hyperpanels_web.png
+  icon_image: /assets/cards/hyperpanels_web.png
+  play: https://hyperpanels.starwars.guide
+  read: /hyper-panels/
+  external: true
