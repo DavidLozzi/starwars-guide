@@ -1613,16 +1613,115 @@ nav {
   opacity: 1;
 }
 
-#mobile-nav {
+// The wordmark stays visible above the open mobile panel (which is a sibling
+// inside <header> at z-index 40), so the menu reads as a panel under the
+// header rather than a page takeover.
+.site-brand {
+  position: relative;
+  z-index: 45;
+}
+
+// Mobile menu panel. Grouped (Apps / Games get a section header), one row per
+// destination with a product-colored icon tile. --header-h is set by the script
+// in _includes/header.html on open, so the panel starts below the wordmark
+// instead of covering it. --nav-accent is set per row from _data/navigation.yml.
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 40;
   display: none;
+  flex-direction: column;
+  background: var(--black);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  transition: opacity 0.25s ease;
 }
-#mobile-nav.open {
+.mobile-nav.open {
   display: flex;
   opacity: 1;
   pointer-events: auto;
+}
+.mobile-nav-inner {
+  padding: calc(var(--header-h, 6.5rem) + 0.75rem) 1.25rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.mobile-nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 1.1rem 0 0.4rem;
+}
+.mobile-nav-group:first-child {
+  margin-top: 0;
+}
+.mobile-nav-grouphead {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0 0.25rem 0.35rem;
+}
+.mobile-nav-grouplabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+.mobile-nav-grouprule {
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.mobile-nav-groupall {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--yellow-400);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.mobile-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 4px solid var(--nav-accent, var(--yellow-400));
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--white);
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.mobile-nav-item:hover,
+.mobile-nav-item:focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+}
+.mobile-nav-item.is-active {
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 0 0 1px var(--nav-accent, var(--yellow-400));
+}
+.mobile-nav-item.is-active .mobile-nav-label {
+  color: var(--nav-accent, var(--yellow-400));
+}
+.mobile-nav-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
 }
 
 // Responsive: show hamburger, hide desktop nav on mobile
@@ -2288,4 +2387,9 @@ a.character-strip-card:hover .character-strip-name {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   overflow-wrap: break-word;
+}
+
+.mobile-nav-groupall.is-active {
+  color: var(--white);
+  text-decoration: underline;
 }

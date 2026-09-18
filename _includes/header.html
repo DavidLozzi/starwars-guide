@@ -44,20 +44,50 @@
       </nav>
     </div>
   </div>
-  <!-- Mobile nav menu -->
-  <nav id="mobile-nav" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 flex-col items-center justify-center space-y-8 text-2xl text-yellow-400 uppercase font-bold tracking-wide hidden z-40">
-    {% for item in site.data.navigation %}
-      {% if item.children %}
-        {% if item.url %}
-          <a href="{{ item.url | relative_url }}">{{ item.title | upcase }}</a>
-        {% endif %}
-        {% for child in item.children %}
-          <a href="{{ child.url | relative_url }}">{{ child.title | upcase }}</a>
+  <!-- Mobile nav menu. Rendered in two passes so the plain top-level links
+       (Home, Characters, News, About) sit in their own Browse section above the
+       Apps and Games groups, instead of trailing off the end of Games. -->
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Main menu">
+    <div class="mobile-nav-inner">
+      <div class="mobile-nav-group">
+        <div class="mobile-nav-grouphead">
+          <span class="mobile-nav-grouplabel">Browse</span>
+          <span class="mobile-nav-grouprule"></span>
+        </div>
+        {% for item in site.data.navigation %}
+          {% unless item.children %}
+            {% assign in_section = false %}
+            {% if item.url != '/' and page.url contains item.url %}{% assign in_section = true %}{% endif %}
+            {% if page.url == item.url %}{% assign in_section = true %}{% endif %}
+            <a class="mobile-nav-item{% if in_section %} is-active{% endif %}"
+               href="{{ item.url | relative_url }}"
+               style="--nav-accent: {{ item.color | default: '#facc15' }}">
+              <span class="mobile-nav-label">{{ item.title }}</span>
+            </a>
+          {% endunless %}
         {% endfor %}
-      {% else %}
-        <a href="{{ item.url | relative_url }}">{{ item.title | upcase }}</a>
-      {% endif %}
-    {% endfor %}
+      </div>
+      {% for item in site.data.navigation %}
+        {% if item.children %}
+          <div class="mobile-nav-group">
+            <div class="mobile-nav-grouphead">
+              <span class="mobile-nav-grouplabel">{{ item.title }}</span>
+              <span class="mobile-nav-grouprule"></span>
+              {% if item.url %}
+                <a class="mobile-nav-groupall{% if page.url == item.url %} is-active{% endif %}" href="{{ item.url | relative_url }}">All {{ item.title }}</a>
+              {% endif %}
+            </div>
+            {% for child in item.children %}
+              <a class="mobile-nav-item{% if page.url == child.url %} is-active{% endif %}"
+                 href="{{ child.url | relative_url }}"
+                 style="--nav-accent: {{ child.color | default: '#facc15' }}">
+                <span class="mobile-nav-label">{{ child.title }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </nav>
 </header>
 <div class="w-full h-4 bg-gradient-to-r"></div>
@@ -66,7 +96,15 @@
     var hamburger = document.getElementById('hamburger');
     var mobileNav = document.getElementById('mobile-nav');
     if (hamburger && mobileNav) {
+      var header = hamburger.closest('header');
+      var syncHeaderHeight = function() {
+        if (header) {
+          mobileNav.style.setProperty('--header-h', header.offsetHeight + 'px');
+        }
+      };
+      window.addEventListener('resize', syncHeaderHeight);
       hamburger.addEventListener('click', function() {
+        syncHeaderHeight();
         var isOpen = hamburger.classList.toggle('open');
         mobileNav.classList.toggle('open', isOpen);
         hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
