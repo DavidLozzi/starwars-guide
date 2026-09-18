@@ -2029,7 +2029,15 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
     margin-bottom: 8rem;
   }
 
+  // Springboard tile metrics. The tile is inset from its grid column rather
+  // than filling it, so the icons read as phone app icons with air around
+  // them; $springboard-tile-inset is half the leftover width, and the bezel
+  // pseudo-element below has to use the same two numbers to line up.
+  $springboard-tile-width: 82%;
+  $springboard-tile-inset: 9%;
+
   .game-icon {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2040,14 +2048,42 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
     cursor: pointer;
   }
 
+  // The gloss-and-bezel overlay, sitting exactly on top of the tile box below.
+  // It lives on the parent rather than on the tile so it can cover both the
+  // <img> tiles and the <span> glyph tile without an extra wrapper element —
+  // an inset box-shadow on an <img> paints under the image content, so it
+  // would be invisible there.
+  .game-icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: $springboard-tile-inset;
+    width: $springboard-tile-width;
+    aspect-ratio: 1 / 1;
+    border-radius: 22%;
+    pointer-events: none;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.06) 45%,
+      rgba(255, 255, 255, 0) 52%
+    );
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.35),
+      inset 0 -1px 1px rgba(0, 0, 0, 0.55);
+  }
+
   .game-icon-img {
-    width: 100%;
+    width: $springboard-tile-width;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 0.75rem;
+    // 22% of the width is the classic iOS icon corner; a percentage keeps the
+    // curve proportional as the column width changes.
+    border-radius: 22%;
     background-color: var(--black);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
   }
 
   // `.prose img` (~1375) puts `margin: 1rem 0` and a white `border` shorthand
@@ -2060,7 +2096,7 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
   // sets `border: none`, which resets border-color to currentColor, so
   // `inherit` is no help — each color needs naming.
   .prose .game-icon-img {
-    margin: 0;
+    margin: 0 auto;
   }
 
   .prose .game-icon-img.border-red-400 {
@@ -2081,15 +2117,16 @@ p a, .prose a, .prose p a, .prose div a, .prose .card a, .card-link {
   // did not resolve fa-grip. `.prose div a` underlines every anchor with
   // !important, so the tile anchor has to strip that back explicitly.
   .game-icon-glyph {
-    width: 100%;
+    width: $springboard-tile-width;
     aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 0.75rem;
+    border-radius: 22%;
     background-color: var(--black);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 
     svg {
       width: 45%;
