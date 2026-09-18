@@ -4,7 +4,7 @@ layout: page
 permalink: /apps/
 social-image: "/assets/cards/timeline.png"
 social-title: Star Wars Apps
-social-desc: The Ultimate Star Wars Timeline and HyperPanels — two free Star Wars apps.
+social-desc: The Ultimate Star Wars Timeline, HyperPanels, and Skyview — three free Star Wars apps.
 date: 2026-09-18 12:00:00
 last_modified_at: 2026-09-18 12:00:00
 ---

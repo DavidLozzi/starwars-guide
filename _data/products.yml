@@ -52,3 +52,9 @@
   color: yellow-400
   hex: "#facc15"
   url: /red-five/
+- key: skyview
+  name: Skyview
+  icon: fas fa-globe
+  color: purple-400
+  hex: "#c084fc"
+  url: /skyview/

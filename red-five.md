@@ -120,4 +120,5 @@ How high can you go?
 - <a href="{{ '/star-wars-timeline/' | relative_url }}">The Ultimate Star Wars Timeline</a> — an interactive chronology of every canon movie and TV show with over 80 characters.
 - <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
 - <a href="{{ '/hyper-panels/' | relative_url }}">HyperPanels</a> — search a giant database of Star Wars comic panels and answer any conversation with the Force.
+- <a href="{{ '/skyview/' | relative_url }}">Skyview</a> — map about 2,000 Star Wars worlds in 3D, then stand on one and look up at its night sky.
 - <a href="{{ '/games/' | relative_url }}">All Star Wars Games</a> — every free game we make, in one place.

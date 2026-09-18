@@ -4,11 +4,12 @@ layout: page
 permalink: /about/
 social-title: About AurebeshFiles
 social-desc: AurebeshFiles is a fan-run studio building free Star Wars tools — the
-  Ultimate Star Wars Timeline, Clone Defense, Red Five, SWordle, and HyperPanels.
+  Ultimate Star Wars Timeline, Skyview, Clone Defense, Red Five, SWordle, and
+  HyperPanels.
   Here's who we are and why we build them.
 social-image: "/assets/social.png"
 date: 2026-07-20 12:00:00
-last_modified_at: 2026-08-11 12:00:00
+last_modified_at: 2026-09-18 12:00:00
 ---
 
 We are a couple of Star Wars nerds geeking out and building fun stuff. AurebeshFiles is the name.
@@ -34,6 +35,12 @@ One Jedi against an endless droid assault. Deflect blaster bolts with your saber
 Stay on target. Fly the Death Star trench run with one-tap Flappy-Bird controls — thread the gaps, dodge the surface, and see how far down the trench you get. No sign-up, phone or desktop.
 
 <a href="{{ '/red-five/play/' | relative_url }}">Play Red Five &rarr;</a>
+
+### <a href="{{ '/skyview/' | relative_url }}">Skyview</a>
+
+An interactive map of about 2,000 Star Wars worlds. Spin the galaxy in 3D and filter it by region or by film, then stand on any world and look up at its night sky — built from that world's tilt, your latitude, and its rotation. No sign-up, phone or desktop.
+
+<a href="https://skyview.starwars.guide" target="_blank">Open Skyview &rarr;</a>
 
 ### <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a>
 
@@ -63,7 +70,7 @@ Questions, corrections, or a character we missed? Email <a href="mailto:aurebesh
 
 ## Supporting the site
 
-Hosting a timeline, a tower-defense game, a word game, and a comic-panel search engine costs real credits. If you get something out of these, <a href="{{ '/support-aurebesh-files/' | relative_url }}">you can throw us a few bucks</a>. Entirely optional — everything stays free either way.
+Hosting a timeline, a galaxy map, a tower-defense game, a word game, and a comic-panel search engine costs real credits. If you get something out of these, <a href="{{ '/support-aurebesh-files/' | relative_url }}">you can throw us a few bucks</a>. Entirely optional — everything stays free either way.
 
 ## The legal bit
 

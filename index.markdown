@@ -21,7 +21,8 @@ last_modified_at: 2026-08-11 12:00:00
         play <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}" class="text-red-400">SWordle</a>,
         react with <a href="{{ '/hyper-panels/' | relative_url }}" class="text-blue-400">HyperPanels</a> comics,
         hold the line in <a href="{{ '/clone-defense/' | relative_url }}" class="text-green-400">Clone Defense</a>,
-        and fly the trench in <a href="{{ '/red-five/' | relative_url }}" class="text-yellow-400">Red Five</a>.
+        fly the trench in <a href="{{ '/red-five/' | relative_url }}" class="text-yellow-400">Red Five</a>,
+        and map the galaxy with <a href="{{ '/skyview/' | relative_url }}" class="text-purple-400">Skyview</a>.
       </p>
     </section>
 
@@ -139,6 +140,26 @@ last_modified_at: 2026-08-11 12:00:00
               LAUNCH
             </div>
             <a href="{{ '/hyper-panels/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
+              <i class="fas fa-book mr-2"></i>
+              READ
+            </a>
+          </div>
+        </div>
+
+        <!-- Skyview Card -->
+        <div class="card border-blue-400 flex flex-col items-center justify-between" onclick="window.open('https://skyview.starwars.guide', '_blank')" data-launch-app="skyview" data-launch-surface="home-card">
+          <div class="flex flex-col items-center justify-center mb-4 mt-4 relative z-10 w-full px-4">
+            <img src="/assets/cards/skyview.png" alt="Skyview, an interactive map of the Star Wars galaxy" loading="lazy" class="w-full max-h-60 object-contain rounded shadow-lg bg-black border-2 border-blue-400">
+          </div>
+          <p class="text-white opacity-70 text-sm uppercase tracking-wide mb-4 relative z-10 text-center">
+            View a galaxy, far far away!
+          </p>
+          <div class="flex gap-2 mt-4 w-full">
+            <div class="btn flex-1 bg-blue-400">
+              <i class="fas fa-rocket mr-2"></i>
+              LAUNCH
+            </div>
+            <a href="{{ '/skyview/' | relative_url }}" class="btn flex-1 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black" onclick="event.stopPropagation()">
               <i class="fas fa-book mr-2"></i>
               READ
             </a>

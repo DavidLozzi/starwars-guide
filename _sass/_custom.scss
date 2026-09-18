@@ -328,3 +328,33 @@ $grid-gutter-width: 20px;
     order: -1;
   }
 }
+
+/* Skyview's dock controls, reproduced on its landing page. Skyview ships no icon files —
+   its dock icons are inline SVG in that repo's index.html — so these are copied as inline
+   SVG rather than referenced as assets. Laid out on `.sprite-row`, which already gives the
+   fixed gutter + copy-beside-it shape; only the glyph itself needs new rules, since the
+   sprite rules are all `img`-qualified and never reach an `<svg>`.
+   Boxed and tinted to read as the buttons they are in the app, not as body-text bullets. */
+.prose .ui-row .ui-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border: 1px solid rgba(96, 165, 250, 0.45);
+  border-radius: 0.5rem;
+  background: rgba(96, 165, 250, 0.08);
+  color: var(--blue-400);
+}
+
+.prose .ui-row .ui-icon svg {
+  width: 1.375rem;
+  height: 1.375rem;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .prose .ui-row .ui-icon { width: 2.125rem; height: 2.125rem; }
+  .prose .ui-row .ui-icon svg { width: 1.125rem; height: 1.125rem; }
+}

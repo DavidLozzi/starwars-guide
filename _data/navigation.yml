@@ -12,6 +12,9 @@
     - title: HyperPanels
       url: /hyper-panels/
       color: "#f87171"
+    - title: Skyview
+      url: /skyview/
+      color: "#c084fc"
 - title: Games
   url: /games/
   children:

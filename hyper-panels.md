@@ -36,4 +36,5 @@ Click the share menu to copy the link to the image, or download, and share it!
 - <a href="{{ '/swordle-star-wars-wordle/' | relative_url }}">SWordle</a> — the daily Star Wars word game, with over 29,000 possible answers including AT-AT and R2-D2.
 - <a href="{{ '/clone-defense/' | relative_url }}">Clone Defense</a> — hold the line against endless waves of droids in this browser tower-defense game.
 - <a href="{{ '/red-five/' | relative_url }}">Red Five</a> — fly the Death Star trench run, one tap at a time, and see how far you get.
+- <a href="{{ '/skyview/' | relative_url }}">Skyview</a> — map about 2,000 Star Wars worlds in 3D, then stand on one and look up at its night sky.
 - <a href="{{ '/about/' | relative_url }}">About AurebeshFiles</a> — who we are and what else we build.

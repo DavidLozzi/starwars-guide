@@ -1,5 +1,14 @@
 [
   {
+    "id": "skyview-launch",
+    "date": "2026-09-18",
+    "product": "skyview",
+    "title": "Introducing Skyview",
+    "message": "About 2,000 Star Wars worlds on the galactic grid. Spin the galaxy in 3D, filter it by region or by film, then stand on any world and look up at its night sky.",
+    "url": "https://skyview.starwars.guide",
+    "link_text": "Explore the galaxy"
+  },
+  {
     "id": "hyperpanels-character-pages",
     "date": "2026-09-14",
     "product": "hyperpanels",
