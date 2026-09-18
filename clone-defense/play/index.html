@@ -38,7 +38,7 @@
        the Aurebesh strip is decorative real-Aurebesh text (PRD §18), never functional text. -->
   <header class="topbar" id="topbar">
     <div class="topbar-label">REPUBLIC TACTICAL DISPLAY
-      <span class="topbar-sub">GRAND ARMY · FORWARD COMMAND</span>
+      <span class="topbar-sub">GRAND ARMY<br>FORWARD COMMAND</span>
     </div>
     <div class="topbar-right">
       <div class="aurebesh" aria-hidden="true">REPUBLIC</div>
@@ -89,6 +89,18 @@
       <button class="obtn" id="btn-deploy" type="button">DEPLOY</button>
       <button class="obtn alt" id="btn-collections" type="button">COLLECTIONS</button>
       <a class="obtn alt" id="btn-howto" href="https://starwars.guide/clone-defense/#how-to-play-clone-defense" target="_blank" rel="noopener">HOW TO PLAY</a>
+
+      <!-- Maker's plate. Bottom-left of the title screen, the diagonal mirror of the version
+           tag in .title-corner. The game — not the landing page — is what gets shared and
+           bookmarked, so this is the only path from a played surface back to the brand; it
+           lives on the title screen ONLY (never over the live field, where a mis-tap costs a
+           run) and is deliberately the quietest text here. Out of flow, so the centered
+           logo/DEPLOY stack is untouched; it sits inside #fieldwrap, above the HUD and the
+           ad band, so no --ad-h style math is needed.
+           UTM-tagged because this is an outbound link OFF the game surface; internal hub
+           links never carry them (see ../starwars-guide/marketing/site-updates.md). -->
+      <a class="made-by" id="made-by" href="https://starwars.guide/?utm_source=clone-defense&amp;utm_medium=game&amp;utm_campaign=credit"
+         target="_blank" rel="noopener">CREATED BY <span>AUREBESHFILES</span></a>
     </section>
 
     <!-- BREATHER — wave/planet clear beat (PRD §8). HUD powers stay tappable below. -->
@@ -125,10 +137,11 @@
       <div class="big" id="over-result">—</div>
       <div class="dim" id="over-best">—</div>
       <div class="badge-earned-list" id="over-badges" hidden></div>
-      <button class="obtn" id="btn-share" type="button" hidden>SHARE</button>
+      <button class="obtn share-btn" id="btn-share" type="button" hidden>SHARE</button>
       <button class="obtn" id="btn-redeploy" type="button">REDEPLOY · PLANET 1</button>
       <button class="obtn alt" id="btn-retreat" type="button">RETREAT</button>
       <div class="brand-small">CLONE DEFENSE</div>
+      <a class="obtn alt over-footer-btn" id="btn-more-games" href="https://starwars.guide/games/" target="_blank" rel="noopener">MORE GAMES</a>
     </section>
 
     <!-- COLLECTIONS — skins ranked, badges flat (PRD §11) -->
