@@ -1,26 +1,37 @@
+# `color` (hex, matched to _data/products.yml) is used by the mobile menu only,
+# as each row's accent bar — the desktop nav renders text alone.
 - title: Home
   url: /
+  color: "#facc15"
 - title: Apps
   url: /apps/
   children:
     - title: Timeline
       url: /star-wars-timeline/
+      color: "#60a5fa"
     - title: HyperPanels
       url: /hyper-panels/
+      color: "#f87171"
 - title: Games
   url: /games/
   children:
     - title: Clone Defense
       url: /clone-defense/
+      color: "#f87171"
     - title: Red Five
       url: /red-five/
+      color: "#facc15"
     - title: SWordle
       url: /swordle-star-wars-wordle/
+      color: "#4ade80"
 - title: Characters
   url: /character/
+  color: "#60a5fa"
 # One list. /posts still exists and is indexed, but is deliberately not linked
 # from the nav — /news/ is the single stream (blurbs + posts).
 - title: News
   url: /news/
+  color: "#facc15"
 - title: About
   url: /about/
+  color: "#9ca3af"
