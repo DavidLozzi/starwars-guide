@@ -16,8 +16,13 @@ last_modified_at: 2026-09-18 12:00:00
     <span class="game-icon-name">{{ a.name }}</span>
   </button>
   {% endfor %}
+  <!-- Inline SVG, not FontAwesome: matches the Apps tile on /games/. -->
   <a href="{{ '/games/' | relative_url }}" class="game-icon border-white">
-    <span class="game-icon-glyph border-white text-white"><i class="fas fa-gamepad"></i></span>
+    <span class="game-icon-glyph border-white text-white">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M7.5 6h9a5.5 5.5 0 0 1 5.44 4.7l.9 6.05A2.9 2.9 0 0 1 20 20.1a2.9 2.9 0 0 1-2.3-1.13L15.9 16.6a1.5 1.5 0 0 0-1.18-.6H9.28a1.5 1.5 0 0 0-1.18.6l-1.8 2.37A2.9 2.9 0 0 1 4 20.1a2.9 2.9 0 0 1-2.84-3.35l.9-6.05A5.5 5.5 0 0 1 7.5 6Zm-.75 3a.9.9 0 0 0-.9.9v1.35H4.5a.9.9 0 0 0 0 1.8h1.35v1.35a.9.9 0 0 0 1.8 0V13.05H9a.9.9 0 0 0 0-1.8H7.65V9.9a.9.9 0 0 0-.9-.9Zm9.6.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4Zm2.4 3a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4Z"/>
+      </svg>
+    </span>
     <span class="game-icon-name">Games</span>
   </a>
 </div>

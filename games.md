@@ -16,8 +16,21 @@ last_modified_at: 2026-08-18 12:00:00
     <span class="game-icon-name">{{ g.name }}</span>
   </button>
   {% endfor %}
+  <!-- Inline SVG, not FontAwesome: the kit's fa-grip did not resolve. -->
   <a href="{{ '/apps/' | relative_url }}" class="game-icon border-white">
-    <span class="game-icon-glyph border-white text-white"><i class="fas fa-grip"></i></span>
+    <span class="game-icon-glyph border-white text-white">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <rect x="2" y="2" width="6" height="6" rx="1.5"/>
+        <rect x="9" y="2" width="6" height="6" rx="1.5"/>
+        <rect x="16" y="2" width="6" height="6" rx="1.5"/>
+        <rect x="2" y="9" width="6" height="6" rx="1.5"/>
+        <rect x="9" y="9" width="6" height="6" rx="1.5"/>
+        <rect x="16" y="9" width="6" height="6" rx="1.5"/>
+        <rect x="2" y="16" width="6" height="6" rx="1.5"/>
+        <rect x="9" y="16" width="6" height="6" rx="1.5"/>
+        <rect x="16" y="16" width="6" height="6" rx="1.5"/>
+      </svg>
+    </span>
     <span class="game-icon-name">Apps</span>
   </a>
 </div>
